@@ -1,9 +1,8 @@
-# How to Choose the Right Font
-
 ---
-
-`Tags:` #font #how-to 
-
+title: Choosing the Right Font
+category: dataviz
+tags: [font, how-to]
+season: autumn
 ---
 
 Before you choose a cool font, keep [this](https://www.flerlagetwins.com/2020/08/fonts.html) in mind.
@@ -163,4 +162,4 @@ This is how typography invisibly enhances your design—the choices you make can
 
     Created: 08 Jan 2021
     Created: 08 Jan 2021
-    Source:  https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/
+    Sources: https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/

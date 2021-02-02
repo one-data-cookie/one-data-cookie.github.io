@@ -1,4 +1,9 @@
-# Data Analysis Workflow
+---
+title: Data Analysis Workflow
+category: data-analysis
+tags: [data]
+season: winter
+---
 
 ---
 

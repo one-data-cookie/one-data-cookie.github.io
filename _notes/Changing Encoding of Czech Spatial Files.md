@@ -1,9 +1,8 @@
-# How to Change Encoding of Czech Spatial Files
-
 ---
-
-`Tags:` #tableau #map #czechia #how-to 
-
+title: Changing Encoding of Czech Spatial Files
+category: dataviz
+tags: [tableau, map, czechia, how-to]
+season: spring
 ---
 
 1.  Download the version of WGS84

@@ -1,5 +1,5 @@
 ---
-title: Learning Tableau
+title: Learning Data
 category: dataviz
 tags: [learning]
 season: spring
@@ -11,7 +11,7 @@ season: spring
  
 ## Visualisation
 * [**DVS's Youtube Channel**](https://www.youtube.com/watch?v=XoaX5noONZM&list=PLAm5TIX-yz7IOHEeM-BAZYlDbuFOb7l0o)
-	* YouTube channel with plenty of videos on #dataviz from the Data Visualisation Society (DVS).
+	* YouTube channel with plenty of videos on dataviz from the Data Visualisation Society (DVS).
 * [**DVS's Resource Page**](https://www.datavisualizationsociety.com/resources)
 	* Nicely structured resources collected through several spreadsheets.
 * [**Adobe Illustrator CC – Essentials Training Course**](https://www.udemy.com/adobe-illustrator-course/)

@@ -14,12 +14,12 @@ season: spring
 ## Chart Types
 * [**Youtube Playlist from Information Lab**](https://www.youtube.com/playlist?list=PL_t5OlLHbVGxFSiWXUsEQrDPvFd1Nhxiu)
 * [**Curvy Bump chart and Slope chart**](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
-	* Some fun curvy alternatives for #bump-chart and #slope-chart
+	* Some fun curvy alternatives for bump chart and slope chart
 * [**Equal-Distant Sankey diagram**](https://www.flerlagetwins.com/2018/04/sankey-template.html)
-	* For more complex #sankey-diagram where the categories should have gaps and data transformation is needed
+	* For more complex sankey diagram where the categories should have gaps and data transformation is needed
 	* [Data](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Equal-Width-Sankey-Template.xlsx) and [Viz](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Equal-Width-Sankey-Template.twbx)
 * [**Equal-Distant Sankey diagram 2**](https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/)
-	* For simple and variable (no data transformation needed) #sankey-diagram where the categories should be next to each other
+	* For simple and variable (no data transformation needed) sankey diagram where the categories should be next to each other
 	* Just change data source and amend `Dimensions` and `Measure`
 * [**More Cool Sankeys**](https://www.flerlagetwins.com/2019/04/more-sankey-templates.html)
 	* From the same author as above

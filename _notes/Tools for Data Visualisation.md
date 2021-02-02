@@ -19,7 +19,7 @@ season: spring
 	* Infogram is an intuitive visualization tool that empowers people and teams to create beautiful content.
 * [**Lyra**](https://idl.cs.washington.edu/projects/lyra/)
 	* Lyra is an interactive environment that enables custom visualization design without writing any code.
-* **[[Tools – Python|Python]]**
+* **[[Tools for Python\|Python]]**
 	* Using Python to visualise data.
 
 ---

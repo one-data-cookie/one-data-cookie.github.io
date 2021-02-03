@@ -19,9 +19,9 @@ season: spring
 
 ## Czechia
 * [**Portál otevřených dat České republiky**](https://data.gov.cz/)
-	* Portál otevřených dat a Národní katalog otevřených dat České republiky.
+	* Open Data Portal and National Catalog of Open Data of the Czech Republic.
 * [**Agentura ochrany přírody a krajiny ČR**](https://gis-aopkcr.opendata.arcgis.com/)
-	* Agentura Ochrany Přírody a Krajiny ČR pro vás otevírá svá data. Prozkoumejte spolu s námi přírodu v České republice.
+	* The Agency for Nature and Landscape Protection of the Czech Republic is opening its data for you. Explore Czech nature through data with them.
 * [**Soubor správních hranic a hranic katastrálních území ČR**](https://geoportal.cuzk.cz/(S(m1uwhmxw050u2bm2abneexph))/Default.aspx?mode=TextMeta&side=dSady_RUIAN&metadataID=CZ-CUZK-SH-V&mapid=5&head_tab=sekce-02-gp&menu=252)
 	* Follow [[Changing Encoding of Czech Spatial Files\|this article]] to make sure it works well in #tableau.  
 * [**data.Brno**](https://data.brno.cz/)
@@ -30,5 +30,5 @@ season: spring
 ---
  
     Created: 03 Jan 2021
-    Updated: 02 Feb 2021
+    Updated: 03 Feb 2021
 	Sources: Misc

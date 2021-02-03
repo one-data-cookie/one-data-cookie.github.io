@@ -1,7 +1,7 @@
 ---
 title: Learning Tableau
 category: dataviz
-tags: [learning, tableau, how-to]
+tags: [learning, how-to, tableau]
 season: spring
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Learning Data
 category: dataviz
-tags: [learning]
+tags: [learning, how-to]
 season: spring
 ---
 

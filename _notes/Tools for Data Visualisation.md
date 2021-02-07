@@ -21,6 +21,16 @@ season: spring
 	* Lyra is an interactive environment that enables custom visualization design without writing any code.
 * **[[Tools for Python\|Python]]**
 	* Using Python to visualise data.
+* [**visx**](https://airbnb.io/visx/)
+	* Airbnb's project that brings together the power of D3 with the joy of React.
+* [**Apache ECharts**](https://echarts.apache.org/en/index.html)
+	* An Open Source JavaScript Visualization Library
+* [**Grafana**](https://grafana.com/)
+	* Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
+* [**Plotly Dash**](https://plotly.com/dash/)
+	* Analytical Web Apps for Python, R, Julia, and Jupyter. No JavaScript Required.
+* [**G2**](https://g2.antv.vision/en)
+	* Highly interactive data-driven visualization grammar for statistical charts with a high level of usability and scalability. 
 
 ---
  

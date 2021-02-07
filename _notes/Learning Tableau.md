@@ -15,17 +15,18 @@ season: spring
 * [**Youtube Playlist from Information Lab**](https://www.youtube.com/playlist?list=PL_t5OlLHbVGxFSiWXUsEQrDPvFd1Nhxiu)
 * [**Curvy Bump chart and Slope chart**](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
 	* Some fun curvy alternatives for bump chart and slope chart
-* [**Equal-Distant Sankey diagram**](https://www.flerlagetwins.com/2018/04/sankey-template.html)
-	* For more complex sankey diagram where the categories should have gaps and data transformation is needed
-	* [Data](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Equal-Width-Sankey-Template.xlsx) and [Viz](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Equal-Width-Sankey-Template.twbx)
-* [**Equal-Distant Sankey diagram 2**](https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/)
-	* For simple and variable (no data transformation needed) sankey diagram where the categories should be next to each other
-	* Just change data source and amend `Dimensions` and `Measure`
-* [**More Cool Sankeys**](https://www.flerlagetwins.com/2019/04/more-sankey-templates.html)
-	* From the same author as above
+* **Sankey Diagrams**
+	* [**Equal-Distant Sankey diagram**](https://www.flerlagetwins.com/2018/04/sankey-template.html): for more complex sankey diagram where the categories should have gaps and data transformation is needed; [data](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Equal-Width-Sankey-Template.xlsx) and [viz](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Equal-Width-Sankey-Template.twbx)
+	* [**Equal-Distant Sankey diagram 2**](https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/): for simple and variable (no data transformation needed) sankey diagram where the categories should be next to each other; just change data source and amend `Dimensions` and `Measure`
+	* [**More Cool Sankeys**](https://www.flerlagetwins.com/2019/04/more-sankey-templates.html): from the same author as above
 * **Decision Trees**
 	* [Community discussion](https://community.tableau.com/s/question/0D54T00000C5Q1ISAV/decision-trees-flow-diagrams-sankeys-in-tableau-here-is-a-solution-)
 	* [Using R](https://boraberan.wordpress.com/2014/02/07/decision-trees-in-tableau-using-r/)
+* **Radial Charts**
+	* [Radial Bar Chart](https://www.flerlagetwins.com/2020/03/how-i-created-this-spiral-chartand-why.html)
+	* [Spiral Heatmap](https://vizartpandey.com/tableau-introduction-to-spiral-heatmap/)
+	* [Spiral Bubbles](https://questionsindataviz.com/2017/01/17/how-did-i-create-the-spiral-chart/)
+	* [Tree Ring](https://thedataduo.com/2016/05/16/what-the-heck-is-a-tree-ring/)
 * [**Simple Beeswarm Plot**](https://www.flerlagetwins.com/2020/11/beeswarm.html)
 
 ## Specific
@@ -47,6 +48,6 @@ season: spring
 ---
 
     Created: 23 Sep 2018
-    Updated: 19 Jan 2021
+    Updated: 07 Feb 2021
 	Sources: Misc
     

@@ -36,6 +36,7 @@ season: spring
 * **Ternary Plot**
 	* [From Flerlage Twins](https://www.flerlagetwins.com/2019/08/ternary.html)
 	* [From Tableau Magic](https://tableaumagic.com/creating-ternary-plots-in-tableau/)
+	* [viz](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Ternary-Plot.twbx)
 * [**Trelis Chart**](https://www.vizwiz.com/2021/02/trellis-chart.html)
 * [**Dots on a Map**](https://www.vizwiz.com/2020/10/dots-on-a-map.html)
 

@@ -13,6 +13,9 @@ season: spring
 
 ## Chart Types
 * [**Youtube Playlist from Information Lab**](https://www.youtube.com/playlist?list=PL_t5OlLHbVGxFSiWXUsEQrDPvFd1Nhxiu)
+* [**Tableau Reference Guides**](http://www.tableaureferenceguide.com/)
+* [**Templates from Flerlage Twins**](https://www.flerlagetwins.com/search/label/Templates)
+	* Mostly curvy charts
 * [**Curvy Bump chart and Slope chart**](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
 	* Some fun curvy alternatives for bump chart and slope chart
 * **Sankey Diagrams**
@@ -28,6 +31,13 @@ season: spring
 	* [Spiral Bubbles](https://questionsindataviz.com/2017/01/17/how-did-i-create-the-spiral-chart/)
 	* [Tree Ring](https://thedataduo.com/2016/05/16/what-the-heck-is-a-tree-ring/)
 * [**Simple Beeswarm Plot**](https://www.flerlagetwins.com/2020/11/beeswarm.html)
+* [**Proportion Plot**](https://www.flerlagetwins.com/2021/02/proportion-plot.html)
+	* [data](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Proportion-Plot-Template.xlsx) and [viz](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Proportion-Plot-Template.twbx)
+* **Ternary Plot**
+	* [From Flerlage Twins](https://www.flerlagetwins.com/2019/08/ternary.html)
+	* [From Tableau Magic](https://tableaumagic.com/creating-ternary-plots-in-tableau/)
+* [**Trelis Chart**](https://www.vizwiz.com/2021/02/trellis-chart.html)
+* [**Dots on a Map**](https://www.vizwiz.com/2020/10/dots-on-a-map.html)
 
 ## Specific
 * **Spatial files and mapping**
@@ -43,6 +53,7 @@ season: spring
 	* [VizAlerts (open-source)](https://community.tableau.com/s/group/0F94T000000gQijSAE/vizalerts): a free-to-use-as-is tool that works a lot like subscriptions do – subscribe to your viz on a schedule, and if there’s any data in your view when it runs, you get an email.
 * **Extra spaces for lables**
 	* Add [this](https://www.compart.com/en/unicode/U+2800) Unicode character
+* [**Shading between two lines**](http://www.datatableauandme.com/2017/08/how-to-shade-between-2-lines-in-tableau.html)
 
 
 ---

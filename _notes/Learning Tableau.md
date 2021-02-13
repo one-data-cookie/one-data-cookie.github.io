@@ -39,6 +39,8 @@ season: spring
 	* [viz](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Ternary-Plot.twbx)
 * [**Trelis Chart**](https://www.vizwiz.com/2021/02/trellis-chart.html)
 * [**Dots on a Map**](https://www.vizwiz.com/2020/10/dots-on-a-map.html)
+* **Bump Chart**
+	* [Curvy alternative](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
 
 ## Specific
 * **Spatial files and mapping**

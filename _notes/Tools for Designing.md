@@ -10,6 +10,8 @@ season: summer
 	* Material is a design system created by Google to help teams build high-quality digital experiences for Android, iOS, Flutter, and the web.
 
 ## Charts
+* [Diagrammm](https://diagrammm.com/)
+	* Diagrammm has been developed as an online source of data visualization grammar.
 * [Chart.Guide](https://chart.guide/)
 	* Helps you choose and design the Perfect Chart.
 * [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
@@ -20,8 +22,11 @@ season: summer
 	* Wondering which type of graph is the best fit for your data? Explore our interactive chart chooser using the filters.
 * [The Tableau Chart Catalog](https://www.flerlagetwins.com/2019/08/the-tableau-chart-catalog_97.html)
 	* Examples created by Tableau by the Tableau community.
+* [Chart Suggestions](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/How-to-Choose-Chart-Types.png)
+	* A though-starter for choosing the right chart.
 * [Visual Vocabulary by Financial Times](http://ft-interactive.github.io/visual-vocabulary/)
 	* Small examples of data driven graphics – to be used as starting points.
+	* Static version [here](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary).
 * [Visual Vocabulary by Andy Kriebel](https://www.vizwiz.com/2018/07/visual-vocabulary.html)
 	* Tableau edition of the FT's Visual Vocabulary
 * [The Chartmaker Directory](https://chartmaker.visualisingdata.com/)

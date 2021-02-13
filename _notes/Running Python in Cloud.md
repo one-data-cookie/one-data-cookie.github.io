@@ -13,9 +13,9 @@ season: winter
 	* Host, run, and code Python in the cloud!
 * [**Heroku**](https://www.heroku.com/)
 	* Build data-driven apps with fully managed data services.
- 
+
 ---
 
     Created: 03 Jan 2021
     Updated: 03 Jan 2021
-	Sources: Misc
+	  Sources: Misc

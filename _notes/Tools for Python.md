@@ -14,9 +14,9 @@ season: spring
 ## Scripting
 * [**Jupyter Notebooks in Excel**](https://towardsdatascience.com/python-jupyter-notebooks-in-excel-5ab34fc6439)
 	* Embed Jupyter into Microsoft Excel and write Python instead of VBA
- 
+
 ---
- 
+
     Created: 03 Jan 2021
     Updated: 08 Jan 2021
-	Sources: Misc
+	  Sources: Misc

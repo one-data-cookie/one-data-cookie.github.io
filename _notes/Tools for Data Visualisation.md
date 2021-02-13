@@ -4,7 +4,7 @@ category: dataviz
 tags: [tools]
 season: spring
 ---
- 
+
 * [**Apache Superset**](https://superset.apache.org/)
 	* Apache Superset is a modern data exploration and visualization platform
 * [**DS.js**](https://d3js.org/)
@@ -30,10 +30,10 @@ season: spring
 * [**Plotly Dash**](https://plotly.com/dash/)
 	* Analytical Web Apps for Python, R, Julia, and Jupyter. No JavaScript Required.
 * [**G2**](https://g2.antv.vision/en)
-	* Highly interactive data-driven visualization grammar for statistical charts with a high level of usability and scalability. 
+	* Highly interactive data-driven visualization grammar for statistical charts with a high level of usability and scalability.
 
 ---
- 
+
     Created: 03 Jan 2021
     Updated: 03 Jan 2021
-	Sources: Misc
+	  Sources: Misc

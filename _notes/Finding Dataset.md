@@ -2,7 +2,7 @@
 title: Finding Dataset
 category: data-analysis
 tags: [dataset, how-to, czechia]
-season: spring
+season: summer
 ---
 
 ## World

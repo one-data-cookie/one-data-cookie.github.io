@@ -2,7 +2,7 @@
 title: Tools for Designing
 category: dataviz
 tags: [tools, design]
-season: spring
+season: summer
 ---
 
 ## Theory

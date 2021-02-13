@@ -2,7 +2,7 @@
 title: Running Python in Cloud
 category: dataviz
 tags: [python, cloud, how-to]
-season: winter
+season: spring
 ---
 
 * [Colaboratory](https://colab.research.google.com/)

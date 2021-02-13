@@ -41,6 +41,7 @@ season: spring
 * [**Dots on a Map**](https://www.vizwiz.com/2020/10/dots-on-a-map.html)
 * **Bump Chart**
 	* [Curvy alternative](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
+* [**Jitter Plot**](https://www.thedataschool.co.uk/michael-mcfadden/tableau-tutorials-build-jitter-plot)
 
 ## Specific
 * **Spatial files and mapping**

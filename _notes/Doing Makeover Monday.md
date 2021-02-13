@@ -15,7 +15,6 @@ For more information, check its [official page](https://www.makeovermonday.co.uk
 ## What to do?
 * Go to [data.world](https://data.world/makeovermonday/)
 * Follow [[Checklist for Understanding Data]]
-* Get inspired through [[Financial Times – Visual Vocabulary]] or from [[Tips for Data Visualisations]] or [[Data Viz Project _ Collection of data visualizations to get inspired and finding the right type_ | Data Viz Project]]
 * Go beyond the visualising and do a proper analysis. Read the article, be critical, find new insights, incorporate the these things into the story. Build your muslces as an analyst, not just as a designer. That's what you want to show through your portfolio.
 * Follow [[Checklist for Before Publishing]]
 * Publish, add to blog

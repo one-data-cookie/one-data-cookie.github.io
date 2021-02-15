@@ -8,7 +8,7 @@ season: summer
 * [Apache Superset](https://superset.apache.org/)
 	* Apache Superset is a modern data exploration and visualization platform
 * [DS.js](https://d3js.org/)
-	* D3 is a #javascript library for visualizing data with HTML, SVG, and CSS.
+	* D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS.
 * [Flourish Studio](https://flourish.studio/)
 	* Flourish is a powerful platform for data visualisation and storytelling.
 * [Charticulator](https://charticulator.com/)

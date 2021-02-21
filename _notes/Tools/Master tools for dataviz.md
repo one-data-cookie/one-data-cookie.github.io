@@ -1,5 +1,5 @@
 ---
-title: Tools for Data Visualisation
+title: Master tools for dataviz
 category: dataviz
 tags: [tools]
 season: summer
@@ -19,18 +19,22 @@ season: summer
 	* Infogram is an intuitive visualization tool that empowers people and teams to create beautiful content.
 * [Lyra](https://idl.cs.washington.edu/projects/lyra/)
 	* Lyra is an interactive environment that enables custom visualization design without writing any code.
-* [[Tools for Python\|Python]]
+* [[Master tools for Python\|Python]]
 	* Using Python to visualise data.
 * [visx](https://airbnb.io/visx/)
-	* Airbnb's project that brings together the power of D3 with the joy of React.
+	* Airbnb's project that brings together the power of D3 with the joy of React, esp. [useful for frontend developers](https://medium.com/airbnb-engineering/introducing-visx-from-airbnb-fd6155ac4658).
 * [Apache ECharts](https://echarts.apache.org/en/index.html)
 	* An Open Source JavaScript Visualization Library
 * [Grafana](https://grafana.com/)
 	* Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
 * [Plotly Dash](https://plotly.com/dash/)
-	* Analytical Web Apps for Python, R, Julia, and Jupyter. No JavaScript Required.
+	* Analytical web apps for Python, R, Julia, and Jupyter. No JavaScript required. [Open-source options](https://plotly.com/graphing-libraries/) available.
 * [G2](https://g2.antv.vision/en)
 	* Highly interactive data-driven visualization grammar for statistical charts with a high level of usability and scalability.
+* [Vega](https://vega.github.io/vega/)
+	* Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs.
+* [GeoDa](https://geodacenter.github.io/)
+	* GeoDa is a free and open source software tool that serves as an introduction to spatial data analysis.
 
 ---
 

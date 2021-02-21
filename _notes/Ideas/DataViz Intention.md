@@ -1,8 +1,8 @@
 ---
 
-title: 
+title:
 category: dataviz
-tags: []
+tags: [idea]
 season: autumn
 ---
 

@@ -1,7 +1,7 @@
 ---
-title: Data Analysis Workflow
+title: Understand the worklow of an data analyst
 category: data-analysis
-tags: [process]
+tags: [idea, process]
 season: winter
 ---
 

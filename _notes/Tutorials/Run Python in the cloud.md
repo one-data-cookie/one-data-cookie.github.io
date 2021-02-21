@@ -1,7 +1,7 @@
 ---
-title: Running Python in Cloud
+title: Run Python in the cloud
 category: dataviz
-tags: [python, cloud, how-to]
+tags: [tutorial, python]
 season: spring
 ---
 

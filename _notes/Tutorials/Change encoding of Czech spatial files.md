@@ -1,7 +1,7 @@
 ---
-title: Changing Encoding of Czech Spatial Files
+title: Change encoding of Czech spatial files
 category: dataviz
-tags: [tableau, map, czechia, how-to]
+tags: [tutorial, tableau, map, czechia]
 season: spring
 ---
 

@@ -1,9 +1,14 @@
 ---
-title: Learning Data
+title: Learn Data
 category: data-analysis
-tags: [learning, how-to]
+tags: [learn]
 season: spring
 ---
+
+## General
+* [Manifesto for Data Practices](https://datapractices.org/manifesto/)
+* [Zbierka úloh na pohovory Analytických pozícii](https://mocnedata.sk)
+* [Descriptive, Predictive, and Prescriptive Analytics Explained](https://halobi.com/blog/descriptive-predictive-and-prescriptive-analytics-explained/)
 
 ## Data
 * [The School of Data](https://schoolofdata.org/courses/)
@@ -24,9 +29,13 @@ season: spring
 ## Conferences
 * [OPENVIS CONF](http://www.openvisconf.com/)
 	* OPENVIS CONF is a two-day, single track conference centered around the practice of visualizing data with open source tools on the web.
+* [EuroVis](https://www.eurovis.org/)
+	* EuroVis is the annual Visualization Conference organized by the Eurographics Working Group on Data Visualization.
+* [VISUALISE](https://www.exploratorium.edu/visualise)
+	* On May 8 and 9, 2019, the Exploratorium hosted VISUALISE: Visualization for Informal Science Education, the first conference focused on creating effective visualizations for science museums and other venues for informal science education.
 
 ---
 
     Created: 03 Jan 2021
-    Updated: 03 Feb 2021
+    Updated: 21 Feb 2021
     Sources: Misc

@@ -1,7 +1,7 @@
 ---
-title: Doing Makeover Monday
+title: Participate in Makeover Monday
 category: dataviz
-tags: [tableau, how-to]
+tags: [tutorial, tableau]
 season: summer
 ---
 

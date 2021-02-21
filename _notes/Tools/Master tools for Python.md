@@ -1,5 +1,5 @@
 ---
-title: Tools for Python
+title: Master tools for Python
 category: dataviz
 tags: [tools, python]
 season: spring

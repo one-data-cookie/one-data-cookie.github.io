@@ -1,5 +1,5 @@
 ---
-title: Tools for Designing
+title: Master tools for designing
 category: dataviz
 tags: [tools, design]
 season: summer
@@ -95,6 +95,8 @@ season: summer
 	* Scalable vector icons that can instantly be customized with the power of CSS.
 * [SVG Path Editor](https://github.com/Yqnn/svg-path-editor)
 	* Online editor to create and manipulate SVG paths.
+* [SVG REPO](https://www.svgrepo.com/)
+	* Explore, search and find the best fitting icons or vectors for your projects using wide variety vector library.
 * [Flaticon](https://www.flaticon.com/)
 	* Free vector icons
 * [IcoMoon App](https://icomoon.io/app/#/select)

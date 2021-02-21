@@ -5,6 +5,11 @@ tags: [tips]
 season: autumn
 ---
 
+* [DATA + DESIGN](https://trinachi.github.io/data-design-builds/titlepage01.html)
+	* A simple introduction to preparing and visualizing information
+
+* [DVS Articles on Nightingale](https://docs.google.com/spreadsheets/d/1tSOvfSjXdBRtTS2EN0a7NfMBs0T_uKUNYRlBM_Xm2yw/edit#gid=0)
+
 Data Visualisations
 [](https://www.amazon.co.uk/Dear-Data-Stefanie-Posavec/dp/1846149061)[N. Posavec & G. Lupi: Observe, Collect, Draw](https://www.amazon.co.uk/Observe-Collect-Draw-Visual-Journal/dp/1616897147/ref=as_li_ss_tl?crid=79KH22CF2NGM&keywords=observe+collect+draw&qid=1550197895&s=gateway&sprefix=observe+collec,aps,207&sr=8-1&linkCode=sl1&tag=datar02-20&linkId=3c4dd1347f811b2007cbeae8c7910733&language=en_US)
 [](http://bigbookofdashboards.com/)[N. Posavec & G. Lupi: Dear Data](https://www.amazon.co.uk/Dear-Data-Stefanie-Posavec/dp/1846149061)

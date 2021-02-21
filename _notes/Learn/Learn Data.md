@@ -1,5 +1,5 @@
 ---
-title: Learn Data
+title: Learn data
 category: data-analysis
 tags: [learn]
 season: spring

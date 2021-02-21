@@ -1,5 +1,5 @@
 ---
-title: Learn Data Science
+title: Learn data science
 category: data-science
 tags: [learn]
 season: autumn

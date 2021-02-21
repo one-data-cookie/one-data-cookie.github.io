@@ -1,5 +1,5 @@
 ---
-title: Learn from Others
+title: Learn from others
 category: dataviz
 tags: [learn, people]
 season: summer 

@@ -1,5 +1,5 @@
 ---
-title: Learn Statistics
+title: Learn statistics
 category: data-analysis
 tags: [learn, maths]
 season: autumn

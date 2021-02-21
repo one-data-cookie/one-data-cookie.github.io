@@ -1,5 +1,5 @@
 ---
-title: Checklist for Before Publishing
+title: Check these before publishing
 category: dataviz
 tags: [checklist]
 season: summer

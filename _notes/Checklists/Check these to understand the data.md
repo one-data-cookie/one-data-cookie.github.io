@@ -1,5 +1,5 @@
 ---
-title: Checklist for Understanding Data
+title: Check these to understand the data
 category: dataviz
 tags: [checklist]
 season: summer

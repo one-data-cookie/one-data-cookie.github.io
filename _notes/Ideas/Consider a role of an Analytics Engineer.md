@@ -1,7 +1,7 @@
 ---
 title: Consider a role of an Analytics Engineer
 title-czech: Pojmenoval bych se jako Analytics Engineer
-category: data-analytics
+category: data-analysis
 tags: [idea]
 season: autumn
 ---

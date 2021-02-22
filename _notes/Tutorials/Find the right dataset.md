@@ -26,6 +26,8 @@ season: summer
 	* Follow [[Change encoding of Czech spatial files\|this article]] to make sure it works well in #tableau.  
 * [data.Brno](https://data.brno.cz/)
 	* All the data about the city of Brno you can think of.
+* [Otevřená data PID](https://pid.cz/o-systemu/opendata/)
+	* Open data of Prague Integrated Transport with a few more details in [this Github repository](https://github.com/datastory/dpp-prepravni-pruzkumy).
 
 ---
 

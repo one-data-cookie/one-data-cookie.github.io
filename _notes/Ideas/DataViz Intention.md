@@ -6,7 +6,7 @@ tags: [idea]
 season: autumn
 ---
 
-![](../assets/src/Data-Viz-Intention.png)
+![](../../assets/src/Data-Viz-Intention.png)
 
 ---
 

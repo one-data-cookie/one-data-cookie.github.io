@@ -73,7 +73,7 @@ season: spring
 * Spatial files and mapping
     * [Maps that Show Paths Between Origins and Destinations](https://onlinehelp.tableau.com/current/pro/desktop/en-us/maps_howto_origin_destination.html)
 	* [Mapbox](https://www.mapbox.com/): maps and location for developers.
-	* [[../Tutorials/Change encoding of Czech spatial files]]
+	* [[Change encoding of Czech spatial files]]
 * [Set Actions](https://www.artofthevizable.com/?mc_cid=75e8be54c0&mc_eid=6253eeeab0)
 * Dashboard Extensions
 	* [Help article](https://help.tableau.com/current/pro/desktop/en-gb/dashboard_extensions.htm)

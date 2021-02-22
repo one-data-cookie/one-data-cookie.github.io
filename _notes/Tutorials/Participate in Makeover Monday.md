@@ -14,9 +14,9 @@ For more information, check its [official page](https://www.makeovermonday.co.uk
 
 ## What to do?
 * Go to [data.world](https://data.world/makeovermonday/)
-* Follow [[../Checklists/Check these to understand the data]]
+* [[Check these to understand the data]]
 * Go beyond the visualising and do a proper analysis. Read the article, be critical, find new insights, incorporate the these things into the story. Build your muslces as an analyst, not just as a designer. That's what you want to show through your portfolio.
-* Follow [[../Checklists/Check these before publishing]]
+* [[Check these before publishing]]
 * Publish, add to blog
 * Send to Twitter with `#makeovermonday` (and  `#datafamfeedback`)
 * Submit through [blog](https://www.makeovermonday.co.uk/submit/)

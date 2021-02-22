@@ -5,7 +5,7 @@ tags: [idea, process]
 season: winter
 ---
 
-![](../assets/src/data-analysis-workflow.png)
+![](../../assets/src/data-analysis-workflow.png)
 
 ---
 

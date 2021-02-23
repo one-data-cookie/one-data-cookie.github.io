@@ -1,5 +1,5 @@
 ---
-title: Become a data journalist, there is not enough of them
+title: Consider becoming a data journalist, there is not enough of them
 category: dataviz
 tags: [idea, journalism]
 season: winter

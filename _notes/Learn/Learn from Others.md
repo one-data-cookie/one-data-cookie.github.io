@@ -56,11 +56,12 @@ season: summer
 	* The Data Visualization Society aims to collect and establish best practices, fostering a community that supports members as they grow and develop data visualization skills.
 * [Tableau Zen Masters](https://www.tableau.com/zen-masters)
 	* Masters, teachers, and collaborators who inspire the Tableau solutions of tomorrow.
-* Some Czechs/Slovaks
+* Some Czechs/Slovaks from the field
 	* [Eliška Valterová](https://www.linkedin.com/in/eliskavalterova/)
 	* [Pavel Cejka](https://www.linkedin.com/in/pavelcejka/)
 	* [Michal Škop](https://github.com/michalskop)
 	* [Lucia Kocincova](http://lucyia.com/)
+	* [Zuzana Vejrazkova](https://www.linkedin.com/in/zuzanavejrazkova)
 
 ---
 

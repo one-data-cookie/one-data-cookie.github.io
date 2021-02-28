@@ -1,8 +1,11 @@
 ---
 title: Change encoding of Czech spatial files
+title-cs: 
 category: dataviz
 tags: [tutorial, tableau, map, czechia]
 season: spring
+dates: [30 Nov 2020, 03 Feb 2021]
+sources: https://help.tableau.com/current/pro/desktop/en-us/maps_shapefiles.htm
 ---
 
 1.  Download the version of WGS84
@@ -12,9 +15,3 @@ season: spring
 5.  Then it works!
 
 (Also, [here](https://o106.com/konverze-kodovani-z-windows-1250-na-utf-8/) is how it works for a normal text file.)
-
----
-
-    Created: 30 Nov 2020
-    Updated: 03 Feb 2021
-    Sources: https://help.tableau.com/current/pro/desktop/en-us/maps_shapefiles.htm

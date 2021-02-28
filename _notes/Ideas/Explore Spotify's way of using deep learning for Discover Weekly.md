@@ -1,9 +1,11 @@
 ---
 title: Explore Spotify's way of using deep learning for Discover Weekly
-title-czech: Spotify používá cool deep learning pro Discover Weekly
+title-cs: Spotify používá cool deep learning pro Discover Weekly
 category: data-analysis
 tags: [idea, deep-learning]
 season: winter
+dates: [16 Mar 2019, 22 Feb 2021]
+sources: https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
 ---
 
 Spotify doesn't actually use a single revolutionary recommendation model. Instead, they mix together some of the best strategies used by other services to create their own uniquely powerful discovery engine.
@@ -31,9 +33,3 @@ Then, much like in collaborative filtering, the NLP model uses these terms and w
 raw audio models take new songs into account.
 
 Convolutional neural networks are the same technology used in facial recognition software. In Spotify's case, they've been modified for use on audio data instead of pixels.
-
----
-
-    Created: 16 Mar 2019
-    Updated: 22 Feb 2021
-    Sources: https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe

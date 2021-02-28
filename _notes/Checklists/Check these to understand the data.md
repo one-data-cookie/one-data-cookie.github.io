@@ -1,8 +1,11 @@
 ---
 title: Check these to understand the data
+title-cs: 
 category: dataviz
 tags: [checklist]
 season: summer
+dates: [19 Aug 2018, 03 Jan 2021]
+sources: http://www.makeovermonday.co.uk/week-33-2018/
 ---
 
 - **Identify the Challenges** – Start by reading the article that we link to. Read about the topic. Write down keywords, definitions, acronyms, anything you can think of about the topic. Literally write it down on paper.
@@ -18,9 +21,3 @@ season: summer
 - **Create a Sketch** – You should now have context for what you want to create. Step away from the computer and sketch some charts on sticky notes. These should be very rough sketches. Move them around on a big piece of paper until they form a cohesive message.
 
 - **Turn the Sketch into Reality** – Get back on the computer and recreate what you sketched in your data viz tool. I promise you that sketching first will speed up this process significantly.
-
----
-
-    Created: 19 Aug 2018
-    Updated: 03 Jan 2021
-    Sources: http://www.makeovermonday.co.uk/week-33-2018/

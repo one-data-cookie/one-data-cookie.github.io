@@ -1,8 +1,11 @@
 ---
 title: Learn data science
+title-cs: Nauč se datovou vědu
 category: data-science
 tags: [learn]
 season: autumn
+dates: [21 Feb 2021, 21 Feb 2021]
+sources: Misc
 ---
 
 * [Decision Trees vs. Clustering](http://blog.data-miners.com/2008/10/decision-trees-and-clustering.html)
@@ -12,9 +15,3 @@ season: autumn
 ![](../../assets/src/become-effective-data-scientist.png)
 
 ![](../../assets/src/machine-learning.jpeg)
-
----
-
-    Created: 21 Feb 2021
-    Updated: 21 Feb 2021
-    Sources: Misc

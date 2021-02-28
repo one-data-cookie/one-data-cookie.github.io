@@ -1,9 +1,11 @@
 ---
 title: Understand that data infrastructure undergoes radical shift diferentiating future leaders
-title-czech: Datová architektura prochází zásadními změnami, které rozhodnou o konkurenčních výhodách do budoucna
+title-cs: Datová architektura prochází zásadními změnami, které rozhodnou o konkurenčních výhodách do budoucna
 category: data-analysis
 tags: [idea]
 season: winter
+dates: [21 Nov 2020, 23 Feb 2021]
+sources: https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/
 ---
 
 **Data infra:**
@@ -24,9 +26,3 @@ Data infrastructure is undergoing rapid, fundamental changes at an architectural
 - operational ML/AI
 
 ![](../../assets/src/data-infra.png)
-
----
-
-    Created: 21 Nov 2020
-    Updated: 23 Feb 2021
-    Sources: https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/

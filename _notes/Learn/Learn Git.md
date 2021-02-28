@@ -1,8 +1,11 @@
 ---
 title: Learn Git
+title-cs: Nauč se Git
 category: data-analysis
 tags: [learn, git]
 season: spring
+dates: [13 Feb 2021, 13 Feb 2021]
+sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
 ## General
@@ -19,10 +22,3 @@ git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 ```
-
- 
----
- 
-    Created: 13 Feb 2021
-    Updated: 13 Feb 2021
-	Sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore)

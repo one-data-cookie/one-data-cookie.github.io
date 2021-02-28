@@ -1,8 +1,11 @@
 ---
 title: Check these before publishing
+title-cs: 
 category: dataviz
 tags: [checklist]
 season: summer
+dates: [19 Aug 2018, 03 Jan 2021]
+sources: https://www.makeovermonday.co.uk/week-32-2018/
 ---
 
 - **Clear title** – Does your viz have a clear title that draws the attention of your audience and sets the scene for the information presented?
@@ -22,9 +25,3 @@ season: summer
 - **Spell correctly** – Have you checked spelling?
 
 - **Check formatting** – Check the basic formatting. Are the objects in the visualization aligned well?
-
----
-
-    Created: 19 Aug 2018
-    Updated: 03 Jan 2021
-    Sources: https://www.makeovermonday.co.uk/week-32-2018/

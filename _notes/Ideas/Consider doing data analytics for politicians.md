@@ -1,9 +1,11 @@
 ---
 title: Consider doing data analytics for politicians
-title-czech: Politika potřebuje schopné datové analytiky
+title-cs: Politika potřebuje schopné datové analytiky
 category: data-analytics
 tags: [idea]
 season: autumn
+dates: [21 Nov 2020, 22 Feb 2021]
+sources: https://www.profant.eu/2020/data-a-pandemie.html, https://www.seznamzpravy.cz/clanek/tajemny-muz-ktery-na-jare-zachranil-cesko-exreditel-ceske-pojistovny-124767
 ---
 
 Chce to propojit prvky datové žurnalistiky, analytiky a vizualizace. Chce to umět vytvářet datové podklady pro exekutivu. Jasně, srozumitelně.
@@ -25,10 +27,3 @@ Ještě ten den večer prezentoval Pavel Řehák svá čísla i na Ministerstvu 
 „Přišel nějaký člověk s nějakým modelem a byly tam úplně šílená čísla,"
 
 Premiér Babiš si nechal vytisknout printscreen z modelů Pavla Řeháka.
-
-
----
-
-    Created: 21 Nov 2020
-    Updated: 22 Feb 2021
-    Sources: https://www.profant.eu/2020/data-a-pandemie.html, https://www.seznamzpravy.cz/clanek/tajemny-muz-ktery-na-jare-zachranil-cesko-exreditel-ceske-pojistovny-124767

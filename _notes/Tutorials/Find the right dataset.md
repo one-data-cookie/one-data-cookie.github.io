@@ -1,8 +1,11 @@
 ---
 title: Find the right dataset
+title-cs: 
 category: data-analysis
 tags: [tutorial, dataset]
 season: summer
+dates: [03 Jan 2021, 03 Feb 2021]
+sources: misc
 ---
 
 ## World
@@ -28,9 +31,3 @@ season: summer
 	* All the data about the city of Brno you can think of.
 * [Otevřená data PID](https://pid.cz/o-systemu/opendata/)
 	* Open data of Prague Integrated Transport with a few more details in [this Github repository](https://github.com/datastory/dpp-prepravni-pruzkumy).
-
----
-
-    Created: 03 Jan 2021
-    Updated: 03 Feb 2021
-    Sources: Misc

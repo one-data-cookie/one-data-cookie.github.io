@@ -1,8 +1,11 @@
 ---
 title: Run Python in the cloud
+title-cs: 
 category: dataviz
 tags: [tutorial, python]
 season: spring
+dates: [03 Jan 2021, 03 Jan 2021]
+sources: misc
 ---
 
 * [Colaboratory](https://colab.research.google.com/)
@@ -13,9 +16,3 @@ season: spring
 	* Host, run, and code Python in the cloud!
 * [Heroku](https://www.heroku.com/)
 	* Build data-driven apps with fully managed data services.
-
----
-
-    Created: 03 Jan 2021
-    Updated: 03 Jan 2021
-    Sources: Misc

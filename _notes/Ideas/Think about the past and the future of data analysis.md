@@ -1,8 +1,11 @@
 ---
 title: Think about the past and the future of data analysis
+title-cs: 
 category: data-analysis
 tags: [idea, talk]
 season: winter
+dates: [10 Jan 2021, 10 Jan 2021]
+sources: The Past and Future of Data Analysis, Roger Peng, PhD; Professor of Biostatistics, https://youtu.be/qFtJaq4TlqE
 ---
 
 * **Everyone is a data analyst, whether they know it or not and whether they like it or not.**
@@ -20,9 +23,3 @@ season: winter
 	* *Simple to Communicate*: statistical technique, medium, peer review
 * What makes a good data analysis? What makes a good data analyst?
 * It's basically figured out for data visualisation though. And that thanks to science and testing what works and what doesn't.
- 
----
- 
-    Created: 10 Jan 2021
-    Updated: 10 Jan 2021
-	Sources: The Past and Future of Data Analysis, Roger Peng, PhD; Professor of Biostatistics, https://youtu.be/qFtJaq4TlqE

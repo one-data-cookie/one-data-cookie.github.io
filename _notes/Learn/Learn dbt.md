@@ -1,8 +1,11 @@
 ---
 title: Learning dbt
+title-cs: Nauč se dbt
 category: data-analytics
 tags: [learn, dbt]
 season: autumn
+dates: [21 Feb 2021, 21 Feb 2021]
+sources: Misc
 ---
 
 * [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
@@ -21,9 +24,3 @@ season: autumn
 * [Locally Optimistic](https://locallyoptimistic.com/)
 	*  Blog for current and aspiring data analytics leaders
 * https://technically.dev/posts/what-your-data-team-is-using
-
----
-
-    Created: 21 Feb 2021
-    Updated: 21 Feb 2021
-    Sources: Misc

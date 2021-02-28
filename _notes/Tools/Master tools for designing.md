@@ -1,8 +1,11 @@
 ---
 title: Master tools for designing
+title-cs: 
 category: dataviz
 tags: [tools, design]
 season: summer
+dates: [03 Jan 2021, 13 Feb 2021]
+sources: misc
 ---
 
 ## Theory
@@ -127,9 +130,3 @@ season: summer
 	 *  Figma helps teams create, test, and ship better designs from start to finish; making it amazing for UX designs.
  * [Piktochart](https://piktochart.com/)
 	* Quickly turn any text- or data-heavy content into a stunning report, presentation, infographic, social media graphic, or printable.
-
----
-
-    Created: 03 Jan 2021
-    Updated: 13 Feb 2021
-    Sources: Misc

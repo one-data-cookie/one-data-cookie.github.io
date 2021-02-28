@@ -1,8 +1,11 @@
 ---
 title: Learn d3
+title-cs: Nauč se d3
 category: dataviz
 tags: [learn, d3]
 season: autumn
+date: [21 Feb 2021, 21 Feb 2021]
+sources: Misc
 ---
 
 * [awesome-dataviz-education](https://github.com/datavis-tech/awesome-dataviz-education/blob/master/README.md)
@@ -19,9 +22,3 @@ season: autumn
 * https://pudding.cool/
 * https://wattenberger.com/blog/d3
 * https://leanpub.com/d3-t-and-t-v6
-
----
-
-    Created: 21 Feb 2021
-    Updated: 21 Feb 2021
-    Sources: Misc

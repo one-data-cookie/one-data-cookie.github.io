@@ -1,8 +1,11 @@
 ---
 title: Learn data
+title-cs: Nauč se data
 category: data-analysis
 tags: [learn]
 season: spring
+dates: [03 Jan 2021, 21 Feb 2021]
+sources: Misc
 ---
 
 ## General
@@ -33,9 +36,3 @@ season: spring
 	* EuroVis is the annual Visualization Conference organized by the Eurographics Working Group on Data Visualization.
 * [VISUALISE](https://www.exploratorium.edu/visualise)
 	* On May 8 and 9, 2019, the Exploratorium hosted VISUALISE: Visualization for Informal Science Education, the first conference focused on creating effective visualizations for science museums and other venues for informal science education.
-
----
-
-    Created: 03 Jan 2021
-    Updated: 21 Feb 2021
-    Sources: Misc

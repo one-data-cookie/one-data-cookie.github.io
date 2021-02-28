@@ -1,9 +1,11 @@
 ---
 title: Realise that data takes you far, even further with a process, but shoul never be everything
-title-czech: Data jsou hodně, ideálně s procesem, ale nesmí být vše
+title-cs: Data jsou hodně, ideálně s procesem, ale nesmí být vše
 category: data-analysis
 tags: [idea, business]
 season: winter
+dates: [15 Aug 2019, 23 Feb 2021]
+sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCpihwqzaaSng
 ---
 
 Data davaji druhy pohled. Kvantitativni ke kvalitativni. Spolu funguji nejlip.
@@ -21,9 +23,3 @@ Skill vs vule. Prvni jde zmenit, druhy ne.
 GoodData/Superset vs Tableau: jednoduchy veci vsem vs analyticky veci pro jednoho a staticky
 
 Jeho stack s business vzdelanim je totoznej mymu, skoro: Excel, SQL, Python, Keboola, GoodData, Tableau
-
----
-
-    Created: 15 Aug 2019
-    Updated: 23 Feb 2021
-    Sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCpihwqzaaSng

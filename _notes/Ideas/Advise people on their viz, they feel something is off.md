@@ -1,8 +1,11 @@
 ---
 title: Advise people on their viz, they feel something is off
+title-cs: 
 category: dataviz
 tags: [idea]
 season: winter
+dates: [16 Mar 2019, 21 Feb 2021]
+sources: Jon Schwabish, HelpMeViz, https://open.spotify.com/episode/1adMYzMQUyqPb0NnkoJFVi?si=hdzETKEoQSeui9viihttEw
 ---
 
 * Economist don't know how to viz results of their work
@@ -16,9 +19,3 @@ season: winter
 * It's interesting for end users and data owners to judge, not just dataviz expert
 * You either do it yourself or you see enough good examples
 * Teaching depends on needs and profession
-
----
-
-    Created: 16 Mar 2019
-    Updated: 21 Feb 2021
-    Sources: Jon Schwabish, HelpMeViz, https://open.spotify.com/episode/1adMYzMQUyqPb0NnkoJFVi?si=hdzETKEoQSeui9viihttEw

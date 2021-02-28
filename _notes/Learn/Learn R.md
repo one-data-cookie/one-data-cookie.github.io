@@ -1,8 +1,11 @@
 ---
 title: Learn R
+title-cs: Nauč se R
 category: dataviz
 tags: [learn, r]
 season: spring
+dates: [13 Feb 2021, 13 Feb 2021]
+sources: Misc
 ---
 
 ## Dataviz
@@ -16,9 +19,3 @@ season: spring
 * [R Programming A-Z™: R For Data Science With Real Exercises! | Udemy](https://www.udemy.com/r-programming/)
 * [R Programming: Advanced Analytics In R For Data Science | Udemy](https://www.udemy.com/r-analytics/)
 * [R Cheatsheet](https://www.rstudio.com/resources/cheatsheets/)
-
----
-
-    Created: 13 Feb 2021
-    Updated: 13 Feb 2021
-    Sources: Misc

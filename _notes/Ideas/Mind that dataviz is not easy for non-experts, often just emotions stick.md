@@ -1,8 +1,11 @@
 ---
 title: Mind that dataviz is not easy for non-experts, often just emotions stick
+title-cs: 
 category: dataviz
 tags: [idea]
 season: winter
+dates: [18 Feb 2019, 21 Feb 2021]
+sources: Jeremy Boy, Helen Kennedy, Andy Kirk at DataStories, https://open.spotify.com/episode/2xLli0qpJ6nHnehmoIbEoL
 ---
 
 * Data Stories: Seeing data
@@ -15,9 +18,3 @@ season: winter
 * Shifting mindset: firstly read the instructions, then dive into it. We should teach that.
 * "So-what" is an important questions. Not just the wow moment.
 * You don't remember the number, but you remember the emotion/message.
-
----
-
-    Created: 18 Feb 2019
-    Updated: 21 Feb 2021
-    Sources: Jeremy Boy, Helen Kennedy, Andy Kirk at DataStories, https://open.spotify.com/episode/2xLli0qpJ6nHnehmoIbEoL

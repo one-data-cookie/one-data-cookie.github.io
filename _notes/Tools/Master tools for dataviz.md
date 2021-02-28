@@ -1,8 +1,11 @@
 ---
 title: Master tools for dataviz
+title-cs: 
 category: dataviz
 tags: [tools]
 season: summer
+dates: [03 Jan 2021, 03 Jan 2021]
+sources: misc
 ---
 
 * [Apache Superset](https://superset.apache.org/)
@@ -35,9 +38,3 @@ season: summer
 	* Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs.
 * [GeoDa](https://geodacenter.github.io/)
 	* GeoDa is a free and open source software tool that serves as an introduction to spatial data analysis.
-
----
-
-    Created: 03 Jan 2021
-    Updated: 03 Jan 2021
-    Sources: Misc

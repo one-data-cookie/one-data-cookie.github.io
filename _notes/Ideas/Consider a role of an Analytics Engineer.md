@@ -1,9 +1,11 @@
 ---
 title: Consider a role of an Analytics Engineer
-title-czech: Pojmenoval bych se jako Analytics Engineer
+title-cs: Pojmenoval bych se jako Analytics Engineer
 category: data-analysis
 tags: [idea]
 season: autumn
+dates: [17 Dec 2020, 22 Feb 2021]
+sources: Misc
 ---
 
 Three roles in one:
@@ -77,9 +79,3 @@ They'll likely write better SQL than either your data analysts or your data engi
 SQL is the key here as the whole analytics engineering is built upon it.
 
 -- [Source](https://blog.getdbt.com/hiring-analytics-engineer/)
-
----
-
-    Created: 17 Dec 2020
-    Updated: 22 Feb 2021
-    Sources: Misc

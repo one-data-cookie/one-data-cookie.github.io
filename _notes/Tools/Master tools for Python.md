@@ -1,8 +1,11 @@
 ---
 title: Master tools for Python
+title-cs: 
 category: dataviz
 tags: [tools, python]
 season: spring
+dates: [03 Jan 2021, 08 Jan 2021]
+sources: misc
 ---
 
 ## Data Visualisation
@@ -20,9 +23,3 @@ season: spring
 	* Hands-on course in Data Science using Python & R
 	* [Udemy course](https://www.udemy.com/machinelearning/)
 	* [Datasets](https://www.superdatascience.com/machine-learning/)
-
----
-
-    Created: 03 Jan 2021
-    Updated: 08 Jan 2021
-    Sources: Misc

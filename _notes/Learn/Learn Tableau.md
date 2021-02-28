@@ -1,8 +1,11 @@
 ---
 title: Learn Tableau
+title-cs: Nauč se Tableau
 category: dataviz
 tags: [learn, tableau]
 season: spring
+dates: [23 Sep 2018, 13 Feb 2021]
+sources: Misc
 ---
 
 ## General
@@ -84,10 +87,3 @@ season: spring
 * Extra spaces for lables
 	* Add [this](https://www.compart.com/en/unicode/U+2800) Unicode character
 * [Shading between two lines](http://www.datatableauandme.com/2017/08/how-to-shade-between-2-lines-in-tableau.html)
-
-
----
-
-    Created: 23 Sep 2018
-    Updated: 13 Feb 2021
-    Sources: Misc

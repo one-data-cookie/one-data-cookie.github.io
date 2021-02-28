@@ -1,9 +1,11 @@
 ---
 title: Think about data science as split into Analytics, Algorithms, Inference
-title-czech: Data Science se dá hezky rozdělit na Analytics, Algorithms, Inference
+title-cs: Data Science se dá hezky rozdělit na Analytics, Algorithms, Inference
 category: data-science
 tags: [idea]
 season: winter
+dates: [11 Oct 2019, 23 Feb 2021]
+sources: https://www.linkedin.com/pulse/one-data-science-job-doesnt-fit-all-elena-grewal
 ---
 
 The main takeaway I will share is that companies consider three tracks of data science work to meet the needs of your business -- Analytics, Inference, and Algorithms.
@@ -33,9 +35,3 @@ We encourage team members to be generalists as well (sometimes that's a point of
 We didn't start to specialize until around 2015 when our team was 30 people.
 
 Analytics experts understood they would have less impact if they tried to apply machine learning to the business problems they were working on.
-
----
-
-    Created: 11 Oct 2019
-    Updated: 23 Feb 2021
-    Sources: https://www.linkedin.com/pulse/one-data-science-job-doesnt-fit-all-elena-grewal

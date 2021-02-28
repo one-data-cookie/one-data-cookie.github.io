@@ -1,8 +1,11 @@
 ---
 title: Consider becoming a data journalist, there is not enough of them
+title-cs: 
 category: dataviz
 tags: [idea, journalism]
 season: winter
+dates: [05 May 2019, 21 Feb 2021]
+sources: Jan Cibulka, Petr Kočí in Dataři, https://open.spotify.com/episode/1rwPmT7odS6PLjJmp08BIZ
 ---
 
 * Da se jit na staz do iRozhlasu na datovou zurnalistiku. Zacali v roce 2012 v Hospodarkach.
@@ -15,10 +18,3 @@ season: winter
 * Data se rozsiruji na hodne vysokoskolskych oboru, vcetne zurnalistiky.
 * Data o pocasi porad nejsou. Whaat?
 * Jsou ve vyvoji generatory textu, ktery podle vety vytvori odstavec. Bude supr pro fake news.
-
----
-
-    Created: 05 May 2019
-    Updated: 21 Feb 2021
-    Sources: Jan Cibulka, Petr Kočí at Dataři, https://open.spotify.com/episode/1rwPmT7odS6PLjJmp08BIZ
-

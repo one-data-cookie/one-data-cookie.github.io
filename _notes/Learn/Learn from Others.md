@@ -1,8 +1,11 @@
 ---
 title: Learn from others
+title-cs: Nauč se od ostatních
 category: dataviz
 tags: [learn, people]
-season: summer 
+season: summer
+dates: [13 Feb 2021, 13 Feb 2021]
+sources: Misc
 ---
 
 ## Blogs
@@ -62,9 +65,3 @@ season: summer
 	* [Michal Škop](https://github.com/michalskop)
 	* [Lucia Kocincova](http://lucyia.com/)
 	* [Zuzana Vejrazkova](https://www.linkedin.com/in/zuzanavejrazkova)
-
----
-
-    Created: 13 Feb 2021
-    Updated: 13 Feb 2021
-    Sources: Misc

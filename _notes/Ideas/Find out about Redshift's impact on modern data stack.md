@@ -1,9 +1,11 @@
 ---
 title: Find out about Redshift's impact on modern data stack 
-title-czech: Redshift v roce 2012 způsobil změnu v data stacku. Dalších 5 let lze očekávat další velké změny
+title-cs: Redshift v roce 2012 způsobil změnu v data stacku. Dalších 5 let lze očekávat další velké změny
 category: data-engineering
 tags: [idea, data-stack]
 season: spring
+dates: [19 Dec 2020, 22 Feb 2021]
+sources: https://blog.getdbt.com/future-of-the-modern-data-stack/
 ---
 
 We saw a tremendous amount of innovation immediately following the launch of Redshift in 2012, unlocking brand new levels of performance, efficiencies, and new behaviors. We then saw a maturation period as these nascent products were deployed by the market, improved their technology, and rounded out their feature sets. By now, these products are ready to act as a foundation on which successive innovations can be built.
@@ -35,9 +37,3 @@ Each technology individually goes through its own "S" curve, from development to
 ### Cambrian explosion II, from 2021 - 2025
 
 ![](../../src/data-stack.png)
-
----
-
-    Created: 19 Dec 2020
-    Updated: 22 Feb 2021
-    Sources: https://blog.getdbt.com/future-of-the-modern-data-stack/

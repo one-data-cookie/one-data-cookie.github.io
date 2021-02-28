@@ -1,8 +1,11 @@
 ---
 title: Participate in Makeover Monday
+title-cs: 
 category: dataviz
 tags: [tutorial, tableau]
 season: summer
+dates: [03 Jan 2021, 03 Feb 2021]
+sources: misc
 ---
 
 ## What is Makeover Monday?
@@ -22,9 +25,3 @@ For more information, check its [official page](https://www.makeovermonday.co.uk
 * Submit through [blog](https://www.makeovermonday.co.uk/submit/)
 * Check later for other ideas – others from Twitter, feedback on Twitter, and summary in [blog](https://www.makeovermonday.co.uk/blog/), [Andy's blog](https://www.vizwiz.com/)
 * Intercorporate feedback and send again
-
----
-
-    Created: 03 Jan 2021
-    Updated: 03 Feb 2021
-    Sources: Misc

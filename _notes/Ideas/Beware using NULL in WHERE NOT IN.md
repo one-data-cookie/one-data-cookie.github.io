@@ -1,8 +1,11 @@
 ---
 title: Beware using NULL in WHERE NOT IN
+title-cs: 
 category: data-analysis
 tags: [idea, sql]
 season: spring
+dates: [28 Jan 2021, 28 Jan 2021]
+sources: https://www.polderknowledge.nl/2018/03/02/sql-beware-null-where-not/
 ---
  
 ```sql
@@ -38,9 +41,3 @@ Like explained in the intro, `id != NULL` is always `NULL`, therefore the entire
 
 *Advice*:
 Keep using subqueries, mind `NULL` values. Still better than `JOIN`s that can cause duplicates.
- 
----
- 
-    Created: 28 Jan 2021
-    Updated: 28 Jan 2021
-	Sources: https://www.polderknowledge.nl/2018/03/02/sql-beware-null-where-not/

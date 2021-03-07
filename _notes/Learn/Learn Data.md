@@ -1,7 +1,7 @@
 ---
 title: Learn data
 title-cs: Nauč se data
-category: data-analysis
+category: data-education
 tags: [learn]
 season: spring
 dates: [03 Jan 2021, 21 Feb 2021]

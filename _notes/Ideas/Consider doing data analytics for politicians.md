@@ -1,7 +1,7 @@
 ---
 title: Consider doing data analytics for politicians
 title-cs: Politika potřebuje schopné datové analytiky
-category: data-analytics
+category: public-data
 tags: [idea]
 season: autumn
 dates: [21 Nov 2020, 22 Feb 2021]

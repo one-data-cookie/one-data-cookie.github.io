@@ -1,7 +1,7 @@
 ---
 title: Find the right dataset
 title-cs: 
-category: data-analysis
+category: public-data
 tags: [tutorial, dataset]
 season: summer
 dates: [03 Jan 2021, 03 Feb 2021]

@@ -1,7 +1,7 @@
 ---
 title: Learn Python
 title-cs: Nauč se Python
-category: data-analysis
+category: coding
 tags: [learn, python]
 season: autumn
 dates: [21 Feb 2021, 21 Feb 2021]

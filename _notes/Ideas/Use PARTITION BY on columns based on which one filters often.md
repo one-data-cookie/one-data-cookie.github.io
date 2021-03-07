@@ -1,7 +1,7 @@
 ---
 title: Use PARTITION BY on columns based on which one filters often
 title-cs: Používej PARTITION BY na sloupce, podle kterých filtruješ
-category: data-analysis
+category: analytics-engineering
 tags: [idea, sql]
 season: spring
 dates: [16 Mar 2019, 22 Feb 2021]

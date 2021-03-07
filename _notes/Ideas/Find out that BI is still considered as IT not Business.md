@@ -1,7 +1,7 @@
 ---
 title: Find out that BI is still considered as IT not Business
 title-cs: BI se stále vnímá spíše jako součást IT a ne businessu 
-category: data-analysis
+category: business-data
 tags: [idea, business]
 season: winter
 dates: [15 Aug 2019, 23 Feb 2021]

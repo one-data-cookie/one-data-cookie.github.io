@@ -1,7 +1,7 @@
 ---
-title: Realise that data takes you far, even further with a process, but shoul never be everything
+title: Realise that data takes you far, even further with a process, but should never be everything
 title-cs: Data jsou hodně, ideálně s procesem, ale nesmí být vše
-category: data-analysis
+category: business-data
 tags: [idea, business]
 season: winter
 dates: [15 Aug 2019, 23 Feb 2021]

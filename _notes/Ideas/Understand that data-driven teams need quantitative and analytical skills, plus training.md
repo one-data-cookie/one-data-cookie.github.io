@@ -1,7 +1,7 @@
 ---
 title: Understand that data-driven teams need quantitative and analytical skills, plus training
 title-cs: Data Team potřebuje kvantitativní lidi, trénink, kritické myšlení
-category: dataviz
+category: data-literacy
 tags: [idea]
 season: winter
 dates: [16 Jan 2019, 23 Feb 2021]

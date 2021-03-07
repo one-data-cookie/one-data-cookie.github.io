@@ -1,7 +1,7 @@
 ---
 title: Realise that open data on Covid in Czechia either don't exist or they won't go public
 title-cs: Otevřená data na covid - vláda je buď nemá, nebo si je škudlí jako za totality
-category: data-analysis
+category: public-data
 tags: [idea, open-data]
 season: winter
 dates: [12 May 2020, 23 Feb 2021]

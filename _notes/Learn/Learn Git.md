@@ -1,7 +1,7 @@
 ---
 title: Learn Git
 title-cs: Nauč se Git
-category: data-analysis
+category: coding
 tags: [learn, git]
 season: spring
 dates: [13 Feb 2021, 13 Feb 2021]

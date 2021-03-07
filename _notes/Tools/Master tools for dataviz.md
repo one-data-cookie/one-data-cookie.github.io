@@ -27,9 +27,13 @@ sources: misc
 * [visx](https://airbnb.io/visx/)
 	* Airbnb's project that brings together the power of D3 with the joy of React, esp. [useful for frontend developers](https://medium.com/airbnb-engineering/introducing-visx-from-airbnb-fd6155ac4658).
 * [Apache ECharts](https://echarts.apache.org/en/index.html)
-	* An Open Source JavaScript Visualization Library
+	* An Open Source JavaScript Visualization Library.
+* [Metabase](https://www.metabase.com/)
+	* Meet the easy, open source way for everyone in your company to ask questions and learn from data.
 * [Grafana](https://grafana.com/)
 	* Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored.
+* [Mode](https://mode.com/)
+	* Interactive data science meets modern BI for fast, exploratory analysis company-wide.
 * [Plotly Dash](https://plotly.com/dash/)
 	* Analytical web apps for Python, R, Julia, and Jupyter. No JavaScript required. [Open-source options](https://plotly.com/graphing-libraries/) available.
 * [G2](https://g2.antv.vision/en)

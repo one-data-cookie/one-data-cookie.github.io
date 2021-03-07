@@ -2,7 +2,7 @@
 title: Find out how it works inside Airbnb's data team
 title-cs:
 category: analytics-engineering
-tags: []
+tags: [idea]
 season: autumn
 dates: [01 Mar 2021, 02 Mar 2021]
 sources: 

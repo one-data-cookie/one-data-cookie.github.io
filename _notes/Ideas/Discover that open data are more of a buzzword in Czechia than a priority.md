@@ -1,7 +1,7 @@
 ---
 title: Discover that open data are more of a buzzword in Czechia than a priority
 title-cs: Open data jsou v ČR spíš buzzword než priorita
-category: data-analysis
+category: public-data
 tags: [idea, open-data]
 season: winter
 dates: [16 Feb 2019, 23 Feb 2021]

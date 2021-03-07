@@ -1,7 +1,7 @@
 ---
 title: Explore Spotify's way of using deep learning for Discover Weekly
 title-cs: Spotify používá cool deep learning pro Discover Weekly
-category: data-analysis
+category: data-science
 tags: [idea, deep-learning]
 season: winter
 dates: [16 Mar 2019, 22 Feb 2021]

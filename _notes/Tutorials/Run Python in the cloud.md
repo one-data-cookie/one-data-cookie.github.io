@@ -1,7 +1,7 @@
 ---
 title: Run Python in the cloud
 title-cs: 
-category: dataviz
+category: coding
 tags: [tutorial, python]
 season: spring
 dates: [03 Jan 2021, 03 Jan 2021]

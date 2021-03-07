@@ -1,7 +1,7 @@
 ---
 title: Beware using NULL in WHERE NOT IN
 title-cs: 
-category: data-analysis
+category: coding
 tags: [idea, sql]
 season: spring
 dates: [28 Jan 2021, 28 Jan 2021]
@@ -23,7 +23,7 @@ WHERE NOT (
   id = 1  
   OR id = 2  
   OR id = NULL  
-);  
+)
 ```
 
 And then remove the parenthesis using De Morgan’s laws:
@@ -34,7 +34,7 @@ FROM pony
 WHERE
   id != 1  
   AND id != 2  
-  AND id != NULL;  
+  AND id != NULL
 ```
  
 Like explained in the intro, `id != NULL` is always `NULL`, therefore the entire `WHERE` clause is always `FALSE`.

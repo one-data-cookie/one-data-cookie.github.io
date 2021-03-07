@@ -1,7 +1,7 @@
 ---
 title: Understand that SQL queries start with FROM
 title-cs: Pochop, že SQL začíná od FROM
-category: data-analysis
+category: coding
 tags: [idea, sql]
 season: winter
 dates: [09 Oct 2019, 22 Feb 2021]

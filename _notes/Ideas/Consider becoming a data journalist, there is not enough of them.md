@@ -1,7 +1,7 @@
 ---
 title: Consider becoming a data journalist, there is not enough of them
 title-cs: 
-category: dataviz
+category: public-data
 tags: [idea, journalism]
 season: winter
 dates: [05 May 2019, 21 Feb 2021]

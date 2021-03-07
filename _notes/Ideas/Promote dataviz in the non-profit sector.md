@@ -1,7 +1,7 @@
 ---
 title: Promote dataviz in the non-profit sector
 title-cs: 
-category: dataviz
+category: public-data
 tags: [idea, non-profit]
 season: spring
 dates: [26 Jan 2021, 26 Jan 2021]

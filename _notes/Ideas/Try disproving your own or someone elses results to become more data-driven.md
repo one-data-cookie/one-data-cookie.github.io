@@ -1,7 +1,7 @@
 ---
 title: Try disproving your own or someone elses results to become more data-driven
 title-cs: Nejdůležitější otázka pro to být správně data-driven – How Can I Disprove It
-category: dataviz
+category: data-literacy
 tags: [idea]
 season: winter
 dates: [08 Oct 2020, 23 Feb 2021]

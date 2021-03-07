@@ -1,8 +1,8 @@
 ---
 title: Understand that CROSS JOIN UNNEST works through value tables
 title-cs: CROSS JOIN UNNEST funguje kvůli tvorbě value tables
-category: data-analysis
-tags: [idea]
+category: coding
+tags: [idea, sql]
 season: winter
 dates: [06 Jun 2020, 23 Feb 2021]
 sources: https://stackoverflow.com/questions/47670451/sql-array-flattening-why-doesnt-cross-join-unnest-join-every-nested-value-with

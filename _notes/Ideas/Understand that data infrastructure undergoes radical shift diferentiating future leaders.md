@@ -1,7 +1,7 @@
 ---
 title: Understand that data infrastructure undergoes radical shift diferentiating future leaders
 title-cs: Datová architektura prochází zásadními změnami, které rozhodnou o konkurenčních výhodách do budoucna
-category: data-analysis
+category: data-engineering
 tags: [idea]
 season: winter
 dates: [21 Nov 2020, 23 Feb 2021]

@@ -1,7 +1,7 @@
 ---
 title: Learn R
 title-cs: Nauč se R
-category: dataviz
+category: coding
 tags: [learn, r]
 season: spring
 dates: [13 Feb 2021, 13 Feb 2021]

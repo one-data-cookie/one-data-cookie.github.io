@@ -1,7 +1,7 @@
 ---
 title: Learning dbt
 title-cs: Nauč se dbt
-category: data-analytics
+category: analytics-engineering
 tags: [learn, dbt]
 season: autumn
 dates: [21 Feb 2021, 21 Feb 2021]
@@ -12,6 +12,7 @@ sources: Misc
 * [Github](https://github.com/fishtown-analytics/dbt)
 * [COALESCE Conference](https://www.getdbt.com/coalesce)
 * https://discourse.getdbt.com/t/how-we-set-up-our-computers-for-working-on-dbt-projects/243
+* [Materialisation types](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/materializations)
 * https://atom.io/
 * http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html
 * https://discourse.getdbt.com/t/your-essential-dbt-project-checklist/1377
@@ -24,3 +25,12 @@ sources: Misc
 * [Locally Optimistic](https://locallyoptimistic.com/)
 	*  Blog for current and aspiring data analytics leaders
 * https://technically.dev/posts/what-your-data-team-is-using
+
+
+What if you could actually implement your data pipelines as a graph of materialized views?
+
+Taken far enough, the promise of such an idea would be to build a _declarative data lake_, where the code that manages the lake focuses more on defining _what_ the datasets are and less on _how_ to mechanically build or update them.
+
+The ideas presented in this post are not new. But materialized views never saw widespread adoption as a primary tool for building data pipelines, likely due to their [limitations](https://stackoverflow.com/a/25642149/877069)^[No support of progressive / partial updates.] and ties to relational database technologies. Perhaps with this new wave of tools like dbt and Materialize we’ll see materialized views used more heavily as a primary building block in the typical data pipeline.
+
+https://nchammas.com/writing/data-pipeline-materialized-view

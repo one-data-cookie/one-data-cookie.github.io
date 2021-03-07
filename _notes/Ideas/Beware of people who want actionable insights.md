@@ -1,7 +1,7 @@
 ---
 title: Beware of people who want actionable insights
 title-cs: Pokud chce někdo "actionable insights", tak neví, co to chce
-category: data-analysis
+category: business-data
 tags: [idea]
 season: winter
 dates: [03 Jan 2019, 22 Feb 2021]

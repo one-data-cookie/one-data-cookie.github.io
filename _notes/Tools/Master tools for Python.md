@@ -1,7 +1,7 @@
 ---
 title: Master tools for Python
 title-cs: 
-category: dataviz
+category: coding
 tags: [tools, python]
 season: spring
 dates: [03 Jan 2021, 08 Jan 2021]

@@ -1,7 +1,7 @@
 ---
 title: Keep in mind that analytics in Czech firms is not too advanced
 title-cs: Datově je asi většina technologických firem v ČR a SR ještě v plenkách
-category: data-analytics
+category: business-data
 tags: [idea]
 season: winter
 dates: [15 Aug 2019, 23 Feb 2021]

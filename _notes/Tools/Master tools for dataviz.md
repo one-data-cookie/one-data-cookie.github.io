@@ -5,7 +5,7 @@ category: dataviz
 tags: [tools]
 season: summer
 dates: [03 Jan 2021, 03 Jan 2021]
-sources: misc
+sources: Misc
 ---
 
 * [Apache Superset](https://superset.apache.org/)

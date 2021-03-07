@@ -5,7 +5,7 @@ category: dataviz
 tags: [checklist]
 season: spring
 dates: [13 Feb 2021, 13 Feb 2021]
-sources: misc
+sources: Misc
 ---
 
 * [[Check these to understand the data]]

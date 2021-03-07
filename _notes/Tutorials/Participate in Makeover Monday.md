@@ -5,7 +5,7 @@ category: dataviz
 tags: [tutorial, tableau]
 season: summer
 dates: [03 Jan 2021, 03 Feb 2021]
-sources: misc
+sources: Misc
 ---
 
 ## What is Makeover Monday?

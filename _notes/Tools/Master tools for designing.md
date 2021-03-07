@@ -5,7 +5,7 @@ category: dataviz
 tags: [tools, design]
 season: summer
 dates: [03 Jan 2021, 13 Feb 2021]
-sources: misc
+sources: Misc
 ---
 
 ## Theory

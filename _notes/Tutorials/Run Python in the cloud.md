@@ -5,7 +5,7 @@ category: coding
 tags: [tutorial, python]
 season: spring
 dates: [03 Jan 2021, 03 Jan 2021]
-sources: misc
+sources: Misc
 ---
 
 * [Colaboratory](https://colab.research.google.com/)

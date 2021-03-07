@@ -15,8 +15,7 @@ sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otev
 * Česko zaostává především v oblasti datového portálu a jeho využití.
 * "Dostupná data jsou ale bohužel často interpretovaná a vykládaná nesprávným způsobem. Společně se sociálními sítěmi a určitou mírou anonymity to posiluje dopad těchto závěrů na širokou veřejnost. Obecně vnímám komunikaci jako jeden ze slabých článků, který musíme společně zlepšit," hodnotí Komenda z ÚZIS.
 * "Lidi je potřeba za jejich expertizu adekvátně odměnit. Práce pro stát má být důstojná, poté si jí budeme i více vážit," dodává Šmída.
-* To vše se ukázalo i během Covidu, kdy [[Realise that open data on Covid in Czechia either don't exist or they won't go public | nebylo dobře]].
-
+* To vše se ukázalo i během Covidu, kdy [[Realise that open data on Covid in Czechia either don't exist or they won't go public\|nebylo dobře]].
 
 ## Organizace v ČR
 * **[Nadace OSF: Náš stát, naše data](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/)**
@@ -29,4 +28,4 @@ sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otev
 * NYC
 	* [NYC Open Data Week](https://www.open-data.nyc/)
 	* [NYC Analytics](https://www1.nyc.gov/site/analytics/index.page)
-	* [DxD | Data Through Design](https://www.dxd2021.com/)
+	* [DxD - Data Through Design](https://www.dxd2021.com/)

@@ -10,7 +10,7 @@ sources: NA
 
 ![](../../src/rozdeleni-datove-gramotnosti.jpeg)
 
-* Based on [Deahl (MIT)](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/better-data-you-know.pdf)
+* Based on [Deahl (MIT)](/assets/src/better-data-you-know.pdf)
 
 **The definitions:**
 

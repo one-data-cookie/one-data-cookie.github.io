@@ -12,6 +12,6 @@ sources: Misc
 * [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
 * [pythonji](https://github.com/gahjelle/pythonji)
 	* Write Python with emojis
-* [Learn Python The Hard Way, 3rd Edition.pdf](https://github.com/one-data-cookie/digi-garden/raw/master/assets/src/Learn-Python-The-Hard-Way.pdf)
+* [Learn Python The Hard Way, 3rd Edition.pdf](/assets/src/Learn-Python-The-Hard-Way.pdf)
 
 ![](../../assets/src/r-vs-python.png)

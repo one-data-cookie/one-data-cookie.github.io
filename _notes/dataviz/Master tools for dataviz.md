@@ -22,7 +22,7 @@ sources: Misc
 	* Infogram is an intuitive visualization tool that empowers people and teams to create beautiful content.
 * [Lyra](https://idl.cs.washington.edu/projects/lyra/)
 	* Lyra is an interactive environment that enables custom visualization design without writing any code.
-* [[Master tools for Python\|Python]]
+* [[../coding/Master tools for Python\|Python]]
 	* Using Python to visualise data.
 * [visx](https://airbnb.io/visx/)
 	* Airbnb's project that brings together the power of D3 with the joy of React, esp. [useful for frontend developers](https://medium.com/airbnb-engineering/introducing-visx-from-airbnb-fd6155ac4658).

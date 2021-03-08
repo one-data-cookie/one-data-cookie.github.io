@@ -8,4 +8,4 @@ dates: [24 Sep 2018, 24 Sep 2018]
 sources: NA
 ---
 
-![](../../assets/src/Data-Viz-Intention.png)
+![](/assets/src/Data-Viz-Intention.png)

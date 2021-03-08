@@ -14,4 +14,4 @@ sources: Misc
 	* Write Python with emojis
 * [Learn Python The Hard Way, 3rd Edition.pdf](/assets/src/Learn-Python-The-Hard-Way.pdf)
 
-![](../../assets/src/r-vs-python.png)
+![](/assets/src/r-vs-python.png)

@@ -12,6 +12,6 @@ sources: Misc
 * [Text mining and word cloud fundamentals in R](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap2.html)
 
-![](../../assets/src/become-effective-data-scientist.png)
+![](/assets/src/become-effective-data-scientist.png)
 
-![](../../assets/src/machine-learning.jpeg)
+![](/assets/src/machine-learning.jpeg)

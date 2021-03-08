@@ -8,4 +8,4 @@ dates: [04 Oct 2020, 03 Jan 2021]
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 
-![](../../assets/src/data-analysis-workflow.png)
+![](/assets/src/data-analysis-workflow.png)

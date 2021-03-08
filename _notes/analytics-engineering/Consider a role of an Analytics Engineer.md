@@ -9,7 +9,7 @@ sources: Misc
 ---
 
 Three roles in one:
-![](../../assets/src/three-data-roles.png)
+![](/assets/src/three-data-roles.png)
 
 ---
 

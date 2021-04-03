@@ -8,12 +8,14 @@ dates: [21 Feb 2021, 21 Feb 2021]
 sources: Misc
 ---
 
+* [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
 * [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
 * [Github](https://github.com/fishtown-analytics/dbt)
 * [COALESCE Conference](https://www.getdbt.com/coalesce)
 * https://discourse.getdbt.com/t/how-we-set-up-our-computers-for-working-on-dbt-projects/243
 * [Materialisation types](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/materializations)
 * https://atom.io/
+* https://www.youtube.com/watch/zc8wLzoAkVc
 * http://zsh.sourceforge.net/Doc/Release/Prompt-Expansion.html
 * https://discourse.getdbt.com/t/your-essential-dbt-project-checklist/1377
 * https://discourse.getdbt.com/t/why-the-fishtown-sql-style-guide-uses-so-many-ctes/1091/10
@@ -25,6 +27,12 @@ sources: Misc
 * [Locally Optimistic](https://locallyoptimistic.com/)
 	*  Blog for current and aspiring data analytics leaders
 * https://technically.dev/posts/what-your-data-team-is-using
+* https://victorcouste.github.io/data-tools/
+* https://towardsdatascience.com/data-stacks-for-fun-nonprofit-part-iii-dcfd46da9f9f
+* https://discourse.getdbt.com/t/why-the-fishtown-sql-style-guide-uses-so-many-ctes/1091
+* https://discourse.getdbt.com/t/writing-models-backwards-an-unorthodox-approach-to-data-transformation/2287
+* https://materialize.com/
+* https://hub.getdbt.com/tailsdotcom/dbt_artifacts/latest/
 
 
 What if you could actually implement your data pipelines as a graph of materialized views?

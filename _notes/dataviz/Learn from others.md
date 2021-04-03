@@ -27,6 +27,8 @@ sources: Misc
   * Blog of David McCandless
 * [storytelling with data](http://www.storytellingwithdata.com/blog)
   * Blog of several dataviz practitioners
+* [PlatyfairData](https://playfairdata.com/blog/)
+	* Blog from a visual analytics consultancy company
 * [SuperDataScience Podcast Visualisation](https://www.superdatascience.com/podcast)
   * Podcast of Kirill Eremenko 
 * [Visualising Data](http://www.visualisingdata.com/blog/)
@@ -65,3 +67,7 @@ sources: Misc
 	* [Michal Škop](https://github.com/michalskop)
 	* [Lucia Kocincova](http://lucyia.com/)
 	* [Zuzana Vejrazkova](https://www.linkedin.com/in/zuzanavejrazkova)
+
+## Challenges
+* [Dataviz challenges from DVS](https://docs.google.com/spreadsheets/d/1PDsC10-NRVLC5pxZaJ1JO_NzYxVmB7Bx7RPoYPT1h_8/edit#gid=649830353)
+* [DVS Survey Challenge](https://www.datavisualizationsociety.com/2020-survey-challenge)

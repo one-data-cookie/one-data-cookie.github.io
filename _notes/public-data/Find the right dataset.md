@@ -31,3 +31,7 @@ sources: Misc
 	* All the data about the city of Brno you can think of.
 * [Otevřená data PID](https://pid.cz/o-systemu/opendata/)
 	* Open data of Prague Integrated Transport with a few more details in [this Github repository](https://github.com/datastory/dpp-prepravni-pruzkumy).
+
+## Tools
+* [Dolt](https://github.com/dolthub/dolt)
+	* Dolt is a SQL database that you can fork, clone, branch, merge, push and pull just like a git repository.

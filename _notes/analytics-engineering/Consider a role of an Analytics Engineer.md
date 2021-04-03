@@ -4,7 +4,7 @@ title-cs: Pojmenoval bych se jako Analytics Engineer
 category: analytics-engineering
 tags: [idea]
 season: autumn
-dates: [17 Dec 2020, 22 Feb 2021]
+dates: [17 Dec 2020, 4 Apr 2021]
 sources: Misc
 ---
 
@@ -79,3 +79,19 @@ They'll likely write better SQL than either your data analysts or your data engi
 SQL is the key here as the whole analytics engineering is built upon it.
 
 -- [Source](https://blog.getdbt.com/hiring-analytics-engineer/)
+
+---
+
+*Data is less trustworthy than ever and people are fired up about it. Often times, an analytics engineer is really just a pissed off analyst who has the tools and motivation to make things better for everyone else.*
+
+* The explosion of data and SaaS tools combined with the ease of automating “Extract and Load” means you can have true unadulterated data chaos in under an hour.
+* Analysts can no longer sit idly by and fix their data in the visualization layer or wait on tech teams to build a better pipeline. The analytics engineering movement will take back control over data quality and insights.
+
+A few key trends are converging: 
+* The shift from ETL to ELT means folks who know SQL have the power to transform and clean data once it arrives in the warehouse.
+* Data warehouses are powerful enough to handle the transformation workload
+* Tools like dbt enable analysts with SQL-based workflows and enable them to work like software engineers do.
+* Data consumers have come to simply expect data at their fingertips yet at all times.
+* Organizations (large and small) are recognizing the need to invest more resources in data modeling.
+
+-- [Source](https://www.hashpath.com/2020/12/an-analytics-engineer-is-really-just-a-pissed-off-data-analyst/)

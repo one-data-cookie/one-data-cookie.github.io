@@ -17,7 +17,7 @@ sources: Misc
 
 ## Code
 
-```shell
+```zsh
 ### PostgreSQL
 # brew install postgresql
 # postgres --version
@@ -29,12 +29,12 @@ grant all privileges on database ds4fnp to ds4fnp;
 \q
 psql -U ds4fnp
 # \c ds4fnp
-create schema ds4fnp_src;
+create schema ds4fnp;
 \q
 
 ### Directory 
 mkdir ds4fnp
-cd ds4np
+cd ds4fnp
 python3 -m venv .venv
 source .venv/bin/activate
 
@@ -43,9 +43,9 @@ pip install meltano
 meltano init meltano
 cd meltano
 meltano add extractor tap-spreadsheets-anywhere
-# meltano invoke tap-spreadsheets-anywhere --help;
+# meltano invoke tap-spreadsheets-anywhere --help
 meltano add loader target-postgres
-# meltano invoke target-postgres --help;
+# meltano invoke target-postgres --help
 # - error on macOS: https://stackoverflow.com/a/62931654
 
 ### ELT
@@ -70,12 +70,14 @@ dbt docs generate
 dbt docs serve
 
 ### Superset
+cd ..
 pip install apache-superset
+# pip install sqlalchemy==1.3.24
 superset db upgrade
 superset fab create-admin
 superset init
 superset run -p 8088 --with-threads --reload --debugger
-# postgresql+psycopg2://ds4fnp:ds4fnp@localhost:5432/ds4fnp
+# postgresql+psycopg2://ds4fnp:ds4fnp@127.0.0.1:5432/ds4fnp
 
 ### Closing
 # - ctrl+c several times
@@ -85,10 +87,10 @@ pg_ctl -D /usr/local/var/postgres stop
 ```
 
 ## Tasks
-* [ ] Test if Github works if I copy-paste it
-* [ ] Move Github from GDrive to michal
-* [ ] Test one last time from scratch
-* [ ] Commit
+* [x] Test if Github works if I copy-paste it
+* [x] Move Github from GDrive to michal
+* [x] Test one last time from scratch
+* [x] Commit
 * [ ] Play around with Airflow and dockerisation
 	* [ ] Myself: wait for a follow-up article in a few weeks (or research)
 	* [ ] Melatno: wait for integrations in July

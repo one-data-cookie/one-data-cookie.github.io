@@ -17,7 +17,7 @@ sources: Misc
 
 ## Code
 
-```zsh
+```shell
 ### PostgreSQL
 # brew install postgresql
 # postgres --version
@@ -93,4 +93,4 @@ pg_ctl -D /usr/local/var/postgres stop
 * [x] Commit
 * [ ] Play around with Airflow and dockerisation
 	* [ ] Myself: wait for a follow-up article in a few weeks (or research)
-	* [ ] Melatno: wait for integrations in July
+	* [ ] Meltano: wait for integrations in July

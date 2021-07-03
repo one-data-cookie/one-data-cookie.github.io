@@ -4,7 +4,7 @@ title-cs:
 category: dataviz
 tags: [tools]
 season: summer
-dates: [03 Jan 2021, 03 Jan 2021]
+dates: [03 Jan 2021, 24 Jun 2021]
 sources: Misc
 ---
 
@@ -42,3 +42,5 @@ sources: Misc
 	* Vega is a visualization grammar, a declarative language for creating, saving, and sharing interactive visualization designs.
 * [GeoDa](https://geodacenter.github.io/)
 	* GeoDa is a free and open source software tool that serves as an introduction to spatial data analysis.
+* [Lightdash](https://lightdash.com/)
+	* Lightdash is an open-source BI that connects to your dbt project and allows everyone to answer their own data questions.

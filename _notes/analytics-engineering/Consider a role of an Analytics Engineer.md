@@ -4,8 +4,12 @@ title-cs: Pojmenoval bych se jako Analytics Engineer
 category: analytics-engineering
 tags: [idea]
 season: autumn
-dates: [17 Dec 2020, 4 Apr 2021]
+dates: [17 Dec 2020, 24 Jun 2021]
 sources: Misc
+---
+
+The full context of analytics engineering is to be found in [The Analytics Engineering Guide](https://www.getdbt.com/analytics-engineering/).
+
 ---
 
 Three roles in one:
@@ -95,3 +99,13 @@ A few key trends are converging: 
 * Organizations (large and small) are recognizing the need to invest more resources in data modeling.
 
 -- [Source](https://www.hashpath.com/2020/12/an-analytics-engineer-is-really-just-a-pissed-off-data-analyst/)
+
+---
+
+* The work of an Analytics Engineer seems easy to understand, almost banal. They combine data sources, apply logic, make sure there are clean and well modeled materializations to analyze.
+* As analytics engineers increase the amount of insight organizations can find from data, it actually becomes more likely that these orgs will want to hire additional data talent (both analytics engineers and analysts). Also, every organization needs to learn from their data and since the ways in which the data needs to be understood will be unique at every organization, they will all need analytics engineers.
+* If it feels like we’re at a real inflection point for Analytics Engineering — it’s because we are. The impact is just too high.
+* City governments will use analytics engineering to monitor programs and ensure that government resources are being used effectively. Academic institutions will use analytics engineering to create datasets, many of them public, that will aid in scientific and technological development. The possibility space is wide open.
+* Analytics engineering is fundamentally a discipline that’s about making sense of the world around us. It’s about allowing everyone in an organization to see a little bit further, in their impact on the org and how their work connects to it. Right now analytics engineering is still a new discipline — pretty soon it will be everywhere.
+
+-- [Source](https://jasnonaz.medium.com/analytics-engineering-everywhere-d56f363da625)

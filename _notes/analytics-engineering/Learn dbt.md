@@ -30,11 +30,13 @@ sources: Misc
 	*  Blog for current and aspiring data analytics leaders
 * https://technically.dev/posts/what-your-data-team-is-using
 * https://victorcouste.github.io/data-tools/
+* https://www.getdbt.com/analytics-engineering/
 * https://towardsdatascience.com/data-stacks-for-fun-nonprofit-part-iii-dcfd46da9f9f
 * https://discourse.getdbt.com/t/why-the-fishtown-sql-style-guide-uses-so-many-ctes/1091
 * https://discourse.getdbt.com/t/writing-models-backwards-an-unorthodox-approach-to-data-transformation/2287
 * https://materialize.com/
 * https://hub.getdbt.com/tailsdotcom/dbt_artifacts/latest/
+* https://analyticsengineers.club/
 * https://hightouch.io/ (Reverse ETL)
 	* • **ETL or Extract, Transform and Load:** data moves from cloud apps to a data warehouse via a robust transformation layer built into the ETL tool
 
@@ -71,3 +73,13 @@ SELECT distinct {{pivot_column}}  FROM {{my_table}} ;
 Jinja uses a run_query() function, which executes SQL and returns a result object. Using the result object properties, we obtain a distinct list of column values as an array which we can then assign to a variable for subsequent use.
 
 https://serge-g.medium.com/dynamic-sql-pivots-with-dbt-dea16d7b9b63
+
+---
+
+## **_What is dbt?_**
+
+[Data build tool](https://www.getdbt.com/) (dbt) is a tool that allows DAs to adopt software engineering best practices in how they manage their data. The general principle is that data is ingested into the warehouse in its raw form and SQL is used with version control, testing and metadata (data dictionaries) to manage the data that lives in production. It incorporates the benefits of functional programming to ensure reproducibility and simplicity.
+
+https://medium.com/snaptravel/how-should-our-company-structure-our-data-team-e71f6846024d
+
+![](https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi.imgflip.com%2F5f05fj.jpg)

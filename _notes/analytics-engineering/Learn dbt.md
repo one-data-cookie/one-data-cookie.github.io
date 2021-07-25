@@ -1,5 +1,5 @@
 ---
-title: Learning dbt
+title: Learn dbt
 title-cs: Nauč se dbt
 category: analytics-engineering
 tags: [learn, dbt]
@@ -27,7 +27,7 @@ sources: Misc
 * [Slack Community](https://community.getdbt.com/)
 * [Learning on Demand](https://courses.getdbt.com/collections)
 * [Locally Optimistic](https://locallyoptimistic.com/)
-	*  Blog for current and aspiring data analytics leaders
+  *  Blog for current and aspiring data analytics leaders
 * https://technically.dev/posts/what-your-data-team-is-using
 * https://victorcouste.github.io/data-tools/
 * https://www.getdbt.com/analytics-engineering/
@@ -38,13 +38,13 @@ sources: Misc
 * https://hub.getdbt.com/tailsdotcom/dbt_artifacts/latest/
 * https://analyticsengineers.club/
 * https://hightouch.io/ (Reverse ETL)
-	* • **ETL or Extract, Transform and Load:** data moves from cloud apps to a data warehouse via a robust transformation layer built into the ETL tool
+  * • **ETL or Extract, Transform and Load:** data moves from cloud apps to a data warehouse via a robust transformation layer built into the ETL tool
 
-	* **ELT or Extract, Load, and Transform:** data moves from cloud apps to a data warehouse directly post which transformation and data modelling take place in the warehouse via SQL. The main difference here is that with ETL, transformation takes place before data is loaded into the warehouse, whereas with ELT, transformation takes place afterwards
+  * **ELT or Extract, Load, and Transform:** data moves from cloud apps to a data warehouse directly post which transformation and data modelling take place in the warehouse via SQL. The main difference here is that with ETL, transformation takes place before data is loaded into the warehouse, whereas with ELT, transformation takes place afterwards
 
-	* **Reverse ETL:** data moves from a data warehouse to cloud apps. Typically, the core transformation takes place in the warehouse before the reverse ETL process, but the reverse ETL tool may have a minimal transformation layer to fit data to an external system’s schema
+  * **Reverse ETL:** data moves from a data warehouse to cloud apps. Typically, the core transformation takes place in the warehouse before the reverse ETL process, but the reverse ETL tool may have a minimal transformation layer to fit data to an external system’s schema
 
-	(https://www.hightouch.io/blog/data-integration/)
+  (https://www.hightouch.io/blog/data-integration/)
 
 * https://github.com/emilyriederer/dbtplyr (dbtplyr)
 
@@ -58,9 +58,10 @@ The ideas presented in this post are not new. But materialized views never saw w
 https://nchammas.com/writing/data-pipeline-materialized-view
 
 
---- 
+---
 
-```jinja
+{%- raw -%}
+```
 {%- set my_query -%}
 SELECT distinct {{pivot_column}}  FROM {{my_table}} ;
 {%- endset -%}
@@ -69,6 +70,7 @@ SELECT distinct {{pivot_column}}  FROM {{my_table}} ;
 {%- set items = results.columns[0].values() -%}
 {%- endif %}
 ```
+{% endraw %}
 
 Jinja uses a run_query() function, which executes SQL and returns a result object. Using the result object properties, we obtain a distinct list of column values as an array which we can then assign to a variable for subsequent use.
 

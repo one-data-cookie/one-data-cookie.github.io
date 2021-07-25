@@ -16,14 +16,27 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 * Až začnete tvořit první commits, tak si doporučuju ještě přečíst [tento krátký text](https://juffalow.com/other/write-good-git-commit-message), jak dobře psát commit messages.
 * Pokud vám cokoliv bude nejasné, skoro určitě to najdete v [této Git dokumentaci](https://git-scm.com/book/en/v2), který je zároveň online knížkou.
 
+![](https://imgs.xkcd.com/comics/git_2x.png)
+
 ## Tips
 * Až se něco pokazí, [tyhle code snippets](https://ohshitgit.com/) se určitě budou hodit.
-* Make `.gitignore` ignore the files that were commited before added into the file
+* Make `.gitignore` ignore the files that were commited before added into the file.
 
 ```
 git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 ```
+* Create repo from scratch in CLI, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br)
 
-![](https://imgs.xkcd.com/comics/git_2x.png)
+```
+mkdir project
+cd project
+git init
+gh repo create project -d "This is my project"
+git pull origin main --rebase
+touch README.md
+git add .
+git commit -m 'initial commit'
+git push origin main
+```

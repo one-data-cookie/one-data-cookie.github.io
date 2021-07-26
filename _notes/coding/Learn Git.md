@@ -27,16 +27,18 @@ git rm -r --cached .
 git add .
 git commit -m ".gitignore is now working"
 ```
-* Create repo from scratch in CLI, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br)
+* Create repo from scratch through this `init.sh` script, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br), which can be run through `sh init.sh repo-name` from directory (or `./init.sh repo-name` if you run `chmod u+x init.sh` first)
 
 ```
-mkdir project
-cd project
+#!/bin/zsh
+mkdir $1
+cd $1
 git init
-gh repo create project -d "This is my project"
+gh repo create $1
 git pull origin main --rebase
 touch README.md
 git add .
-git commit -m 'initial commit'
+git commit -m 'Initial commit'
 git push origin main
+atom ./
 ```

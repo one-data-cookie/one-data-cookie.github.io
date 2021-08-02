@@ -4,10 +4,16 @@ title-cs: Nauč se dbt
 category: analytics-engineering
 tags: [learn, dbt]
 season: autumn
-dates: [21 Feb 2021, 21 Feb 2021]
+dates: [21 Feb 2021, 26 Jul 2021]
 sources: Misc
 ---
 
+> - *Principle*: Analytics as software, authored by anyone who knows SQL
+> - _Long-term strategy of independence_: Lock-in prevents individual technologists from making choices about what the best technology is for a given use case.
+   -
+https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
+
+* [dbt libraries](https://datacoves.com/dbt-libs)
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
 * [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
 * Fundamentals?

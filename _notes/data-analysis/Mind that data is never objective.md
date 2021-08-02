@@ -1,12 +1,14 @@
 ---
-title: Mind that data doesn't perfectly represent reality, it's always only its biased reflection
-title-cs: Data nereprezentují realitu, pouze ji zaujatě reflektují podle jejich cíle a někdy dokonce mohou zpětně ovlivnit
+title: Mind that data is never objective
+title-cs: 
 category: data-analysis
 tags: [idea]
 season: winter
-dates: [07 Feb 2020, 23 Feb 2021]
+dates: [07 Feb 2020, 26 Jul 2021]
 sources: https://www.vice.com/en_us/article/9393w7/this-man-created-traffic-jams-on-google-maps-using-a-red-wagon-full-of-phones
 ---
+
+> Mind that data doesn't perfectly represent reality, it's always only its biased reflection
 
 "Data is always translated to what they might be presented. The images, lists, graphs, and maps that represent those data are all interpretations, and there is no such thing as neutral data. Data is always collected for a specific purpose, by a combination of people, technology, money, commerce, and government.
 

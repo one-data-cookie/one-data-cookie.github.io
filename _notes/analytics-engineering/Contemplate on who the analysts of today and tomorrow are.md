@@ -27,7 +27,7 @@ sources: Misc
 	- Composability is a valid point but beaten by dbt for instance.
 - My real fear is that it discourages people from learning SQL and that it makes those whose primary language is SQL feel inadequate.
 	- He worries that the original articles suggests that the entire analytics edifice built on top of SQL is irreparably flawed.
-	- Diminishing SQL, particularly its obscure technical quirks, "perpetuates that myth that data analysis is a second-class skill.”
+	- Diminishing SQL, particularly its obscure technical quirks, "perpetuates that myth that data analysis is a second-class skill.”^[That's in line with what Tristan Handy, the founder and CEO of dbt Labs thinks – "If you can’t tell, I have a chip on my shoulder. As a career data analyst, I’ve always felt like we were under-appreciated and underestimated: by our companies who don’t create career paths for us, by the vendors that built our tools, by the VCs who fund the vendors who built our tools..." (from [this blogpost](https://blog.getdbt.com/fishtown-analytics-announces-29-5m-fundraise/))]
 - There’s a persistent unspoken aura in software engineering around data in general. I’ve seen too often the othering and second-classing of these (data) roles.
 - The work is hard, harder than appreciated.
 	- The truth is data is hard. The ecosystem is hard. Data is messy. It’s hard to test. We haven’t figured out the right tooling, the right debugging, the right environments, or even the right way to teach it. The level of sophistication and tooling over the past few years has exploded, as has customer expectations of personalization. All driven by data.
@@ -35,7 +35,7 @@ sources: Misc
 
 ## Curious minds to be guided by analytics engineers
 -  A lot of people are only finding doors wedged shut by unnecessary technical requirements.
--  The article above is true enough, but it sidesteps the more fundamental point: _Analytics isn’t primarily technical._ While technical skills are useful, they’re not what separate average analysts from great ones. When someone questions if we’re real engineers, we shouldn’t feel the need to pull out our technical credentials. We should instead say, “So what? That’s not our job.”
+-  The article above is true enough, but it sidesteps the more fundamental point: _Analytics isn’t primarily technical. While technical skills are useful, they’re not what separate average analysts from great ones. When someone questions if we’re real engineers, we shouldn’t feel the need to pull out our technical credentials. We should instead say, “So what? That’s not our job.”
 	-   Why do we feel so insulted when people don’t give us credit for this particular dimension of our job? You can’t be an effective analyst without being able to clearly communicate in emails, written documents, and presentations, but most of us don’t feel a need to be called writers.
 	-   Rather than fighting this claim, we should demand that others judge us against a different yardstick. And that starts with judging ourselves in the same way.
 -  Positioning analytics inside engineering—or, more broadly, emphasizing the technical aspects of analysts’ work—has real effects. It suggests that great analysts need to be, first and foremost, great engineers. (...) I hate this. In so many ways, I hate this.

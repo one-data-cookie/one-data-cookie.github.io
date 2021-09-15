@@ -15,6 +15,8 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 
 * [dbt libraries](https://datacoves.com/dbt-libs)
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
+* Key blog posts
+	* [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/)
 * [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
 * Fundamentals?
 * [Github](https://github.com/fishtown-analytics/dbt)
@@ -41,8 +43,12 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * https://discourse.getdbt.com/t/why-the-fishtown-sql-style-guide-uses-so-many-ctes/1091
 * https://discourse.getdbt.com/t/writing-models-backwards-an-unorthodox-approach-to-data-transformation/2287
 * https://materialize.com/
+* https://hub.getdbt.com/
 * https://hub.getdbt.com/tailsdotcom/dbt_artifacts/latest/
 * https://analyticsengineers.club/
+* [Extra links](https://docs.google.com/document/d/1Fc3OZVVmUx37oSuimupmeRQ28BpTKVg1ix62W_8sSkI/edit#)
+* https://github.com/re-data/re-data
+* https://tellery.io/
 * https://hightouch.io/ (Reverse ETL)
   * • **ETL or Extract, Transform and Load:** data moves from cloud apps to a data warehouse via a robust transformation layer built into the ETL tool
 

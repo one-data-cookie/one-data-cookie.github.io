@@ -4,7 +4,7 @@ title-cs:
 category: analytics-engineering
 tags: [idea]
 season: summer
-dates: [19 Jul 2021, 19 Jul 2021]
+dates: [19 Jul 2021, 17 Aug 2021]
 sources: Misc
 ---
 
@@ -34,11 +34,12 @@ sources: Misc
 - The people who do the work are not any less skilled. And the tools and languages they use are not any less useful because they don’t have features of other languages.
 
 ## Curious minds to be guided by analytics engineers
--  A lot of people are only finding doors wedged shut by unnecessary technical requirements.
--  The article above is true enough, but it sidesteps the more fundamental point: _Analytics isn’t primarily technical. While technical skills are useful, they’re not what separate average analysts from great ones. When someone questions if we’re real engineers, we shouldn’t feel the need to pull out our technical credentials. We should instead say, “So what? That’s not our job.”
+- Described by Benn Stencil in his [Analytics is at a crossroads](https://benn.substack.com/p/analytics-is-at-a-crossroads)
+- A lot of people are only finding doors wedged shut by unnecessary technical requirements.
+- The article above is true enough, but it sidesteps the more fundamental point: _Analytics isn’t primarily technical. While technical skills are useful, they’re not what separate average analysts from great ones. When someone questions if we’re real engineers, we shouldn’t feel the need to pull out our technical credentials. We should instead say, “So what? That’s not our job.”
 	-   Why do we feel so insulted when people don’t give us credit for this particular dimension of our job? You can’t be an effective analyst without being able to clearly communicate in emails, written documents, and presentations, but most of us don’t feel a need to be called writers.
 	-   Rather than fighting this claim, we should demand that others judge us against a different yardstick. And that starts with judging ourselves in the same way.
--  Positioning analytics inside engineering—or, more broadly, emphasizing the technical aspects of analysts’ work—has real effects. It suggests that great analysts need to be, first and foremost, great engineers. (...) I hate this. In so many ways, I hate this.
+- Positioning analytics inside engineering—or, more broadly, emphasizing the technical aspects of analysts’ work—has real effects. It suggests that great analysts need to be, first and foremost, great engineers. (...) I hate this. In so many ways, I hate this.
 1. First, it’s factually wrong. By and large, the hardest and most important problems analysts work on aren’t technical, or even mathematical.
 2. Elevating technical skills also encourages us to not just develop those skills, but to see our value in how well we’re able to apply them.
 3. In some cases, technical skills can even be counterproductive.  Analysts who are technically and statistically proficient tend to do the same, defaulting to overpowered solutions over more elegant—and ultimately more useful—ones.
@@ -47,3 +48,5 @@ sources: Misc
 1. It becomes the barrier between engineering and analytics. Data teams can enthusiastically hire creative historians, sociologists, and political scientists who are exceptional communicators rather than mathematicians who are passable coders. With the help and support of analytics engineers, analysts can learn the technical skills they need and focus on being the curious puzzle solvers they are.
 2. It becomes the bleed. It’s the conjunction that puts analysts and engineers in the same sentence, creating a continuous spectrum from each role to the next. Analysts, once they become technical enough, “graduate” to becoming analytics engineers. Senior analysts aren’t analytical specialists, but data generalists who can be both analyst and engineer. Though analytics engineering widens what we consider to be technical, technical skills are still the ruler by which we measure ourselves.
 - I hope we choose the former path—for ourselves and, more importantly, for the versions of my brother who are looking for open doors, and more than capable of doing the work on the other side of ours.
+- The point of AEs isn’t to trade off the technical knowledge for the analytical skills, but to elevate analysis done by analysts, not self-serve drag and drop madlib stuff.
+- Great analytics engineers need to be good analysts. A really good AE should be `50% AE, 25% analyst, and 25% project manager`. (Both from [here](https://getdbt.slack.com/archives/C02A4CHCD2S/p1628256268037000).)

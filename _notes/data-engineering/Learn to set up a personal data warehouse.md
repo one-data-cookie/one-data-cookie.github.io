@@ -14,15 +14,29 @@ sources: Misc
 * [Build a Slack Dashboard (Part 1): Extracting Data Using Meltano](https://preset.io/blog/2020-09-22-slack-dashboard/)
 * [How to get started with PostgreSQL](https://www.freecodecamp.org/news/how-to-get-started-with-postgresql-9d3bc1dd1b11/)
 * [PostgreSQL Database startup / shutdown /restart](https://www.tutorialdba.com/2019/09/postgresql-database-startup-shutdown.html)
+* [A Simple Analytics Project Using Airflow, dbt and Superset](https://datajaffa.com/blog/end-to-end-analytics-project/)
+* [Running Airflow on Heroku](https://medium.com/@damesavram/running-airflow-on-heroku-ed1d28f8013d)
+	* [Using Docker to explore Airflow and other open source projects](https://medium.com/@segal.levi/using-docker-to-explore-airflow-and-other-open-source-projects-e6349ffadf5a)
+	* [Running Airflow locally to schedule tasks](https://towardsdatascience.com/your-live-covid-19-tracker-with-airflow-and-github-pages-658c3e048304)
+	* [Getting started with Airflow locally and remotely](https://towardsdatascience.com/getting-started-with-airflow-locally-and-remotely-d068df7fcb4)
+* [Running Superset on Heroku](https://chizurumolorondu.medium.com/setting-up-apache-superset-on-heroku-b547302f600e)
+	* [Heroku Template 1](https://github.com/zi-nt/superset-on-heroku), [2](https://github.com/dugjason/superset-on-heroku)
+* [Airbyte vs Meltano](https://www.preset.io/blog/2021-4-22-data-integration-tooling/)
+	* [Building an Open-source Ingestion Layer with Airbyte](https://preset.io/blog/building-an-open-source-ingestion-layer-with-airbyte/), [Ingestion with Airbyte: A Guided Tutorial](https://preset.io/blog/ingestion-with-airbyte-a-guided-tutorial/)
+* [Trino SQL](https://preset.io/blog/2021-6-22-trino-superset/), [PrestoDB vs PrestoSQL, i.e. Presto vs Trino](https://www.starburst.io/learn/open-source-presto/prestosql-and-prestodb/)
 
 ## Code
+- *data stack:* PostgreSQL, Meltano, dbt, Superset
 
 ```shell
 ### PostgreSQL
 # brew install postgresql
 # postgres --version
 pg_ctl -D /usr/local/var/postgres start
-psql postgres # michal, pw:"admin"
+# - for error running it
+# ps ax | grep postmaster ## finds the running task
+# sudo kill INT ## kill the process
+psql -U postgres # postgres, pw:"admin"
 create database ds4fnp;
 create user ds4fnp with password 'ds4fnp';
 grant all privileges on database ds4fnp to ds4fnp;
@@ -91,6 +105,14 @@ pg_ctl -D /usr/local/var/postgres stop
 * [x] Move Github from GDrive to michal
 * [x] Test one last time from scratch
 * [x] Commit
-* [ ] Play around with Airflow and dockerisation
-	* [ ] Myself: wait for a follow-up article in a few weeks (or research)
-	* [ ] Meltano: wait for integrations in July
+* [ ] Play around with:
+	* BigQuery
+	* Airflow
+	* Metriql
+	* Dockerisation
+	* Airbyte, Trino
+
+## Notes
+- What might be worth waiting for
+	* A follow-up article on ds4np
+	* Meltano: new integrations in July (?)

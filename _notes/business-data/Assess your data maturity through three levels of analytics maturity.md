@@ -1,7 +1,7 @@
 ---
 title: Assess your data maturity through three levels of analytics maturity
 title-cs: 
-category: business-date
+category: business-data
 tags: [idea]
 season: spring
 dates: [23 Jun 2021, 23 Jun 2021]

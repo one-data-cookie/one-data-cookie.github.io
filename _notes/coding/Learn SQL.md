@@ -12,3 +12,4 @@ sources: Misc
 * [Trino](https://trino.io/)
   * Trino, a SQL query engine that runs at ludicrous speed. Used to be PrestoSQL.
 * [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
+* Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.

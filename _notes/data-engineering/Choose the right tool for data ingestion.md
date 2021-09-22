@@ -1,5 +1,5 @@
 ---
-title: Choose the right alternative for data ingestion
+title: Choose the right tool for data ingestion
 title-cs: 
 category: data-engineering
 tags: [tools]

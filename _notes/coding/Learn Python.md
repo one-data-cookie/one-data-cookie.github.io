@@ -15,3 +15,9 @@ sources: Misc
 * [Learn Python The Hard Way, 3rd Edition.pdf](/assets/src/Learn-Python-The-Hard-Way.pdf)
 
 ![](/assets/src/r-vs-python.png)
+
+## Snippets
+- Find out available versions for `pip` package:
+```
+pip install package==
+```

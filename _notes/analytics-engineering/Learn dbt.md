@@ -15,6 +15,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 
 * [dbt libraries](https://datacoves.com/dbt-libs)
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
+* [Paid course](https://corise.com/course/analytics-engineering-with-dbt)
 * Key blog posts
 	* [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/)
 * [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)

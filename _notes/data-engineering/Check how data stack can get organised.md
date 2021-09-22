@@ -1,10 +1,10 @@
 ---
-title: Check how DWH can get organised
+title: Check how data stack can get organised
 title-cs: 
 category: data-engineering
 tags: [idea]
 season: spring
-dates: [15 Sep 2021, 15 Sep 2021]
+dates: [15 Sep 2021, 22 Sep 2021]
 sources: https://blockblogfr.blogspot.com/2020/10/emerging-architectures-for-modern-data.html
 ---
 

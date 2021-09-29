@@ -13,3 +13,4 @@ sources:
 ## Solution(s)
 * [Tellery](https://tellery.io/)
 * [Evidence](https://www.evidence.dev/)
+	* [Template](https://github.com/evidence-dev/template)

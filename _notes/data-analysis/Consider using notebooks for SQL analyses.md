@@ -11,3 +11,4 @@ sources: Misc
 - [Evidence](https://www.evidence.dev/)
 - [Tellery](https://tellery.io/)
 - [Husprey](https://www.husprey.com/)
+- [Deepnote](https://deepnote.com/)

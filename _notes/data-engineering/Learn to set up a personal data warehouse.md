@@ -4,7 +4,7 @@ title-cs:
 category: data-engineering
 tags: [learn]
 season: spring
-dates: [04 Apr 2021, 22 Sep 2021]
+dates: [04 Apr 2021, 29 Sep 2021]
 sources: Misc
 ---
 
@@ -15,6 +15,7 @@ sources: Misc
 * [Data Stacks For Fun & Nonprofit — Part III](https://towardsdatascience.com/data-stacks-for-fun-nonprofit-part-iii-dcfd46da9f9f)
 * [A Simple Analytics Project Using Airflow, dbt and Superset](https://datajaffa.com/blog/end-to-end-analytics-project/)
 * [Startup analytics 101: from seed to scale](https://blog.flockcover.com/startup-analytics-101-from-seed-to-scale-b8f47d691ade)
+* [Open Source Data Stack Conference](https://www.opensourcedatastack.com/)
 
 ## Hosting
 * [Hosting web apps for free](https://blog.patricktriest.com/host-webapps-free/)

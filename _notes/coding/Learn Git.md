@@ -4,7 +4,7 @@ title-cs: Nauč se Git
 category: coding
 tags: [learn, git]
 season: spring
-dates: [13 Feb 2021, 3 Apr 2021]
+dates: [13 Feb 2021, 3 Oct 2021]
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -31,19 +31,23 @@ git add .
 git commit -m ".gitignore is now working"
 ```
 
-* Create repo from scratch through this `init.sh` script, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br), which can be run through `sh init.sh repo-name` from directory (or `./init.sh repo-name` if you run `chmod u+x init.sh` first)
+* Create repo from scratch through this `init.sh` script, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br), which can be run through `sh init.sh repo-name` from directory (or better still `./init.sh repo-name` if you run `chmod u+x init.sh` first)
 
-```
+```shell
 #!/bin/zsh
+
 mkdir $1
 cd $1
+
+if [ "$2" = "--p" ] ; then
+    python3 -m venv .venv
+	source .venv/bin/activate
+fi
+
 git init
 gh repo create $1
 git pull origin main --rebase
 touch README.md
-git add .
-git commit -m 'Initial commit'
-git push origin main
 atom ./
 ```
 

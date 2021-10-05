@@ -4,7 +4,7 @@ title-cs: Nauč se Python
 category: coding
 tags: [learn, python]
 season: autumn
-dates: [21 Feb 2021, 21 Feb 2021]
+dates: [21 Feb 2021, 03 Oct 2021]
 sources: Misc
 ---
 
@@ -18,6 +18,11 @@ sources: Misc
 
 ## Snippets
 - Find out available versions for `pip` package:
-```
+```bash
 pip install package==
+```
+
+- Check the list of packages installed, incl. their versions
+```bash
+pip freeze
 ```

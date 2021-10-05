@@ -4,8 +4,9 @@ title-cs:
 category: data-analysis
 tags: [idea, process]
 season: winter
-dates: [04 Oct 2020, 03 Jan 2021]
+dates: [04 Oct 2020, 06 Oct 2021]
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 
+If there is a way to describe data analysis workflow in a diagram, this would be it:
 ![](/assets/src/data-analysis-workflow.png)

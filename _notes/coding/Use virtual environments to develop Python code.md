@@ -4,7 +4,7 @@ title-cs:
 category: coding
 tags: [idea, python]
 season: spring
-dates: [04 Apr 2021, 04 Apr 2021]
+dates: [04 Apr 2021, 03 Oct 2021]
 sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0, https://towardsdatascience.com/venvs-pyenvs-pipenvs-oh-my-2411149e2f43
 ---
 
@@ -25,14 +25,16 @@ sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment
 ### `venv`
 ```shell
 # create a python3 environment within "env" folder
-$ python3 -m venv env
+$ python3 -m venv .venv
 
 # activate the environment
-$ source env/bin/activate
+$ source .venv/bin/activate
 
 # deactivate the environment
 $ deactivate
 ```
+
+- Make sure it correctly points to the distribution in your virtual environment, and not your global distribution, via `which python` and `which pip`. If it doesn't work well, you can always make sure you use the right one by specifying the path to `pip` and/or `python` when calling them, e.g. `./.venv/bin/pip3 list`.
 
 ### `pyenv`
 * Used to isolate Python versions within your machine.

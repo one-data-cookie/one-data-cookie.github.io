@@ -4,7 +4,7 @@ title-cs:
 category: public-data
 tags: [tutorial, dataset]
 season: summer
-dates: [03 Jan 2021, 03 Feb 2021]
+dates: [03 Jan 2021, 05 Oct 2021]
 sources: Misc
 ---
 
@@ -23,10 +23,12 @@ sources: Misc
 ## Czechia
 * [Portál otevřených dat České republiky](https://data.gov.cz/)
 	* Open Data Portal and National Catalog of Open Data of the Czech Republic.
+* [Český statistický úřad](https://www.czso.cz/)
+	* The CZSO acquires and compiles statistical information on the social, economic, demographic, and environmental development in Czechia and provides and publishes data thereto.
 * [Agentura ochrany přírody a krajiny ČR](https://gis-aopkcr.opendata.arcgis.com/)
 	* The Agency for Nature and Landscape Protection of the Czech Republic is opening its data for you. Explore Czech nature through data with them.
 * [Soubor správních hranic a hranic katastrálních území ČR](https://geoportal.cuzk.cz/(S(m1uwhmxw050u2bm2abneexph))/Default.aspx?mode=TextMeta&side=dSady_RUIAN&metadataID=CZ-CUZK-SH-V&mapid=5&head_tab=sekce-02-gp&menu=252)
-	* Follow [[../dataviz/Change encoding of Czech spatial files\|this article]] to make sure it works well in #tableau.  
+	* Follow [[Change encoding of Czech spatial files\|this article]] to make sure it works well in #tableau.  
 * [data.Brno](https://data.brno.cz/)
 	* All the data about the city of Brno you can think of.
 * [Otevřená data PID](https://pid.cz/o-systemu/opendata/)

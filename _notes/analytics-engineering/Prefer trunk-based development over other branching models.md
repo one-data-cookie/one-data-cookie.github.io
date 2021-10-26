@@ -9,7 +9,7 @@ sources: https://trunkbaseddevelopment.com/
 ---
 
 ### One-line summary
-A source-control branching model, where developers collaborate on code in a single branch called ‘trunk’^[_main_ or _master_, in Git nomenclature], resist any pressure to create other long-lived development branches by employing documented techniques. They therefore avoid merge hell, do not break the build, and live happily ever after.
+A source-control branching model, where developers collaborate on code in a single branch called ‘trunk’[^1], resist any pressure to create other long-lived development branches by employing documented techniques. They therefore avoid merge hell, do not break the build, and live happily ever after.
 
 ### Claims
 -   You should do Trunk-Based Development instead of GitFlow and other branching models that feature multiple long-running branches
@@ -25,3 +25,5 @@ A source-control branching model, where developers collaborate on code in a sing
 * Trunk-Based Development is a key enabler of [Continuous Integration](https://trunkbaseddevelopment.com/continuous-integration/) and by extension [Continuous Delivery](https://trunkbaseddevelopment.com/continuous-delivery/). (...) [It] ensures the codebase is always releasable on demand and helps to make Continuous Delivery a reality.
 * The largest of development organizations, like Google (as mentioned) and Facebook practice it at scale.
 * Very similar to [GitHub flow](https://trunkbaseddevelopment.com/alternative-branching-models/index.html#modern-claimed-high-throughput-branching-models)
+
+ [^1]: _main_ or _master_, in Git nomenclature]

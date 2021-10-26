@@ -2,7 +2,7 @@
 title: Tips from TTT
 category: dataviz
 tags: [tips]
-season: autumn 
+season: autumn
 ---
 
 ![](/assets/src/ttt.jpeg)

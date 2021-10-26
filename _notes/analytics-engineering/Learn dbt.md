@@ -4,7 +4,7 @@ title-cs: Nauč se dbt
 category: analytics-engineering
 tags: [learn, dbt]
 season: autumn
-dates: [21 Feb 2021, 26 Jul 2021]
+dates: [21 Feb 2021, 25 Oct 2021]
 sources: Misc
 ---
 
@@ -13,7 +13,9 @@ sources: Misc
    -
 https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 
+* It's a [framework](https://getdbt.slack.com/archives/C0VLNUUTZ/p1635277360079300?thread_ts=1635273939.075700&cid=C0VLNUUTZ).
 * [dbt libraries](https://datacoves.com/dbt-libs)
+* [A curated list of awesome dbt resources](https://github.com/Hiflylabs/awesome-dbt)
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
 * [Paid course](https://corise.com/course/analytics-engineering-with-dbt)
 * Key blog posts
@@ -49,7 +51,9 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * https://analyticsengineers.club/
 * [Extra links](https://docs.google.com/document/d/1Fc3OZVVmUx37oSuimupmeRQ28BpTKVg1ix62W_8sSkI/edit#)
 * https://github.com/re-data/re-data
+* [Refactoring SQL for Modularity](https://courses.getdbt.com/courses/refactoring-sql-for-modularity)
 * https://tellery.io/
+* https://astorik.com/
 * https://hightouch.io/ (Reverse ETL)
   * • **ETL or Extract, Transform and Load:** data moves from cloud apps to a data warehouse via a robust transformation layer built into the ETL tool
 
@@ -66,7 +70,7 @@ What if you could actually implement your data pipelines as a graph of materiali
 
 Taken far enough, the promise of such an idea would be to build a _declarative data lake_, where the code that manages the lake focuses more on defining _what_ the datasets are and less on _how_ to mechanically build or update them.
 
-The ideas presented in this post are not new. But materialized views never saw widespread adoption as a primary tool for building data pipelines, likely due to their [limitations](https://stackoverflow.com/a/25642149/877069)^[No support of progressive / partial updates.] and ties to relational database technologies. Perhaps with this new wave of tools like dbt and Materialize we’ll see materialized views used more heavily as a primary building block in the typical data pipeline.
+The ideas presented in this post are not new. But materialized views never saw widespread adoption as a primary tool for building data pipelines, likely due to their [limitations of no support of progressive / partial updates](https://stackoverflow.com/a/25642149/877069), and ties to relational database technologies. Perhaps with this new wave of tools like dbt and Materialize we’ll see materialized views used more heavily as a primary building block in the typical data pipeline.
 
 https://nchammas.com/writing/data-pipeline-materialized-view
 
@@ -76,7 +80,7 @@ https://nchammas.com/writing/data-pipeline-materialized-view
 {%- raw -%}
 ```
 {%- set my_query -%}
-SELECT distinct {{pivot_column}}  FROM {{my_table}} ;
+SELECT distinct {{pivot_column}} FROM {{my_table}} ;
 {%- endset -%}
 {%- set results = run_query(my_query) -%}
 {%- if execute -%}

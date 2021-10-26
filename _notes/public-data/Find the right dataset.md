@@ -4,7 +4,7 @@ title-cs:
 category: public-data
 tags: [tutorial, dataset]
 season: summer
-dates: [03 Jan 2021, 05 Oct 2021]
+dates: [03 Jan 2021, 25 Oct 2021]
 sources: Misc
 ---
 
@@ -19,6 +19,8 @@ sources: Misc
 	* Explore, analyze, and share quality data.
 * [Rejustify](https://rejustify.com/)
 	* The first AI-enhanced ETL tool; find and merge data from multiple sources, and prepare your data set in few clicks.
+* [Index of Open Data](https://docs.google.com/spreadsheets/d/1KzZ1h9q3pdjUUyO12N6zUgOazMJXtx4Gye8JsEkah2I/edit#gid=787854630)
+	* Spreadsheet with various links to open data, curated by Data4Change.
 
 ## Czechia
 * [Portál otevřených dat České republiky](https://data.gov.cz/)

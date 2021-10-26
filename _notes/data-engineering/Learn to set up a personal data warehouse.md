@@ -4,7 +4,7 @@ title-cs:
 category: data-engineering
 tags: [learn]
 season: spring
-dates: [04 Apr 2021, 29 Sep 2021]
+dates: [04 Apr 2021, 25 Oct 2021]
 sources: Misc
 ---
 
@@ -16,6 +16,7 @@ sources: Misc
 * [A Simple Analytics Project Using Airflow, dbt and Superset](https://datajaffa.com/blog/end-to-end-analytics-project/)
 * [Startup analytics 101: from seed to scale](https://blog.flockcover.com/startup-analytics-101-from-seed-to-scale-b8f47d691ade)
 * [Open Source Data Stack Conference](https://www.opensourcedatastack.com/)
+* [Gaining insights on my workout data with Apache Superset](https://marcel-jan.eu/datablog/2021/10/24/gaining-insights-on-my-workout-data-with-apache-superset/)
 
 ## Hosting
 * [Hosting web apps for free](https://blog.patricktriest.com/host-webapps-free/)
@@ -36,6 +37,7 @@ sources: Misc
 ### Meltano
 * [Airbyte vs Meltano](https://www.preset.io/blog/2021-4-22-data-integration-tooling/)
 * [Build a Slack Dashboard (Part 1): Extracting Data Using Meltano](https://preset.io/blog/2020-09-22-slack-dashboard/)
+* [Meltano Labs](https://github.com/MeltanoLabs)
 
 ### Airbyte
 * [Airbyte vs Meltano](https://www.preset.io/blog/2021-4-22-data-integration-tooling/)

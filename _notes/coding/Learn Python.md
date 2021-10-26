@@ -4,7 +4,7 @@ title-cs: Nauč se Python
 category: coding
 tags: [learn, python]
 season: autumn
-dates: [21 Feb 2021, 03 Oct 2021]
+dates: [21 Feb 2021, 25 Oct 2021]
 sources: Misc
 ---
 
@@ -13,6 +13,7 @@ sources: Misc
 * [pythonji](https://github.com/gahjelle/pythonji)
 	* Write Python with emojis
 * [Learn Python The Hard Way, 3rd Edition.pdf](/assets/src/Learn-Python-The-Hard-Way.pdf)
+* [Jupyter Samples](https://github.com/ibm-et/jupyter-samples)
 
 ![](/assets/src/r-vs-python.png)
 
@@ -25,4 +26,12 @@ pip install package==
 - Check the list of packages installed, incl. their versions
 ```bash
 pip freeze
+```
+
+- Pretty JSON in JupyterLab:
+```python
+import json
+from IPython.display import JSON
+
+JSON(json.loads('{"map": 1}'))
 ```

@@ -2,7 +2,7 @@
 title: Find out about Redshift's impact on modern data stack 
 title-cs: Redshift v roce 2012 způsobil změnu v data stacku. Dalších 5 let lze očekávat další velké změny
 category: data-engineering
-tags: [idea, data-stack]
+tags: [idea, mds, history]
 season: spring
 dates: [19 Dec 2020, 22 Feb 2021]
 sources: https://blog.getdbt.com/future-of-the-modern-data-stack/

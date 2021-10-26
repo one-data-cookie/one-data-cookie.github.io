@@ -60,3 +60,6 @@ git log --pretty=oneline
 ```
 git cherry-pick
 ```
+
+## Links
+- Learn from Mrshu [here](https://talks.mareksuppa.com/2020/linux-cli-11-git/) and [here](https://mareksuppa.com/teaching/linux-cli/2020/#lecture-11-git)

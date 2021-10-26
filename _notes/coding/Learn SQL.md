@@ -22,4 +22,4 @@ sources: Misc
 * [How to use Jinja templating for SQL in Python](https://geoffruddock.com/sql-jinja-templating/):
 	-  `from jinja2 import Template`
 	- Combine minus signs on the start of the opening block and the start of the ending block.
-	- Since we now have a nested loop, we need to keep track of two indices. We can do this by using the block `{% set outer_loop = loop %}` to assign the outer loop to a new variable `outer_loop` before it is “replaced” by the inner loop.
+	- Since we now have a nested loop, we need to keep track of two indices. We can do this by using the block {%- raw -%}`{% set outer_loop = loop %}`{%- endraw -%} to assign the outer loop to a new variable `outer_loop` before it is “replaced” by the inner loop.

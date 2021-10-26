@@ -87,7 +87,7 @@ SELECT distinct {{pivot_column}} FROM {{my_table}} ;
 {%- set items = results.columns[0].values() -%}
 {%- endif %}
 ```
-{% endraw %}
+{%- endraw -%}
 
 Jinja uses a run_query() function, which executes SQL and returns a result object. Using the result object properties, we obtain a distinct list of column values as an array which we can then assign to a variable for subsequent use.
 

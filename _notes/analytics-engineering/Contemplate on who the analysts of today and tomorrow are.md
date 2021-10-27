@@ -36,7 +36,7 @@ sources: Misc
 ## Curious minds to be guided by analytics engineers
 - Described by Benn Stencil in his [Analytics is at a crossroads](https://benn.substack.com/p/analytics-is-at-a-crossroads)
 - A lot of people are only finding doors wedged shut by unnecessary technical requirements.
-- The article above is true enough, but it sidesteps the more fundamental point: _Analytics isn’t primarily technical. While technical skills are useful, they’re not what separate average analysts from great ones. When someone questions if we’re real engineers, we shouldn’t feel the need to pull out our technical credentials. We should instead say, “So what? That’s not our job.”
+- The article above is true enough, but it sidesteps the more fundamental point: _Analytics isn’t primarily technical. While technical skills are useful, they’re not what separate average analysts from great ones. When someone questions if we’re real engineers, we shouldn’t feel the need to pull out our technical credentials. We should instead say, “So what? That’s not our job.”_
 	-   Why do we feel so insulted when people don’t give us credit for this particular dimension of our job? You can’t be an effective analyst without being able to clearly communicate in emails, written documents, and presentations, but most of us don’t feel a need to be called writers.
 	-   Rather than fighting this claim, we should demand that others judge us against a different yardstick. And that starts with judging ourselves in the same way.
 - Positioning analytics inside engineering—or, more broadly, emphasizing the technical aspects of analysts’ work—has real effects. It suggests that great analysts need to be, first and foremost, great engineers. (...) I hate this. In so many ways, I hate this.

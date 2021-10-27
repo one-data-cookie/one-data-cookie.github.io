@@ -26,4 +26,4 @@ A source-control branching model, where developers collaborate on code in a sing
 * The largest of development organizations, like Google (as mentioned) and Facebook practice it at scale.
 * Very similar to [GitHub flow](https://trunkbaseddevelopment.com/alternative-branching-models/index.html#modern-claimed-high-throughput-branching-models)
 
- [^1]: _main_ or _master_, in Git nomenclature]
+ [^1]: _main_ or _master_, in Git nomenclature

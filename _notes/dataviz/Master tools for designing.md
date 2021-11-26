@@ -130,3 +130,6 @@ sources: Misc
 	 *  Figma helps teams create, test, and ship better designs from start to finish; making it amazing for UX designs.
  * [Piktochart](https://piktochart.com/)
 	* Quickly turn any text- or data-heavy content into a stunning report, presentation, infographic, social media graphic, or printable.
+
+## Style Guides
+* [Cody Ogden](https://style.codyogden.com/)

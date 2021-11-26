@@ -4,11 +4,17 @@ title-cs:
 category: dataviz
 tags: [tutorial, font]
 season: autumn
-dates: [08 Jan 2021, 08 Jan 2021]
+dates: [08 Jan 2021, 10 Nov 2021]
 sources: https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/
 ---
 
 Before you choose a cool font, keep [this](https://www.flerlagetwins.com/2020/08/fonts.html) in mind.
+
+---
+# My Sans fonts tips
+- [Public Sans](https://fonts.google.com/specimen/Public+Sans)
+- [Inter](https://fonts.google.com/specimen/Inter)
+- [Work Sans](https://fonts.google.com/specimen/Work+Sans)
 
 ---
 # For numbers

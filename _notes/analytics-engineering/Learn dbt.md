@@ -14,6 +14,8 @@ sources: Misc
 https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 
 * It's a [framework](https://getdbt.slack.com/archives/C0VLNUUTZ/p1635277360079300?thread_ts=1635273939.075700&cid=C0VLNUUTZ).
+* https://github.com/slve/dbt-github-workflow
+* [Cheat Sheet](https://github.com/erika-e/dbt-tips)
 * [dbt libraries](https://datacoves.com/dbt-libs)
 * [A curated list of awesome dbt resources](https://github.com/Hiflylabs/awesome-dbt)
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
@@ -54,6 +56,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * [Refactoring SQL for Modularity](https://courses.getdbt.com/courses/refactoring-sql-for-modularity)
 * https://tellery.io/
 * https://astorik.com/
+* https://github.com/fal-ai/fal
 * https://hightouch.io/ (Reverse ETL)
   * • **ETL or Extract, Transform and Load:** data moves from cloud apps to a data warehouse via a robust transformation layer built into the ETL tool
 

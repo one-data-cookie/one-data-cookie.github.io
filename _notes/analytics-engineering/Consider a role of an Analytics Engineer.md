@@ -13,7 +13,7 @@ The full context of analytics engineering is to be found in [The Analytics Engin
 ---
 
 Three roles in one:
-![](/assets/src/three-data-roles.png)
+![](../../assets/src/three-data-roles.png)
 
 ---
 
@@ -71,7 +71,7 @@ So instead of churning out monthly Excel reports, Sagar's job is now to:
 
 -- [Source](https://blog.getdbt.com/the-four-priorities-of-an-analytics-team-of-one-lessons-from-lola-com/)
 
---- 
+---
 They have more engineering skills than your average analyst and are more curious to solve analytical business questions than your average data engineer.
 
 An analytics engineer is a technical analyst that applies software engineering best practices to the production and maintenance of analytics code. The analytics engineering workflow cleans and transforms raw data into consumable information and business logic. In the process, the analytics engineering workflow tests data to ensure it is of high quality, documents all business logic, and ensures data models are running reliably in a production environment.

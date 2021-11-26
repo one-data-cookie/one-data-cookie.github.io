@@ -2,7 +2,7 @@
 title: Tips on Data Journalism
 category: dataviz
 tags: [tips]
-season: autumn 
+season: autumn
 ---
 
 ---
@@ -15,7 +15,7 @@ Data Journalism with Nassos Stylianou, 29 Jan 2018
 
 [http://nassosstylianou.com/presentations/working-in-data-journalism/](http://nassosstylianou.com/presentations/working-in-data-journalism/)
 
-![[data-journalism-notes.jpeg]]
+![](../../assets/data-journalism-notes.jpeg)
 
 ---
 

@@ -6,7 +6,7 @@ season: autumn
 ---
 
 * [DATA + DESIGN](https://trinachi.github.io/data-design-builds/titlepage01.html)
-	* A simple introduction to preparing and visualizing information
+  * A simple introduction to preparing and visualizing information
 
 * [DVS Articles on Nightingale](https://docs.google.com/spreadsheets/d/1tSOvfSjXdBRtTS2EN0a7NfMBs0T_uKUNYRlBM_Xm2yw/edit#gid=0)
 
@@ -23,8 +23,8 @@ Data Visualisations
 [](https://www.visualcinnamon.com/resources/learning-data-visualization/books#show-me-the-numbers)[The Visual Display of Quantitative Information](https://www.amazon.co.uk/Visual-Display-Quantitative-Information/dp/1930824130/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1537659225&sr=8-1)
 [](https://www.amazon.com/gp/product/1119002257?ie=UTF8&creativeASIN=1119002257&linkCode=xm2&tag=storytellingwithdata-20)A. Cairo: [https://www.amazon.co.uk/Functional-Art-introduction-information-visualization-ebook/dp/B0091SXDOM](https://www.amazon.co.uk/Functional-Art-introduction-information-visualization-ebook/dp/B0091SXDOM)
 Other ideas: [http://www.vizwiz.com/2016/05/12-books-every-great-data-analyst.html](http://www.vizwiz.com/2016/05/12-books-every-great-data-analyst.html)
-![[books-1.png]]
-![[books-2.png]]
+![](../../assets/books-1.png)
+![](../../assets/books-2.png)
 
 ---
 

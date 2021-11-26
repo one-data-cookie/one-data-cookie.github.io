@@ -2,7 +2,7 @@
 title: Tips from The Visual Display of Quantitative Information
 category: dataviz
 tags: [tips]
-season: autumn 
+season: autumn
 ---
 
 **Main Idea of the Book**
@@ -15,27 +15,27 @@ Graphical excellence is the well-designed presentation of interesting data – a
 Graphical excellence consists of complex idea communicated with clarity, precision, and efficiency.
 Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest place.
 
-![[tufte3.png]]
+![](../../assets/tufte3.png)
 Graphical excellence is almost always multivariate.
-Graphical excellence requires telling the truth about data. 
+Graphical excellence requires telling the truth about data.
 
 *   _"A silly theory means a silly graphic."_
 *   Data Maps: Flow graphs within maps:
 
- ![[tufte1.png]]
+![](../../assets/tufte1.png)
 
 *   Time-Series: _"Time-series displays are at their best for big data sets with real variability. Why waste the power of data graphics on simple linear changes."_
-*   Time-Series, genious: 
+*   Time-Series, genious:
 
-![[tufte2.png]]
+![](../../assets/tufte2.png)
 
 *   Time-Series: _"The problem with time-series is that the simple passage of time is not a good explanatory variable: descriptive chronology is not causal explanation.":_
 
-![[tufte5.png]]
+![](../../assets/tufte5.png)
 
 *   Narrative Graphics of Space and Time: _"An especially effective device for enhancing the explanatory power of time-series displays is to add spatial dimensions to the design of the graphic, so that the data are moving over space (in two or three dimensions) as well as over time.":_
 
-![[tufte.png]]
+![](../../assets/tufte.png)
 
 *   Narrative Graphics of Space and Time: _"Small multiples are economical: once viewers understand the design of one slice, they have immediate access to the data in all other slices."_
 *   Relational Graphics: _"The relational graphics – in its barest form, the scatterplot and its variants – is the greatest of all graphical designs."_
@@ -50,13 +50,13 @@ Graphical integrity is more likely to result if these six principles are followe
 5.  The number of information-carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
 6.  Graphics must not quote data out of context.
 
-*   James Thurber, Further Fables for Our Time (New York, 1956): _"Get it right or let it alone._ _The conclusion you jump to may be your own."_ 
+*   James Thurber, Further Fables for Our Time (New York, 1956): _"Get it right or let it alone._ _The conclusion you jump to may be your own."_
 *   Distortion in Data Graphic:
-    
+
     *   _"A_ _graphic does not distort if the visual representation of the data is_ _consistent with the numerical representation."_
     *   _"__The special power of graphics_ _comes in the display of large data sets."_
     *   _"The representation of numbers, as physically_ _measured on the surface of the graphic itself,_ _should be directly proportional to the numerical_ _quantities represented."_
-    
+
     *   _"Clear, detailed, and thorough labelling should be_ _used to defeat graphical distortion and ambiguity._ _Write out explanations of the data on the_ _graphic itself. Label important events in the data."_
     *   _"It is wrong to distort the data measures – the_ _locating values of numbers – in order to make an editorial_ _comment or fit a decorative scheme"_
 *   Design and Data Variation:
@@ -78,7 +78,7 @@ Graphical competence demands three quite different skills: the substantive, stat
 
 *   Brno in the book:
 
-![[tufte4.png]]
+![](../../assets/tufte4.png)
 
 Part II: Theory of Data Graphics
 
@@ -88,4 +88,3 @@ Part II: Theory of Data Graphics
 
     Created: 2019-02-16T18:23:31+01:00
     Updated: 2019-02-16T19:47:24+01:00
-    

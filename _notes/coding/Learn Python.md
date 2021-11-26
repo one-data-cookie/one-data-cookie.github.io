@@ -11,11 +11,11 @@ sources: Misc
 * [Quora Discussion](https://www.quora.com/How-should-I-start-learning-Python-1)
 * [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
 * [pythonji](https://github.com/gahjelle/pythonji)
-	* Write Python with emojis
-* [Learn Python The Hard Way, 3rd Edition.pdf](/assets/src/Learn-Python-The-Hard-Way.pdf)
+  * Write Python with emojis
+* [Learn Python The Hard Way, 3rd Edition.pdf](../../assets/src/Learn-Python-The-Hard-Way.pdf)
 * [Jupyter Samples](https://github.com/ibm-et/jupyter-samples)
 
-![](/assets/src/r-vs-python.png)
+![](../../assets/src/r-vs-python.png)
 
 ## Snippets
 - Find out available versions for `pip` package:

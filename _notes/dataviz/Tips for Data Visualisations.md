@@ -2,7 +2,7 @@
 title: Tips for Data Visualisations
 category: dataviz
 tags: [tips]
-season: autumn 
+season: autumn
 ---
 
 # Tips for Data Visualisations
@@ -17,7 +17,6 @@ Data Tools
     *   [https://www.quora.com/How-do-I-learn-D3-js-What-is-its-background-What-is-it-How-does-it-work-Do-you-need-any-software-What-are-the-best-resources-to-learn](https://www.quora.com/How-do-I-learn-D3-js-What-is-its-background-What-is-it-How-does-it-work-Do-you-need-any-software-What-are-the-best-resources-to-learn)
     *   [https://d3js.org/](https://d3js.org/)
 *   R Shiny Dashboards
-*   [[Apache Superset|Apache Superset]]
 
 General Tips
 
@@ -72,20 +71,20 @@ Documents
 [https://policyviz.com/2014/09/09/graphic-continuum/](https://policyviz.com/2014/09/09/graphic-continuum/)
 [https://www.vizwiz.com/2018/07/visual-vocabulary.html](https://www.vizwiz.com/2018/07/visual-vocabulary.html)
 
-![[colorwheel.png]]
+![](../../assets/colorwheel.png)
 
-![[colours-in-culture.png]]
+![](../../assets/colours-in-culture.png)
 
 [[data-viz-links.pdf | Data Viz Links.pdf]]
 
-![[graphic-continuum.png]]
-![[chart-suggestions.jpeg]]
-![[graphic-continuum2.jpeg]]
+![](../../assets/graphic-continuum.png)
+![](../../assets/chart-suggestions.jpeg)
+![](../../assets/graphic-continuum2.jpeg)
 * Could be bought as a poster [here](https://policyviz.com/product/graphic-continuum-poster/)
 
-![[ft-poster.png]]
+![](../../assets/ft-poster.png)
 
-![[dataviz-cheatsheet.png]]
+![](../../assets/dataviz-cheatsheet.png)
 
 ---
 

@@ -25,4 +25,4 @@ Data infrastructure is undergoing rapid, fundamental changes at an architectural
 - matura data science (pandas, numpy)
 - operational ML/AI
 
-![](/assets/src/data-infra.png)
+![](../../assets/src/data-infra.png)

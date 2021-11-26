@@ -4,7 +4,7 @@ title-cs: Nauč se Git
 category: coding
 tags: [learn, git]
 season: spring
-dates: [13 Feb 2021, 3 Oct 2021]
+dates: [13 Feb 2021, 26 Nov 2021]
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -63,3 +63,4 @@ git cherry-pick
 
 ## Links
 - Learn from Mrshu [here](https://talks.mareksuppa.com/2020/linux-cli-11-git/) and [here](https://mareksuppa.com/teaching/linux-cli/2020/#lecture-11-git)
+- Use Git in Python using [GitPython](https://github.com/gitpython-developers/GitPython)

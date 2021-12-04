@@ -4,7 +4,7 @@ title-cs:
 category: data-engineering
 tags: [learn]
 season: spring
-dates: [04 Apr 2021, 25 Oct 2021]
+dates: [04 Apr 2021, 04 Dec 2021]
 sources: Misc
 ---
 
@@ -58,8 +58,10 @@ sources: Misc
 * [SQL functions](https://cloud.google.com/bigquery/docs/reference/standard-sql/syntax)
 
 ### PostgreSQL
+* [How to log into a Postgresql database](https://alvinalexander.com/blog/post/postgresql/log-in-postgresql-database/)
 * [How to get started with PostgreSQL](https://www.freecodecamp.org/news/how-to-get-started-with-postgresql-9d3bc1dd1b11/)
 * [PostgreSQL Database startup / shutdown /restart](https://www.tutorialdba.com/2019/09/postgresql-database-startup-shutdown.html)
+* [psql docs](https://www.postgresql.org/docs/9.2/app-psql.html)
 * [PostgreSQL on Heroku](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1)
 	* Only 10K rows, 1GB storage; otherwise $9/mo; see [pricing](https://elements.heroku.com/addons/heroku-postgresql)
 
@@ -84,7 +86,10 @@ pg_ctl -D /usr/local/var/postgres start
 # - for error running it
 # ps ax | grep postmaster ## finds the running task
 # sudo kill INT ## kill the process
-psql -U postgres # postgres, pw:"admin"
+#
+# log_min_messages = error in postgres.conf
+# to remove warnings
+psql -d postgres michal -W # michal, pw:"admin"
 create database ds4fnp;
 create user ds4fnp with password 'ds4fnp';
 grant all privileges on database ds4fnp to ds4fnp;
@@ -138,7 +143,7 @@ pip install apache-superset
 superset db upgrade
 superset fab create-admin
 superset init
-superset run -p 8088 --with-threads --reload --debugger
+superset run -p 8088 --with-threads --reload --debugger # why just one?
 # postgresql+psycopg2://ds4fnp:ds4fnp@127.0.0.1:5432/ds4fnp
 # pip install pybigquery
 # bigquery://{project_id}

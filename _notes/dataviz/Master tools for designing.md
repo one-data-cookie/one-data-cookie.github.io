@@ -4,7 +4,7 @@ title-cs:
 category: dataviz
 tags: [tools, design]
 season: summer
-dates: [03 Jan 2021, 13 Feb 2021]
+dates: [03 Jan 2021, 28 Nov 2021]
 sources: Misc
 ---
 
@@ -80,6 +80,8 @@ sources: Misc
 	* The super fast color schemes generator.
 * [Color Palette Generator](https://www.canva.com/colors/color-palette-generator/)
 	* Want a color scheme that perfectly matches your favorite images? With Canva’s color palette generator, you can create color combinations in seconds.
+* [Datafam Colors by the Flerlage Twins](https://www.flerlagetwins.com/2021/06/datafam-colors-color-palette.html)
+	* A Tableau Color Palette Crowdsourcing Project
 * [Color Hunter](http://colorhunter.com/browse.php?h=y&p=enter+tag%2C+hex+code%2C+or+image+URL)
 	* Create and find color palettes made from images.
 * [Colors from Image](https://html-color-codes.info/colors-from-image/)

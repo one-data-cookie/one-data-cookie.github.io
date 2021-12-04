@@ -4,7 +4,7 @@ title-cs:
 category: coding
 tags: [learn, cli]
 season: spring
-dates: [19 Aug 2021, 19 Aug 2021]
+dates: [19 Aug 2021, 28 Nov 2021]
 sources: Misc
 ---
 
@@ -19,11 +19,11 @@ setopt PROMPT_SUBST ; PS1='%F{green}@%*%f %F{cyan}[%n]%f %F{yellow}$(virtualenv_
 ```
 
 - Making a Python file executable:
-```
-chmod u+x samlapi.py
+```shell
+chmod u+x samlapi.py # only for user; +x for all
 ```
 
 - Checking your `path`:
-```
+```shell
 sudo nano /etc/paths
 ```

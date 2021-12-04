@@ -24,7 +24,7 @@ sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment
 
 ### `venv`
 ```shell
-# create a python3 environment within "env" folder
+# create a python3 environment within ".venv" folder
 $ python3 -m venv .venv
 
 # activate the environment

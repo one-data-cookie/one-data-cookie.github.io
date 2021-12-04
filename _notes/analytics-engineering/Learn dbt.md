@@ -17,6 +17,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * https://github.com/slve/dbt-github-workflow
 * [Cheat Sheet](https://github.com/erika-e/dbt-tips)
 * [dbt libraries](https://datacoves.com/dbt-libs)
+* https://docs.getdbt.com/blog
 * [A curated list of awesome dbt resources](https://github.com/Hiflylabs/awesome-dbt)
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
 * [Paid course](https://corise.com/course/analytics-engineering-with-dbt)
@@ -28,6 +29,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * [COALESCE Conference](https://www.getdbt.com/coalesce)
 * https://discourse.getdbt.com/t/how-we-set-up-our-computers-for-working-on-dbt-projects/243
 * [Materialisation types](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/materializations)
+* [Serverless dbt on Google Cloud Platform](https://robertsahlin.com/serverless-dbt-on-google-cloud-platform/)
 * https://atom.io/
 * https://github.com/smomni/howtheydbt
 * https://www.youtube.com/watch/zc8wLzoAkVc

@@ -25,10 +25,10 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 * Až se něco pokazí, [tyhle code snippets](https://ohshitgit.com/) se určitě budou hodit, příp. [tyto od CIA](https://wikileaks.org/ciav7p1/cms/page_1179773.html).
 * Make `.gitignore` ignore the files that were commited before added into the file.
 
-```
-git rm -r --cached .
-git add .
-git commit -m ".gitignore is now working"
+```shell[]()
+$ git rm -r --cached .
+$ git add .
+$ git commit -m ".gitignore is now working"
 ```
 
 * Create repo from scratch through this `init.sh` script, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br), which can be run through `sh init.sh repo-name` from directory (or better still `./init.sh repo-name` if you run `chmod u+x init.sh` first)

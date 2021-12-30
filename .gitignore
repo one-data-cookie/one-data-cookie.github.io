@@ -1,6 +1,8 @@
 _site
 .jekyll-cache
+.jekyll-metadata
 pages/.DS_Store
 pages/tags.md
 _notes/.obsidian
+_notes/.vault-stats
 .DS_Store

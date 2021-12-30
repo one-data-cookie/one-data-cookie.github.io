@@ -22,7 +22,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
 * [Paid course](https://corise.com/course/analytics-engineering-with-dbt)
 * Key blog posts
-	* [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/)
+  * [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/)
 * [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
 * Fundamentals?
 * [Github](https://github.com/fishtown-analytics/dbt)
@@ -82,7 +82,7 @@ https://nchammas.com/writing/data-pipeline-materialized-view
 
 ---
 
-{%- raw -%}
+{% raw %}
 ```
 {%- set my_query -%}
 SELECT distinct {{pivot_column}} FROM {{my_table}} ;
@@ -92,7 +92,7 @@ SELECT distinct {{pivot_column}} FROM {{my_table}} ;
 {%- set items = results.columns[0].values() -%}
 {%- endif %}
 ```
-{%- endraw -%}
+{% endraw %}
 
 Jinja uses a run_query() function, which executes SQL and returns a result object. Using the result object properties, we obtain a distinct list of column values as an array which we can then assign to a variable for subsequent use.
 

@@ -15,11 +15,11 @@ sources: Misc
 * Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.
 * [Snippets](https://sql-snippets.count.co/)
 * [Sribe](https://scribedata.app/)
-	* Scribe is an API that provides line by line descriptions of your queries.
+  * Scribe is an API that provides line by line descriptions of your queries.
 * [Malloy](https://github.com/looker-open-source/malloy)
-	* ["React of SQL"](https://roundup.getdbt.com/p/lots-going-on-metrics-malloy-sanity)
+  * ["React of SQL"](https://roundup.getdbt.com/p/lots-going-on-metrics-malloy-sanity)
 * [I don't want to learn your garbage query language. I just want my SQL back.](https://erikbern.com/2018/08/30/i-dont-want-to-learn-your-garbage-query-language.html)
 * [How to use Jinja templating for SQL in Python](https://geoffruddock.com/sql-jinja-templating/):
-	-  `from jinja2 import Template`
-	- Combine minus signs on the start of the opening block and the start of the ending block.
-	- Since we now have a nested loop, we need to keep track of two indices. We can do this by using the block {%- raw -%}`{% set outer_loop = loop %}`{%- endraw -%} to assign the outer loop to a new variable `outer_loop` before it is “replaced” by the inner loop.
+  -  `from jinja2 import Template`
+  - Combine minus signs on the start of the opening block and the start of the ending block.
+  - Since we now have a nested loop, we need to keep track of two indices. We can do this by using the block {% raw %}`{% set outer_loop = loop %}`{% endraw %} to assign the outer loop to a new variable `outer_loop` before it is “replaced” by the inner loop.

@@ -21,7 +21,7 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.
 *
-* File: Content.html
+* File: content.html
 * Author Raghuveer S, Hiran Venugopalan
 *
 * This file contains the markup for the context menu thingy you see when you right
@@ -43,9 +43,9 @@
                 {%- assign internal_link = itemparts[0] -%}
                 {%- assign external_link = itemparts[0] | split:external_link_delimiter -%}
                 {%- assign sidenote = itemparts[0] | split:sidenote_delimiter -%}
-            
+
                 {%- if external_link[1] == nil -%}
-                    {%- assign result_posts = site.posts | where: 'title',itemparts[0] -%}  
+                    {%- assign result_posts = site.posts | where: 'title',itemparts[0] -%}
                     {%- assign result_posts = site.notes | where: 'title',itemparts[0] -%}
                     {%- assign result_pages = site.pages | where: 'title',itemparts[0] -%}
                     {%- assign internal_links = internal_links | append: link_joiner_delimiter | append: internal_link -%}
@@ -56,14 +56,14 @@
                 {%- endif -%}
             {%- endif -%}
         {%- endfor -%}
-    
+
         {%- assign internal_url_array = internal_urls | split:link_joiner_delimiter -%}
         {%- assign internal_link_array = internal_links | split:link_joiner_delimiter -%}
 
         {%- assign external_url_array = external_urls | split:link_joiner_delimiter -%}
         {%- assign external_link_array = external_links | split:link_joiner_delimiter -%}
 
-    
+
         {%- assign replaced_content = content -%}
         {%- for title in internal_link_array -%}
             {%- assign url = internal_url_array[forloop.index0] -%}

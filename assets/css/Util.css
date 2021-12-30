@@ -1,5 +1,5 @@
 ---
-layout: Stylesheet
+layout: stylesheet
 ---
 
 /* Utilities: Disable Selection, Kramdown TOC */
@@ -98,8 +98,8 @@ layout: Stylesheet
 }
 
 .dont-decorate {
-    background: rgb(242,242,242); 
-    background: linear-gradient(180deg, rgba(242,242,242,1) 15%, rgba(245,245,245,1) 54%, rgba(253,253,253,1) 100%); 
+    background: rgb(242,242,242);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 15%, rgba(245,245,245,1) 54%, rgba(253,253,253,1) 100%);
 }
 
 .boxit {

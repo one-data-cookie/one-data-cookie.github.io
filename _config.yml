@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -23,31 +23,31 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://jekyll-garden.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################
-# Settings related to the Header and your About page go here,such as 
-# your name, site name, profile pic, site tagline, your bio, 
+# Settings related to the Header and your About page go here,such as
+# your name, site name, profile pic, site tagline, your bio,
 # your social media links etc
 #######################################################################
 
-heading: Digital Garden # Change this 
-copyright:  
+heading: Digital Garden # Change this
+copyright:
   year: 2021
   msg: Your Name # This is a mandatory attribute for copyright to be displayed ; If deleting this, edit at footer layout.
 
 
 #####################################################################
 # Settings related to your preferences go here, such as the
-# search results, wiki-style-links, sidenotes, marginnotes, 
-# transclusion, pagepreview, backlinks, related posts, highlighting, 
+# search results, wiki-style-links, sidenotes, marginnotes,
+# transclusion, pagepreview, backlinks, related posts, highlighting,
 # context menu, flashcards, sliding window, wrapping
 #####################################################################
 preferences:
   search:
     enabled: true
-    shortcut_hint: 
+    shortcut_hint:
         enabled: true
   wiki_style_link: # This property handles wiki style links '[['
     enabled: true
-  sidenotes: 
+  sidenotes:
     enabled: true
   transclusion:
     enabled: true
@@ -57,7 +57,7 @@ preferences:
     enabled: true
   highlighting:
     enabled: true
-    color: DAEDFF # Takes hexadecimal and basic names like white, red, etc. 
+    color: DAEDFF # Takes hexadecimal and basic names like white, red, etc.
                   # Do not add '#'(the pound symbol) before the hexadecimal number.
                   # In yml, it is considered as a comment
   backlinks:
@@ -68,39 +68,39 @@ preferences:
     enabled: true
   contextmenu:
     enabled: false #Not supported in NotesGadern theme
-    copylink: 
+    copylink:
       enabled: false
-    newtab: 
+    newtab:
       enabled: false
-    backlinks: 
+    backlinks:
       enabled: false
-    related: 
+    related:
       enabled: false
   flashcards:
     enabled: false #Not supported in NotesGadern theme
-  homepage: 
-    enabled: true ##If you need a homepage, change this to true and edit _includes/Homepage.html
+  homepage:
+    enabled: true ##If you need a homepage, change this to true and edit _includes/homepage.html
 
 encoding: utf-8
 
 # Build settings
 theme: null
 plugins:
-  - jekyll-feed 
-  - jekyll-sitemap 
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-tidy
 
-## Enable _notes Collection 
+## Enable _notes Collection
 collections:
     notes:
       output: true
-      permalink: /notes/:title      
+      permalink: /notes/:title
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    ## Disabled for NotesGarden Theme. 
-    shortname: 
+    ## Disabled for NotesGarden Theme.
+    shortname:
 
 markdown: kramdown
 
@@ -110,7 +110,7 @@ kramdown:
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
-  
+
 sass:
   style: compressed
 
@@ -119,14 +119,14 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: Post
+      layout: post
       permalink: /posts/:title
       content-type: post
   - scope:
       path: ""
       type: notes
     values:
-      layout: Post
+      layout: post
       content-type: notes
 
 

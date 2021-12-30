@@ -1,19 +1,19 @@
 /********************************************************************************************
- * 
+ *
  * MIT License
- * 
+ *
  * Copyright (c) 2020 Raghuveer S
- * 
+ *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
  * in the Software without restriction, including without limitation the rights
  * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
  * copies of the Software, and to permit persons to whom the Software is
  * furnished to do so, subject to the following conditions:
- * 
+ *
  * The above copyright notice and this permission notice shall be included in all
  * copies or substantial portions of the Software.
- * 
+ *
  * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
  * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -21,26 +21,26 @@
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- * 
- * 
- * File: Search.js
+ *
+ *
+ * File: search.js
  * Author@Raghuveer S
- * 
+ *
  * Preface: I take loads of inspiration from just-the-docs to implement this.
  * This can be easily ported to suit your needs. There is very little project specific stuff
  * in this.
- * 
+ *
  * How to customize this for your own project:
  * --------------------------------------------
  * 1. Lunr takes json fields for indexing, so create a json file with all the fields
- *      you want searched by Lunr. For eg. In my case, it is title, content, url for my 
+ *      you want searched by Lunr. For eg. In my case, it is title, content, url for my
  *      blog posts.
  *      Note: In this project, the json gets automatically generated. (SEE: search-data.json)
  * 2. Change the field names below accordingly. (SEE: this.field)
  * 3. Create a HTML Page with an input box(with id='search-input') and a div beneath it
  *     with id='search-results'. Also, don't forget to embed this script using the script
  *     tag.
- * 4. You are good to go. If you need additional customization you can change the boost 
+ * 4. You are good to go. If you need additional customization you can change the boost
  *      values, layout, colors etc by tinkering with the correponding parts of the code.
  *********************************************************************************************/
 
@@ -64,7 +64,7 @@
       });
     }
 
-    
+
     async function getSearchData(dataUrl) {
         let response = await fetch(dataUrl);
         let responseText = response.text();
@@ -72,7 +72,7 @@
     }
 
     function searchInit() {
-        var dataUrl = "/assets/js/SearchData.json";
+        var dataUrl = "/assets/js/search-data.json";
 
         getSearchData(dataUrl)
             .then(function(responseText) {
@@ -152,7 +152,7 @@
 
             if ((results.length == 0) && (input.length > 2)) {
                 var tokens = lunr.tokenizer(input).filter(function(token, i){
-                   return token.str.length < 20; 
+                   return token.str.length < 20;
                 })
 
                 if (tokens.length > 0) {
@@ -193,7 +193,7 @@
             }
 
             function addResult(resultsList, result) {
-                
+
                 var doc = docs[result.ref];
                 var resultsListItem = document.createElement('li');
                 resultsListItem.classList.add('search-results-list-item');
@@ -214,15 +214,15 @@
 
                 resultTitle.appendChild(resultDoc);
 
-                
+
                 var resultDocTitle = document.createElement('div');
                 resultDocTitle.classList.add('search-result-doc-title');
                 resultDocTitle.innerHTML = doc.doc;
                 resultDoc.appendChild(resultDocTitle);
                 var resultDocOrSection = resultDocTitle;
-                
+
                 if (doc.doc != doc.title) {
-                    
+
                     resultDoc.classList.add('search-result-doc-parent');
                     var resultSection = document.createElement('div');
                     resultSection.classList.add('search-result-section');
@@ -232,7 +232,7 @@
                 }
 
 
-                
+
                 var metadata = result.matchData.metadata;
                 var titlePositions = [];
                 var contentPositions = [];
@@ -329,7 +329,7 @@
                     resultLink.appendChild(resultPreviews);
 
                     var content = doc.content;
-                    
+
                     for (var j = 0; j < Math.min(previewPositions.length, 2); j++) {
                         var position = previewPositions[j];
                         var resultPreview = document.createElement('div');
@@ -365,7 +365,7 @@
                 parent.appendChild(span);
             }
         }
-        
+
         sj.addEvent(searchInput, 'focus', function(){
             setTimeout(update, 0);
         });
@@ -458,6 +458,3 @@
         searchInit();
     });
 })(window.sj = window.sj || {});
-
-
-

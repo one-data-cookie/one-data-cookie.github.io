@@ -1,5 +1,5 @@
 ---
-permalink: /assets/js/SearchData.json
+permalink: /assets/js/search-data.json
 ---
 
 {
@@ -12,6 +12,6 @@ permalink: /assets/js/SearchData.json
        "content": {{ note.content | replace: '</h', ' . </h' | replace: '<hr', ' . <hr' | replace: '</p', ' . </p' | replace: '<ul', ' . <ul' | replace: '</ul', ' . </ul' | replace: '<ol', ' . <ol' | replace: '</ol', ' . </ol' | replace: '</tr', ' . </tr' | replace: '<li', ' | <li' | replace: '</li', ' | </li' | replace: '</td', ' | </td' | replace: '<td', ' | <td' | replace: '</th', ' | </th' | replace: '<th', ' | <th' | strip_html | remove: 'Table of contents' | normalize_whitespace | replace: '. . .', '.' | replace: '. .', '.' | replace: '| |', '|' | append: ' ' | strip_html | strip_newline | strip | escape | jsonify }},
        "url": "{{ note.url }}"
     }{%- unless forloop.last -%},{%- endunless -%}{%- assign i = i | plus: 1 -%}
-    
+
   {% endfor %}
 }

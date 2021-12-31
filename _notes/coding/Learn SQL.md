@@ -14,6 +14,7 @@ sources: Misc
 * [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 * Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.
 * [Snippets](https://sql-snippets.count.co/)
+* [SQLite](https://sqliteonline.com/)
 * [Sribe](https://scribedata.app/)
   * Scribe is an API that provides line by line descriptions of your queries.
 * [Malloy](https://github.com/looker-open-source/malloy)

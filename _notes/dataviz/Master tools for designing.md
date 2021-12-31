@@ -106,7 +106,7 @@ sources: Misc
 	* Free vector icons
 * [IcoMoon App](https://icomoon.io/app/#/select)
 	* Free icons
-* [Font Awesome Icons](https://fontawesome.com/v4.7.0/icons/)
+* [Font Awesome Icons](https://fontawesome.com/v5.15/icons/)
 	* Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS.
 * [Noun Project](https://thenounproject.com/)
 	* Icons and photos for everything
@@ -116,7 +116,7 @@ sources: Misc
 	* Free vectors, stock photos & PSD downloads 
 * [StockSnap](https://stocksnap.com/)
 	* The one-stop-shop for all free stock photos
-* [ Unsplash](https://unsplash.com/)
+* [Unsplash](https://unsplash.com/)
 	* Beautiful free images & pictures
 * [Pexels](https://www.pexels.com/)
 	* Free stock photos
@@ -126,6 +126,10 @@ sources: Misc
 	* Maps and location for developers
 * [TableauMapping.bi](https://www.tableaumapping.bi/map)
 	* Democratising the world's mapping data for the Tableau community.
+
+## Website
+* [Screenfly](https://screenfly.org/)
+	* Test web for different sizes
 
 ## Software
 * [Figma](https://www.figma.com/)

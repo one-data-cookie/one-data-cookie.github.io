@@ -22,7 +22,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
 * [Paid course](https://corise.com/course/analytics-engineering-with-dbt)
 * Key blog posts
-  * [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/)
+	* [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/)
 * [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
 * Fundamentals?
 * [Github](https://github.com/fishtown-analytics/dbt)
@@ -43,6 +43,8 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * [Learning on Demand](https://courses.getdbt.com/collections)
 * [Locally Optimistic](https://locallyoptimistic.com/)
   *  Blog for current and aspiring data analytics leaders
+* Benn Substack
+* dbt blog
 * https://technically.dev/posts/what-your-data-team-is-using
 * https://victorcouste.github.io/data-tools/
 * https://www.getdbt.com/analytics-engineering/

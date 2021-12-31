@@ -4,7 +4,7 @@ title-cs:
 category: analytics-engineering
 tags: [idea]
 season: spring
-dates: [03 Apr 2021, 19 Jun 2021]
+dates: [03 Apr 2021, 13 Dec 2021]
 sources: https://www.secoda.co/blog/how-to-create-a-data-dictionary-a-step-by-step-guide, 
 ---
 
@@ -16,4 +16,4 @@ sources: https://www.secoda.co/blog/how-to-create-a-data-dictionary-a-step-by-st
 	1. Get support and sign off
 	1. Centralize the document
 	1. Upkeep the data dictionary
-* You can scale this up to create a data catalogue, using any of [these](https://www.notion.so/The-Ultimate-Repo-of-Data-Discovery-Solutions-149b0ea2a2ed401d84f2b71681c5a369).
+* You can scale this up to create a data catalogue, using any of [these](https://www.notion.so/The-Ultimate-Repo-of-Data-Discovery-Solutions-149b0ea2a2ed401d84f2b71681c5a369)., e.g. [Secoda](https://www.secoda.co/)

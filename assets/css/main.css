@@ -3923,6 +3923,13 @@ a.tag:hover {
     padding-top: 16px;
   }
 
+  .homeblock {
+    width: inherit;
+    margin: 0;
+    position: absolute;
+    top: 33%;
+  }
+
   .homeblock a {
     color : var(--link);
   }

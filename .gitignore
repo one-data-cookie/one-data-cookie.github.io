@@ -1,7 +1,7 @@
 _site/
 _notes/.obsidian
 _notes/.vault-stats
-_notes/.templates
+_notes/_templates
 utilities/.ipynb_checkpoints/
 .DS_Store
 .jekyll-metadata

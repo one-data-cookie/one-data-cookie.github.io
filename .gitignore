@@ -1,8 +1,8 @@
-_site
-.jekyll-cache
-.jekyll-metadata
-pages/.DS_Store
-pages/tags.md
+_site/
 _notes/.obsidian
 _notes/.vault-stats
+_notes/.templates
+utilities/.ipynb_checkpoints/
 .DS_Store
+.jekyll-metadata
+.jekyll-cache

@@ -175,7 +175,7 @@ iframe,
 hr,
 {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 
 ul {
@@ -3873,7 +3873,7 @@ a.navbar-item,
   background: var(--bg-main);
   border-radius: 8px;
   position: relative;
-  padding: 0.75rem;
+  padding: 2rem;
   margin: 0 -0.75rem;
 }
 
@@ -3887,7 +3887,7 @@ a.navbar-item,
 @media screen and (min-width: 769px), print {
   .section.is-note .column.is-primary-content,
     .note-page-section {
-      padding: 3rem 8rem; } 
+      padding: 2rem; }
   .note-cards .content {
     width: 88%; }
     }

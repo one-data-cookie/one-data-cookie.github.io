@@ -20,6 +20,6 @@ for cat in categories:
     sync(source_notes, target_notes, 'sync', purge=True, create=True)
 
 # Sync files
-source_files = '/Users/michal/GitHub/one-data-cookie.github.io/assets/src'
+source_files = '/Users/michal/GitHub/one-data-cookie.github.io/assets/files'
 target_files = '/Volumes/GoogleDrive/My Drive/Obsidian/_resources'
 sync(source_files, target_files, 'sync')

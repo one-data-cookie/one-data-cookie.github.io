@@ -1,6 +1,6 @@
 ---
 title: Learn markdown
-title-cs: 
+title-cs:
 category: coding
 tags: [learn, markdown]
 season: spring
@@ -11,7 +11,7 @@ sources: Misc
 ### How to reference local files
 ```markdown
 Same folder: Read more [here](./another_file.xlsx)
-Diff folder: Read more [here](../_files/another_file.xlsx)
+Diff folder: Read more [here](../another_folder/another_file.xlsx)
 ```
 
 - Obsidian opens the file if it can, otherwise it opens in default app

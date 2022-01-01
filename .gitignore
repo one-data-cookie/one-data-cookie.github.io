@@ -7,3 +7,4 @@ utilities/.ipynb_checkpoints/
 .DS_Store
 .jekyll-metadata
 .jekyll-cache
+.commit.sh

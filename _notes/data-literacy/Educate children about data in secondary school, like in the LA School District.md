@@ -8,6 +8,7 @@ dates: [12 Nov 2019, 05 Jan 2020]
 sources: https://open.spotify.com/episode/5DthA7oLyO0GMJ4RbEXo6i?si=2Bbx3K1OQy6cGglwcS50qg
 ---
 
+# Test
 * They think that if they live with it, they understand it.
 * Data fluency
 * Easiest thing is to put it on the test

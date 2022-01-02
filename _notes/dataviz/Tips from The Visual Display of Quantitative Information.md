@@ -15,27 +15,27 @@ Graphical excellence is the well-designed presentation of interesting data – a
 Graphical excellence consists of complex idea communicated with clarity, precision, and efficiency.
 Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest place.
 
-![](../../assets/tufte3.png)
+![](../../assets/files/tufte3.png)
 Graphical excellence is almost always multivariate.
 Graphical excellence requires telling the truth about data.
 
 *   _"A silly theory means a silly graphic."_
 *   Data Maps: Flow graphs within maps:
 
-![](../../assets/tufte1.png)
+![](../../assets/files/tufte1.png)
 
 *   Time-Series: _"Time-series displays are at their best for big data sets with real variability. Why waste the power of data graphics on simple linear changes."_
 *   Time-Series, genious:
 
-![](../../assets/tufte2.png)
+![](../../assets/files/tufte2.png)
 
 *   Time-Series: _"The problem with time-series is that the simple passage of time is not a good explanatory variable: descriptive chronology is not causal explanation.":_
 
-![](../../assets/tufte5.png)
+![](../../assets/files/tufte5.png)
 
 *   Narrative Graphics of Space and Time: _"An especially effective device for enhancing the explanatory power of time-series displays is to add spatial dimensions to the design of the graphic, so that the data are moving over space (in two or three dimensions) as well as over time.":_
 
-![](../../assets/tufte.png)
+![](../../assets/files/tufte.png)
 
 *   Narrative Graphics of Space and Time: _"Small multiples are economical: once viewers understand the design of one slice, they have immediate access to the data in all other slices."_
 *   Relational Graphics: _"The relational graphics – in its barest form, the scatterplot and its variants – is the greatest of all graphical designs."_
@@ -78,7 +78,7 @@ Graphical competence demands three quite different skills: the substantive, stat
 
 *   Brno in the book:
 
-![](../../assets/tufte4.png)
+![](../../assets/files/tufte4.png)
 
 Part II: Theory of Data Graphics
 

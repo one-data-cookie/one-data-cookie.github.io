@@ -21,6 +21,6 @@ sources: https://www.tableau.com/learn/data-literacy
 * "All data is personal."
 * Data is biased because of the decision we made when gathering/cleaning/analysing the data. > Investigator of truth and not stop when you confirm your cognitive biases.
 
-![](../../data-training.jpg)
+![](../../assets/files/data-training.jpg)
 
-![](../../data-literacy-score.jpg)
+![](../../assets/files/data-literacy-score.jpg)

@@ -71,20 +71,20 @@ Documents
 [https://policyviz.com/2014/09/09/graphic-continuum/](https://policyviz.com/2014/09/09/graphic-continuum/)
 [https://www.vizwiz.com/2018/07/visual-vocabulary.html](https://www.vizwiz.com/2018/07/visual-vocabulary.html)
 
-![](../../assets/colorwheel.png)
+![](../../assets/files/colorwheel.png)
 
-![](../../assets/colours-in-culture.png)
+![](../../assets/files/colours-in-culture.png)
 
 [[data-viz-links.pdf | Data Viz Links.pdf]]
 
-![](../../assets/graphic-continuum.png)
-![](../../assets/chart-suggestions.jpeg)
-![](../../assets/graphic-continuum2.jpeg)
+![](../../assets/files/graphic-continuum.png)
+![](../../assets/files/chart-suggestions.jpeg)
+![](../../assets/files/graphic-continuum2.jpeg)
 * Could be bought as a poster [here](https://policyviz.com/product/graphic-continuum-poster/)
 
-![](../../assets/ft-poster.png)
+![](../../assets/files/ft-poster.png)
 
-![](../../assets/dataviz-cheatsheet.png)
+![](../../assets/files/dataviz-cheatsheet.png)
 
 ---
 

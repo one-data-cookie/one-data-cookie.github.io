@@ -8,7 +8,7 @@ dates: [10 Mar 2019, 17 Mar 2019]
 sources: NA
 ---
 
-![](../../src/rozdeleni-datove-gramotnosti.jpeg)
+![](../../assets/files//rozdeleni-datove-gramotnosti.jpeg)
 
 * Based on [Deahl (MIT)](../../assets/files/better-data-you-know.pdf)
 

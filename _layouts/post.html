@@ -70,15 +70,21 @@
     {%- include header.html -%}
     <section class="section">
         <div class="columns is-centered">
-            <!--- CASE 1 : Homepage--><!---
+            <!--- CASE 1 : Homepage-->
 
             {%- if page.permalink == "/" -%}
                     {%- if site.preferences.homepage.enabled -%}
-                            <!--- Show Homepage --><!---
-                            {%- include homepage.html -%}
+                            <!--- Show Homepage -->
+                            <div class="column is-half">
+                              <div class="block homeblock">
+                                  <main>
+                                      {%- include content.html -%}
+                                  </main>
+                                </div>
+                            </div>
                             <script src="/assets/js/mode-switcher.js"></script>
                     {%- else -%}
-                            <!--- Show Feed Part --><!--- 
+                            <!--- Show Feed Part -->
                     <div class="column is-half">
                             {%- include feed.html -%}
                             {%- include footer.html -%}

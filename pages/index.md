@@ -7,8 +7,6 @@ permalink: /
 content-type: eg
 ---
 
-<div class="column is-half block homeblock">
+## Hello there!
 
-Testing this one out.
-
-</div>
+My name is Michal.

@@ -52,17 +52,26 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a href="../posts/how-to" class="navbar-item">
-          How To
+        <a href="/projects" class="navbar-item">
+          Projects
         </a>
-        <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io" target="_blank" class="navbar-item">
+        <a href="https://onedatacookie-digigarden.netlify.app/" target="_blank" class="navbar-item">
+          DigiGarden
+        </a>
+        <a href="https://onedatacookie-somevizes.netlify.app/" target="_blank" class="navbar-item">
+          SomeVizes
+        </a>
+        <a class="navbar-item">
+          •
+        </a>
+        <a href="{{ site.social.github }}" target="_blank" class="navbar-item">
           GitHub
         </a>
-        <a href="https://jekyllrb.com/" target="_blank" class="navbar-item">
-          Jekyll
+        <a href="{{ site.social.linkedin }}" target="_blank" class="navbar-item">
+          LinkedIn
         </a>
-        <a href="https://obsidian.md/" target="_blank" class="navbar-item">
-          Obsidian
+        <a href="mailto:{{ site.social.email }}" class="navbar-item">
+          Email
         </a>
       </div>
       <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >

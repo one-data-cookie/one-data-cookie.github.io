@@ -3927,8 +3927,6 @@ a.tag:hover {
     width: inherit;
     padding-right: min(22px);
     position: absolute;
-    top: 33%;
-    text-align: justify;
   }
 
   .homeblock a {

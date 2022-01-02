@@ -91,6 +91,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-tidy
+  - jemoji
 
 ## Enable _notes Collection
 collections:

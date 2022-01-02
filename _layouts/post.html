@@ -73,7 +73,8 @@
             <!--- CASE 1 : Homepage-->
 
             {%- if page.permalink == "/" -%}
-                    {%- if site.preferences.homepage.enabled -%}
+                    {%- if site.preferences.homepage.enabled
+                      and page.content-type == "homepage" -%}
                             <!--- Show Homepage -->
                             <div class="column is-half">
                               <div class="block homeblock">

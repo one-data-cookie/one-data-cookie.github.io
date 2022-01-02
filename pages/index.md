@@ -4,7 +4,7 @@
 
 layout: post
 permalink: /
-content-type: eg
+content-type: homepage
 ---
 
 ## Hello there!

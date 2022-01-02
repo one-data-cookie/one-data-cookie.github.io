@@ -70,15 +70,15 @@
     {%- include header.html -%}
     <section class="section">
         <div class="columns is-centered">
-            <!--- CASE 1 : Homepage-->
+            <!--- CASE 1 : Homepage--><!---
 
             {%- if page.permalink == "/" -%}
                     {%- if site.preferences.homepage.enabled -%}
-                            <!--- Show Homepage -->
+                            <!--- Show Homepage --><!---
                             {%- include homepage.html -%}
                             <script src="/assets/js/mode-switcher.js"></script>
                     {%- else -%}
-                            <!--- Show Feed Part -->
+                            <!--- Show Feed Part --><!--- 
                     <div class="column is-half">
                             {%- include feed.html -%}
                             {%- include footer.html -%}
@@ -127,9 +127,9 @@
                         <h1>{{page.title}}</h1>
                         {%- include content.html -%}
                         {%- include footer.html -%}
-
                     </main>
                 </div>
+                <script src="/assets/js/mode-switcher.js"></script>
             {%- endif -%}
 
             <!--- CASE 4 :  Blog Listing page -->

@@ -4,4 +4,11 @@
 
 layout: post
 permalink: /
+content-type: eg
 ---
+
+<div class="column is-half block homeblock">
+
+Testing this one out.
+
+</div>

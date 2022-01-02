@@ -79,7 +79,7 @@ preferences:
   flashcards:
     enabled: false #Not supported in NotesGadern theme
   homepage:
-    enabled: true ##If you need a homepage, change this to true and edit _includes/homepage.html
+    enabled: true ##If you need a homepage, change this to true and edit index.md
 
 encoding: utf-8
 

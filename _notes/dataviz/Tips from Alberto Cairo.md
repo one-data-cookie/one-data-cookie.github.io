@@ -7,7 +7,7 @@ season: autumn
 
 ## Alberto Cairo: Visual Trumpery (2018-06-14)
 
-[Visual Trumpery](../../assets/src/Visual-Trumpery.pdf)
+[Visual Trumpery](../../assets/files/Visual-Trumpery.pdf)
 
 ---
 

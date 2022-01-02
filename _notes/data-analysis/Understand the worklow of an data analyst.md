@@ -9,5 +9,5 @@ sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow
 ---
 
 If there is a way to describe data analysis workflow in a diagram, this would be it:
-![](../../assets/src/data-analysis-workflow.png)
+![](../../assets/files/data-analysis-workflow.png)
 

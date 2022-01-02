@@ -8,4 +8,4 @@ dates: [15 Sep 2021, 22 Sep 2021]
 sources: https://blockblogfr.blogspot.com/2020/10/emerging-architectures-for-modern-data.html
 ---
 
-![](../../assets/src/modern-data-infrastructure.png)
+![](../../assets/files/modern-data-infrastructure.png)

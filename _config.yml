@@ -29,9 +29,11 @@ url: "https://one-data-cookie.github.io/" # the base hostname & protocol for you
 #######################################################################
 
 heading: Michal Koláček
-copyright:
-  year: 2021
-  msg: Michal Kolacek # This is a mandatory attribute for copyright to be displayed ; If deleting this, edit at footer layout.
+heading-en: Michal Kolacek
+social:
+  github: https://github.com/one-data-cookie/
+  linkedin: https://www.linkedin.com/in/kolacekm/
+  email: kolacek.m@gmail.com
 
 
 #####################################################################

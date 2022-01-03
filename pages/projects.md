@@ -5,8 +5,7 @@ content-type: eg
 ---
 
 # If Now
-I am currently putting together this very website, hence learning a bit about [Jekyll](https://jekyllrb.com/) and reminding myself of some CSS and HTML. Alongside that, I'm growing, improving, and automating my [digital garden](https://onedatacookie-digigarden.netlify.app/). When I have some spare time, I [make data visualisation](https://onedatacookie-somevizes.netlify.app/)
-in [Tableau](https://www.tableau.com/), often inspired by [Makeover Monday](https://www.makeovermonday.co.uk/).
+I am currently putting together this very website, hence learning a bit about [Jekyll](https://jekyllrb.com/) and reminding myself of some CSS and HTML. Alongside that, I'm growing, improving, and automating my [digital garden](/notes). When I have some spare time, I [make data visualisation](/posts) in [Tableau](https://www.tableau.com/).
 
 See a few of my other projects below.
 

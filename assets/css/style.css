@@ -11,7 +11,7 @@ html, html[data-theme="light"] {
     --color-bis: #363636;
     --text-main: #18181C;
     --text-sub: #5D5D67;
-    --link: #2380ED;
+    --link: #18181C;
     --border: #E5E5E5;
 }
 
@@ -21,7 +21,7 @@ html[data-theme="dark"] {
     --color-bis: #E6E6E6;
     --text-main: #FAFAFC;
     --text-sub: #FFFFFF;
-    --link: #6D9EFF;
+    --link: #FAFAFC;
     --border: #353535;
 }
 
@@ -32,7 +32,7 @@ html[data-theme="dark"] {
         --bg-sub: #262626;
         --text-main: #FAFAFC;
         --text-sub: #FFFFFF;
-        --link: #6D9EFF;
+        --link: #FAFAFC;
         --border: #353535;
     }
 
@@ -41,7 +41,7 @@ html[data-theme="dark"] {
         --bg-sub: #FAFAFC;
         --text-main: #18181C;
         --text-sub: #5D5D67;
-        --link: #2380ED;
+        --link: #18181C;
         --border: #E5E5E5;
   }
 }
@@ -268,9 +268,8 @@ code {
     overflow: auto !important;
     white-space: pre-line !important;
     word-wrap: break-word !important;
-    padding: 2px 2px  2px 2px;
-    vertical-align:middle;
     padding: 2px 2px 2px 2px;
+    vertical-align:middle;
     border: 1px solid var(--secondary-border-color);
     border-radius: 4px;
 }
@@ -960,7 +959,11 @@ hr {
 
 .content a {
     color: var(--link);
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+.content a code {
+  text-decoration: underline;
 }
 
 .content a:hover {

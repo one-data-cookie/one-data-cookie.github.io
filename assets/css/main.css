@@ -254,11 +254,14 @@ body {
 a {
   color: var(--link);
   cursor: pointer;
-  text-decoration: none; }
+  text-decoration: underline; }
   a strong {
     color: currentColor; }
   a:hover {
     color: var(--text-main); }
+
+.navbar a {
+  text-decoration: none; }
 
 code {
   background-color: var(--bg-sub);

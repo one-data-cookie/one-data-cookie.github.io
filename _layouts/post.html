@@ -95,10 +95,9 @@
                     {%- endif -%}
             {%- endif -%}
 
-            <!---CASE 2 : Notes & Blog Page-->
+            <!---CASE 2 : Notes Page-->
 
-            {%- if page.content-type == "notes"
-            or page.content-type == "post"  -%}
+            {%- if page.content-type == "notes" -%}
                 <div class="column is-three-fifths">
                     <main>
                         <div class="note-page-section">
@@ -123,6 +122,35 @@
                         {%- include backlinks.html -%}
                         </div>
                         {%- include footer.html -%}
+                    </main>
+                </div>
+
+            {%- endif -%}
+
+            <!---CASE 2.5 : Post Page-->
+
+            {%- if page.content-type == "post" -%}
+                <div class="column is-three-fifths">
+                    <main>
+                      <div class="note-page-section">
+                        {% if page.img %}
+                          <figure>
+                            <img src="{{ 'assets/viz/' | prepend: site.baseurl | append : page.img}}" alt="{{ page.title }}">
+                          </figure>
+                        {% else %}
+                        {% endif %}
+                        <div align="center">
+                        <a href="{{ page.original }}" title="See original" target="_blank">Original</a>
+                        •
+                        <a href="{{ page.makeover }}" title="See makeover" target="_blank">Makeover</a>
+                        </div>
+                        <!-- <div class="page-tag">
+                          {% for tag in page.tags %}
+                            <a href="{{ site.baseurl }}/tags#{{ tag }}" class="tag">&#35;{{ tag }}</a>
+                          {% endfor %}
+                        </div> -->
+                      </div>
+                      {%- include footer.html -%}
                     </main>
                 </div>
 

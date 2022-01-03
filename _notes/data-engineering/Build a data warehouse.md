@@ -1,4 +1,4 @@
-[---
+---
 title: Build a data warehouse
 title-cs: 
 category: data-engineering

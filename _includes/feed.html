@@ -55,6 +55,13 @@
                           {{ item.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 260 }}
                       </p>
                   </div>
+                  <ul class="tags">
+                    <li style="padding: 0 5px; border-radius: 10px;" class="tag"><b>{{item.category}}</b></li>
+                    {%- for tag in item.tags -%}
+                        <li style="padding: 0 5px; border-radius: 10px; margin-left: 5px" class="tag">{{ tag }}</li>
+                    {%- endfor -%}
+                    <li style="padding: 0 5px; border-radius: 10px; margin-left: 5px" class="tag"><i>{{ item.season }}</i></li>
+                </ul>
               </a>
           </div>
       </div>

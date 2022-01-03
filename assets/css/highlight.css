@@ -29,10 +29,10 @@
 .highlight .nc { color: #00aa00; text-decoration: underline } /* Name.Class */
 .highlight .no { color: #aa0000 } /* Name.Constant */
 .highlight .nd { color: #888888 } /* Name.Decorator */
-.highlight .ni { color: #800000; font-weight: 600 } /* Name.Entity */
+.highlight .ni { color: #800000 } /* Name.Entity */
 .highlight .nf { color: #00aa00 } /* Name.Function */
 .highlight .nn { color: #00aaaa; text-decoration: underline } /* Name.Namespace */
-.highlight .nt { color: #1e90ff; font-weight: 600 } /* Name.Tag */
+.highlight .nt { color: #1e90ff } /* Name.Tag */
 .highlight .nv { color: #aa0000 } /* Name.Variable */
 .highlight .ow { color: #0000aa } /* Operator.Word */
 .highlight .w { color: #bbbbbb } /* Text.Whitespace */

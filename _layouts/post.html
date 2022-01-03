@@ -31,11 +31,13 @@
 
 <head>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+
     <meta content="{{ site.heading }}" property="og:site_name" />
-    <meta
-        content="A Jekyll theme for Obsidian users to build digital garden"
-        property="og:description">
+    <meta content="{{ site.description }}" property="og:description">
+    <meta content="{{ site.author }}" name="author" >
     <meta content="{{ site.url }}/about/" property="article:author">
+    <meta content="{{ site.url }}{{ site.author-img }}" property="og:image">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"

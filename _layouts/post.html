@@ -134,7 +134,7 @@
                     <main>
                       <div class="note-page-section">
                         {% if page.img %}
-                          <img src="{{ '/assets/viz/' | prepend: item.baseurl | append : item.img }}" alt="{{ item.title }}">
+                          <img src="{{ '/assets/viz/' | prepend: page.baseurl | append : page.img }}" alt="{{ page.title }}">
                         {% else %}
                         {% endif %}
                         <br><br><br>

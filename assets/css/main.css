@@ -3888,9 +3888,6 @@ a.navbar-item,
   .section.is-note .column.is-primary-content,
     .note-page-section {
       padding: 2rem; }
-  .note-cards .content {
-    width: 88%; }
-    }
 
 @media screen and (min-width: 769px), print {
   .for-back-home {

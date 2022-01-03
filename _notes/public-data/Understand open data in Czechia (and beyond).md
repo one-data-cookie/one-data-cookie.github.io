@@ -1,6 +1,6 @@
 ---
 title: Understand open data in Czechia (and beyond)
-title-cs: 
+title-cs:
 category: public-data
 tags: [idea, open-data]
 season: spring
@@ -15,17 +15,17 @@ sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otev
 * Česko zaostává především v oblasti datového portálu a jeho využití.
 * "Dostupná data jsou ale bohužel často interpretovaná a vykládaná nesprávným způsobem. Společně se sociálními sítěmi a určitou mírou anonymity to posiluje dopad těchto závěrů na širokou veřejnost. Obecně vnímám komunikaci jako jeden ze slabých článků, který musíme společně zlepšit," hodnotí Komenda z ÚZIS.
 * "Lidi je potřeba za jejich expertizu adekvátně odměnit. Práce pro stát má být důstojná, poté si jí budeme i více vážit," dodává Šmída.
-* To vše se ukázalo i během Covidu, kdy [[../public-data/Realise that open data on Covid in Czechia either don't exist or they won't go public\|nebylo dobře]].
+* To vše se ukázalo i během Covidu, kdy [[Realise that open data on Covid in Czechia either don't exist or they won't go public\|nebylo dobře]].
 
 ## Organizace v ČR
 * **[Nadace OSF: Náš stát, naše data](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/)**
-	* [Společně otevíráme data](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/soutez-spolecne-otevirame-data/)
-	* [Na stojáka: Neziskovky v digi světě](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/na-stojaka-neziskovky-v-digi-svete/)
-	* [Civic Tech Open: Občanský sektor digitálně](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/civic-tech-open-obcansky-sektor-digitalne/)
-	* [Open Data Expo](https://osf.cz/pandemic-open-data-expo/)
+  * [Společně otevíráme data](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/soutez-spolecne-otevirame-data/)
+  * [Na stojáka: Neziskovky v digi světě](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/na-stojaka-neziskovky-v-digi-svete/)
+  * [Civic Tech Open: Občanský sektor digitálně](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/civic-tech-open-obcansky-sektor-digitalne/)
+  * [Open Data Expo](https://osf.cz/pandemic-open-data-expo/)
 
 ## Inspirace v zahraničí
 * NYC
-	* [NYC Open Data Week](https://www.open-data.nyc/)
-	* [NYC Analytics](https://www1.nyc.gov/site/analytics/index.page)
-	* [DxD - Data Through Design](https://www.dxd2021.com/)
+  * [NYC Open Data Week](https://www.open-data.nyc/)
+  * [NYC Analytics](https://www1.nyc.gov/site/analytics/index.page)
+  * [DxD - Data Through Design](https://www.dxd2021.com/)

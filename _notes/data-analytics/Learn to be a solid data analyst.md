@@ -1,7 +1,7 @@
 ---
 title: Learn to be a solid data analyst
 title-cs: 
-category: data-analysis
+category: data-analytics
 tags: [learn]
 season: winter
 dates: [03 Apr 2021, 03 Apr 2021]

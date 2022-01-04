@@ -1,7 +1,7 @@
 ---
 title: Create a query library in a Git repository
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea]
 season: spring
 dates: [03 Apr 2021, 03 Apr 2021]

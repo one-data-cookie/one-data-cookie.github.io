@@ -1,7 +1,7 @@
 ---
 title: Be able to explain what you do to your granny
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea]
 season: autumn
 dates: [12 Oct 2021, 12 Oct 2021]

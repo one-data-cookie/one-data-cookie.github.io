@@ -1,7 +1,7 @@
 ---
 title: Think about where to place your Analytics Engineers
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea]
 season: spring
 dates: [03 Dec 2021, 03 Dec 2021]

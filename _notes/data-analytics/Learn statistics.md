@@ -1,7 +1,7 @@
 ---
 title: Learn statistics
 title-cs: Nauč se statistiku
-category: data-analysis
+category: data-analytics
 tags: [learn, maths]
 season: autumn
 dates: [21 Feb 2021, 21 Feb 2021]

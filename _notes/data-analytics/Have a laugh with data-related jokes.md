@@ -1,7 +1,7 @@
 ---
 title: Have a laugh with data-related jokes
 title-cs: 
-category: data-analysis
+category: data-analytics
 tags: [random]
 season: winter
 dates: [03 Apr 2021, 03 Apr 2021]

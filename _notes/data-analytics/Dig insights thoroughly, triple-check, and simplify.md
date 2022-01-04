@@ -1,7 +1,7 @@
 ---
 title: Dig insights thoroughly, triple-check, and simplify
 title-cs: Hledej příběhy v datech poctivě, ověřuj a zjednodušuj
-category: data-analysis
+category: data-analytics
 tags: [idea]
 season: winter
 dates: [14 Jul 2020, 22 Feb 2021]

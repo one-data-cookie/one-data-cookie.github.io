@@ -1,7 +1,7 @@
 ---
 title: Select first several items to understand new data
 title-cs: 
-category: data-analysis
+category: data-analytics
 tags: [idea, sql]
 season: spring
 dates: [19 Mar 2021, 3 Apr 2021]

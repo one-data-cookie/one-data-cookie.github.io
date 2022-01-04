@@ -1,7 +1,7 @@
 ---
 title: Understand that CTEs are mostly pass-throughs now
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea, sql]
 season: winter
 dates: [02 Mar 2021, 25 Oct 2021]

@@ -1,7 +1,7 @@
 ---
 title: Mind that data is never objective
 title-cs: 
-category: data-analysis
+category: data-analytics
 tags: [idea]
 season: winter
 dates: [07 Feb 2020, 26 Jul 2021]

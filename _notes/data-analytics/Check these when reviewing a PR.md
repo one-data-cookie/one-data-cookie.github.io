@@ -1,7 +1,7 @@
 ---
 title: Check these when reviewing a PR
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [checklist]
 season: spring
 dates: [04 Mar 2021, 04 Mar 2021]

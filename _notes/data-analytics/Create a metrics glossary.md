@@ -1,7 +1,7 @@
 ---
 title: Create a metrics glossary
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea]
 season: spring
 dates: [03 Apr 2021, 13 Dec 2021]

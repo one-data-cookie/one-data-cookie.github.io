@@ -1,7 +1,7 @@
 ---
 title: Understand the paradigm of tidy data
 title-cs:
-category: data-analysis
+category: data-analytics
 tags: [idea, cleaning]
 season: spring
 dates: [02 Mar 2021, 02 Mar 2021]

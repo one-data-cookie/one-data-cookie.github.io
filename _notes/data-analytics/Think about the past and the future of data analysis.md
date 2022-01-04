@@ -1,7 +1,7 @@
 ---
 title: Think about the past and the future of data analysis
 title-cs: 
-category: data-analysis
+category: data-analytics
 tags: [idea, talk]
 season: winter
 dates: [10 Jan 2021, 10 Jan 2021]

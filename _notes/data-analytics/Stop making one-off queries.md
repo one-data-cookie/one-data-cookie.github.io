@@ -1,7 +1,7 @@
 ---
 title: Stop making one-off queries
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea]
 season: autumn
 dates: [22 Sep 2021, 22 Sep 2021]

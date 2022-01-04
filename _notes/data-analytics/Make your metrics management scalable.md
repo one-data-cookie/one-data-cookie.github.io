@@ -1,7 +1,7 @@
 ---
 title: Make your metrics management scalable
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [metrics]
 season: autumn
 dates: [23 Jun 2021, 23 Jun 2021]

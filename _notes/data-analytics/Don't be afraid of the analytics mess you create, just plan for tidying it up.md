@@ -1,7 +1,7 @@
 ---
 title: Don't be afraid of the analytics mess you create, just plan for tidying it up
 title-cs: 
-category: data-analysis
+category: data-analytics
 tags: [idea]
 season: spring
 dates: [26 Jul 2021, 26 Jul 2021]

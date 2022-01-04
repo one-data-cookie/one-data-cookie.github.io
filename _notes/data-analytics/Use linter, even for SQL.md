@@ -1,7 +1,7 @@
 ---
 title: Use linter, even for SQL
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [ideas, sql]
 season: spring
 dates: [19 Jun 2021, 19 Jun 2021]

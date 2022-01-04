@@ -1,7 +1,7 @@
 ---
 title: Learn dbt
 title-cs: Nauč se dbt
-category: data-analytics-engineering
+category: data-analytics
 tags: [learn, dbt]
 season: autumn
 dates: [21 Feb 2021, 25 Oct 2021]

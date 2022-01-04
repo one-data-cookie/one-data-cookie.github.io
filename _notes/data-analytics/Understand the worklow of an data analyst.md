@@ -1,7 +1,7 @@
 ---
 title: Understand the worklow of an data analyst
 title-cs: 
-category: data-analysis
+category: data-analytics
 tags: [idea, process]
 season: winter
 dates: [04 Oct 2020, 06 Oct 2021]

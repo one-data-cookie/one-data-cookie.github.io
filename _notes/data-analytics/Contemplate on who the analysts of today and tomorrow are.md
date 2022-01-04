@@ -1,7 +1,7 @@
 ---
 title: Contemplate on who the analysts of today and tomorrow are
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea]
 season: summer
 dates: [19 Jul 2021, 17 Aug 2021]

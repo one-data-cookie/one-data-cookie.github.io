@@ -1,7 +1,7 @@
 ---
 title: Consider open-sourcing your analytics code
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea]
 season: spring
 dates: [24 Jun 2021, 24 Jun 2021]

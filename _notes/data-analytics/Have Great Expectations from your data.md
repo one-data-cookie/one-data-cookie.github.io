@@ -1,7 +1,7 @@
 ---
 title: Have Great Expectations from your data
 title-cs: 
-category: data-analytics-engineering
+category: data-analytics
 tags: [idea, testing]
 season: autumn
 dates: [02 Mar 2021, 02 Mar 2021]

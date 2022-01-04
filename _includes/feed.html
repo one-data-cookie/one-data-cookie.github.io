@@ -56,11 +56,11 @@
                       </p>
                   </div>
                   <ul class="tags">
-                    <li style="padding: 0 5px; border-radius: 10px;" class="tag"><b>{{item.category}}</b></li>
+                    <li style="padding: 0 5px;" class="tag"><b>{{ item.category }}</b></li>
                     {%- for tag in item.tags -%}
-                        <li style="padding: 0 5px; border-radius: 10px; margin-left: 5px" class="tag">{{ tag }}</li>
+                        <li style="padding: 0 5px; margin-left: 5px" class="tag">{{ tag }}</li>
                     {%- endfor -%}
-                    <li style="padding: 0 5px; border-radius: 10px; margin-left: 5px" class="tag"><i>{{ item.season }}</i></li>
+                    <li style="padding: 0 5px; margin-left: 5px" class="tag"><i>{{ item.season }}</i></li>
                 </ul>
               </a>
           </div>

@@ -29,8 +29,23 @@
 *
 {%- endcomment -%}
 
+<script type="text/javascript">
+  function filterUsingCategory(selectedCategory) {
+    var id = 0;
+    {% for post in site.notes %}
+    {% if post.season != "autumn" %}
+      var cats = {{ post.category | jsonify }}
+
+      var postDiv = document.getElementById(++id);
+      postDiv.style.display = (selectedCategory == 'all' || cats.includes(selectedCategory))
+        ? 'block'
+        : 'none';
+    {% endif %}
+    {% endfor %}
+  }
+</script>
+
 {%- if site.preferences.search.enabled -%}
-<!-- search bar -->
 <div class="block">
     <input class="input is-medium" type="text" placeholder="Search notes.." id="search-input" autocomplete="off">
     <div id="search-results" class="search-results"></div>
@@ -39,33 +54,37 @@
 <script src="/assets/js/search.js"></script>
 {%- endif -%}
 
-<!-- feed with filter-->
-{% assign seasons = "summer, spring, winter" | split: ', ' %}
-{% for season in seasons %}
-    {% assign categories = site.notes | map: 'category' | join: ' '  | split: ' ' | uniq | sort %}
-    {% for category in categories %}
-      {% for item in site.notes %}
-      {% if item.season == season and item.season != "autumn" and item.category == category %}
-      <div class="block note-cards">
-          <div class="box-feed" data-url="{{ site.url }}{{ item.url }}">
-              <a href="{{ item.url }}" style="text-decoration: none;">
-                  <h4>{{ item.title }}</h4>
-                  <div class="content">
-                      <p style="margin: 0px;">
-                          {{ item.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 260 }}
-                      </p>
-                  </div>
-                  <ul class="tags">
-                    <li style="padding: 0 5px;" class="tag"><b>{{ item.category }}</b></li>
-                    {%- for tag in item.tags -%}
-                        <li style="padding: 0 5px; margin-left: 5px" class="tag">{{ tag }}</li>
-                    {%- endfor -%}
-                    <li style="padding: 0 5px; margin-left: 5px" class="tag"><i>{{ item.season }}</i></li>
-                </ul>
-              </a>
-          </div>
+<div>
+  <button id="all" onclick="filterUsingCategory('all')"><b>all</b></button>
+  {% assign categories = site.notes | map: 'category' | join: ' ' | split: ' ' | uniq | sort %}
+  {% for cat in categories %}
+    <button id="{{ cat }}" onclick="filterUsingCategory(this.id)">{{ cat }}</button>
+  {% endfor %}
+  <hr />
+</div>
+
+{% assign id = 0 %}
+{% for post in site.notes %}
+{% if post.season != "autumn" %}
+  {% assign id = id | plus:1 %}
+  <div class="block note-cards">
+      <div class="box-feed" data-url="{{ site.url }}{{ post.url }}" id="{{ id }}">
+          <a href="{{ post.url }}" style="text-decoration: none;">
+              <h4>{{ post.title }}</h4>
+              <div class="content">
+                  <p style="margin: 0px;">
+                      {{ post.content | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncate: 260 }}
+                  </p>
+              </div>
+              <ul class="tags">
+                <li style="padding: 0 5px;" class="tag"><b>{{ post.category }}</b></li>
+                {%- for tag in post.tags -%}
+                    <li style="padding: 0 5px; margin-left: 5px" class="tag">{{ tag }}</li>
+                {%- endfor -%}
+                <li style="padding: 0 5px; margin-left: 5px" class="tag"><i>{{ post.season }}</i></li>
+            </ul>
+          </a>
       </div>
-      {%- endif -%}
-      {%- endfor -%}
-    {%- endfor -%}
-{%- endfor -%}
+  </div>
+{% endif %}
+{% endfor %}

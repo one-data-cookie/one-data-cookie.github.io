@@ -181,11 +181,27 @@ hr,
 ul {
   list-style: none; }
 
-button,
 input,
 select,
 textarea {
   margin: 0; }
+
+button {
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  border-radius: 100px;
+  padding: .3em 1.2em;
+  margin: 5px;
+  color: var(--text-main);
+  background-color: var(--bg-main);
+  transition: 0.25s linear;
+}
+
+button:hover{
+  color: var(--bg-main);
+  background-color: var(--text-main);
+}
 
 html {
   box-sizing: border-box; }

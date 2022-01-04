@@ -42,16 +42,16 @@ Notes
     *   [http://www.datablick.com/blog/2015/08/27/diy-chord-diagrams-in-tableau-by-noah-salvaterra](http://www.datablick.com/blog/2015/08/27/diy-chord-diagrams-in-tableau-by-noah-salvaterra)
 *   How to save up some space in dashboards?
 
-[[Tiny Tableau Talk May 2018 - Saving space in dashb.twbx | Tiny Tableau Talk May 2018 - Saving space in dashb.twbx]]
+[[../__files/ttt-may-18- saving-space.twbx | Tiny Tableau Talk May 2018 - Saving space in dashb.twbx]]
 
 *   How to do chart with spikes around the clock = radial bar chart?
     *   [https://www.youtube.com/watch?v=d6-aptKLvgg&index=17&list=PLE50-dh6JzC450Hn6EjPM238yZUPs-RQ1](https://www.youtube.com/watch?v=d6-aptKLvgg&index=17&list=PLE50-dh6JzC450Hn6EjPM238yZUPs-RQ1)
 
-[[London Cycle Hire Usage (MakeoverMonday W26).twbx | London Cycle Hire Usage (MakeoverMonday W26).twbx]]
+[[../__files/london-cycle-hire-usage.twbx | London Cycle Hire Usage (MakeoverMonday W26).twbx]]
 
 *   How to do a donut chart + comparison of two bar charts by "needle"?
 
-[[Australian Wage Gap.twbx | Australian Wage Gap.twbx]]
+![../../assets/files//australian-wage-gap.twbx | Australian Wage Gap.twbx]]
 
 *   How to create "density"?
     *   Just put there large circles and give small opacity.
@@ -64,7 +64,7 @@ Notes
 
 Documents
 
-[[Viz-Tips.pdf | Viz Tips.pdf]]
+[[../__files/viz-tips.pdf | Viz Tips.pdf]]
 
 [http://ft-interactive.github.io/visual-vocabulary/](http://ft-interactive.github.io/visual-vocabulary/)
 [https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary)

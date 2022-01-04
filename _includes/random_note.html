@@ -1,0 +1,40 @@
+<script>
+// this stops a white flash from happening while the random post script is running
+let theme = sessionStorage.getItem('theme');
+if (theme === "dark") {
+  document.documentElement.setAttribute('data-theme', 'dark');
+} else if (theme === "light") {
+  document.documentElement.setAttribute('data-theme', 'light');
+}
+
+</script>
+
+{% comment %}
+Use liquid to get an the number of posts in the site
+{% endcomment %}
+
+{%- assign i = 0 -%}
+{%- for post in site.notes -%}
+    {%- assign i = i | plus: 1 -%}
+{%- endfor -%}
+
+<script>
+
+  const comingFromPost = document.referrer;
+
+  const allPosts =
+    [{%- for post in site.notes -%}
+    {%- unless post.season == "autumn" -%}
+      {%- assign i = i | minus: 1 -%}
+      "{{ site.url }}{{ post.url }}"{%- unless i == 0 -%},{%- endunless -%}
+    {%- endunless -%}
+    {%- endfor -%}];
+
+  function linkToRandomPost() {
+      const randomPostLink = allPosts[Math.floor(Math.random() * allPosts.length)];
+      return randomPostLink;
+  }
+
+  location.replace(linkToRandomPost())
+
+</script>

@@ -10,12 +10,14 @@ if (theme === "dark") {
 </script>
 
 {% comment %}
-Use liquid to get an the number of posts in the site
+Use liquid to get an the number of notes in the site
 {% endcomment %}
 
 {%- assign i = 0 -%}
 {%- for post in site.notes -%}
+    {%- unless post.season == "autumn" -%}
     {%- assign i = i | plus: 1 -%}
+    {%- endunless -%}
 {%- endfor -%}
 
 <script>

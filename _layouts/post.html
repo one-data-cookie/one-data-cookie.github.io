@@ -132,12 +132,26 @@
                             {%- if page.season != empty and page.season != nil and page.season != "autumn" -%}
                             <li style="margin-left: 5px" class="tag"><i>{{ page.season }}</i></li>
                             {%- endif -%}
-
                         </ul>
+
                         {%- include content.html -%}
+
+                        <h5 class="block-title">Metadata</h5>
+                        <div class="related-group">
+                            {%- if page.dates != empty and page.dates != nil -%}
+                            <p class="related-excerpt" style="margin: 0px;">created: {{ page.dates[0] }}</p>
+                            <p class="related-excerpt" style="margin: 0px;">updated: {{ page.dates[1] }}</p>
+                            {%- endif -%}
+                            {%- if page.sources != empty and page.sources != nil -%}
+                            <p class="related-excerpt" style="margin: 0px;">sources: {{ page.sources }}</p>
+                            {%- endif -%}
+                        </div>
+
                         {%- include backlinks.html -%}
                         {%- include related.html -%}
+
                         </div>
+
                         {%- include footer.html -%}
                     </main>
                 </div>

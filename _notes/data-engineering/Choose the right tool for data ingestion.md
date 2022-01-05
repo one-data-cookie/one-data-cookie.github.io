@@ -4,7 +4,8 @@ title-cs:
 category: data-engineering
 tags: [tools]
 season: winter
-dates: [20 Jun 2021, 22 Jun 2021]
+created: 20 Jun 2021
+updated: 05 Jan 2022
 sources: https://docs.airbyte.io/faq/differences-with/, https://preset.io/blog/2021-4-22-data-integration-tooling/
 ---
 

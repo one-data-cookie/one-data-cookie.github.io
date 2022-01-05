@@ -4,7 +4,8 @@ title-cs:
 category: data-literacy
 tags: [idea]
 season: spring
-dates: [07 Mar 2021, 07 Mar 2021]
+created: 07 Mar 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

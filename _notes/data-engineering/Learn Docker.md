@@ -4,7 +4,8 @@ title-cs:
 category: data-engineering
 tags: [docker]
 season: autumn
-dates: [13 Dec 2021, 13 Dec 2021]
+created: 13 Dec 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

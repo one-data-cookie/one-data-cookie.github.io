@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [idea]
 season: autumn
-dates: [24 Feb 2021, 03 Mar 2021]
+created: 24 Feb 2021
+updated: 05 Jan 2022
 sources: Kristína Zákopčanová, meetup_1.csv
 ---
 

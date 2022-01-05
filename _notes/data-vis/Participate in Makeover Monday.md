@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [tutorial, tableau]
 season: summer
-dates: [03 Jan 2021, 03 Feb 2021]
+created: 03 Jan 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

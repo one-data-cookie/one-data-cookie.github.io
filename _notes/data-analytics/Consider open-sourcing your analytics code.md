@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: spring
-dates: [24 Jun 2021, 24 Jun 2021]
+created: 24 Jun 2021
+updated: 05 Jan 2022
 sources: https://about.gitlab.com/blog/2019/04/15/open-source-analytics/
 ---
 

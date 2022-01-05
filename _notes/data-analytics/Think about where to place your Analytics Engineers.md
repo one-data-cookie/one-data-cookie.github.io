@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: spring
-dates: [03 Dec 2021, 03 Dec 2021]
+created: 03 Dec 2021
+updated: 05 Jan 2022
 sources: https://getdbt.slack.com/archives/C022A67TLFL/p1638493069170100?thread_ts=1638481179.168700&cid=C022A67TLFL
 ---
 

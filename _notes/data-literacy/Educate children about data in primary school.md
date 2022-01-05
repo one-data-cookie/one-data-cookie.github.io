@@ -4,7 +4,8 @@ title-cs: I děti na základce by se měli učit data literacy
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [16 Mar 2019, 16 Mar 2019]
+created: 16 Mar 2019
+updated: 05 Jan 2022
 sources: https://open.spotify.com/episode/0HxgGb2wdSwNnzbWlNBtYR?si=oxesr4eRRBuaNcIDOrlEBQ
 ---
 

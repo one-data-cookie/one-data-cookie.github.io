@@ -4,7 +4,8 @@ title-cs: Nauč se Tableau
 category: data-vis
 tags: [learn, tableau]
 season: spring
-dates: [23 Sep 2018, 13 Feb 2021]
+created: 23 Sep 2018
+updated: 05 Jan 2022
 sources: Misc
 ---
 

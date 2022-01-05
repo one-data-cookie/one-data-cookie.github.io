@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [ideas, sql]
 season: spring
-dates: [19 Jun 2021, 19 Jun 2021]
+created: 19 Jun 2021
+updated: 05 Jan 2022
 sources: https://towardsdatascience.com/sqlfluff-the-linter-for-modern-sql-8f89bd2e9117
 ---
 

@@ -4,7 +4,8 @@ title-cs: Vést příkladem, zmiňovat všude a pobídky pomáhají k data cultu
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [08 Mar 2019, 08 Mar 2019]
+created: 08 Mar 2019
+updated: 05 Jan 2022
 sources: https://hbr.org/2018/10/make-data-a-cornerstone-of-your-team
 ---
 

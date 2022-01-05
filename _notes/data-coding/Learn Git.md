@@ -4,7 +4,8 @@ title-cs: Nauč se Git
 category: data-coding
 tags: [learn, git]
 season: spring
-dates: [13 Feb 2021, 26 Nov 2021]
+created: 13 Feb 2021
+updated: 05 Jan 2022
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 

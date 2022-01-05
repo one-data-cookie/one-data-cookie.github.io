@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [tutorial, font]
 season: autumn
-dates: [08 Jan 2021, 10 Nov 2021]
+created: 08 Jan 2021
+updated: 05 Jan 2022
 sources: https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/
 ---
 

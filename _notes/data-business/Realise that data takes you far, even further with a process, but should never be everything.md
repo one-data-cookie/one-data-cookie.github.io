@@ -4,7 +4,8 @@ title-cs: Data jsou hodně, ideálně s procesem, ale nesmí být vše
 category: data-business
 tags: [idea, business]
 season: winter
-dates: [15 Aug 2019, 23 Feb 2021]
+created: 15 Aug 2019
+updated: 05 Jan 2022
 sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCpihwqzaaSng
 ---
 

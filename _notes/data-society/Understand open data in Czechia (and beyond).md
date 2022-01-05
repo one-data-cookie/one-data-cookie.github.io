@@ -4,7 +4,8 @@ title-cs:
 category: data-society
 tags: [idea, open-data]
 season: spring
-dates: [05 Mar 2021, 07 Mar 2021]
+created: 05 Mar 2021
+updated: 05 Jan 2022
 sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otevrenem-sdileni-dat-stat-nahrazuje-obcanska-spolecnost
 ---
 

@@ -4,7 +4,8 @@ title-cs:
 category: data-society
 tags: [idea]
 season: spring
-dates: [03 Apr 2021, 03 Apr 2021]
+created: 03 Apr 2021
+updated: 05 Jan 2022
 sources: https://www.newyorker.com/magazine/2021/03/29/what-data-cant-do?mc_cid=790ee377c6&mc_eid=f027b833c9
 ---
 

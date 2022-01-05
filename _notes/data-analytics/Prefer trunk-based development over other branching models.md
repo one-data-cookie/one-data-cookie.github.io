@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: spring
-dates: [17 Mar 2021, 17 Mar 2021]
+created: 17 Mar 2021
+updated: 05 Jan 2022
 sources: https://trunkbaseddevelopment.com/
 ---
 

@@ -4,7 +4,8 @@ title-cs:
 category: data-engineering
 tags: [idea]
 season: winter
-dates: [24 Jun 2021, 24 Jun 2021]
+created: 24 Jun 2021
+updated: 05 Jan 2022
 sources: https://www.narrator.ai/blog/using-postgresql-as-a-data-warehouse/
 ---
 

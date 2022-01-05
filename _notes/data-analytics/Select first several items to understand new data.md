@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea, sql]
 season: spring
-dates: [19 Mar 2021, 3 Apr 2021]
+created: 19 Mar 2021
+updated: 05 Jan 2022
 sources: https://selectstar.blog/2019/02/02/the-first-query/
 ---
 

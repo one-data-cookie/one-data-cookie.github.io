@@ -4,7 +4,8 @@ title-cs:
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [07 Jan 2019, 22 Dec 2020]
+created: 07 Jan 2019
+updated: 05 Jan 2022
 sources: 
 ---
 

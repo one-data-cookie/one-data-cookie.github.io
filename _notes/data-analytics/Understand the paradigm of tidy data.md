@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea, cleaning]
 season: spring
-dates: [02 Mar 2021, 02 Mar 2021]
+created: 02 Mar 2021
+updated: 05 Jan 2022
 sources: Hadley Wickham, RStudio, https://vita.had.co.nz/papers/tidy-data.pdf
 ---
 

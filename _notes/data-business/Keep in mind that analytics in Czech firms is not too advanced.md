@@ -4,7 +4,8 @@ title-cs: Datově je asi většina technologických firem v ČR a SR ještě v p
 category: data-business
 tags: [idea]
 season: winter
-dates: [15 Aug 2019, 23 Feb 2021]
+created: 15 Aug 2019
+updated: 05 Jan 2022
 sources: https://open.spotify.com/episode/6BpxswD6Ss8eQvNdqIMOyH?si=xoCgyaAfS3m8Azh86x6HmQ
 ---
 

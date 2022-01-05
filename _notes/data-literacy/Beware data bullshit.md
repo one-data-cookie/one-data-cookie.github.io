@@ -4,7 +4,8 @@ title-cs: Kolem i v nás je spousta "data bullshit"
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [18 Feb 2019, 21 Feb 2019]
+created: 18 Feb 2019
+updated: 05 Jan 2022
 sources: Data Stories, Calling Bullshit, https://open.spotify.com/episode/192ZTX8K36SUCct1V9IGsJ?si=GH5q8CqURomk7VMNX01Wrg
 ---
 

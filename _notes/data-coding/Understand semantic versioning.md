@@ -4,7 +4,8 @@ title-cs:
 category: data-coding
 tags: [git]
 season: spring
-dates: [25 Oct 2021, 25 Oct 2021]
+created: 25 Oct 2021
+updated: 05 Jan 2022
 sources: https://blog.getdbt.com/getting-ready-for-v1-0/, https://semver.org/
 ---
 

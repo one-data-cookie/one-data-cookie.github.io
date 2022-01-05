@@ -4,7 +4,8 @@ title-cs: Politika potřebuje schopné datové analytiky
 category: data-society
 tags: [idea]
 season: autumn
-dates: [21 Nov 2020, 22 Feb 2021]
+created: 21 Nov 2020
+updated: 05 Jan 2022
 sources: https://www.profant.eu/2020/data-a-pandemie.html, https://www.seznamzpravy.cz/clanek/tajemny-muz-ktery-na-jare-zachranil-cesko-exreditel-ceske-pojistovny-124767
 ---
 

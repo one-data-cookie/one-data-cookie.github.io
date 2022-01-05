@@ -4,7 +4,8 @@ title-cs:
 category: data-literacy
 tags: [idea]
 season: spring
-dates: [20 Jun 2021, 20 Jun 2021]
+created: 20 Jun 2021
+updated: 05 Jan 2022
 sources: https://analyticsengineers.club/data-education-is-broken/
 ---
 

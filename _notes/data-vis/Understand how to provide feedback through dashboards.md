@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [idea, dashboard]
 season: spring
-dates: [28 Apr 2021, 28 Apr 2021]
+created: 28 Apr 2021
+updated: 05 Jan 2022
 sources: https://medium.com/nightingale/dashboard-psychology-of-feedback-in-data-design-dd3176b9f67c?source=friends_link&sk=732ff2bf7ceb786863d2cc36bafeb176
 ---
 

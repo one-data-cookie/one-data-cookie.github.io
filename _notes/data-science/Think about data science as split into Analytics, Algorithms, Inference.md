@@ -4,7 +4,8 @@ title-cs: Data Science se dá hezky rozdělit na Analytics, Algorithms, Inferenc
 category: data-science
 tags: [idea]
 season: winter
-dates: [11 Oct 2019, 23 Feb 2021]
+created: 11 Oct 2019
+updated: 05 Jan 2022
 sources: https://www.linkedin.com/pulse/one-data-science-job-doesnt-fit-all-elena-grewal
 ---
 

@@ -4,7 +4,8 @@ title-cs:
 category: data-business
 tags: [idea]
 season: spring
-dates: [21 Jun 2021, 21 Jun 2021]
+created: 21 Jun 2021
+updated: 05 Jan 2022
 sources: https://towardsdatascience.com/dont-be-data-driven-be-analytics-driven-74cbb0518640
 ---
 

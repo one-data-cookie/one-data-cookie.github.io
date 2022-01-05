@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: spring
-dates: [03 Apr 2021, 03 Apr 2021]
+created: 03 Apr 2021
+updated: 05 Jan 2022
 sources: https://eugeneyan.com/writing/data-discovery-platforms/
 ---
 

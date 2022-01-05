@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [history]
 season: winter
-dates: [25 Oct 2021, 25 Oct 2021]
+created: 25 Oct 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

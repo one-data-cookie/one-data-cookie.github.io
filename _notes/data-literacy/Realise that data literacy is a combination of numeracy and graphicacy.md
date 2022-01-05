@@ -4,7 +4,8 @@ title-cs: Datová gramotnost je kombinace numerické a vizuální gramotnosti
 category: data-literacy
 tags: [idea]
 season: spring
-dates: [18 Oct 2020, 31 Oct 2020]
+created: 18 Oct 2020
+updated: 05 Jan 2022
 sources: https://www.tableau.com/learn/data-literacy
 ---
 

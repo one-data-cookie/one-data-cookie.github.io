@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [idea]
 season: winter
-dates: [18 Feb 2019, 21 Feb 2021]
+created: 18 Feb 2019
+updated: 05 Jan 2022
 sources: Jeremy Boy, Helen Kennedy, Andy Kirk at DataStories, https://open.spotify.com/episode/2xLli0qpJ6nHnehmoIbEoL
 ---
 

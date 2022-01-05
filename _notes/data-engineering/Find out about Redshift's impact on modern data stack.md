@@ -4,7 +4,8 @@ title-cs: Redshift v roce 2012 způsobil změnu v data stacku. Dalších 5 let l
 category: data-engineering
 tags: [idea, mds, history]
 season: spring
-dates: [19 Dec 2020, 22 Feb 2021]
+created: 19 Dec 2020
+updated: 05 Jan 2022
 sources: https://blog.getdbt.com/future-of-the-modern-data-stack/
 ---
 

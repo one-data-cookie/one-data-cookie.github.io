@@ -4,7 +4,8 @@ title-cs: Nauč se data
 category: data-literacy
 tags: [learn]
 season: spring
-dates: [03 Jan 2021, 21 Feb 2021]
+created: 03 Jan 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

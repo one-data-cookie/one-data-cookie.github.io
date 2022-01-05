@@ -4,7 +4,8 @@ title-cs: Otevřená data na covid - vláda je buď nemá, nebo si je škudlí j
 category: data-society
 tags: [idea, open-data]
 season: winter
-dates: [12 May 2020, 23 Feb 2021]
+created: 12 May 2020
+updated: 05 Jan 2022
 sources: https://www.respekt.cz/rozhovor/otvirat-zemi-bez-dat-je-ruska-ruleta-varuje-vykazany-expert
 ---
 

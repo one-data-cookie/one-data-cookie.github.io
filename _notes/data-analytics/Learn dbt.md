@@ -4,7 +4,8 @@ title-cs: Nauč se dbt
 category: data-analytics
 tags: [learn, dbt]
 season: autumn
-dates: [21 Feb 2021, 25 Oct 2021]
+created: 21 Feb 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

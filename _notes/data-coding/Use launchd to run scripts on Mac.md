@@ -4,7 +4,8 @@ title-cs:
 category: data-coding
 tags: [mac]
 season: winter
-dates: [26 Nov 2021, 29 Nov 2021]
+created: 26 Nov 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

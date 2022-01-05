@@ -4,7 +4,8 @@ title-cs: Datové vzdělání lze prosadit i do běžného vzdělávání
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [12 Nov 2019, 05 Jan 2020]
+created: 12 Nov 2019
+updated: 05 Jan 2022
 sources: https://open.spotify.com/episode/5DthA7oLyO0GMJ4RbEXo6i?si=2Bbx3K1OQy6cGglwcS50qg
 ---
 

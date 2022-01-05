@@ -4,7 +4,8 @@ title-cs: Pokud chce někdo "actionable insights", tak neví, co to chce
 category: data-business
 tags: [idea]
 season: winter
-dates: [03 Jan 2019, 22 Feb 2021]
+created: 03 Jan 2019
+updated: 05 Jan 2022
 sources: NA
 ---
 

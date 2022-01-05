@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [checklist]
 season: summer
-dates: [19 Aug 2018, 03 Jan 2021]
+created: 19 Aug 2018
+updated: 05 Jan 2022
 sources: https://www.makeovermonday.co.uk/week-32-2018/
 ---
 

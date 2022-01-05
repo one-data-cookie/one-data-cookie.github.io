@@ -4,7 +4,8 @@ title-cs:
 category: data-engineering
 tags: [idea]
 season: spring
-dates: [22 Oct 2021, 22 Oct 2021]
+created: 22 Oct 2021
+updated: 05 Jan 2022
 sources: https://www.activityschema.com/, https://github.com/ActivitySchema/ActivitySchema/blob/main/spec.md
 ---
 

@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: summer
-dates: [19 Jul 2021, 17 Aug 2021]
+created: 19 Jul 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

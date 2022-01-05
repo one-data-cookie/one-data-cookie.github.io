@@ -4,7 +4,8 @@ title-cs: Datová architektura prochází zásadními změnami, které rozhodnou
 category: data-engineering
 tags: [idea]
 season: winter
-dates: [21 Nov 2020, 23 Feb 2021]
+created: 21 Nov 2020
+updated: 05 Jan 2022
 sources: https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/
 ---
 

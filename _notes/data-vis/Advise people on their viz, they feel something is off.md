@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [idea]
 season: winter
-dates: [16 Mar 2019, 21 Feb 2021]
+created: 16 Mar 2019
+updated: 05 Jan 2022
 sources: Jon Schwabish, HelpMeViz, https://open.spotify.com/episode/1adMYzMQUyqPb0NnkoJFVi?si=hdzETKEoQSeui9viihttEw
 ---
 

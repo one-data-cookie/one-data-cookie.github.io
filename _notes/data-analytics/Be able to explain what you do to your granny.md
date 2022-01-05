@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: autumn
-dates: [12 Oct 2021, 12 Oct 2021]
+created: 12 Oct 2021
+updated: 05 Jan 2022
 sources: https://getdbt.slack.com/archives/C02A4CHCD2S/p1633716950074400
 ---
 

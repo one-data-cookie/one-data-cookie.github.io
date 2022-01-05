@@ -4,7 +4,8 @@ title-cs:
 category: data-coding
 tags: [idea]
 season: spring
-dates: [10 Mar 2021, 10 Mar 2021]
+created: 10 Mar 2021
+updated: 05 Jan 2022
 sources: https://www.niallrees.com/posts/lessons-from-a-year-of-open-source, https://maximebeauchemin.medium.com/the-future-of-business-intelligence-is-open-source-9b654595773a
 ---
 

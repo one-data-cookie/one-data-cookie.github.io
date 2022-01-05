@@ -4,7 +4,8 @@ title-cs:
 category: data-business
 tags: [idea]
 season: autumn
-dates: [15 Sep 2021, 29 Nov 2021]
+created: 15 Sep 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

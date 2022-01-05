@@ -4,7 +4,8 @@ title-cs: Nauč se od ostatních
 category: data-vis
 tags: [learn, people]
 season: summer
-dates: [13 Feb 2021, 13 Feb 2021]
+created: 13 Feb 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

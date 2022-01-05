@@ -4,7 +4,8 @@ title-cs: Data Team potřebuje kvantitativní lidi, trénink, kritické myšlen�
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [16 Jan 2019, 23 Feb 2021]
+created: 16 Jan 2019
+updated: 05 Jan 2022
 sources: https://hbr.org/2018/10/3-ways-to-build-a-data-driven-team
 ---
 

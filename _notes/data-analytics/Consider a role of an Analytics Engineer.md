@@ -4,7 +4,8 @@ title-cs: Pojmenoval bych se jako Analytics Engineer
 category: data-analytics
 tags: [idea]
 season: autumn
-dates: [17 Dec 2020, 24 Jun 2021]
+created: 17 Dec 2020
+updated: 05 Jan 2022
 sources: Misc
 ---
 

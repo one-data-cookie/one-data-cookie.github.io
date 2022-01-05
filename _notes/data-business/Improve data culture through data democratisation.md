@@ -4,7 +4,8 @@ title-cs: Data literacy jedině skrze data democratisation
 category: data-business
 tags: [idea]
 season: winter
-dates: [18 Feb 2019, 18 Feb 2019]
+created: 18 Feb 2019
+updated: 05 Jan 2022
 sources: https://www.forbes.com/sites/homaycotte/2014/10/28/data-literacy-what-it-is-and-why-none-of-us-have-it/#4d0bb6f68bb4
 ---
 

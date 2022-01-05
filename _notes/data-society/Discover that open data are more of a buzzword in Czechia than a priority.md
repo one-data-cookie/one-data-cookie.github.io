@@ -4,7 +4,8 @@ title-cs: Open data jsou v ČR spíš buzzword než priorita
 category: data-society
 tags: [idea, open-data]
 season: winter
-dates: [16 Feb 2019, 23 Feb 2021]
+created: 16 Feb 2019
+updated: 05 Jan 2022
 sources: Michal Kubáně, national coordinator of open data in Czechia, https://open.spotify.com/episode/1UiMF5DnwNVsMkDgGKY9xV?si=Z2cAx2GYSRuiQ5tvLVTgBA
 ---
 

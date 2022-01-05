@@ -4,7 +4,8 @@ title-cs: Rozdělení datové gramotnosti
 category: data-literacy
 tags: [idea]
 season: spring
-dates: [10 Mar 2019, 17 Mar 2019]
+created: 10 Mar 2019
+updated: 05 Jan 2022
 sources: NA
 ---
 

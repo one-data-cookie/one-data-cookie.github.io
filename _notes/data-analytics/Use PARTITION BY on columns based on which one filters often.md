@@ -4,7 +4,8 @@ title-cs: Používej PARTITION BY na sloupce, podle kterých filtruješ
 category: data-analytics
 tags: [idea, sql]
 season: spring
-dates: [16 Mar 2019, 22 Feb 2021]
+created: 16 Mar 2019
+updated: 05 Jan 2022
 sources: https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
 ---
 

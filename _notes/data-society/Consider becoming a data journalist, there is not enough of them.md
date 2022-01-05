@@ -4,7 +4,8 @@ title-cs:
 category: data-society
 tags: [idea, journalism]
 season: winter
-dates: [05 May 2019, 21 Feb 2021]
+created: 05 May 2019
+updated: 05 Jan 2022
 sources: Jan Cibulka, Petr Kočí in Dataři, https://open.spotify.com/episode/1rwPmT7odS6PLjJmp08BIZ
 ---
 

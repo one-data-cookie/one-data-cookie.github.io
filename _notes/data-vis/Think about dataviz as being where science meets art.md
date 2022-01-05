@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [idea]
 season: winter
-dates: [24 Jan 2019, 21 Feb 2021]
+created: 24 Jan 2019
+updated: 05 Jan 2022
 sources: Michael Brenner at Visualising Data
 ---
 

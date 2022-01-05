@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: spring
-dates: [26 Jul 2021, 26 Jul 2021]
+created: 26 Jul 2021
+updated: 05 Jan 2022
 sources: https://benn.substack.com/p/analytics-is-a-mess
 ---
 

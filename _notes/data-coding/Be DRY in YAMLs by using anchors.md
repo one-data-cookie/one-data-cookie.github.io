@@ -4,7 +4,8 @@ title-cs:
 category: data-coding
 tags: [idea, yaml]
 season: spring
-dates: [11 Mar 2021, 3 Apr 2021]
+created: 11 Mar 2021
+updated: 05 Jan 2022
 sources: https://joshdevlin.com/blog/yaml-repeating-sections/
 ---
 

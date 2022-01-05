@@ -4,7 +4,8 @@ title-cs: Nejlépe se data literacy učí přímo praxí v různých kontextech 
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [18 Feb 2019, 21 Feb 2019]
+created: 18 Feb 2019
+updated: 05 Jan 2022
 sources: Data Stories, What's going on in this graph by New York Times, https://open.spotify.com/episode/6hQ3yDpvKdZHq3H00DZBhX?si=h_Md-BePR62mEfa_NBrgAA
 ---
 

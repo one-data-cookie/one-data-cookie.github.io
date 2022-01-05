@@ -4,7 +4,8 @@ title-cs: Nejdůležitější otázka pro to být správně data-driven – How 
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [08 Oct 2020, 23 Feb 2021]
+created: 08 Oct 2020
+updated: 05 Jan 2022
 sources: David Sigerson, How to Lie with Statistics, https://tc20.tableau.com/episodes/how-lie-statistics-108
 ---
 

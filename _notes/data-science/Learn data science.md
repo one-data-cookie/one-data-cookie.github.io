@@ -4,7 +4,8 @@ title-cs: Nauč se datovou vědu
 category: data-science
 tags: [learn]
 season: autumn
-dates: [21 Feb 2021, 21 Feb 2021]
+created: 21 Feb 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

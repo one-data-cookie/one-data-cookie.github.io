@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [idea, diversity]
 season: spring
-dates: [16 Dec 2020, 21 Feb 2021]
+created: 16 Dec 2020
+updated: 05 Jan 2022
 sources: https://policyviz.com/2020/09/16/applying-racial-equity-awareness-in-data-visualization/
 ---
 

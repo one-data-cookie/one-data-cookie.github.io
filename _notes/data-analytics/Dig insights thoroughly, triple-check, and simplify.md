@@ -4,7 +4,8 @@ title-cs: Hledej příběhy v datech poctivě, ověřuj a zjednodušuj
 category: data-analytics
 tags: [idea]
 season: winter
-dates: [14 Jul 2020, 22 Feb 2021]
+created: 14 Jul 2020
+updated: 05 Jan 2022
 sources: https://www.irozhlas.cz/zpravy-domov/vinohradska-12-podcast-datari-novinarska-cena_2006220600_bar
 ---
 

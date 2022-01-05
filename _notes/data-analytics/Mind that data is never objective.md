@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea]
 season: winter
-dates: [07 Feb 2020, 26 Jul 2021]
+created: 07 Feb 2020
+updated: 05 Jan 2022
 sources: https://www.vice.com/en_us/article/9393w7/this-man-created-traffic-jams-on-google-maps-using-a-red-wagon-full-of-phones
 ---
 

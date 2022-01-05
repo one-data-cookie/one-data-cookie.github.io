@@ -4,7 +4,8 @@ title-cs: Chyby v Excelech občas stojí miliony dolarů a jsou lidi, co se živ
 category: data-business
 tags: [idea]
 season: winter
-dates: [01 Nov 2020, 23 Feb 2021]
+created: 01 Nov 2020
+updated: 05 Jan 2022
 sources: https://www.wired.co.uk/article/spreadsheet-excel-errors
 ---
 

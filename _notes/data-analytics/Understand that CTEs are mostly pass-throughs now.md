@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea, sql]
 season: winter
-dates: [02 Mar 2021, 25 Oct 2021]
+created: 02 Mar 2021
+updated: 05 Jan 2022
 sources: https://discourse.getdbt.com/t/ctes-are-passthroughs-some-research/155, https://news.ycombinator.com/item?id=7024419
 ---
 

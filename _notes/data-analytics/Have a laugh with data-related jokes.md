@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [random]
 season: winter
-dates: [03 Apr 2021, 03 Apr 2021]
+created: 03 Apr 2021
+updated: 05 Jan 2022
 sources: dilbert.com
 ---
 

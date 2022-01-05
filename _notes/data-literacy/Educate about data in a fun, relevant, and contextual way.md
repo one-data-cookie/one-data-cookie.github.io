@@ -4,7 +4,8 @@ title-cs: Vzdělávání o datech by mělo být zábavné, relevantní, o "why" 
 category: data-literacy
 tags: [idea]
 season: winter
-dates: [17 Dec 2020, 19 Dec 2020]
+created: 17 Dec 2020
+updated: 05 Jan 2022
 sources: https://www.alteryx.com/input/4-tips-for-growing-a-data-literate-workforce
 ---
 

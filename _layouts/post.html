@@ -139,9 +139,11 @@
 
                         <h5 class="block-title">Metadata</h5>
                         <div class="related-group">
-                            {%- if page.dates != empty and page.dates != nil -%}
-                            <p class="related-excerpt" style="margin: 0px;">created: {{ page.dates[0] }}</p>
-                            <p class="related-excerpt" style="margin: 0px;">updated: {{ page.dates[1] }}</p>
+                            {%- if page.created != empty and page.created != nil -%}
+                            <p class="related-excerpt" style="margin: 0px;">created: {{ page.created }}</p>
+                            {%- endif -%}
+                            {%- if page.updated != empty and page.updated != nil -%}
+                            <p class="related-excerpt" style="margin: 0px;">updated: {{ page.updated }}</p>
                             {%- endif -%}
                             {%- if page.sources != empty and page.sources != nil -%}
                             <p class="related-excerpt" style="margin: 0px;">sources: {{ page.sources }}</p>

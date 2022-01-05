@@ -4,6 +4,7 @@ title-cs:
 category: data-coding
 tags: [link]
 season: winter
-dates: [02 Oct 2021, 02 Oct 2021]
+created: 02 Oct 2021
+updated: 05 Jan 2022
 sources: https://choosealicense.com/
 ---

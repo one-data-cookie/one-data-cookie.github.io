@@ -4,7 +4,8 @@ title-cs:
 category: data-analytics
 tags: [idea, process]
 season: winter
-dates: [04 Oct 2020, 06 Oct 2021]
+created: 04 Oct 2020
+updated: 05 Jan 2022
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 

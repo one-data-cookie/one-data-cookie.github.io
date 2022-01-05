@@ -4,7 +4,8 @@ title-cs:
 category: data-coding
 tags: [learn, cli]
 season: spring
-dates: [19 Aug 2021, 28 Nov 2021]
+created: 19 Aug 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

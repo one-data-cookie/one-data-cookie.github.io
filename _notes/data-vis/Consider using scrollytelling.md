@@ -4,7 +4,8 @@ title-cs:
 category: data-vis
 tags: [idea]
 season: 
-dates: [15 Dec 2021, 15 Dec 2021]
+created: 15 Dec 2021
+updated: 05 Jan 2022
 sources: Misc
 ---
 

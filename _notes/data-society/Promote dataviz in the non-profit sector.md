@@ -4,7 +4,8 @@ title-cs:
 category: data-society
 tags: [idea, non-profit]
 season: spring
-dates: [26 Jan 2021, 26 Jan 2021]
+created: 26 Jan 2021
+updated: 05 Jan 2022
 sources: https://medium.com/nightingale/data-for-good-why-non-profits-should-think-more-about-dataviz-3acfdf68fe63
 ---
  

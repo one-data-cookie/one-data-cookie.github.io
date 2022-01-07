@@ -75,6 +75,14 @@ rsync --verbose --update --recursive --checksum utilities/. "$google_path/utilit
 echo "Changing links in public folders back again"
 find _notes -type f -name "*.md" -not -path "_notes/_*" -exec sed -i '' -e "s#\.\./\.\./assets/files/#\.\./__files/#g" {} \;
 
+# Import files from phone
+echo "Importing files from phone"
+rsync --verbose --update --recursive --checksum "$google_path/phone/." _notes/_0-inbox/phone
+
+# Import files from tablet
+echo "Importing files from tablet"
+rsync --verbose --update --recursive --checksum "$google_path/tablet/." _notes/_0-inbox/tablet
+
 # Run Python script to import items from Pocket
 echo "Importing itmes from Pocket"
 python3 ./utilities/import_pocket.py

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from datetime import datetime, timedelta, timezone
 from gcsa.google_calendar import GoogleCalendar
 from os import path
@@ -15,8 +14,9 @@ def get_config_value(key):
                     (_, value) = line.split("=", 1)
                     return value.replace('"', "").strip()
     except:
-        print("An error occurred reading the _config file. Does it exist?")
+        print("An error occurred reading the config file. Does it exist?")
         quit()
+
     return None
 
 
@@ -26,7 +26,10 @@ def get_weather(location):
     params = {"format": formatting}
 
     r = get("http://v2.wttr.in/" + location, params)
-    return r.text.strip()
+    weat = r.text.strip()
+
+    print("Weather info extracted.")
+    return weat
 
 
 # https://github.com/kuzmoyev/google-calendar-simple-api
@@ -58,54 +61,60 @@ def get_events(calendars, creds, today):
                 ev_list.append(ev_str)
 
     ev_list.sort()
+
+    print(f"{len(ev_list)} calendar event(s) extracted.")
     return ev_list
 
 
+## https://www.marcandangel.com/2011/03/14/365-thought-provoking-questions-to-ask-yourself-this-year/
 def get_question(file_365):
     with open(home_root + file_365, 'r') as f:
         l = f.readlines()
-        l = l[1:]
 
-    return choice(l).replace('\n', '')
+    q = choice(l).replace('\n', '')
+
+    print("Question selected.")
+    return q
 
 
 # Put it all together
-home_root = path.dirname(path.dirname(path.abspath(__file__))) # https://stackoverflow.com/a/3430395
-config_file = "/utilities/config"
-notes_root = "/_notes"
-daily_root = "/_1-journal/daily"
+if __name__ == "__main__":
+    home_root = path.dirname(path.dirname(path.abspath(__file__))) # https://stackoverflow.com/a/3430395
+    config_file = "/utilities/config"
+    notes_root = "/_notes"
+    daily_root = "/_1-journal/daily"
 
-today = datetime.today().strftime("%Y-%m-%d")
-daily_path = home_root + notes_root + daily_root + "/" + today + ".md"
+    today = datetime.today().strftime("%Y-%m-%d")
+    daily_path = home_root + notes_root + daily_root + "/" + today + ".md"
 
-location = get_config_value("location")
-weather = get_weather(location)
+    location = get_config_value("location")
+    weather = get_weather(location)
 
-calendar_names = ["mk", "birthdays", "education", "mmm", "namedays",
-                  "social", "sport", "work", "holidays", "slido",
-                  "slido_personal"]
-calendars = {}
-for c in calendar_names:
-    calendars[c] = get_config_value(c)
-creds = home_root + "/utilities/google-credentials.json"
-events = get_events(calendars, creds, today)
+    calendar_names = ["mk", "birthdays", "education", "mmm", "namedays",
+                      "social", "sport", "work", "holidays", "slido",
+                      "slido_personal"]
+    calendars = {}
+    for c in calendar_names:
+        calendars[c] = get_config_value(c)
+    creds = home_root + "/utilities/google-credentials.json"
+    events = get_events(calendars, creds, today)
 
-file_365 = "/utilities/365.txt"
-question = get_question(file_365)
+    file_365 = "/utilities/365.txt"
+    question = get_question(file_365)
 
-if path.exists(daily_path):
-    print("File already exists, hence not overwriting.")
-else:
-    print("Generating daily file.")
-    with open(daily_path, 'w') as f:
-        f.write("---\n")
-        f.write(f"{weather}\n")
-        f.write("---\n")
-        f.write("\n## Agenda\n")
-        for e in events:
-            f.write(f"{e}\n")
-        f.write("\n## Journal Entry\n")
-        f.write("\n## Question a Day\n")
-        f.write(f"**{question}**\n")
+    if path.exists(daily_path):
+        print("File already exists, hence not overwriting.")
+    else:
+        print("Generating daily file.")
+        with open(daily_path, 'w') as f:
+            f.write("---\n")
+            f.write(f"{weather}\n")
+            f.write("---\n")
+            f.write("\n## Agenda\n")
+            for e in events:
+                f.write(f"{e}\n")
+            f.write("\n## Journal Entry\n")
+            f.write("\n## Question a Day\n")
+            f.write(f"**{question}**\n")
 
-print("Creating note is done.")
+    print("Creating of note is done.")

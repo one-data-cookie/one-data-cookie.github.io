@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from datetime import datetime
 from os import path
 from pocket import Pocket
@@ -14,17 +13,21 @@ def get_config_value(key):
                     (_, value) = line.split("=", 1)
                     return value.replace('"', "").strip()
     except:
-        print("An error occurred reading the _config file. Does it exist?")
+        print("An error occurred reading the config file. Does it exist?")
         quit()
+
     return None
 
 
 def get_items(consumer_key, access_token):
     p = Pocket(consumer_key, access_token)
-    export = p.get(favorite=1, state="archive", sort="oldest",
+    export_full = p.get(favorite=1, state="archive", sort="oldest",
                    detailType="complete", annotations=1)
 
-    return export[0]['list']
+    export = export_full[0]['list']
+
+    print(f"{len(export)} item(s) extracted from Pocket.")
+    return export
 
 
 def export_items(items, consumer_key, access_token):
@@ -66,7 +69,7 @@ def export_items(items, consumer_key, access_token):
         if path.exists(file_path):
             print(f"File {file_path} already exists, hence not overwriting.")
         else:
-            print(f"Exporting Pocket item into file {file_path}.")
+            print(f"Putting an item into file {file_path}.")
             with open(file_path, 'w') as f:
                 f.write("---\n")
                 f.write(f"title: {info['title']}\n")
@@ -86,20 +89,21 @@ def export_items(items, consumer_key, access_token):
         p = Pocket(consumer_key, access_token)
         p.unfavorite(info['item_id']).commit()
 
+    print("All items imported.")
     return None
 
-
 # Put it all together
-home_root = path.dirname(path.dirname(path.abspath(__file__))) # https://stackoverflow.com/a/3430395
-config_file = "/utilities/config"
-pocket_root = "/_notes/_0-inbox/pocket"
+if __name__ == "__main__":
+    home_root = path.dirname(path.dirname(path.abspath(__file__))) # https://stackoverflow.com/a/3430395
+    config_file = "/utilities/config"
+    pocket_root = "/_notes/_0-inbox/pocket"
 
-pocket_path = home_root + pocket_root
+    pocket_path = home_root + pocket_root
 
-consumer_key = get_config_value("consumer_key")
-access_token = get_config_value("access_token")
+    consumer_key = get_config_value("consumer_key")
+    access_token = get_config_value("access_token")
 
-items = get_items(consumer_key, access_token)
-export_items(items, consumer_key, access_token)
+    items = get_items(consumer_key, access_token)
+    export_items(items, consumer_key, access_token)
 
-print("Importing Pocket is done.")
+    print("Importing of Pocket is done.")

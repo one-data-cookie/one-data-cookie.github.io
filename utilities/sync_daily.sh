@@ -2,7 +2,7 @@
 
 ### Launch
 timestamp=$(date -u "+%Y/%m/%d %T %Z")
-echo
+echo # add empty line before new log
 echo "Launching the script at $timestamp"
 
 # Load config file
@@ -10,7 +10,7 @@ echo "Launching the script at $timestamp"
 echo "Loading config file"
 source ./utilities/config
 
-### Pre-sync
+### Exporting from Obsidian
 # Change file links of public folders in _notes to assets
 # https://www.grymoire.com/Unix/Sed.html
 echo "Changing links in public folders"
@@ -69,7 +69,7 @@ rsync --verbose --update --recursive _notes/_9-archive/. "$google_path/_notes/_9
 # and now the utilities, too
 rsync --verbose --update --recursive --checksum utilities/. "$google_path/utilities/"
 
-### Post-sync
+### Importing to Obsidian
 # Change file links of public folders in _notes back to vault
 # https://www.grymoire.com/Unix/Sed.html
 echo "Changing links in public folders back again"
@@ -91,4 +91,5 @@ python3 ./utilities/import_pocket.py
 echo "Creating daily note"
 python3 ./utilities/create_note.py
 
+### Finish up
 echo "Amazing, all done!"

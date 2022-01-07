@@ -44,3 +44,9 @@ error 126:
 An return code status of [126](https://www.gnu.org/software/bash/manual/html_node/Exit-Status.html) signifies that the command you are trying to use is available, but not executable.
 
 [solution](https://apple.stackexchange.com/a/338214)
+
+if python functions not recognise, change PATH as [here](https://github.com/jamietr1/obsidian-automation/blob/main/obsidian-automation-daily-notes.plist#L8-L12)
+
+```
+launchctl list | grep local.restart
+```

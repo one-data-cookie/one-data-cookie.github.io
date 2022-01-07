@@ -10,7 +10,7 @@
           </dict>
 
         <key>Label</key>
-        <string>com.michal.obsidian-sync-daily</string>
+        <string>com.user.obsidian-sync-daily</string>
 
         <key>WorkingDirectory</key>
         <string>/my/path/to/repo</string>
@@ -27,13 +27,10 @@
         <key>StartCalendarInterval</key>
           <dict>
               <key>Hour</key>
-              <integer>16</integer>
+              <integer>02</integer>
               <key>Minute</key>
               <integer>00</integer>
           </dict>
-
-        <!-- <key>RunAtLoad</key>
-        <true/> -->
 
         <key>StandardOutPath</key>
         <string>/my/path/to/repo/utilities/.sync_daily.out</string>

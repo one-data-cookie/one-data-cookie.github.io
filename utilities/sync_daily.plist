@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+
+        <key>EnvironmentVariables</key>
+          <dict>
+              <key>PATH</key>
+              <string><![CDATA[/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin]]></string>
+          </dict>
+
+        <key>Label</key>
+        <string>com.michal.obsidian-sync-daily</string>
+
+        <key>WorkingDirectory</key>
+        <string>/my/path/to/repo</string>
+
+        <key>ProgramArguments</key>
+          <array>
+              <string>/bin/zsh</string>
+              <string>/my/path/to/repo/utilities/sync_daily.sh</string>
+          </array>
+
+        <key>Nice</key>
+        <integer>1</integer>
+
+        <key>StartCalendarInterval</key>
+          <dict>
+              <key>Hour</key>
+              <integer>16</integer>
+              <key>Minute</key>
+              <integer>00</integer>
+          </dict>
+
+        <!-- <key>RunAtLoad</key>
+        <true/> -->
+
+        <key>StandardOutPath</key>
+        <string>/my/path/to/repo/utilities/.sync_daily.out</string>
+
+        <key>StandardErrorPath</key>
+        <string>/my/path/to/repo/utilities/.sync_daily.err</string>
+    </dict>
+</plist>

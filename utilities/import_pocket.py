@@ -83,8 +83,8 @@ def export_items(items, consumer_key, access_token):
                     for a in info['annotations']:
                         f.write(f"{a}\n\n")
 
-        # p = Pocket(consumer_key, access_token)
-        # p.unfavorite(info['item_id']).commit()
+        p = Pocket(consumer_key, access_token)
+        p.unfavorite(info['item_id']).commit()
 
     return None
 

@@ -88,6 +88,8 @@ if __name__ == "__main__":
     daily_path = home_root + notes_root + daily_root + "/" + today + ".md"
 
     day = "day: " + datetime.today().strftime("%A")
+    yesterday = (datetime.today() + timedelta(-1)).strftime("%Y-%m-%d")
+    tomorrow = (datetime.today() + timedelta(1)).strftime("%Y-%m-%d")
 
     location = get_config_value("location")
     weather = get_weather(location)
@@ -113,7 +115,8 @@ if __name__ == "__main__":
             f.write(f"{day}\n")
             f.write(f"{weather}\n")
             f.write("---\n")
-            f.write("\n## Agenda\n")
+            f.write("\n## Calendar\n")
+            f.write(f"[[{yesterday}|yesterday <<]] [[{tomorrow}|>> tomorrow]]\n\n")
             for e in events:
                 f.write(f"{e}\n")
             f.write("\n## Journal Entry\n")

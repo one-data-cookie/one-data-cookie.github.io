@@ -87,6 +87,8 @@ if __name__ == "__main__":
     today = datetime.today().strftime("%Y-%m-%d")
     daily_path = home_root + notes_root + daily_root + "/" + today + ".md"
 
+    day = "day: " + datetime.today().strftime("%A")
+
     location = get_config_value("location")
     weather = get_weather(location)
 
@@ -108,6 +110,7 @@ if __name__ == "__main__":
         print("Generating daily file.")
         with open(daily_path, 'w') as f:
             f.write("---\n")
+            f.write(f"{day}\n")
             f.write(f"{weather}\n")
             f.write("---\n")
             f.write("\n## Agenda\n")

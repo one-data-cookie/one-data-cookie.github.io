@@ -5,7 +5,7 @@ category: data-analytics
 tags: [tools, sql, python]
 season: spring
 created: 15 Sep 2021
-updated: 05 Jan 2022
+updated: 12 Jan 2022
 sources: Misc
 ---
 
@@ -69,3 +69,5 @@ sources: Misc
 	- Dashboards
 - [PopSQL](https://popsql.com/)
 	- Collaborative SQL editor
+- [Querybook](https://www.querybook.org/)
+	- Open-source big data IDE via a notebook interface from Pintrest

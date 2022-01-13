@@ -52,11 +52,7 @@ def get_events(calendars, creds, today):
                 else:
                     time = ':'.join(start.split(':')[0:2])
 
-                if event.location:
-                    loc = event.location
-                    ev_str = f"{time}: {title} @ {loc} ({cal})"
-                else:
-                    ev_str = f"{time}: {title} ({cal})"
+                ev_str = f"{time}: {title} ({cal})"
 
                 ev_list.append(ev_str)
 

@@ -22,7 +22,7 @@ content-type: homepage
 🤗 If the time allows, I love **sharing what I know about data** through mentoring, teaching, and other [projects](/projects).
 
 ## Away from laptop
-⛰ **Walking in nature** (alone, with my spouse, or our dog; anywhere in the world)
+🌲 **Walking in nature** (alone, with my spouse, or our dog; anywhere in the world)
 
 📚 **Reading good stories** (preferably biographies or history of Czechoslovakia; fictional ones, too, though)
 

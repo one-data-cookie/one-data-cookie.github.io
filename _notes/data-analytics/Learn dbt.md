@@ -5,7 +5,7 @@ category: data-analytics
 tags: [learn, dbt]
 season: autumn
 created: 21 Feb 2021
-updated: 05 Jan 2022
+updated: 18 Feb 2022
 sources: Misc
 ---
 
@@ -62,6 +62,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * https://tellery.io/
 * https://astorik.com/
 * https://github.com/fal-ai/fal
+* [Getting Started with dbt, demystifying terminology](https://datacoves.com/post/getting-started-with-dbt-data-build-tool-demystifying-terminology)
 * https://hightouch.io/ (Reverse ETL)
   * • **ETL or Extract, Transform and Load:** data moves from cloud apps to a data warehouse via a robust transformation layer built into the ETL tool
 

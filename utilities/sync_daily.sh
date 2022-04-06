@@ -59,16 +59,6 @@ timestamp=$(date -u "+%Y/%m/%d %T %Z")
 git commit -m "sync notes and files as of $timestamp"
 git push origin main
 
-# Sync _notes to GDrive (only modified or new)
-# beware the issue with files that start with _: https://serverfault.com/a/824208 (because of mounted GDrive through SSHFS)
-echo "Syncing files to Google Drive"
-# first with checksum without huge archive to do a proper one
-rsync --verbose --update --recursive --checksum --exclude "_9-archive" _notes/. "$google_path/_notes/"
-# then without, just the archive
-rsync --verbose --update --recursive _notes/_9-archive/. "$google_path/_notes/_9-archive/"
-# and now the utilities, too
-rsync --verbose --update --recursive --checksum utilities/. "$google_path/utilities/"
-
 ### Importing to Obsidian
 # Change file links of public folders in _notes back to vault
 # https://www.grymoire.com/Unix/Sed.html

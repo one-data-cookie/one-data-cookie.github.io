@@ -5,11 +5,14 @@ content-type: eg
 ---
 
 # If Now
-I've been putting together this very website recently, hence learning a bit about [Jekyll](https://jekyllrb.com/) and reminding myself of some CSS and HTML. Alongside that, I'm growing and improving my [digital garden](/notes), as well as making automations to it through [Python and bash scripts](https://github.com/one-data-cookie/one-data-cookie.github.io/tree/main/utilities). When I have some spare time, I [make data visualisation](/posts) in [Tableau](https://www.tableau.com/).
+This spring, I've taken on two data projects to mentor as a part of Brno Data Academy at [Czechitas](https://www.czechitas.cz/en) – one is to analyse social-media sentiment in the Czech society on Ukrainian refugees, the other to build reporting for [Odkaz pre starostu](https://www.odkazprestarostu.sk/), a Slovak NGO. When I have some extra time, I tweak this site even further or [make data visualisation](/posts).
 
 See a few of my other projects below.
 
 # Else
+## michalkolacek.xyz
+In early 2022, I created this very website. As a result, I learned a bit about [Jekyll](https://jekyllrb.com/) and reminded myself of some CSS and HTML. Thanks to that, I also significantly improved my [digital garden](/notes), as well as made automations to it through [Python and bash scripts](https://github.com/one-data-cookie/one-data-cookie.github.io/tree/main/utilities).
+
 ## Modern data stack for all
 At the end of December 2021, I was playing around with some tools of the [modern data stack](https://blog.getdbt.com/future-of-the-modern-data-stack/). I ended up building a minimalistic and free version of it called Modern Data Stack for All at[`one-data-cookie/mds4all-elt`](https://github.com/one-data-cookie/mds4all-elt) and [`one-data-cookie/mds4all-superset`](https://github.com/one-data-cookie/mds4all-superset) whilst utilising [GitHub](https://github.com/), [Google BigQuery](https://cloud.google.com/bigquery/), [Meltano](https://meltano.com/), [dbt](https://www.getdbt.com/), [Superset](https://superset.apache.org/), and [Heroku](https://dashboard.heroku.com/).
 
@@ -26,7 +29,7 @@ In Novemeber 2021, [Tomáš Marek](https://www.marektomas.cz/), [Jáchym Kubáč
 In November 2021, I was invited by [Czechitas](https://www.czechitas.cz/en) to deliver a [talk on data storytelling](https://youtu.be/YoCbP-f_fEc) (using [this presentation](https://docs.google.com/presentation/d/1t72l01QatWym27fqkII6Lg6IbxugsUWD65huO-EgNYQ/edit?usp=sharing)) for their Data Academy in Brno.
 
 ## Data projects at Czechitas
-During autumns 2021 and 2020, I mentored pairs of emerging data analysts and supported them in their final projects for [Czechitas'](https://www.czechitas.cz/en) Data Academy in Brno . In 2021, [Renáta](https://www.linkedin.com/in/renata-turonova/) and Daniela had a look into the topic of [cybercrime](https://public.tableau.com/views/DAPROJEKTJakbezpenojevkyberprostoru/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link).
+During autumns 2021 and 2020, I mentored pairs of emerging data analysts and supported them in their final projects for Brno Data Academy at [Czechitas](https://www.czechitas.cz/en). In 2021, [Renáta](https://www.linkedin.com/in/renata-turonova/) and Daniela had a look into the topic of [cybercrime](https://public.tableau.com/views/DAPROJEKTJakbezpenojevkyberprostoru/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link).
 In 2020, [Adéla](https://www.linkedin.com/in/adela-procha/) and [Elena](https://www.linkedin.com/in/elena-gorokhova/) chose to explore [Brno's participatory budget](https://public.tableau.com/views/PaRo-grafy1/NavigationDB?:language=en-GB&:display_count=n&:origin=viz_share_link).
 
 ## Standardisation of geo data at JIC

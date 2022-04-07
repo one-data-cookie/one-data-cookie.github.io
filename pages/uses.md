@@ -21,7 +21,7 @@ I keep a list of things I use. And it seems I'm [not the only one](https://uses.
 - [Amazon Kindle](https://www.amazon.com/dp/B07978J597/), ebook reader
 - [Bellroy Hide & Seek](https://bellroy.com/products/hide-and-seek-wallet/leather_rfid_hi/black), minimalistic wallet
 - [Samsung Galaxy A40](https://en.wikipedia.org/wiki/Samsung_Galaxy_A40), Andriod phone
-- [Samsung Galaxy Buds+](https://www.samsung.com/global/galaxy/galaxy-buds-plus/), in-ear headphones personal use
+- [Samsung Galaxy Buds+](https://www.samsung.com/global/galaxy/galaxy-buds-plus/), in-ear everyday headphones
 
 ## On my Mac
 
@@ -31,7 +31,6 @@ I keep a list of things I use. And it seems I'm [not the only one](https://uses.
 
 ### Productivity
 - [Alfred](https://www.alfredapp.com/), launcher on steroids
-- [Clipy](https://github.com/Clipy/Clipy), clipboard extension
 - [PhraseExpress](https://www.phraseexpress.com/), text expander
 - [Stretchly](https://hovancik.net/stretchly/), break reminder
 

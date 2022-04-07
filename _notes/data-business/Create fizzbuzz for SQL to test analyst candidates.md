@@ -1,7 +1,7 @@
 ---
 title: Create fizzbuzz for SQL to test candidates
-title-cs: 
-category: .
+title-cs:
+category: data-business
 tags: [sql, hiring]
 season: autumn
 dates: [08 Feb 2022, 08 Feb 2022]

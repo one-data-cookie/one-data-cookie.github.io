@@ -74,7 +74,7 @@ echo "Importing files from tablet"
 rsync --verbose --update --recursive --checksum "$google_path/tablet/." _notes/_0-inbox/tablet
 
 # Run Python script to import items from Pocket
-echo "Importing itmes from Pocket"
+echo "Importing items from Pocket"
 python3 ./utilities/import_pocket.py
 
 # Run Python Script to create daily note

@@ -77,9 +77,9 @@ rsync --verbose --update --recursive --checksum "$google_path/tablet/." _notes/_
 echo "Importing items from Pocket"
 python3 ./utilities/import_pocket.py
 
-# Run Python Script to create daily note
-echo "Creating daily note"
-python3 ./utilities/create_note.py
+# # Run Python Script to create daily note
+# echo "Creating daily note"
+# python3 ./utilities/create_note.py
 
 ### Finish up
 echo "Amazing, all done!"

@@ -1,7 +1,7 @@
 ---
 title: Take care of your dotfiles
 title-cs: 
-category: .
+category: data-coding
 tags: [how-to, idea]
 season: spring
 dates: [11 Apr 2022, 11 Apr 2022]

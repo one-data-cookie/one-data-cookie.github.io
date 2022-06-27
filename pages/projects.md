@@ -5,11 +5,14 @@ content-type: eg
 ---
 
 # If Now
-This summer, I'm speaking at two meetups, tweaking this site even further, or [making data visualisations](/posts). But mostly, I'm just enjoying nice weather somewhere outside. 😎
+This summer, I'm tweaking this site even further or [making data visualisations](/posts). But mostly, I'm just enjoying nice weather somewhere outside. 😎
 
 See a few of my other projects below.
 
 # Else
+## Data Meetup in Prague
+In June 2022, our data team at [Slido](https://www.slido.com/) joined forces with [Productboard](https://www.productboard.com/) to organise a data meetup in Prague on the topic of [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/). [My talk](https://www.youtube.com/watch?v=x-NNLfh1jJA) focused on the practices we adopted and what impact they had on our everyday work. What a fun evening!
+
 ## Teaching IT at primary school with Zkus učit!
 At the beginning of 2022, I got very excited by [changes to the way IT gets taught in the Czech Republic](https://revize.edu.cz/). As a result, I spent one week in May at a [primary school in Písek](https://www.zstylova.cz/eng/) teaching 12 and 15-year-old kids about IT using the priciples of [computational thinking](https://www.imysleni.cz/about-the-project). All thanks to an amazing educational project called [Začni učit!](https://zacniucit.cz/).
 

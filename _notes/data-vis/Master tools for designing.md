@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 03 Jan 2021
-updated: 05 Jan 2022
+updated: 10 Aug 2022
 sources: Misc
 ---
 
@@ -97,6 +97,8 @@ sources: Misc
 	* Simply beautiful open source icons.
 * [Iconfinder](https://www.iconfinder.com/)
 	* Free and premium vector icons.
+* [Iconbrew](https://iconbrew.com/)
+	* A free and open source icon pack.
 * [Font Awesome](https://fontawesome.com/v4.7.0/icons/)
 	* Scalable vector icons that can instantly be customized with the power of CSS.
 * [SVG Path Editor](https://github.com/Yqnn/svg-path-editor)

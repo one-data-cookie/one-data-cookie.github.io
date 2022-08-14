@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 13 Aug 2022
+updated: 14 Aug 2022
 sources: Misc
 ---
 
@@ -25,7 +25,7 @@ sources: Misc
 - [Introduction to text manipulation on UNIX-based systems](https://developer.ibm.com/articles/au-unixtext/): A very extensive in-depth guide into what's possible with just the standard tools, when it comes to text processing on UNIX-like systems. (Spoiler alert: a lot!)
 - [Linux Filesystem Hierarchy](https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/): A deeper discussion on the various parts of the standard Linux filesystem, describing several of the directories in much higher detail than the slides ever could. Less in-depth also [on Wikipedia](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
 - [How dotfiles came to be](https://web.archive.org/web/20190211155005/https://plus.google.com/+RobPikeTheHuman/posts/R58WgWwN9jp): A short story by Rob Pike about how *dotfiles* came to be and what it says about the unintended effects of cutting corners and just "hacking around" a problem.
-
+- [The origins of grep](https://thenewstack.io/brian-kernighan-remembers-the-origins-of-grep/): Brian Kernighan, one of the forefathers of UNIX discusses how `grep` came to be, and it makes for a rather interesting story! (If you are in a hurry, here is a [10 minute video](https://www.youtube.com/watch?v=NTfOnGZUZDk).)
 
 
 ## Snippets
@@ -60,3 +60,9 @@ sudo nano /etc/paths
 kill -SIGSTOP [pid]
 kill -SIGCONT [pid]
 ```
+
+- Take `n`th column from CSV and sum it
+```bash
+cat file.csv | cut -d, -f[n] | paste -sd+ | bc
+```
+

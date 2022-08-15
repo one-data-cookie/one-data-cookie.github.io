@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: spring
 created: 13 Feb 2021
-updated: 05 Jan 2022
+updated: 15 Aug 2022
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -25,6 +25,7 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 ## Tips
 * Až se něco pokazí, [tyhle code snippets](https://ohshitgit.com/) se určitě budou hodit, příp. [tyto od CIA](https://wikileaks.org/ciav7p1/cms/page_1179773.html).
 * Make `.gitignore` ignore the files that were commited before added into the file.
+* If you need version control for large datasets, esp. in ML projects, it might be a good idea to look at [DVC](https://dvc.org/)
 
 ```shell[]()
 $ git rm -r --cached .
@@ -63,5 +64,5 @@ git cherry-pick
 ```
 
 ## Links
-- Learn from Mrshu [here](https://talks.mareksuppa.com/2020/linux-cli-11-git/) and [here](https://mareksuppa.com/teaching/linux-cli/2020/#lecture-11-git)
+- Learn from Mrshu [here](https://mareksuppa.com/teaching/linux-cli/2020/#lecture-11-git)
 - Use Git in Python using [GitPython](https://github.com/gitpython-developers/GitPython)

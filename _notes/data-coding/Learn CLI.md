@@ -25,8 +25,9 @@ sources: Misc
 - [Introduction to text manipulation on UNIX-based systems](https://developer.ibm.com/articles/au-unixtext/): A very extensive in-depth guide into what's possible with just the standard tools, when it comes to text processing on UNIX-like systems. (Spoiler alert: a lot!)
 - [Linux Filesystem Hierarchy](https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/): A deeper discussion on the various parts of the standard Linux filesystem, describing several of the directories in much higher detail than the slides ever could. Less in-depth also [on Wikipedia](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
 - [How dotfiles came to be](https://web.archive.org/web/20190211155005/https://plus.google.com/+RobPikeTheHuman/posts/R58WgWwN9jp): A short story by Rob Pike about how *dotfiles* came to be and what it says about the unintended effects of cutting corners and just "hacking around" a problem.
-- [[data-coding/Learn regular expressions]]: Quite a bit of information on regular expressions.
-- [[data-coding/Learn Vim]]: quite a bit of details about Vim
+- [[Learn regular expressions]]: Quite a bit of information on regular expressions.
+- [[Learn Vim]]: quite a bit of details about Vim.
+- [Symlinks, Hardlinks, Reflinks and ML projects](https://dev.to/robogeek/reflinks-vs-symlinks-vs-hard-links-and-how-they-can-help-machine-learning-projects-1cj4): This article goes deeper into how these concepts of links can be used for various Machine Learning (ML) projects where you work with a ton of data.
 
 
 ## Snippets
@@ -47,23 +48,45 @@ function git_info {
 setopt PROMPT_SUBST ; PS1='%F{green}@%*%f %F{cyan}[%n]%f%F{yellow}$(virtualenv_info)%f%F{red} $(git_info)%f%F{magenta}%~%f $ '
 ```
 
+- Look at files properly:
+```shell
+ls -l
+```
+
+Make sure to [read the info right](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/perms1.png) if needed.
+
 - Making a Python file executable:
 ```shell
-chmod u+x samlapi.py # only for user; +x for all
+# chmod {u,g,o,a}{+,-,=}{r,w,x} file
+chmod u+x samlapi.py # add execute rights for user
 ```
+
+Or you can use [octal representation](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/permissions.png).
 
 - Checking your `path`:
 ```shell
 sudo nano /etc/paths
 ```
 
-- Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/)
+- Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
 ```shell
 kill -SIGSTOP [pid]
 kill -SIGCONT [pid]
 ```
 
-- Take `n`th column from CSV and sum it
+- Take `n`th column from CSV and sum it:
 ```shell
 cat file.csv | cut -d, -f[n] | paste -sd+ | bc
 ```
+
+- Convert text form one character encoding to another:
+```shell
+iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
+```
+
+- "Parametrise" standard input line-by-line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files:
+```shell
+find . -type f -empty | xargs rm # or xargs -I{} rm {}
+```
+
+More info on this is [here](http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html), for instance.

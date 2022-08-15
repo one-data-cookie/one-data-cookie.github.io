@@ -1,7 +1,7 @@
 ---
 title: Become an analytics storyteller
 title-cs: 
-category: .
+category: data-analytics
 tags: [idea, coalesce]
 season: winter
 dates: [19 Jan 2022, 19 Jan 2022]

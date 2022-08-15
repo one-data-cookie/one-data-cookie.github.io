@@ -23,6 +23,17 @@ sources: Misc
 
 ![](https://imgs.xkcd.com/comics/regular_expressions.png)
 
+## Notes
+
+### BRE vs ERE
+- `grep` uses so called "basic regular expressions" (BRE) by default.
+- What we normally consider "regular expressions" are actually "extended regular expressions" (ERE)
+- The main difference is in backslashing the meta characters:
+    -   **BRE**: `\?`, `\+`, `\{`, `\}`
+    -   **ERE**: `?`, `+`, `{`, `}`
+- EREs can be turned on in `grep` by passing the `-E` parameter.
+- More details [here](https://www.johndcook.com/blog/2019/12/05/why-doesnt-grep-work/)
+
 ## Links
 - [The origins of grep](https://thenewstack.io/brian-kernighan-remembers-the-origins-of-grep/): Brian Kernighan, one of the forefathers of UNIX discusses how `grep` came to be, and it makes for a rather interesting story! (If you are in a hurry, here is a [10 minute video](https://www.youtube.com/watch?v=NTfOnGZUZDk).)
 - [Regex101](https://regex101.com/) – an integrated development environment (IDE) for regular expressions.
@@ -34,3 +45,4 @@ sources: Misc
 
 ## Tips
 - Use [non-capturing groups](https://stackoverflow.com/questions/3512471/what-is-a-non-capturing-group-in-regular-expressions), if needed
+- If you are looking through file, use `find [path] -name [pattern]` or even `find [path] -regex [pattern]` (typically with `-type f` just for files) instead of `grep`

@@ -5,7 +5,7 @@ content-type: eg
 ---
 
 # If Now
-This summer, I'm tweaking this site even further or [making data visualisations](/posts). But mostly, I'm just enjoying nice weather somewhere outside. 😎
+This summer, I'm [learning a bit more about CLI](/notes/Learn-CLI), tweaking this site even further or [making data visualisations](/posts). But mostly, I'm just enjoying nice weather somewhere outside. 😎
 
 See a few of my other projects below.
 

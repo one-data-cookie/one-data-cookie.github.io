@@ -5,7 +5,7 @@ category: data-engineering
 tags: [idea, mds, history]
 season: spring
 created: 19 Dec 2020
-updated: 05 Jan 2022
+updated: 15 Aug 2022
 sources: https://blog.getdbt.com/future-of-the-modern-data-stack/
 ---
 
@@ -37,4 +37,4 @@ Each technology individually goes through its own "S" curve, from development to
 
 ### Cambrian explosion II, from 2021 - 2025
 
-![](../../assets/files//data-stack.png)
+![](../__files//data-stack.png)

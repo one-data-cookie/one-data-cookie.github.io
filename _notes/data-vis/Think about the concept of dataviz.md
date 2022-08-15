@@ -16,4 +16,4 @@ Andy Kirk defines *four stages of data visualization*:
 4. Developing your design solution
 
 But you you can think about visualisation as balancing several axes:
-![](../../assets/files/axes-of-dataviz.png)
+![](../__files/axes-of-dataviz.png)

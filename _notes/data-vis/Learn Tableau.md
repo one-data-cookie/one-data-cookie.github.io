@@ -49,7 +49,7 @@ sources: Misc
 * [Curvy Bump chart and Slope chart](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
 	* Some fun curvy alternatives for bump chart and slope chart
 * Sankey Diagrams
-	* [Equal-Distant Sankey diagram](https://www.flerlagetwins.com/2018/04/sankey-template.html): for more complex sankey diagram where the categories should have gaps and data transformation is needed; [data](../../assets/files/Equal-Width-Sankey-Template.xlsx) and [viz](../../assets/files/Equal-Width-Sankey-Template.twbx)
+	* [Equal-Distant Sankey diagram](https://www.flerlagetwins.com/2018/04/sankey-template.html): for more complex sankey diagram where the categories should have gaps and data transformation is needed; [data](../__files/Equal-Width-Sankey-Template.xlsx) and [viz](../__files/Equal-Width-Sankey-Template.twbx)
 	* [Equal-Distant Sankey diagram 2](https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/): for simple and variable (no data transformation needed) sankey diagram where the categories should be next to each other; just change data source and amend `Dimensions` and `Measure`
 	* [More Cool Sankeys](https://www.flerlagetwins.com/2019/04/more-sankey-templates.html): from the same author as above
 * Decision Trees
@@ -62,11 +62,11 @@ sources: Misc
 	* [Tree Ring](https://thedataduo.com/2016/05/16/what-the-heck-is-a-tree-ring/)
 * [Simple Beeswarm Plot](https://www.flerlagetwins.com/2020/11/beeswarm.html)
 * [Proportion Plot](https://www.flerlagetwins.com/2021/02/proportion-plot.html)
-	* [data](../../assets/files/Proportion-Plot-Template.xlsx) and [viz](../../assets/files/Proportion-Plot-Template.twbx)
+	* [data](../__files/Proportion-Plot-Template.xlsx) and [viz](../__files/Proportion-Plot-Template.twbx)
 * Ternary Plot
 	* [From Flerlage Twins](https://www.flerlagetwins.com/2019/08/ternary.html)
 	* [From Tableau Magic](https://tableaumagic.com/creating-ternary-plots-in-tableau/)
-	* [viz](../../assets/files/Ternary-Plot.twbx)
+	* [viz](../__files/Ternary-Plot.twbx)
 * [Trelis Chart](https://www.vizwiz.com/2021/02/trellis-chart.html)
 * [Dots on a Map](https://www.vizwiz.com/2020/10/dots-on-a-map.html)
 * Bump Chart

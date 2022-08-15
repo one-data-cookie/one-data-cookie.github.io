@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: autumn
 created: 17 Dec 2020
-updated: 05 Jan 2022
+updated: 15 Aug 2022
 sources: Misc
 ---
 
@@ -14,7 +14,7 @@ The full context of analytics engineering is to be found in [The Analytics Engin
 ---
 
 Three roles in one:
-![](../../assets/files/three-data-roles.png)
+![](../__files/three-data-roles.png)
 
 ---
 

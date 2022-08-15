@@ -5,8 +5,8 @@ category: data-engineering
 tags: [idea]
 season: spring
 created: 15 Sep 2021
-updated: 05 Jan 2022
+updated: 15 Aug 2022
 sources: https://blockblogfr.blogspot.com/2020/10/emerging-architectures-for-modern-data.html
 ---
 
-![](../../assets/files/modern-data-infrastructure.png)
+![](../__files/modern-data-infrastructure.png)

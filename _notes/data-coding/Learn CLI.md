@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 14 Aug 2022
+updated: 15 Aug 2022
 sources: Misc
 ---
 
@@ -25,12 +25,13 @@ sources: Misc
 - [Introduction to text manipulation on UNIX-based systems](https://developer.ibm.com/articles/au-unixtext/): A very extensive in-depth guide into what's possible with just the standard tools, when it comes to text processing on UNIX-like systems. (Spoiler alert: a lot!)
 - [Linux Filesystem Hierarchy](https://tldp.org/LDP/Linux-Filesystem-Hierarchy/html/): A deeper discussion on the various parts of the standard Linux filesystem, describing several of the directories in much higher detail than the slides ever could. Less in-depth also [on Wikipedia](https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard).
 - [How dotfiles came to be](https://web.archive.org/web/20190211155005/https://plus.google.com/+RobPikeTheHuman/posts/R58WgWwN9jp): A short story by Rob Pike about how *dotfiles* came to be and what it says about the unintended effects of cutting corners and just "hacking around" a problem.
-- [The origins of grep](https://thenewstack.io/brian-kernighan-remembers-the-origins-of-grep/): Brian Kernighan, one of the forefathers of UNIX discusses how `grep` came to be, and it makes for a rather interesting story! (If you are in a hurry, here is a [10 minute video](https://www.youtube.com/watch?v=NTfOnGZUZDk).)
+- [[data-coding/Learn regular expressions]]: Quite a bit of information on regular expressions.
+- [[data-coding/Learn Vim]]: quite a bit of details about Vim
 
 
 ## Snippets
-- Customising prompt:
-```bash
+- Customising prompt like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
+```shell
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 function virtualenv_info {
     [ $VIRTUAL_ENV ] && echo ' ('`basename $VIRTUAL_ENV`')'
@@ -42,6 +43,7 @@ function git_info {
   __git_ps1 "(%s) "
 }
 
+# https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html
 setopt PROMPT_SUBST ; PS1='%F{green}@%*%f %F{cyan}[%n]%f%F{yellow}$(virtualenv_info)%f%F{red} $(git_info)%f%F{magenta}%~%f $ '
 ```
 
@@ -56,13 +58,12 @@ sudo nano /etc/paths
 ```
 
 - Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/)
-```bash
+```shell
 kill -SIGSTOP [pid]
 kill -SIGCONT [pid]
 ```
 
 - Take `n`th column from CSV and sum it
-```bash
+```shell
 cat file.csv | cut -d, -f[n] | paste -sd+ | bc
 ```
-

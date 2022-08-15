@@ -32,6 +32,7 @@ sources: Misc
 
 ## Snippets
 - Customising prompt like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
+
 ```shell
 export VIRTUAL_ENV_DISABLE_PROMPT=1
 function virtualenv_info {
@@ -49,6 +50,7 @@ setopt PROMPT_SUBST ; PS1='%F{green}@%*%f %F{cyan}[%n]%f%F{yellow}$(virtualenv_i
 ```
 
 - Look at files properly:
+
 ```shell
 ls -l
 ```
@@ -56,6 +58,7 @@ ls -l
 Make sure to [read the info right](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/perms1.png) if needed.
 
 - Making a Python file executable:
+
 ```shell
 # chmod {u,g,o,a}{+,-,=}{r,w,x} file
 chmod u+x samlapi.py # add execute rights for user
@@ -64,27 +67,32 @@ chmod u+x samlapi.py # add execute rights for user
 Or you can use [octal representation](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/permissions.png).
 
 - Checking your `path`:
+
 ```shell
 sudo nano /etc/paths
 ```
 
 - Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
+
 ```shell
 kill -SIGSTOP [pid]
 kill -SIGCONT [pid]
 ```
 
 - Take `n`th column from CSV and sum it:
+
 ```shell
 cat file.csv | cut -d, -f[n] | paste -sd+ | bc
 ```
 
 - Convert text form one character encoding to another:
+
 ```shell
 iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
 ```
 
 - "Parametrise" standard input line-by-line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files:
+
 ```shell
 find . -type f -empty | xargs rm # or xargs -I{} rm {}
 ```

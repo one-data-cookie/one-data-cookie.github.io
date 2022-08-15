@@ -1,11 +1,11 @@
 ---
 title: Navigate the organisations hoping to digitalise public sector
 title-cs: 
-category: .
+category: data-society
 tags: [idea]
 season: winter
 created: 08 Jul 2022
-updated: 08 Jul 2022
+updated: 15 Aug 2022
 sources: Misc
 ---
 

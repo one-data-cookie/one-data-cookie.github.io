@@ -1,11 +1,11 @@
 ---
 title: Learn Vim
 title-cs: 
-category: .
+category: data-coding
 tags: [learn, vim]
 season: winter
 created: 14 Aug 2022
-updated: 14 Aug 2022
+updated: 15 Aug 2022
 sources:  Misc
 ---
 

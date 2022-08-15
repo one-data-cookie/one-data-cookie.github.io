@@ -5,13 +5,13 @@ category: data-literacy
 tags: [idea]
 season: spring
 created: 10 Mar 2019
-updated: 24 Jan 2022
+updated: 15 Aug 2022
 sources: NA
 ---
 
-![](../__files/rozdeleni-datove-gramotnosti.jpeg)
+![](../../assets/files/rozdeleni-datove-gramotnosti.jpeg)
 
-* Based on [Deahl (MIT)](../__files/better-data-you-know.pdf)
+* Based on [Deahl (MIT)](../../assets/files/better-data-you-know.pdf)
 
 **The definitions:**
 

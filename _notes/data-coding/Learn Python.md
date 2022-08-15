@@ -13,10 +13,10 @@ sources: Misc
 * [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
 * [pythonji](https://github.com/gahjelle/pythonji)
   * Write Python with emojis
-* [Learn Python The Hard Way, 3rd Edition.pdf](../__files/Learn-Python-The-Hard-Way.pdf)
+* [Learn Python The Hard Way, 3rd Edition.pdf](../../assets/files/Learn-Python-The-Hard-Way.pdf)
 * [Jupyter Samples](https://github.com/ibm-et/jupyter-samples)
 
-![](../__files/r-vs-python.png)
+![](../../assets/files/r-vs-python.png)
 
 ## Snippets
 - Find out available versions for `pip` package:

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 15 Aug 2022
+updated: 16 Aug 2022
 sources: Misc
 ---
 
@@ -31,7 +31,7 @@ sources: Misc
 
 
 ## Snippets
-- Customising prompt like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
+- Customise prompt like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
 
 ```shell
 export VIRTUAL_ENV_DISABLE_PROMPT=1
@@ -49,7 +49,7 @@ function git_info {
 setopt PROMPT_SUBST ; PS1='%F{green}@%*%f %F{cyan}[%n]%f%F{yellow}$(virtualenv_info)%f%F{red} $(git_info)%f%F{magenta}%~%f $ '
 ```
 
-- Look at files properly:
+- `ls`: List your files properly:
 
 ```shell
 ls -l
@@ -57,7 +57,7 @@ ls -l
 
 Make sure to [read the info right](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/perms1.png) if needed.
 
-- Making a Python file executable:
+- `chmod`: Change permissions to make a file executable:
 
 ```shell
 # chmod {u,g,o,a}{+,-,=}{r,w,x} file
@@ -66,35 +66,61 @@ chmod u+x samlapi.py # add execute rights for user
 
 Or you can use [octal representation](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/permissions.png).
 
-- Checking your `path`:
+- `sudo`: Do as superuser to check your `PATH`:
 
 ```shell
 sudo nano /etc/paths
 ```
 
-- Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
+- `kill`: Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
 
 ```shell
 kill -SIGSTOP [pid]
 kill -SIGCONT [pid]
 ```
 
-- Take `n`th column from CSV and sum it:
+- `cut`, `paste`: Take `n`th column from CSV and sum it:
 
 ```shell
 cat file.csv | cut -d, -f[n] | paste -sd+ | bc
 ```
 
-- Convert text form one character encoding to another:
+- `iconv`: Convert text form one character encoding to another:
 
 ```shell
 iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
 ```
 
-- "Parametrise" standard input line-by-line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files:
+-  `find`, `xargs`: "Parametrise" standard input line by line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files:
 
 ```shell
 find . -type f -empty | xargs rm # or xargs -I{} rm {}
 ```
 
 More info on this is [here](http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html), for instance.
+
+- `sed`: Take in a stream of text line by line and transform it in one, esp. for substitution (`s`) but also deletion (`d`) or printing (`p`).
+
+```shell
+# cat [filename] | sed [addr]X[options] # addr=lines, x=cmd
+cat text.txt | sed -E 's/Unix/UNIX/g' # s/[regex]/[replacement]/[flags]
+cat text.txt | sed -E 's/(her)/[\1]/g' # \m to reference groups in ()
+cat text.txt | sed -E 's/[0-9]+/[&]/g' # & to reference the whole match
+```
+
+- `awk`:  Scan file for lines that match any of a set of patterns and make an action. It basically translates the below into simple `pattern { action1[; action2] }` (yet [quite powerful](https://iridakos.com/programming/2019/05/16/remove-duplicate-lines-preserving-order-linux)).
+
+```python
+for line in file.readlines():
+	for pattern, actions in patterns_actions:
+		if pattern.match(line):
+			eval(actions)
+```
+
+```shell
+cat text.txt | awk '/regex/' # rows that match regex
+cat text.txt | awk -F, '{ print $n }' # print n-th column for each row where , is Field Sep
+cat text.txt | awk '$4 == "F" { print $1 }' # 1st col for rows with "F" in col4
+ls *.txt -l | awk '$5 >= 100 { sum += $5 } END { print sum }' # sum sizes of txt files over 100 B
+cat people.txt | awk '{ p[$4]++ } END { for(i in p) print i, ":", p[i] }' # agg
+```

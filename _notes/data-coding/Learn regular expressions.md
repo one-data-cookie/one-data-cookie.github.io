@@ -1,11 +1,11 @@
 ---
 title: Learn regular expressions
 title-cs: 
-category: .
+category: data-coding
 tags: [learn, regexp]
-season: autumn
+season: spring
 created: 26 Apr 2022
-updated: 15 Aug 2022
+updated: 16 Aug 2022
 sources: Misc
 ---
 

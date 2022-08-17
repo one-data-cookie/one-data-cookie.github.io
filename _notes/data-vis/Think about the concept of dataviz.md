@@ -5,15 +5,18 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 24 Feb 2021
-updated: 15 Aug 2022
-sources: Kristína Zákopčanová, meetup_1.csv
+updated: 17 Aug 2022
+sources: Misc
 ---
 
-Andy Kirk defines *four stages of data visualization*:
+Andy Kirk defines *four stages of data visualisation*:
 1. Formulating your brief
 2. Working with data
 3. Establishing your editorial thinking
 4. Developing your design solution
 
 But you you can think about visualisation as balancing several axes:
-![](../../assets/files/axes-of-dataviz.png)
+![Kristína Zákopčanová, meetup_1.csv](../../assets/files/axes-of-dataviz.png)
+
+However, it doesn't always work as hoped:
+![](../../assets/files/data-storytelling-real.jpg)

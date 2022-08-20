@@ -5,35 +5,46 @@ category: data-coding
 tags: [learn, git]
 season: spring
 created: 13 Feb 2021
-updated: 15 Aug 2022
+updated: 20 Aug 2022
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
-## General
-* Doporučil bych začít tím, že si přečtete [tento článek](https://pixelpioneers.co/blog/2017/git-basics-explained-by-designing-a-new-car), který na pěkné asociaci vysvětluje princip Gitu.
-* Následně bych pokračoval postupným přečtením [tohoto článku](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners), který shrnuje úplné základy, jak pracovat s Git(Hub)em.
-* Pro bližší pochopení některých pojmů stojí za to přečíst [tento článek](https://xosh.org/explain-git-in-simple-words/).
-* Velmi bych doporučil, abyste si to potom procvičili na nějakých příkladech. Mně se osvědčil [tento interaktivní web](https://learngitbranching.js.org/), který se doporučuje i na konci předchozího článku.
-* Až začnete tvořit první commits, tak si doporučuju ještě přečíst [tento krátký text](https://juffalow.com/other/write-good-git-commit-message), jak dobře psát commit messages.
-* Pokud vám cokoliv bude nejasné, skoro určitě to najdete v [této Git dokumentaci](https://git-scm.com/book/en/v2), který je zároveň online knížkou.
+## Intro
+- It is a standardised way of tracking your code and analyses (plus history thereof).
+- [Mrshu says](https://talks.mareksuppa.com/teaching/2021/linux-cli-data-science/10-git/#6) that it's a good idea to learn Git, because it:
+	- Helps avoid "versioning hell" (you know, files like `essay.doc`, `essay_v2.doc`, `essay_final.doc`)
+	- Gives you the ability to "jump in time"
+	- Helps you make your work "reproducible"
+	- Makes it a bit more straightforward to work on common (larger) projects with others
+- And don't forget that `Git != GitHub != GitLab`. Git is the technology that powers GitHub and GitLab who are "web frontends" and business.
 
 ![](https://imgs.xkcd.com/comics/git_2x.png)
+
+## Learn
+- Start with [this article](https://pixelpioneers.co/blog/2017/git-basics-explained-by-designing-a-new-car) that explains the main principles of Git using a fitting analogy with designing a car.
+- Follow-up with reading [this tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners) that sums up the very basis how to work with Git(Hub).
+- For further getting a better grasp on some terms, it's worth going through [this one](https://xosh.org/explain-git-in-simple-words/).
+- When it's time to start playing around on some examples, [this interactive website](https://learngitbranching.js.org/) is the perfect place for it.
+- If it still doesn't make sense, maybe a [visual tutorial](https://agripongit.vincenttunru.com/) good be the way to go?
+- Before pushing a first commit, it might be a good idea to find out how to write a [good commit message](https://juffalow.com/other/write-good-git-commit-message).
+- If there is still anything unclear, [Git docs](https://git-scm.com/book/en/v2) will almost certainly have an answer.
+- In case you wish to discover more commands that you might encounter and you are a visual learner [this Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)might be of interest to you.
 
 ## Details
 * [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
-## Tips
-* Až se něco pokazí, [tyhle code snippets](https://ohshitgit.com/) se určitě budou hodit, příp. [tyto od CIA](https://wikileaks.org/ciav7p1/cms/page_1179773.html).
-* Make `.gitignore` ignore the files that were commited before added into the file.
-* If you need version control for large datasets, esp. in ML projects, it might be a good idea to look at [DVC](https://dvc.org/)
+## Snippets
+- When anything goes wrong, [these code snippets](https://ohshitgit.com/) come particularly handy; alternatively [these from CIA](https://wikileaks.org/ciav7p1/cms/page_1179773.html).
 
-```shell[]()
+- Make `.gitignore` ignore the files that were committed before added into the file:
+
+```shell
 $ git rm -r --cached .
 $ git add .
 $ git commit -m ".gitignore is now working"
 ```
 
-* Create repo from scratch through this `init.sh` script, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br), which can be run through `sh init.sh repo-name` from directory (or better still `./init.sh repo-name` if you run `chmod u+x init.sh` first)
+- Create repo from scratch through this `init.sh` script, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br), which can be run through `sh init.sh repo-name` from directory (or better still `./init.sh repo-name` if you run `chmod u+x init.sh` first):
 
 ```shell
 #!/bin/zsh
@@ -53,16 +64,19 @@ touch README.md
 atom ./
 ```
 
-* If you need to see your log of changes in a nice format:
-```
+- See your log of changes in a nice format:
+```shell
 git log --pretty=oneline
+# or
+git log --oneline --decorate --graph --all
 ```
 
-* If you need to copy-paste commits from one branch to another.
-```
+- Copy-paste commits from one branch to another:
+```shell
 git cherry-pick
 ```
 
 ## Links
-- Learn from Mrshu [here](https://mareksuppa.com/teaching/linux-cli/2020/#lecture-11-git)
+- Learn from Mrshu [here](https://mareksuppa.com/teaching/linux-cli/2021/#lecture-11-git)
 - Use Git in Python using [GitPython](https://github.com/gitpython-developers/GitPython)
+- Version-control large datasets, esp. in ML projects, using [DVC](https://dvc.org/)

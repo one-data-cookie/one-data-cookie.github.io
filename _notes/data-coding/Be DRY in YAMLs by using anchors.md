@@ -5,13 +5,14 @@ category: data-coding
 tags: [idea, yaml]
 season: spring
 created: 11 Mar 2021
-updated: 05 Jan 2022
+updated: 20 Aug 2022
 sources: https://joshdevlin.com/blog/yaml-repeating-sections/
 ---
 
 You define a block using an **anchor**, and then refer to it using an **alias**.
 
 Anchors are denoted using a `&` character followed by the anchor name. Let’s look at a simple version of defining an anchor:
+
 ```yaml
 dict_key_1: dict_value_1
 key_with_anchor_value: &anchor_name hello

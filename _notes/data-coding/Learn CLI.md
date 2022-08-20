@@ -5,26 +5,28 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 19 Aug 2022
-sources: Misc
+updated: 20 Aug 2022
+sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
+## Why, really?
+- [Become shell literate](https://drewdevault.com/2020/12/12/Shell-literacy.html): Attempt at trying to persuade you that this whole thing makes sense. _Full disclosure_: the author of the article is a well-known free software advocate, so he is far from impartial in his article. That said, he is certainly not alone in suggesting it; here is another example from [Letters To A New Developer](https://letterstoanewdeveloper.com/2019/02/04/learn-the-command-line/)
+
 ## UNIX Philosophy
-- [Unix philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html) (by [Doug McIlroy](https://en.wikipedia.org/wiki/Douglas_McIlroy), creator of Unix pipes) is to
+- [Unix philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html) (by [Doug McIlroy](https://en.wikipedia.org/wiki/Douglas_McIlroy), creator of Unix pipes) is to:
 	- Write programs that do one thing and do it well
 	- Write programs to work together
 	- Write programs to handle text streams, because that is a universal interface
 
 ## Materials
 - Learn long-term from:
-	- [Marek Šuppa](https://mareksuppa.com/teaching/linux-cli/2020/)
+	- [Marek Šuppa](https://mareksuppa.com/teaching/linux-cli-data-science/2021/)
 	- [The Missing Semester at MIT](https://missing.csail.mit.edu/)
 	- [Great Practical Ideas in CS at CMU](https://www.cs.cmu.edu/~07131/f20/)
 - If you are in a hurry:
+	- [Linux Productivity Tools slides](https://www.usenix.org/sites/default/files/conference/protected-files/lisa19_maheshwari.pdf)
+- If you are in a real hurry:
 	- [Learn X in Y minutes: bash](https://learnxinyminutes.com/docs/bash/)
-- Read:
-	- [UNIX: A History and a Memoir](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552) by Brian W Kernighan
-	- [The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/) by Cliff Stoll
 
 ## Worth reading or watching
 - [The UNIX Command Language](https://github.com/susam/tucl): This paper from 1976 (!), written by no one else but Ken Thompson, is the first paper ever published on the Unix shell.. If for nothing else, it's almost certainly worth reading for its amazing clarity of presentation and concise treatment.
@@ -35,10 +37,14 @@ sources: Misc
 - [[Learn regular expressions]]: Quite a bit of information on regular expressions.
 - [[Learn Vim]]: quite a bit of details about Vim.
 - [Symlinks, Hardlinks, Reflinks and ML projects](https://dev.to/robogeek/reflinks-vs-symlinks-vs-hard-links-and-how-they-can-help-machine-learning-projects-1cj4): This article goes deeper into how these concepts of links can be used for various Machine Learning (ML) projects where you work with a ton of data.
+- [UNIX: A History and a Memoir](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552) by Brian W Kernighan: A historical account of how UNIX came to be by someone who was there when it happened. It will help you paint the proper picture of what is meant when people say stuff like "UNIX legacy" or "the UNIX era".
+- [The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/) by Cliff Stoll: A true story of a physicist who tracked one of the first documented "hackers" who he found snooping around his systems. The best part is that it's all real, down to the (obviously UNIX) commands that were used.
 
-
-## Snippets
-- Customise prompt like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
+## Make yourself at home
+- Use [iTerm2](https://iterm2.com/), the terminal for MacOS
+- Use [`tmux`](https://github.com/tmux/tmux), terminal multiplexer with [simple setup](https://www.ocf.berkeley.edu/~ckuehl/tmux/) that can be also used for pair-programming
+- Later, use aliases or functions and define them in `.bashrc` or `.bash_profile`, e.g. `alias cx='chmod +x'` or `mcd() { mkdir -p $1; cd $1 }`
+- Customise prompt through [`starship`](https://starship.rs/) or like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
 
 ```shell
 export VIRTUAL_ENV_DISABLE_PROMPT=1
@@ -56,6 +62,28 @@ function git_info {
 setopt PROMPT_SUBST ; PS1='%F{green}@%*%f %F{cyan}[%n]%f%F{yellow}$(virtualenv_info)%f%F{red} $(git_info)%f%F{magenta}%~%f $ '
 ```
 
+## Commands
+- Anatomy of a typical command:
+
+```shell
+# cmd1 -options arg1 (pipe) cmd2 arg2
+ls -lh /etc | grep 'conf'
+```
+
+- `!!`: repeat the last command
+- `cd -`: change to previous directory
+- `which`: check if a command is available and if so, from where it is run
+- `man`/`info` (or [`tldr`](https://github.com/tldr-pages/tldr) or even [`tealdeer`](https://github.com/dbrgn/tealdeer) as modern alternatives): show docs
+- `cat` (or [`bat`](https://github.com/sharkdp/bat) as modern alternative): read your files.
+- `touch file.txt`: create an empty file
+- `ctrl-r`: recall from history; `history`: print history
+
+- `less`: Read your long files (pagination, scrolling, etc.):
+
+```shell
+cat long_text.txt | less
+```
+
 - `read`: Read a value from input:
 
 ```shell
@@ -64,27 +92,29 @@ read Name # not declaring a new variable
 echo Hello, $Name!
 ```
 
-- `ls`: List your files properly:
+- `ls` (or [`lsd`](https://github.com/Peltoche/lsd) or [`exa`](https://the.exa.website/) as modern alternatives): List your files properly but make sure to [read the info right](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/perms1.png) if needed.:
 
 ```shell
 ls -l
 ```
 
-Make sure to [read the info right](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/perms1.png) if needed.
-
-- `chmod`: Change permissions to make a file executable:
+- `chmod`: Change permissions to make a file executable (or you can use [octal representation](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/permissions.png).)
 
 ```shell
 # chmod {u,g,o,a}{+,-,=}{r,w,x} file
 chmod u+x samlapi.py # add execute rights for user
 ```
 
-Or you can use [octal representation](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/permissions.png).
-
 - `sudo`: Do as superuser to check your `PATH`:
 
 ```shell
 sudo nano /etc/paths
+```
+
+- `ps` (or [`procs`](https://github.com/dalance/procs) as modern alternative): List all process statuses:
+
+```shell
+ps -e
 ```
 
 - `kill`: Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
@@ -112,13 +142,11 @@ cat file.csv | cut -d, -f[n] | paste -sd+ | bc
 iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
 ```
 
--  `find`, `xargs`: "Parametrise" standard input line by line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files:
+-  `find` (or [`fd`](https://github.com/sharkdp/fd) as modern alternative), `xargs`: "Parametrise" standard input line by line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files; more info [here](http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html):
 
 ```shell
 find . -type f -empty | xargs rm # or xargs -I{} rm {}
 ```
-
-More info on this is [here](http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html), for instance.
 
 - `curl`: Outputs the file it reads from the network to `stdout`.
 
@@ -126,7 +154,7 @@ More info on this is [here](http://offbytwo.com/2011/06/26/things-you-didnt-know
 curl uniba.sk > index.html
 ```
 
-- `sed`: Take in a stream of text line by line and transform it in one, esp. for substitution (`s`) but also deletion (`d`) or printing (`p`).
+- `sed` (or [`sd`](https://github.com/chmln/sd) as modern alternative): Take in a stream of text line by line and transform it in one, esp. for substitution (`s`) but also deletion (`d`) or printing (`p`).
 
 ```shell
 # cat [filename] | sed [addr]X[options] # addr=lines, x=cmd
@@ -159,7 +187,7 @@ cat people.txt | awk '{ p[$4]++ } END { for(i in p) print i, ":", p[i] }' # agg
 - `export VAR=exported`: Export variable to be exposed to child processes, otherwise variables are local to the process in which they are defined.
 - `echo '$name' vs echo "$name"`: First returns verbatim, second interpolates first. Well, (almost) [always double-quote your variable references](http://www.compciv.org/topics/bash/variables-and-substitution/).
 - `echo ${my_array[0]}` or sometimes just simply `echo ${MY_VAR}`: Parameter expansion is also useful
-- `a=$(echo 'hello')`: Command expansion to save output to variable.
+- `a=$(echo "hello")`: Command expansion to save output to variable.
 - `{1..10}`: Brace expansion even more
 - `$(( 10 + 5 ))`: [Simply calculate](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#Shell-Arithmetic) or maybe just use `bc`
 -  `0` exit code is success ("true"), `1` is fail "false").
@@ -211,3 +239,28 @@ for i in $(seq 1 5); do
 	echo "Checking number $i"
 done
 ```
+
+- Inplace files:
+
+```shell
+sh << EOF
+echo "Hello World"
+END<enter>
+```
+
+- Fallback for no args
+
+```shell
+if [ $# -eq 0 ]; then
+    #no args
+else
+    #some args
+fi
+```
+
+## Modern Alternatives
+- [Modern Alternatives of Command-Line Tools](https://zaiste.net/posts/shell-commands-rust/)
+- Modern shells:
+	- [`fish`](https://fishshell.com/): friendly interactive shell
+	- [`xonsh`](https://xon.sh/): pythonic shell
+	- [`nushell`](https://www.nushell.sh/): new type of shell, esp. for working with data

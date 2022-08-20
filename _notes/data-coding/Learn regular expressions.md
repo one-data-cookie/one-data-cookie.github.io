@@ -42,7 +42,7 @@ sources: Misc
 	- [RegexGolf](https://alf.nu/RegexGolf)
 	- [Regex Tuesday](https://callumacrae.github.io/regex-tuesday/)
 	- [RegexCrossword](https://regexcrossword.com/)
-- There are also [some alternatives to `grep`](https://beyondgrep.com/feature-comparison/), esp. [`ripgrep`](https://github.com/BurntSushi/ripgrep#quick-examples-comparing-tools)
+- There are also [some alternatives to `grep`](https://beyondgrep.com/feature-comparison/), esp. [`ripgrep` = `rg`](https://github.com/BurntSushi/ripgrep)
 
 ## Tips
 - Use [non-capturing groups](https://stackoverflow.com/questions/3512471/what-is-a-non-capturing-group-in-regular-expressions), if needed

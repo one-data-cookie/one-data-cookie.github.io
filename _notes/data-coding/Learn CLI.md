@@ -43,6 +43,7 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 ## Make yourself at home
 - Use [iTerm2](https://iterm2.com/), the terminal for MacOS
 - Use [`tmux`](https://github.com/tmux/tmux), terminal multiplexer with [simple setup](https://www.ocf.berkeley.edu/~ckuehl/tmux/) that can be also used for pair-programming
+- Use [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions) for autosuggestion in zsh shell
 - Later, use aliases or functions and define them in `.bashrc` or `.bash_profile`, e.g. `alias cx='chmod +x'` or `mcd() { mkdir -p $1; cd $1 }`
 - Customise prompt through [`starship`](https://starship.rs/) or like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
 
@@ -71,12 +72,13 @@ ls -lh /etc | grep 'conf'
 ```
 
 - `!!`: repeat the last command
-- `cd -`: change to previous directory
+- `cd -`: change to previous directory; btw check out [`z`](https://github.com/rupa/z) or [`j`](https://github.com/wting/autojump), too
 - `which`: check if a command is available and if so, from where it is run
 - `man`/`info` (or [`tldr`](https://github.com/tldr-pages/tldr) or even [`tealdeer`](https://github.com/dbrgn/tealdeer) as modern alternatives): show docs
 - `cat` (or [`bat`](https://github.com/sharkdp/bat) as modern alternative): read your files.
 - `touch file.txt`: create an empty file
 - `ctrl-r`: recall from history; `history`: print history
+- Almost all of these are [core utilities commands](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)
 
 - `less`: Read your long files (pagination, scrolling, etc.):
 
@@ -142,7 +144,7 @@ cat file.csv | cut -d, -f[n] | paste -sd+ | bc
 iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
 ```
 
--  `find` (or [`fd`](https://github.com/sharkdp/fd) as modern alternative), `xargs`: "Parametrise" standard input line by line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files; more info [here](http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html):
+-  `find` (or [`fd`](https://github.com/sharkdp/fd) as modern alternative or [`fzf`](https://github.com/junegunn/fzf) for fuzzy finding), `xargs`: "Parametrise" standard input line by line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files; more info [here](http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html):
 
 ```shell
 find . -type f -empty | xargs rm # or xargs -I{} rm {}
@@ -182,6 +184,7 @@ cat people.txt | awk '{ p[$4]++ } END { for(i in p) print i, ":", p[i] }' # agg
 
 ## Scripting
 - Some notes on it below but if you want to go deeper, [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/) would be where to go
+- Especially when starting, it might be a good idea to use [`spellcheck`](https://github.com/koalaman/shellcheck)
 - `#!/bin/bash`: Use a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) as a header to define the absolute path to the file's interpreter directly in the script (and not later on the command line), i.e. `./script.sh` instead of `bash script.sh`
 - `printenv`: See all pre-set variables
 - `export VAR=exported`: Export variable to be exposed to child processes, otherwise variables are local to the process in which they are defined.
@@ -205,7 +208,8 @@ else
 	echo "Sorry, only root is allowed to run this";
 fi
 
-# Most often, `test` (`man 1 test`) is used; or [ ] for short
+# Most often, `test` (`man 1 test`) is used; or [ ], or even [[ ]], for short
+# BTW, there is a difference: http://mywiki.wooledge.org/BashFAQ/031
 if [ -d .tmp ]; then
 	echo "The directory .tmp exists; proceeding."
 fi

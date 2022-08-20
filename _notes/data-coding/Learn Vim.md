@@ -5,29 +5,30 @@ category: data-coding
 tags: [learn, vim]
 season: winter
 created: 14 Aug 2022
-updated: 15 Aug 2022
-sources:  Misc
+updated: 20 Aug 2022
+sources: Misc
 ---
 
 ## Philosophy
 1. Optimise for reading code/text, not writing
 2. Be programmable by itself (keystrokes are composable commands)
-3.  Avoid the mouse (too slow) or even the arrow keys (too much hand movement)
+3. Avoid the mouse (too slow) or even the arrow keys (too much hand movement)
 
 In practice this means using different "modes of operation" for different kinds of tasks.
 
 ## Vim modes
-- **NORMAL** (`Esc`, sometimes double)
-    - the default mode the editor starts in
-    - each keypress is equivalent to an editor command
+- **NORMAL** (`<ESC>`, sometimes double)
+    - Default mode the editor starts in; one should spend most of the time here
+    - Each keypress is equivalent to an editor command
 -   **INSERT** (`i`)
-    - the "normal" mode of other editors
-    - each keypress actually inserts a character to a given file
+    - "Normal" mode of other editors
+    - Each keypress actually inserts a character to a given file
 -   **VISUAL** (`v`)
-    - allows you to take a selection of text and apply various transformations
+    - Allows you to take a selection of text and apply various transformations
 -   **COMMAND** (`*`)
-    - lets you run commands that control the whole editor in its "command line"
-    - technically known as _Command-line_ or _Cmdline_ mode
+    - Lets you run commands that control the whole editor in its "command line"
+    - Technically known as _Command-line_ or _Cmdline_ mode
+- You use the `<ESC>` key a lot when using Vim: consider remapping Caps Lock to Escape ([macOS instructions](https://vim.fandom.com/wiki/Map_caps_lock_to_escape_in_macOS)).
 
 ## Links
 - [Presentation from Marek Suppa](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/06-vim/)
@@ -36,15 +37,26 @@ In practice this means using different "modes of operation" for different kinds 
 - [Your problem with Vim is that you don't grok vi](https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118): probably one of the most famous StackOverflow answers of all time on how Vim relates to Vi and how you can learn much from well designed technologies that haven't changed much in the past.
 - [Cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
 - [Vim Golf](http://www.vimgolf.com/): real Vim ninjas count every keystroke – do you?
+- Customise vim by editing `~/.vimrc`, e.g. like [this](https://missing.csail.mit.edu/2020/files/vimrc), or installing [useful plugins](https://vimawesome.com/)
+- Once you get you to it, you might want to [use it everywhere](https://reversed.top/2016-08-13/big-list-of-vim-like-software/)
 
 ## Snippets
 **Normal**:
+- Basic movement: `hjkl` (left, down, up, right)
+- Words: `w` (next word), `b` (beginning of word), `e` (end of word)
+- Lines: `0` (beginning of line), `^` (first non-blank character), `$` (end of line)
+- Screen: `H` (top of screen), `M` (middle of screen), `L` (bottom of screen)
+- Scroll: `Ctrl-u` (up), `Ctrl-d` (down)
+- File: `gg` (beginning of file), `G` (end of file)
+- Line numbers: `:{number}<CR>` or `{number}G` (line {number})
 - `fx`: jump to the next occurrence of character `x`
-- `u`: undo
-- `d2w` delete two words or `3dd`delete three lines below or `df)` delete until you find `)` (= noun, verb, modifier)
 - `/{regexp}<Enter>`: look up `{regex}` from the current line downwards (with `n` for next)
+- `u`: undo
+- `y`: copy/yank
+- `p`: paste
 
 **Insert**:
+- `d2w` delete two words or `3dd`delete three lines below or `df)` delete until you find `)` (= noun, verb, modifier); generally `d{motion}`
 - `a`: append to the right
 - `A`: append to the end of line
 
@@ -61,3 +73,4 @@ In practice this means using different "modes of operation" for different kinds 
 - `:!{cmd}`: execute `{cmd}`
 - `:r!{cmd}`: execute `{cmd}` and paste its stdout to the currently opened file (buffer)
 - `:%!{cmd}`: pass the contents of the whole file (`%`) through `{cmd}`
+- `:sp`, `:svp`: split windows

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 20 Aug 2022
+updated: 21 Aug 2022
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -97,7 +97,7 @@ echo Hello, $Name!
 - `ls` (or [`lsd`](https://github.com/Peltoche/lsd) or [`exa`](https://the.exa.website/) as modern alternatives): List your files properly but make sure to [read the info right](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/perms1.png) if needed.:
 
 ```shell
-ls -l
+ls -lh
 ```
 
 - `chmod`: Change permissions to make a file executable (or you can use [octal representation](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/permissions.png).)
@@ -119,11 +119,35 @@ sudo nano /etc/paths
 ps -e
 ```
 
-- `kill`: Stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
+- `kill`: Kill a process or just stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
 
 ```shell
-kill -SIGSTOP [pid]
-kill -SIGCONT [pid]
+# kill
+ps -e | grep -i "[process name]"
+kill -9 [pid]
+
+# stop and start again
+kill -SIGSTOP [pid] # or -19
+kill -SIGCONT [pid] # or -18
+```
+
+`jobs`: List your running process and use`<Ctrl-Z>` with `bg`, `fg` to send them to background/foreground:
+
+```shell
+$ sleep 1000
+^Z
+[1]  + 18653 suspended sleep 1000
+
+$ jobs
+[1]  + suspended sleep 1000
+
+$ bg %1
+[1]  - 18653 continued sleep 1000
+
+$ jobs
+[1]  - running sleep 1000
+```
+
 ```
 
 - `bc`: Calculate better:
@@ -150,7 +174,7 @@ iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
 find . -type f -empty | xargs rm # or xargs -I{} rm {}
 ```
 
-- `curl`: Outputs the file it reads from the network to `stdout`.
+- `curl`: Outputs the file it reads from the network to `stdout`; handy to use [`pup`](https://github.com/EricChiang/pup) if working with HTML and [`jq`](https://stedolan.github.io/jq/) if with JSON:
 
 ```shell
 curl uniba.sk > index.html

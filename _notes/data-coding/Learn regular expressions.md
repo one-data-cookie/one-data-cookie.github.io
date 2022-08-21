@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, regexp]
 season: spring
 created: 26 Apr 2022
-updated: 20 Aug 2022
+updated: 21 Aug 2022
 sources: Misc
 ---
 
@@ -36,13 +36,15 @@ sources: Misc
 
 ## Links
 - [The origins of grep](https://thenewstack.io/brian-kernighan-remembers-the-origins-of-grep/): Brian Kernighan, one of the forefathers of UNIX discusses how `grep` came to be, and it makes for a rather interesting story! (If you are in a hurry, here is a [10 minute video](https://www.youtube.com/watch?v=NTfOnGZUZDk).)
-- [Regex101](https://regex101.com/) – an integrated development environment (IDE) for regular expressions.
-- [Regexper](https://regexper.com/) – visualises regular expressions as "proto programs".
+- [RegexOne](https://regexone.com/): interactive tutorial.
+- [Regex101](https://regex101.com/): an integrated development environment (IDE) for regular expressions.
+- [Regexper](https://regexper.com/): visualises regular expressions as "proto programs".
 - Games:
 	- [RegexGolf](https://alf.nu/RegexGolf)
 	- [Regex Tuesday](https://callumacrae.github.io/regex-tuesday/)
 	- [RegexCrossword](https://regexcrossword.com/)
 - There are also [some alternatives to `grep`](https://beyondgrep.com/feature-comparison/), esp. [`ripgrep` = `rg`](https://github.com/BurntSushi/ripgrep)
+- You can even use regex to [search prime numbers](https://www.noulakaz.net/2007/03/18/a-regular-expression-to-check-for-prime-numbers/). [Not so easy](https://emailregex.com/) for [email addresses](https://www.regular-expressions.info/email.html) though.
 
 ## Tips
 - Use [non-capturing groups](https://stackoverflow.com/questions/3512471/what-is-a-non-capturing-group-in-regular-expressions), if needed

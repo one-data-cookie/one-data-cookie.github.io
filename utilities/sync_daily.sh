@@ -17,10 +17,8 @@ echo "Changing links in public folders"
 find _notes -type f -name "*.md" -not -path "_notes/_*" -exec sed -i '' -e "s#\.\./__files/#\.\./\.\./assets/files/#g" {} \;
 
 # Move files from vault to assets
-# https://unix.stackexchange.com/a/412262
 echo "Moving files from vault to assets"
-rm -r assets/files
-cp -R _notes/__files/. assets/files
+rsync --verbose --update --recursive --checksum _notes/__files/. assets/files
 
 # Stage changes in notes and files
 echo "Staging changes"

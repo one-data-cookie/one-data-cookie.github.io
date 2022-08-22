@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 21 Aug 2022
+updated: 22 Aug 2022
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -43,7 +43,7 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 ## Make yourself at home
 - Use [iTerm2](https://iterm2.com/), the terminal for MacOS
 - Use [`tmux`](https://github.com/tmux/tmux), terminal multiplexer with [simple setup](https://www.ocf.berkeley.edu/~ckuehl/tmux/) that can be also used for pair-programming
-- Use [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions) for autosuggestion in zsh shell
+- Use [`ohmyzsh`](https://ohmyz.sh/) as framework for managing zsh configuration or in particular [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions) for autosuggestion in zsh shell
 - Later, use aliases or functions and define them in `.bashrc` or `.bash_profile`, e.g. `alias cx='chmod +x'` or `mcd() { mkdir -p $1; cd $1 }`
 - Customise prompt through [`starship`](https://starship.rs/) or like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
 
@@ -172,6 +172,23 @@ iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
 
 ```shell
 find . -type f -empty | xargs rm # or xargs -I{} rm {}
+```
+
+- `ssh` (or [`mosh`](https://mosh.org/) as a modern alternative): Access remote servers through a "Secure SHell" whilst generating keys via `ssh-keygen` (stored in `~/.ssh/id_ed25519`) and even using `ssh-agent` for not needing to type the passphrase every time or `~/.ssh/config` to create aliases for hosts, e.g. as [on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh):
+
+```shell
+ssh foobar@192.168.1.42 ls -l
+ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519
+ssh-copy-id -i .ssh/id_ed25519 foobar@remote
+
+# copy a file
+cat localfile | ssh remote_server tee serverfile # tee: STDIN > STDOUT + file
+
+# copy more files
+rsync source_folder destionation_folder
+
+# local port forwarding
+ssh -L 9999:localhost:8888 foobar@remote_server # link local 9999 to remote 8888
 ```
 
 - `curl`: Outputs the file it reads from the network to `stdout`; handy to use [`pup`](https://github.com/EricChiang/pup) if working with HTML and [`jq`](https://stedolan.github.io/jq/) if with JSON:

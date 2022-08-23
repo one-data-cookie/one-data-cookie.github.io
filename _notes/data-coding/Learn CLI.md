@@ -5,14 +5,14 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 22 Aug 2022
+updated: 23 Aug 2022
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
 ## Why, really?
 - [Become shell literate](https://drewdevault.com/2020/12/12/Shell-literacy.html): Attempt at trying to persuade you that this whole thing makes sense. _Full disclosure_: the author of the article is a well-known free software advocate, so he is far from impartial in his article. That said, he is certainly not alone in suggesting it; here is another example from [Letters To A New Developer](https://letterstoanewdeveloper.com/2019/02/04/learn-the-command-line/)
 
-## UNIX Philosophy
+## UNIX philosophy
 - [Unix philosophy](http://catb.org/esr/writings/taoup/html/ch01s06.html) (by [Doug McIlroy](https://en.wikipedia.org/wiki/Douglas_McIlroy), creator of Unix pipes) is to:
 	- Write programs that do one thing and do it well
 	- Write programs to work together
@@ -37,6 +37,7 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 - [[Learn regular expressions]]: Quite a bit of information on regular expressions.
 - [[Learn Vim]]: quite a bit of details about Vim.
 - [Symlinks, Hardlinks, Reflinks and ML projects](https://dev.to/robogeek/reflinks-vs-symlinks-vs-hard-links-and-how-they-can-help-machine-learning-projects-1cj4): This article goes deeper into how these concepts of links can be used for various Machine Learning (ML) projects where you work with a ton of data.
+- [ShellCheck](https://www.shellcheck.net/#): This page allows you to easily find bugs in your shell scripts.
 - [UNIX: A History and a Memoir](https://www.amazon.com/UNIX-History-Memoir-Brian-Kernighan/dp/1695978552) by Brian W Kernighan: A historical account of how UNIX came to be by someone who was there when it happened. It will help you paint the proper picture of what is meant when people say stuff like "UNIX legacy" or "the UNIX era".
 - [The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/) by Cliff Stoll: A true story of a physicist who tracked one of the first documented "hackers" who he found snooping around his systems. The best part is that it's all real, down to the (obviously UNIX) commands that were used.
 
@@ -303,9 +304,17 @@ else
 fi
 ```
 
-## Modern Alternatives
+## Modern alternatives
 - [Modern Alternatives of Command-Line Tools](https://zaiste.net/posts/shell-commands-rust/)
 - Modern shells:
 	- [`fish`](https://fishshell.com/): friendly interactive shell
 	- [`xonsh`](https://xon.sh/): pythonic shell
 	- [`nushell`](https://www.nushell.sh/): new type of shell, esp. for working with data
+
+## When (not) to use it
+In general, bash scripts are useful for short and simple one-off scripts when you just want to run a specific series of commands. bash has a set of oddities that make it hard to work with for larger programs or scripts:
+- bash is easy to get right for a simple use case but it can be really hard to get right for all possible inputs. For example, spaces in script arguments have led to countless bugs in bash scripts.
+- bash is not amenable to code reuse so it can be hard to reuse components of previous programs you have written. More generally, there is no concept of software libraries in bash.
+- bash relies on many magic strings like `$?` or `$@` to refer to specific values, whereas other languages refer to them explicitly, like `exitCode` or `sys.args` respectively.
+
+Therefore, for larger and/or more complex scripts we recommend using more mature scripting languages like Python or Ruby.

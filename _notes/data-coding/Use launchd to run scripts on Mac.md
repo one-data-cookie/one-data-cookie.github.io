@@ -5,9 +5,13 @@ category: data-coding
 tags: [mac]
 season: winter
 created: 26 Nov 2021
-updated: 07 Jan 2022
+updated: 23 Aug 2022
 sources: Misc
 ---
+
+## Intro
+- From [The Missing Semester](https://missing.csail.mit.edu/2020/potpourri/):
+> You are probably already familiar with the notion of daemons, even if the word seems new. Most computers have a series of processes that are always running in the background rather than waiting for a user to launch them and interact with them. These processes are called daemons and the programs that run as daemons often end with a `d` to indicate so. For example `sshd`, the SSH daemon, is the program responsible for listening to incoming SSH requests and checking that the remote user has the necessary credentials to log in.
 
 ## Links
 - [Apple documentation](https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/CreatingLaunchdJobs.html)
@@ -17,7 +21,7 @@ sources: Misc
 - [How to Trigger Any Action When a File or Folder Changes](https://mayeu.me/post/how-to-trigger-any-action-when-a-file-or-folder-changes-on-macos-on-the-cheap/)
 
 ## Notes
-- `launchd` runs scheduled jobs after the computer wakes up, `cron` does not
+- `launchd` runs scheduled jobs after the computer wakes up, `cron` does not (but it can be useful sometimes)
 - `launchd` differentiates between *agents* and *daemons*. The main difference is that an *agent* is run on behalf of the logged in user while a *daemon* runs on behalf of the root user or any user you specify with the `UserName` key.
 - If you see `</true>` in `plist`, it specifies value for boolean key, like `RunAtLoad`
 - Commands from [here](https://developer.apple.com/forums/thread/665661?answerId=689612022#689612022) 

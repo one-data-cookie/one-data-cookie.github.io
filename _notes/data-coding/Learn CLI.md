@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: spring
 created: 19 Aug 2021
-updated: 23 Aug 2022
+updated: 24 Aug 2022
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -186,7 +186,7 @@ ssh-copy-id -i .ssh/id_ed25519 foobar@remote
 cat localfile | ssh remote_server tee serverfile # tee: STDIN > STDOUT + file
 
 # copy more files
-rsync source_folder destionation_folder
+rsync source_folder destionation_folder # or you can try rclone
 
 # local port forwarding
 ssh -L 9999:localhost:8888 foobar@remote_server # link local 9999 to remote 8888

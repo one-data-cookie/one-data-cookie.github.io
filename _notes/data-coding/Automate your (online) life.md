@@ -1,11 +1,11 @@
 ---
 title: Automate your (online) life
 title-cs: 
-category: .
+category: data-coding
 tags: [idea]
 season: spring
 created: 23 Aug 2022
-updated: 23 Aug 2022
+updated: 26 Aug 2022
 sources: Misc
 ---
 

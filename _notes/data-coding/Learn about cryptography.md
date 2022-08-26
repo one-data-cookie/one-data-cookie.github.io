@@ -1,14 +1,13 @@
 ---
 title: Learn about cryptography
 title-cs: 
-category: .
+category: data-coding
 tags: [learn]
 season: spring
 created: 22 Aug 2022
-updated: 22 Aug 2022
+updated: 26 Aug 2022
 sources: https://missing.csail.mit.edu/2020/security/
 ---
-
 
 ## Entropy
 - [Entropy](https://en.wikipedia.org/wiki/Entropy_(information_theory)) is a measure of randomness

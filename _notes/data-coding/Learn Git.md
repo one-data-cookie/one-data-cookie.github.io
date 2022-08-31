@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: spring
 created: 13 Feb 2021
-updated: 22 Aug 2022
+updated: 31 Aug 2022
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -72,6 +72,11 @@ git log --oneline --decorate --graph --all
 - Copy-paste commits from one branch to another:
 ```shell
 git cherry-pick
+```
+
+- Print some nice stats about your changes
+```shell
+git diff main...origin/your-branch | diffstat -Cm
 ```
 
 ## Links

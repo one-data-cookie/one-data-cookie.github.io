@@ -5,7 +5,7 @@ category: data-literacy
 tags: [idea]
 season: spring
 created: 07 Mar 2021
-updated: 15 Aug 2022
+updated: 18 Sep 2022
 sources: Misc
 ---
 
@@ -56,6 +56,7 @@ sources: Misc
 * [Data Therapy](https://datatherapy.org/activities/)
 * [DataBasic.io](https://databasic.io/en/)
 * Accompanying research [1](https://www.media.mit.edu/publications/databasic-design-principles-tools-and-activities-for-data-literacy-learners/) & [2](https://www.media.mit.edu/publications/designing-tools-and-activities-for-data-literacy-learners/)
+* [Umíme informatiku](https://www.umimeinformatiku.cz/)
 
 ## Projects
 * [Calling Bullshit](https://callingbullshit.org/index.html)
@@ -72,7 +73,10 @@ sources: Misc
 * [European Association for Digital Humanities](https://eadh.org/projects)
 * [iMyšlení](https://imysleni.cz/)
 * [Škola Labrinth](https://labyrinthschool.cz/)
-	* Miroslav Mráz
+	* [Miroslav Mráz](https://www.linkedin.com/in/miroslavmraz/)
+* Digicentrum Elixíru: [obecně](https://www.elixirdoskol.cz/digitalni-technologie-v-centrech/), [Brno](https://elixir-do-skol-digicentrum-brno.webnode.cz/)
+* [AMULAB](https://ksvi.mff.cuni.cz/amulab/index.php/cs/amulab/)
+* [Datavengers](https://www.datavengers.cz/)
 
 ## Blogs
 * Jane Croft
@@ -80,3 +84,4 @@ sources: Misc
 
 ## Events
 * [Data Literacy Conference](http://dataliteracyconference.net/2018/english/#About)
+* [DigiSeč](https://digisec.npi.cz/)

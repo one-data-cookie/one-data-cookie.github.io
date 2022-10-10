@@ -5,7 +5,7 @@ content-type: eg
 ---
 
 # If Now
-This summer, I'm [learning a bit more about CLI](/notes/Learn-CLI), tweaking this site even further or [making data visualisations](/posts). But mostly, I'm just enjoying nice weather somewhere outside. 😎
+The beginning of autumn is busy with preparations for [Coalesce 2022](https://coalesce.getdbt.com/) where we'll [talk about Slido's Data API](https://coalesce.getdbt.com/agenda/data-as-a-product-how-dbt-powers-slidos-data-api). I've been also having some thoughts about getting involved into organising several data meetups with a few other people, so let's see what comes out of it!
 
 See a few of my other projects below.
 

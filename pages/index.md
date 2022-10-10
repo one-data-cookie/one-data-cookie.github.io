@@ -15,9 +15,9 @@ content-type: homepage
 🌍 I'm now based back in my home city **[Brno, Czech Republic](https://youtu.be/hgU04LO60iU)** but I lived in London, UK for a few years and travelled around the globe (quite literally in 2019).
 
 ## In the digital world
-📊 I'm an enthusiast into anything **data analytics**, in particular topics of [modern data stack](https://blog.getdbt.com/future-of-the-modern-data-stack/), [data visualisation](https://www.tableau.com/learn/articles/data-visualization), and [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy).
+📊 I'm an enthusiast into anything **data analytics**, in particular topics of [modern data stack](https://blog.getdbt.com/future-of-the-modern-data-stack/), [data visualisation](/posts), and [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy).
 
-💜 Most of my day is spent [being purple](https://blog.getdbt.com/we-the-purple-people/) as a **[head of analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) at [Slido](https://slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
+💜 Most of my day is spent [being purple](https://blog.getdbt.com/we-the-purple-people/) as a **head of[analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) at [Slido](https://www.slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
 
 🤗 If the time allows, I love **sharing what I know about data** through mentoring, teaching, and other [projects](/projects).
 

@@ -17,7 +17,7 @@ content-type: homepage
 ## In the digital world
 📊 I'm an enthusiast into anything **data analytics**, in particular topics of [modern data stack](https://blog.getdbt.com/future-of-the-modern-data-stack/), [data visualisation](/posts), and [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy).
 
-💜 Most of my day is spent [being purple](https://blog.getdbt.com/we-the-purple-people/) as a **head of[analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) at [Slido](https://www.slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
+💜 Most of my day is spent [being purple](https://blog.getdbt.com/we-the-purple-people/) as a **head of [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) at [Slido](https://www.slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
 
 🤗 If the time allows, I love **sharing what I know about data** through mentoring, teaching, and other [projects](/projects).
 

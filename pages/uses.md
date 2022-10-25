@@ -4,7 +4,6 @@ permalink: /uses
 content-type: eg
 ---
 
-# Uses
 I keep a list of things I use. And it seems I'm [not the only one](https://uses.tech/)!
 
 ## At my desk

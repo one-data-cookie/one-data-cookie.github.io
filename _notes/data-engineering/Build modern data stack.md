@@ -1,5 +1,5 @@
 ---
-title: Build a data warehouse
+title: Build modern data stack
 title-cs: 
 category: data-engineering
 tags: [learn]
@@ -10,6 +10,9 @@ sources: Misc
 ---
 
 # Links
+
+## Inspiration
+* [Data Stack](https://www.moderndatastack.xyz/stacks). Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
 
 ## Fullstack
 * [How I made an open housing dataset with BigQuery and dbt](https://verifyanalytics.wordpress.com/2021/02/20/open-housing-dataset-bigquery-dbt/)
@@ -93,6 +96,9 @@ sources: Misc
 * [psql docs](https://www.postgresql.org/docs/9.2/app-psql.html)
 * [PostgreSQL on Heroku](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1)
 	* Only 10K rows, 1GB storage; otherwise $9/mo; see [pricing](https://elements.heroku.com/addons/heroku-postgresql)
+
+## DuckDB
+* [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html)
 
 ## Dashboarding
 ### Superset

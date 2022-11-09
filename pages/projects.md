@@ -11,6 +11,9 @@ Scroll down to check some of my previous engagements and projects.
 
 ## Else
 
+### Teaching data storytelling at Czechitas
+In November 2022 (similar to [November 2021](https://youtu.be/YoCbP-f_fEc) and [May 2022](https://youtu.be/XbPFNBdAdW0)), I was invited by [Czechitas](https://www.czechitas.cz/en) to deliver a [lesson on data storytelling](https://youtu.be/m0n4mWlg6bE) (using [this presentation](https://docs.google.com/presentation/d/17Zkeod1o1TYxVw-lFX49y0mSwqA7utFAatEMl4YsjIY/edit?usp=sharing)) for their Data Academy in Brno.
+
 ### Speaking at Coalesce 2022
 In October 2022, I was honoured to have had the opportunity to travel to New Orleans, LA to speak again at [Colaesce](https://coalesce.getdbt.com/), the [analaytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) conference. This year, I joined my colleagues to [talk about Data API](https://youtu.be/SIZ4b0HJbUo) that we built at [Slido](https://www.slido.com/), as well as [Elizabeth](https://www.linkedin.com/in/adlha) from [Deepnote](https://deepnote.com/) to [share some thoughts](https://youtu.be/VdiYC8LU4a0) about bringing a product mindset to the data analytics workflow.
 
@@ -19,9 +22,6 @@ In June 2022, our data team at [Slido](https://www.slido.com/) joined forces wit
 
 ### Teaching IT at primary school with Zkus učit!
 At the beginning of 2022, I got very excited by [changes to the way IT gets taught in the Czech Republic](https://revize.edu.cz/). As a result, I spent one week in May at a [primary school in Písek](https://www.zstylova.cz/eng/) teaching 12 and 15-year-old kids about IT using the priciples of [computational thinking](https://www.imysleni.cz/about-the-project). All thanks to an amazing educational project called [Začni učit!](https://zacniucit.cz/).
-
-### Teaching data storytelling at Czechitas
-In May 2022 (similar to [November 2021](https://youtu.be/YoCbP-f_fEc)), I was invited by [Czechitas](https://www.czechitas.cz/en) to deliver a [lesson on data storytelling](https://youtu.be/XbPFNBdAdW0) (using [this presentation](https://docs.google.com/presentation/d/147nxTP9QYU9BO3jBKWfVZ6UGzeGN9orNVwdtQw1SS4U/edit?usp=sharing)) for their Data Academy in Brno.
 
 ### Mentoring data projects at Czechitas
 During spring 2022 (similar to autumns 2021 and 2020), I mentored pairs of emerging data analysts and supported them in their final projects for Brno Data Academy at [Czechitas](https://www.czechitas.cz/en). In 2022, [Katarína](https://www.linkedin.com/in/katarina-hlavacova/) and [Hanna](https://www.linkedin.com/in/hanna-de-lange-146a8b147/) [automated evaluation of Slovak districts in terms of their communication with local citizens](https://medium.com/@hanna.de.lange1991/odkaz-pre-starostu-automation-and-analysis-of-slovak-districts-evaluation-in-their-interaction-220b6058bfdc) whilst [Ivana](https://www.linkedin.com/in/ivana-benova/) and Kateřina [analysed tweets from Czech politicans about immigration](https://medium.com/@ivca.benova/anal%C3%BDza-tweet%C5%AF-poslanc%C5%AF-zam%C4%9B%C5%99en%C3%A1-na-t%C3%A9ma-uprchlictv%C3%AD-v-letech-2015-a-2022-d3306ab96b43). In 2021, [Renáta](https://www.linkedin.com/in/renata-turonova/) and Daniela [had a look into the topic of cybercrime](https://public.tableau.com/views/DAPROJEKTJakbezpenojevkyberprostoru/Dashboard1?:language=en-GB&:display_count=n&:origin=viz_share_link).

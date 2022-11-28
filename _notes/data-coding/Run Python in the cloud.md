@@ -5,7 +5,7 @@ category: data-coding
 tags: [tutorial, python]
 season: spring
 created: 03 Jan 2021
-updated: 05 Jan 2022
+updated: 28 Nov 2022
 sources: Misc
 ---
 
@@ -20,3 +20,4 @@ sources: Misc
 * [Github Actions](https://github.com/features/actions)
 	* You can [use Github Actions to run your Python on schedule](https://github.community/t/how-to-setup-github-actions-to-run-my-python-script-on-schedule/18335).
 	* See [this implementation](https://github.com/michalskop/cz-covid-predictive-data) for pulling data into CSVs.
+	* See [my updated implementation](https://github.com/one-data-cookie/brno-part-budget/blob/main/.github/workflows/cronjob.yaml)

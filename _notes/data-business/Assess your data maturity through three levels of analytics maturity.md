@@ -1,11 +1,11 @@
----
+````---
 title: Assess your data maturity through three levels of analytics maturity
 title-cs: 
 category: data-business
 tags: [idea]
 season: spring
 created: 23 Jun 2021
-updated: 05 Jan 2022
+updated: 28 Nov 2022
 sources: https://about.gitlab.com/blog/2019/11/04/three-levels-data-analysis/
 ---
 

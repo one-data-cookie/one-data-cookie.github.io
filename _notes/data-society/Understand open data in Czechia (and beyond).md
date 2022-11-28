@@ -5,7 +5,7 @@ category: data-society
 tags: [idea, open-data]
 season: spring
 created: 05 Mar 2021
-updated: 08 Jul 2022
+updated: 28 Nov 2022
 sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otevrenem-sdileni-dat-stat-nahrazuje-obcanska-spolecnost
 ---
 
@@ -27,7 +27,11 @@ sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otev
 * 
 
 ## Inspirace v zahraničí
-* **NYC**
-  * [NYC Open Data Week](https://www.open-data.nyc/)
-  * [NYC Analytics](https://www1.nyc.gov/site/analytics/index.page)
-  * [DxD - Data Through Design](https://www.dxd2021.com/)
+* **US**
+  * New York, NY:
+    * [NYC Open Data Week](https://www.open-data.nyc/)
+    * [NYC Analytics](https://www1.nyc.gov/site/analytics/index.page)
+    * [DxD - Data Through Design](https://www.dxd2021.com/)
+  * [Washington, DC](https://opendata.dc.gov/)
+  * [Boulder, CO](https://bouldercolorado.gov/services/open-data)
+* 

@@ -5,8 +5,8 @@ category: data-business
 tags: [idea]
 season: spring
 created: 22 Jun 2021
-updated: 05 Jan 2022
-sources: https://locallyoptimistic.com/post/run-your-data-team-like-a-product-team/, https://docs.google.com/presentation/d/1Z8VrZGH9olGUlhqdj251RCzJeQGlqlWLDRTckLbmdD4/edit
+updated: 28 Nov 2022
+sources: https://locallyoptimistic.com/post/run-your-data-team-like-a-product-team/
 ---
 
 ## General idea 
@@ -27,7 +27,6 @@ sources: https://locallyoptimistic.com/post/run-your-data-team-like-a-product-te
 * Make the team multidisciplinary
 
 ## Immediate next-steps ideas
-
 * Talk to a Product Manager to understand how they spend their time. Ask good questions and listen to how they work, what they prioritize, and what is a distraction.
 * Ask questions to try and understand the problem they’re trying to solve.
 * Take inventory to start identifying and documenting the different parts of your Data Product. This can be an excellent opportunity to talk to many different stakeholders across the company.

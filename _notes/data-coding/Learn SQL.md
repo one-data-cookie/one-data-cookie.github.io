@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: autumn
 created: 21 Feb 2021
-updated: 05 Jan 2022
+updated: 28 Nov 2022
 sources: Misc
 ---
 
@@ -16,6 +16,7 @@ sources: Misc
 * Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.
 * [Snippets](https://sql-snippets.count.co/)
 * [SQLite](https://sqliteonline.com/)
+* [DataCamp](https://campus.datacamp.com/courses/introduction-to-sql/)
 * [Sribe](https://scribedata.app/)
   * Scribe is an API that provides line by line descriptions of your queries.
 * [Malloy](https://github.com/looker-open-source/malloy)

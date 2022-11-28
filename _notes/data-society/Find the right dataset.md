@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 03 Jan 2021
-updated: 05 Jan 2022
+updated: 28 Nov 2022
 sources: Misc
 ---
 
@@ -40,3 +40,5 @@ sources: Misc
 ## Tools
 * [Dolt](https://github.com/dolthub/dolt)
 	* Dolt is a SQL database that you can fork, clone, branch, merge, push and pull just like a git repository.
+* [HMA1](https://sdv.dev/SDV/user_guides/relational/hma1.html)
+	* If nothing else works, just generate your own datasets using SDV

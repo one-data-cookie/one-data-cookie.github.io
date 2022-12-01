@@ -89,6 +89,8 @@ sources: Misc
 	* Upload file from your computer or insert link to online image to access its color codes.
 * [Colors for gender data](https://blog.datawrapper.de/gendercolor/)
 	* Alternatives to pink & blue.
+* [Branition Colors](https://branition.com/colors)
+	* Hand-curated collection of color palettes best fitted for branding.
 
 ## Icons
 * [unDraw](https://undraw.co/illustrations)

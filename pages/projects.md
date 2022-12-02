@@ -11,6 +11,9 @@ Scroll down to check some of my previous engagements and projects.
 
 ## Else
 
+### Speaking at datavis meetup vol. 8
+In December 2022, I had a chance to speak at a [datavis meetup](https://datavismeetup.cz/) that I've been attending from its very beginning. With the aim to kick off a future line-up of talks from the business environment, I went for a general topic of [building a data team](https://docs.google.com/presentation/d/1vZcHtejtTQ7_QGLndS1ShC5O3jNxkKjjv5abtNH77M4/edit?usp=sharing).
+
 ### Teaching data storytelling at Czechitas
 In November 2022 (similar to [November 2021](https://youtu.be/YoCbP-f_fEc) and [May 2022](https://youtu.be/XbPFNBdAdW0)), I was invited by [Czechitas](https://www.czechitas.cz/en) to deliver a [lesson on data storytelling](https://youtu.be/m0n4mWlg6bE) (using [this presentation](https://docs.google.com/presentation/d/17Zkeod1o1TYxVw-lFX49y0mSwqA7utFAatEMl4YsjIY/edit?usp=sharing)) for their Data Academy in Brno.
 

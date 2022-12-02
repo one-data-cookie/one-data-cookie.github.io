@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 03 Jan 2021
-updated: 15 Aug 2022
+updated: 02 Dec 2022
 sources: Misc
 ---
 
@@ -144,3 +144,7 @@ sources: Misc
 
 ## Style Guides
 * [Cody Ogden](https://style.codyogden.com/)
+
+## Other
+* [Excalidraw](https://excalidraw.com/)
+	* Virtual whiteboard for sketching hand-drawn-like diagrams

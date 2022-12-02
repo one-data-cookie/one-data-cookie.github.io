@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: spring
 created: 13 Feb 2021
-updated: 04 Sep 2022
+updated: 02 Dec 2022
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -78,6 +78,15 @@ git cherry-pick
 ```shell
 git diff main...origin/your-branch | diffstat -Cm
 git diff master 00aa0157f23f50151f74e4ba203deb8f11621946 . | diffstat -Cm
+```
+
+- Save your work for later
+```shell
+git stash # stash all files
+git stash push -m "message" [file] # stash file with message
+git stash list # check stashed files
+git stash apply stash@{0} # apply the changes
+git stash drop stash@{0} # delete stashes
 ```
 
 ## Links

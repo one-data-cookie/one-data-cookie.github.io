@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 03 Jan 2021
-updated: 02 Dec 2022
+updated: 04 Dec 2022
 sources: Misc
 ---
 
@@ -33,8 +33,6 @@ sources: Misc
 	* Static version [here](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary).
 * [Visual Vocabulary by Andy Kriebel](https://www.vizwiz.com/2018/07/visual-vocabulary.html)
 	* Tableau edition of the FT's Visual Vocabulary
-* [The Chartmaker Directory](https://chartmaker.visualisingdata.com/)
-	* Attempt to gather and organise a useful catalogue of references that will offer an answer to one of the most common questions in data visualisation: 'which tool do you need to make that chart?’.
 
 ## Text
 * [Google Fonts](https://fonts.google.com/)

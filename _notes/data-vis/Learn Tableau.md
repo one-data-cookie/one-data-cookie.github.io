@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, tableau]
 season: spring
 created: 23 Sep 2018
-updated: 15 Aug 2022
+updated: 04 Dec 2022
 sources: Misc
 ---
 
@@ -44,6 +44,8 @@ sources: Misc
 * [Youtube Playlist from Information Lab](https://www.youtube.com/playlist?list=PL_t5OlLHbVGxFSiWXUsEQrDPvFd1Nhxiu)
 * [Youtube Playlist from Superdata Science](https://www.youtube.com/playlist?list=PLE50-dh6JzC450Hn6EjPM238yZUPs-RQ1)
 * [Tableau Reference Guides](http://www.tableaureferenceguide.com/)
+* [Tutorials of visualizations](https://public.tableau.com/app/profile/lilla.rasztik/viz/Tutorialsofvisualizations/Tutorial)
+	* Collection of tutorials for unique and complex charts
 * [Templates from Flerlage Twins](https://www.flerlagetwins.com/search/label/Templates)
 	* Mostly curvy charts
 * [Curvy Bump chart and Slope chart](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
@@ -72,6 +74,8 @@ sources: Misc
 * Bump Chart
 	* [Curvy alternative](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
 * [Jitter Plot](https://www.thedataschool.co.uk/michael-mcfadden/tableau-tutorials-build-jitter-plot)
+* [Pudding Chart](https://vizzendata.com/2019/05/15/guest-post-how-to-create-a-plum-pudding-chart-circular-waffle-chart/)
+* [Design tips from Zak Geis](https://public.tableau.com/app/profile/zakgeis)
 
 ## Specific
 * Spatial files and mapping

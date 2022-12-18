@@ -11,13 +11,13 @@ Scroll down to check some of my previous engagements and projects.
 
 ## Else
 
-## Organising dbt meetup in Brno
+### Organising dbt meetup in Brno
 Having joined forces with [Michal](https://www.linkedin.com/in/dubravcik) from [Kontent](https://kontent.ai/), we put together the very first [dbt](https://www.getdbt.com/) meetup in Brno. It took place at [Kentico](https://www.kentico.com/) HQ in mid-December and we strived for introducing this beloved data tool of ours to local audience through [these talks](https://docs.google.com/presentation/d/1XZS-x6uIiNbAKBOUHOGq-c8pg7Q-uYYh2FbHIMqeSus/edit?usp=sharing) delivered by Michal himself, [Ivo](https://www.linkedin.com/in/ivan-steiner) from [Slido](https://www.slido.com/), and [Pavel](https://www.linkedin.com/in/jezekpavel) from [STRV](https://www.strv.com/). As I also had the pleasure to host the event (while having been able to throw in some Christmas spirit), I've found it to be great fun! And – based on the feedback (4.9/5) – I might not have been alone.
 
-## Hosting data meetup in Bratislava
+### Hosting data meetup in Bratislava
 We at [Slido](https://www.slido.com/) long felt that there wasn't a decent platform for sharing inspiration and best practices amongst data practitioners in Bratislava. That's why we kicked off a series of data meetups together with our friends from [Kiwi](https://www.kiwi.com/). The first edition came about in early December and was focused on analytics. It featured [these talks](https://docs.google.com/presentation/d/16lasZVOzDS87bCialZzpAa2Q9JS2zEbx8mEaH5euN9c/edit?usp=sharing) given by [Jakub] from [Assetario](https://www.assetario.com/), [Miriama](https://www.linkedin.com/in/miriama-k%C5%99%C3%AD%C5%BEkov%C3%A1-998731114) from [Slido](https://www.slido.com/), and [Tomas](https://www.linkedin.com/in/tomas-tremko) from [Kiwi](https://www.kiwi.com/). There is also a [recording](https://www.youtube.com/watch?v=aiY3TYQfLNU) available, so you can judge for yourself how it went and also whether my hosting fit the bill.
 
-## Evaluating data projects at Czechitas
+### Evaluating data projects at Czechitas
 In December 2022, I was invited by [Czechitas](https://www.czechitas.cz/en) to sit on a jury with [Milada](https://www.linkedin.com/in/milada-sejnohova) and [Pavel](https://www.linkedin.com/in/pavel-klammert-9500046b) to evaluate [data projects](https://docs.google.com/spreadsheets/d/1bag3ntZsNyq9fi0AK2qWAF-6qQiTyrRr3dIO4FrkWJ8/edit?usp=sharing) of emerging data analysts who just finished the [Data Academy](https://www.czechitas.cz/kurzy/digitalni-akademie-data). And it was amazing to see it was (almost) all about using open data or making an analysis for a good cause!
 
 ### Speaking at datavis meetup vol. 8

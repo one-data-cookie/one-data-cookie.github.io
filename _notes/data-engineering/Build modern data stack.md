@@ -5,13 +5,15 @@ category: data-engineering
 tags: [learn]
 season: spring
 created: 04 Apr 2021
-updated: 28 Nov 2022
+updated: 30 Dec 2022
 sources: Misc
 ---
 
 # Links
 
-## Inspiration
+## Context
+* [Modern Data Stack](https://preset.io/blog/modern-data-stack/). Read what the modern data stack is and how came around.
+* [[data-engineering/Find out about Redshift's impact on modern data stack]]
 * [Data Stack](https://www.moderndatastack.xyz/stacks). Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
 
 ## Fullstack

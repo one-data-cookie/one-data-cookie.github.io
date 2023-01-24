@@ -5,11 +5,14 @@ content-type: eg
 ---
 
 ## If Now
-The Christmas break is a perfect opportunity to wind down and explore new things. Let's see what this one brings! 🎁
+My first weeks of 2023 are pretty chilled (even with some time off planned!) to recharge batteries for anything that's to come later this year.
 
 Scroll down to check some of my previous engagements and projects.
 
 ## Else
+
+### Having a chat on the Data Talk podcast show
+Already the first week of 2023 brought an exciting experience – appearing as a guest on a podcast episode. I wasn't sure what to expect, but I was thrilled about the idea. And it didn't disappoint! I ended up having an [inspiring conversation](https://datatalk.buzzsprout.com/2034779/12010833-data-talk-21-michal-kolacek-slido) with two other data enthusiasts – [Jiří Vicherek](https://www.linkedin.com/in/vicherek/) and [Karel Šimánek](linkedin.com/in/karelsimanek/) – about the people, technology, and overarching philosophy behind our data story at [Slido](https://www.slido.com/).
 
 ### Organising dbt meetup in Brno
 Having joined forces with [Michal](https://www.linkedin.com/in/dubravcik) from [Kontent](https://kontent.ai/), we put together the very first [dbt](https://www.getdbt.com/) meetup in Brno. It took place at [Kentico](https://www.kentico.com/) HQ in mid-December and we strived for introducing this beloved data tool of ours to local audience through [these talks](https://docs.google.com/presentation/d/1XZS-x6uIiNbAKBOUHOGq-c8pg7Q-uYYh2FbHIMqeSus/edit?usp=sharing) delivered by Michal himself, [Ivo](https://www.linkedin.com/in/ivan-steiner) from [Slido](https://www.slido.com/), and [Pavel](https://www.linkedin.com/in/jezekpavel) from [STRV](https://www.strv.com/). As I also had the pleasure to host the event (while having been able to throw in some Christmas spirit), I've found it to be great fun! And – based on the feedback (4.9/5) – I might not have been alone.

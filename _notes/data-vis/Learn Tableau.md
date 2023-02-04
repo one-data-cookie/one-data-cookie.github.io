@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, tableau]
 season: spring
 created: 23 Sep 2018
-updated: 04 Dec 2022
+updated: 04 Feb 2023
 sources: Misc
 ---
 
@@ -58,10 +58,13 @@ sources: Misc
 	* [Community discussion](https://community.tableau.com/s/question/0D54T00000C5Q1ISAV/decision-trees-flow-diagrams-sankeys-in-tableau-here-is-a-solution-)
 	* [Using R](https://boraberan.wordpress.com/2014/02/07/decision-trees-in-tableau-using-r/)
 * Radial Charts
-	* [Radial Bar Chart](https://www.flerlagetwins.com/2020/03/how-i-created-this-spiral-chartand-why.html)
+	* [Spiral Bar Chart](https://www.flerlagetwins.com/2020/03/how-i-created-this-spiral-chartand-why.html)
+	* [Radial Bar Chart](https://www.thedataschool.com.au/jethro-chen/the-radial-bar-chart-in-tableau-tutorial/)
 	* [Spiral Heatmap](https://vizartpandey.com/tableau-introduction-to-spiral-heatmap/)
 	* [Spiral Bubbles](https://questionsindataviz.com/2017/01/17/how-did-i-create-the-spiral-chart/)
-	* [Tree Ring](https://thedataduo.com/2016/05/16/what-the-heck-is-a-tree-ring/)
+	* [Coxcomb Chart](https://www.flerlagetwins.com/2021/12/coxcomb.html)
+	* [Radar Chart](https://www.flerlagetwins.com/2019/03/radar-charts.html)
+	* [Polygonial Radar Chart](https://www.robertoreif.com/blog/2018/1/8/how-to-make-circular-and-polygon-radial-charts)
 * [Simple Beeswarm Plot](https://www.flerlagetwins.com/2020/11/beeswarm.html)
 * [Proportion Plot](https://www.flerlagetwins.com/2021/02/proportion-plot.html)
 	* [data](../../assets/files/Proportion-Plot-Template.xlsx) and [viz](../../assets/files/Proportion-Plot-Template.twbx)
@@ -76,6 +79,7 @@ sources: Misc
 * [Jitter Plot](https://www.thedataschool.co.uk/michael-mcfadden/tableau-tutorials-build-jitter-plot)
 * [Pudding Chart](https://vizzendata.com/2019/05/15/guest-post-how-to-create-a-plum-pudding-chart-circular-waffle-chart/)
 * [Design tips from Zak Geis](https://public.tableau.com/app/profile/zakgeis)
+
 
 ## Specific
 * Spatial files and mapping

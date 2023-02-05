@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My nine years on Spotify
-date: 2023-02-09
+date: 2023-02-05
 description: Visualising my entire music streaming history from Spotify
 img: my-nine-years-on-spotify.png
 tags: [personal, music, spotify]

@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, tableau]
 season: spring
 created: 23 Sep 2018
-updated: 04 Feb 2023
+updated: 05 Feb 2023
 sources: Misc
 ---
 
@@ -65,6 +65,7 @@ sources: Misc
 	* [Coxcomb Chart](https://www.flerlagetwins.com/2021/12/coxcomb.html)
 	* [Radar Chart](https://www.flerlagetwins.com/2019/03/radar-charts.html)
 	* [Polygonial Radar Chart](https://www.robertoreif.com/blog/2018/1/8/how-to-make-circular-and-polygon-radial-charts)
+	* [Chord Chart](https://public.tableau.com/app/profile/m.azhar/viz/ChordsTutorial_16676885219100/TreeofLife)
 * [Simple Beeswarm Plot](https://www.flerlagetwins.com/2020/11/beeswarm.html)
 * [Proportion Plot](https://www.flerlagetwins.com/2021/02/proportion-plot.html)
 	* [data](../../assets/files/Proportion-Plot-Template.xlsx) and [viz](../../assets/files/Proportion-Plot-Template.twbx)

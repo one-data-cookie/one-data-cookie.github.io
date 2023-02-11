@@ -20,7 +20,7 @@ As a follow-up on my podcast episode of [Data Talk](https://datatalk.buzzsprout.
 ### Having a chat on the Data Talk podcast show
 Already the first week of 2023 brought an exciting experience – appearing as a guest on a podcast episode of [Data Talk](https://datatalk.buzzsprout.com/). I wasn't sure what to expect, but I was thrilled about the idea. And it didn't disappoint! I ended up having an [inspiring conversation](https://datatalk.buzzsprout.com/2034779/12010833-data-talk-21-michal-kolacek-slido) with two other data enthusiasts – [Jiří Vicherek](https://www.linkedin.com/in/vicherek/) and [Karel Šimánek](linkedin.com/in/karelsimanek/) – about the people, technology, and overarching philosophy behind our data story at [Slido](https://www.slido.com/).
 
-## Winning the datavis challenge from Seznam
+### Winning the datavis challenge from Seznam
 Just before Christmas time in [2021](https://blog.seznam.cz/2021/11/soutez-tableau-vyzva-od-analytiku-z-vyhledavani/) and [2022](https://blog.seznam.cz/2022/11/soutez-analytici-z-vyhledavani-vas-zvou-do-tableau-vyzvy/), the analytics team from [Seznam](https://www.seznam.cz/) invited the Czech data community to play around with a (tweaked) dataset on their search engine's traffic and prepare a visualisation in [Tableau](https://www.tableau.com/). Not sure how but I ended up being brought to the spotlight on [both](https://blog.seznam.cz/2022/03/5-tipu-pro-vase-vizualizace-aneb-to-nejlepsi-z-tableau-vyzvy/) [occasions](https://blog.seznam.cz/2023/02/zname-viteze-2-rocniku-vyzvy-od-analytiku/).
 
 ### Organising dbt meetup in Brno

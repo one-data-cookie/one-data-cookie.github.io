@@ -5,7 +5,7 @@ category: data-analytics
 tags: [tools, sql, python]
 season: spring
 created: 15 Sep 2021
-updated: 23 Aug 2022
+updated: 13 Feb 2023
 sources: Misc
 ---
 
@@ -38,6 +38,10 @@ sources: Misc
 	- Interactive data apps built in Python, directly from Github
 	- Enables data caching
 	- Mostly built for ML though
+- [Gradio](https://gradio.app/)
+	- Build & share delightful ML apps
+	- Quick to set up, using Python
+	- Similar to Streamlit
 
 ## SQL
 - [Evidence](https://www.evidence.dev/)

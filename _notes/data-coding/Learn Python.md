@@ -5,19 +5,25 @@ category: data-coding
 tags: [learn, python]
 season: autumn
 created: 21 Feb 2021
-updated: 23 Aug 2022
+updated: 09 Mar 2023
 sources: Misc
 ---
 
 ## Links
 - [Quora Discussion](https://www.quora.com/How-should-I-start-learning-Python-1)
 - [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
-- [pythonji](https://github.com/gahjelle/pythonji)
-	- Write Python with emojis
 - [Learn Python The Hard Way, 3rd Edition.pdf](../../assets/files/Learn-Python-The-Hard-Way.pdf)
 - [Jupyter Samples](https://github.com/ibm-et/jupyter-samples)
 
 ![](../../assets/files/r-vs-python.png)
+
+## Libraries
+- [shillelagh](https://github.com/betodealmeida/shillelagh/)
+	- Making it easy to query APIs via SQL
+- [PyGWalker](https://github.com/Kanaries/pygwalker)
+	-  Tableau-style UI for visual data exploration
+- [pythonji](https://github.com/gahjelle/pythonji)
+	- Write Python with emojis
 
 ## Snippets
 - Find out available versions for `pip` package:

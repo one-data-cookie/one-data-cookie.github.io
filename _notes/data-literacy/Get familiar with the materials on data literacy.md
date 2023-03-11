@@ -5,7 +5,7 @@ category: data-literacy
 tags: [idea]
 season: spring
 created: 07 Mar 2021
-updated: 18 Sep 2022
+updated: 11 Mar 2023
 sources: Misc
 ---
 
@@ -66,17 +66,11 @@ sources: Misc
 * [Minervo](https://www.minervo.cz/)
 * [Gapminder](https://www.gapminder.org/)
 * [Empower Your People With Data](https://www.gobeyondthedata.com/)
-* [Gramotnosti pro život](https://gramotnosti.pro/)
 * [Our World in Data](https://ourworldindata.org/)
 * [Seeing Data](http://seeingdata.org/)
 * [European Data Science Academy](http://edsa-project.eu/news/)
 * [European Association for Digital Humanities](https://eadh.org/projects)
-* [iMyšlení](https://imysleni.cz/)
-* [Škola Labrinth](https://labyrinthschool.cz/)
-	* [Miroslav Mráz](https://www.linkedin.com/in/miroslavmraz/)
-* Digicentrum Elixíru: [obecně](https://www.elixirdoskol.cz/digitalni-technologie-v-centrech/), [Brno](https://elixir-do-skol-digicentrum-brno.webnode.cz/)
 * [AMULAB](https://ksvi.mff.cuni.cz/amulab/index.php/cs/amulab/)
-* [Datavengers](https://www.datavengers.cz/)
 
 ## Blogs
 * Jane Croft

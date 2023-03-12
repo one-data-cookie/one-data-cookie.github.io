@@ -1,11 +1,11 @@
 ---
 title: Learn ChatGPT
 title-cs: 
-category: .
+category: data-coding
 tags: [learn, chatgpt]
 season: spring
 created: 10 Mar 2023
-updated: 10 Mar 2023
+updated: 12 Mar 2023
 sources: Misc
 ---
 
@@ -22,8 +22,13 @@ The "*pre-trained*" part of the name refers to the fact that I am trained on lar
 
 Finally, the term "*generative*" in the name refers to my ability to generate new text based on the patterns and relationships I have learned from the pre-training data. This makes me particularly useful for tasks such as language translation, summarisation, and question-answering, where generating new text based on input data is a key part of the task.
 
+## The context
+[Eva Nečasová](https://cz.linkedin.com/in/evanecasova) from [AI dětěm](https://aidetem.cz/) had an interesting thought that it's only logical that the society arrived where we are now. Since the dawn of times, people always wanted to note down and pass their knowledge further. It might have started in caves but we later moved to things like books, photos, and computers.
+
+With the era of cloud storage and our civilisation producing tons of new information/data every second, our ability to grasp this all became limited. That's why we turn back to technology, i.e. AI, hoping it will help us understand the patterns of the world around us recorded in `1`s and `0`s.
+
 ## The shift in NLP history
-There was an important shift in natural language processing (NLP) from *rule-based approaches* to *machine learning approaches*, particularly deep learning approaches like neural networks.
+There was an important shift in natural language processing (NLP) from *rule-based approaches* ("deterministic way") to *machine learning approaches* ("probabilistic way"), particularly deep learning approaches like neural networks.
 
 Traditionally, NLP relied on rule-based methods that involved hand-crafting rules and grammars to parse and understand natural language. These rule-based methods were often limited in their ability to handle the complexity and variability of natural language.
 

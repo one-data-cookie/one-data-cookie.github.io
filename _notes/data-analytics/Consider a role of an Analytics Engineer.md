@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: autumn
 created: 17 Dec 2020
-updated: 15 Aug 2022
+updated: 13 Mar 2023
 sources: Misc
 ---
 
@@ -36,7 +36,7 @@ U nás nejsme tak specializování, spíš jsme každej na nějaké škále pro 
 
 Jen tak na okraj -- tento odstavec pěkně popisuje i náš způsob uvažování nad umístěním té role v rámci hierarchie. Určitě ještě nejsme tak daleko, ale snažíme se to tam směřovat, řekl bych.
 
--- [Source](https://netflixtechblog.com/analytics-at-netflix-who-we-are-and-what-we-do-7d9c08fe6965)
+-- [Who We Are and What We Do by Analytics at Netflix````](https://netflixtechblog.com/analytics-at-netflix-who-we-are-and-what-we-do-7d9c08fe6965)
 
 ---
 
@@ -52,7 +52,7 @@ Analytics engineers are like librarians. They curate the catalog so that the res
 
 As data tools changed, so did the people who used them. People who weren't on data teams began developing data literacy. This was good: business users wanted to self-serve and be data-driven. The downside was that these people often knew just enough SQL to be dangerous. If you've ever been to a meeting where two executives have different numbers for the same metric, you've experienced the result of this.
 
--- [Source](https://blog.getdbt.com/what-is-an-analytics-engineer/)
+-- [What is analytics engineering? by dbt Labs](https://blog.getdbt.com/what-is-an-analytics-engineer/)
 
 ---
 
@@ -70,7 +70,7 @@ So instead of churning out monthly Excel reports, Sagar's job is now to:
 - Test data
 - Educate others
 
--- [Source](https://blog.getdbt.com/the-four-priorities-of-an-analytics-team-of-one-lessons-from-lola-com/)
+-- [The four priorities of a one-person analytics team by Janessa Lantz](https://blog.getdbt.com/the-four-priorities-of-an-analytics-team-of-one-lessons-from-lola-com/)
 
 ---
 They have more engineering skills than your average analyst and are more curious to solve analytical business questions than your average data engineer.
@@ -83,7 +83,7 @@ They'll likely write better SQL than either your data analysts or your data engi
 
 SQL is the key here as the whole analytics engineering is built upon it.
 
--- [Source](https://blog.getdbt.com/hiring-analytics-engineer/)
+-- [Hiring an analytics engineer by dbt Labs](https://blog.getdbt.com/hiring-analytics-engineer/)
 
 ---
 
@@ -99,7 +99,7 @@ A few key trends are converging: 
 * Data consumers have come to simply expect data at their fingertips yet at all times.
 * Organizations (large and small) are recognizing the need to invest more resources in data modeling.
 
--- [Source](https://www.hashpath.com/2020/12/an-analytics-engineer-is-really-just-a-pissed-off-data-analyst/)
+-- [An analytics engineer is really just a pissed off data analyst by Seth Rosen](https://www.hashpath.com/2020/12/an-analytics-engineer-is-really-just-a-pissed-off-data-analyst/)
 
 ---
 
@@ -109,4 +109,15 @@ A few key trends are converging: 
 * City governments will use analytics engineering to monitor programs and ensure that government resources are being used effectively. Academic institutions will use analytics engineering to create datasets, many of them public, that will aid in scientific and technological development. The possibility space is wide open.
 * Analytics engineering is fundamentally a discipline that’s about making sense of the world around us. It’s about allowing everyone in an organization to see a little bit further, in their impact on the org and how their work connects to it. Right now analytics engineering is still a new discipline — pretty soon it will be everywhere.
 
--- [Source](https://jasnonaz.medium.com/analytics-engineering-everywhere-d56f363da625)
+-- [Analytics Engineering Everywhere by Jason Ganz](https://jasnonaz.medium.com/analytics-engineering-everywhere-d56f363da625)
+
+---
+
+Their job is to:
+
+- Write production-quality ELT code with an eye towards performance and maintainability
+- Coach analysts and data scientists on software engineering best practices (e.g., building testing suites and CI pipelines)
+- Build software tools that help data scientists and analysts work more efficiently (e.g., writing an internal R or Python tooling package for analysts to use)
+- Collaborate with data engineers on infrastructure projects (where they advocate for and emphasize the business value of applications)
+
+[The Analytics Engineer by Michael Kaminsky](https://locallyoptimistic.com/post/analytics-engineer/)

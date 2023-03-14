@@ -5,11 +5,12 @@ category: data-analytics
 tags: [tools, sql, python]
 season: spring
 created: 15 Sep 2021
-updated: 13 Feb 2023
+updated: 14 Mar 2023
 sources: Misc
 ---
 
 - Well, [notebook programming environments](https://en.wikipedia.org/wiki/Notebook_interface) can be really handy for doing certain types of interactive or exploratory development.
+- There is [quite a few of them](https://datasciencenotebook.org/).
 
 ## SQL & Python
 - [Deepnote](https://deepnote.com/)

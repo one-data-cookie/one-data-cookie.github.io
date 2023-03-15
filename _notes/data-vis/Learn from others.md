@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 13 Feb 2021
-updated: 05 Jan 2022
+updated: 15 Mar 2023
 sources: Misc
 ---
 
@@ -52,6 +52,8 @@ sources: Misc
 	* Daily stunning data visualisation examples from across the web created with Tableau Public.
 * [VizGallery](https://vizgallery.tableaupublic.com/)
 	* Virtual gallery of Tableau vizzes.
+* [1 dataset, 100 visualisations](https://100.datavizproject.com/)
+	* Can we come up with 100 visualizations from one simple dataset?
 
 ## Mentoring
 * [Mentoring Meetup](http://www.mentoringmeetup.com/)

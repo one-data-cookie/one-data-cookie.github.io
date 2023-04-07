@@ -46,7 +46,7 @@ git diff --cached --name-status | grep "^R" | grep "_notes/" | while IFS=$'\t' r
 done
 
 git diff --cached --name-status | grep "^A" | grep "_notes/" | while IFS=$'\t' read a b; do
-  cat "$b" | sed "/---.*/,/---.*/s/^category:.*$/category: $(basename $(dirname "$c"))/" > tmp
+  cat "$b" | sed "/---.*/,/---.*/s/^category:.*$/category: $(basename $(dirname "$b"))/" > tmp
   mv tmp "$b"
   git add "$b"
 done

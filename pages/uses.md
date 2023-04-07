@@ -34,9 +34,9 @@ I keep a list of things I use. And it seems I'm [not the only one](https://uses.
 - [Pocket](https://getpocket.com/), articles saver
 
 ### Productivity
-- [Alfred](https://www.alfredapp.com/), launcher on steroids
 - [Lunar](https://lunar.fyi/), monitors controller
 - [PhraseExpress](https://www.phraseexpress.com/), text expander
+- [Raycast](https://www.raycast.com/), launcher on steroids
 - [Rectangle](https://rectangleapp.com/), windows manager
 - [Stretchly](https://hovancik.net/stretchly/), break reminder
 

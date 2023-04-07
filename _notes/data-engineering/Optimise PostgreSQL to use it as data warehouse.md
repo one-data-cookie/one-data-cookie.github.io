@@ -1,6 +1,6 @@
 ---
 title: Optimise PostgreSQL to use it as data warehouse
-title-cs: 
+lang: en 
 category: data-engineering
 tags: [idea]
 season: winter

@@ -1,11 +1,11 @@
 ---
 title: Be sensitive when visualising about races
-title-cs: 
+[lang: en
 category: data-vis
 tags: [idea, diversity]
 season: spring
 created: 16 Dec 2020
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://policyviz.com/2020/09/16/applying-racial-equity-awareness-in-data-visualization/
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Learn markdown
-title-cs:
+lang: en
 category: data-coding
 tags: [learn, markdown]
 season: winter
@@ -8,6 +8,10 @@ created: 23 Nov 2021
 updated: 07 Apr 2023
 sources: Misc
 ---
+
+## General
+- [CommonMark](https://commonmark.org/)
+- [GitHub Markdown](https://github.github.com/gfm/)
 
 ## Snippets
 - How to reference local files
@@ -18,3 +22,11 @@ sources: Misc
 Same folder: Read more [here](./another_file.xlsx)
 Diff folder: Read more [here](../another_folder/another_file.xlsx)
 ```
+
+## Enhancements
+
+### Presentations
+- [List of markdown presentation tools](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8)
+- [Marp](https://github.com/marp-team/marp-cli)
+	- [Docs](https://marpit.marp.app/)
+- [Markdown to GSlides](https://github.com/googleworkspace/md2googleslides)

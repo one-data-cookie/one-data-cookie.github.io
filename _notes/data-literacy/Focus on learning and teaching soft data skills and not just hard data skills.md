@@ -1,6 +1,6 @@
 ---
 title: Focus on learning and teaching soft data skills and not just hard data skills
-title-cs: 
+lang: en 
 category: data-literacy
 tags: [idea]
 season: winter

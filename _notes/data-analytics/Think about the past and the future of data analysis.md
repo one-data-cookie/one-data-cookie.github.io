@@ -1,11 +1,11 @@
 ---
 title: Think about the past and the future of data analysis
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea, talk]
 season: winter
 created: 10 Jan 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: The Past and Future of Data Analysis, Roger Peng, PhD; Professor of Biostatistics, https://youtu.be/qFtJaq4TlqE
 ---
 

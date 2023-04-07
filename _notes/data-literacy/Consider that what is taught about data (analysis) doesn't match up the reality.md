@@ -1,6 +1,6 @@
 ---
 title: Consider that what is taught about data (analysis) doesn't match up the reality
-title-cs: 
+lang: en 
 category: data-literacy
 tags: [idea]
 season: winter

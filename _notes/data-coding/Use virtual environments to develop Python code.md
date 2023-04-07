@@ -1,11 +1,11 @@
 ---
 title: Use virtual environments to develop Python code
-title-cs: 
+lang: en 
 category: data-coding
 tags: [idea, python]
 season: spring
 created: 04 Apr 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0, https://towardsdatascience.com/venvs-pyenvs-pipenvs-oh-my-2411149e2f43
 ---
 

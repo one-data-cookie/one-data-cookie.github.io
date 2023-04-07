@@ -1,6 +1,6 @@
 ---
 title: Check how data stack can get organised
-title-cs: 
+lang: en 
 category: data-engineering
 tags: [idea]
 season: winter

@@ -1,11 +1,11 @@
 ---
 title: Mind that data is never objective
-title-cs: 
+lang: en
 category: data-society
 tags: [idea]
 season: winter
 created: 07 Feb 2020
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://www.vice.com/en_us/article/9393w7/this-man-created-traffic-jams-on-google-maps-using-a-red-wagon-full-of-phones
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Learn SQL
-title-cs: Nauč se SQL
+lang: en
 category: data-coding
 tags: [learn, sql]
 season: summer

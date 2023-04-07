@@ -1,11 +1,11 @@
 ---
 title: Understand that data infrastructure undergoes radical shift diferentiating future leaders
-title-cs: Datová architektura prochází zásadními změnami, které rozhodnou o konkurenčních výhodách do budoucna
+lang: en
 category: data-engineering
 tags: [idea]
 season: winter
 created: 21 Nov 2020
-updated: 15 Aug 2022
+updated: 07 Apr 2023
 sources: https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/
 ---
 

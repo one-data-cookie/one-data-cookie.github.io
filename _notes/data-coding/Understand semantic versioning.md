@@ -1,11 +1,11 @@
 ---
 title: Understand semantic versioning
-title-cs: 
+lang: en 
 category: data-coding
 tags: [git]
 season: spring
 created: 25 Oct 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://blog.getdbt.com/getting-ready-for-v1-0/, https://semver.org/
 ---
 

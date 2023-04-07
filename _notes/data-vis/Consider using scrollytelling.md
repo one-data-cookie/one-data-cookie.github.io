@@ -1,6 +1,6 @@
 ---
 title: Consider using scrollytelling
-title-cs: 
+lang: en
 category: data-vis
 tags: [idea]
 season: autumn

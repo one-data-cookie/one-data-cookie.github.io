@@ -1,6 +1,6 @@
 ---
 title: Educate children about data in secondary school, like in the LA School District
-title-cs: Datové vzdělání lze prosadit i do běžného vzdělávání
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter

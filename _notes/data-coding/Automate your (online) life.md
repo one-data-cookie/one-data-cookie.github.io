@@ -1,6 +1,6 @@
 ---
 title: Automate your (online) life
-title-cs: 
+lang: en
 category: data-coding
 tags: [idea]
 season: spring

@@ -1,11 +1,11 @@
 ---
 title: Consider implementing activity schema
-title-cs: 
+lang: en 
 category: data-engineering
 tags: [idea]
 season: spring
 created: 22 Oct 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://www.activityschema.com/, https://github.com/ActivitySchema/ActivitySchema/blob/main/spec.md
 ---
 

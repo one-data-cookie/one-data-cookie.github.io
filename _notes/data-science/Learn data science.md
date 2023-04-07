@@ -1,6 +1,6 @@
 ---
 title: Learn data science
-title-cs: Nauč se datovou vědu
+lang: en
 category: data-science
 tags: [learn]
 season: spring

@@ -1,11 +1,11 @@
 ---
 title: Change encoding of Czech spatial files
-title-cs: 
+lang: en
 category: data-vis
 tags: [tutorial, tableau, map, czechia]
 season: spring
 created: 30 Nov 2020
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://help.tableau.com/current/pro/desktop/en-us/maps_shapefiles.htm
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Take care of your dotfiles
-title-cs: 
+lang: en 
 category: data-coding
 tags: [how-to, idea]
 season: spring

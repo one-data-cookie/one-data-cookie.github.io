@@ -1,6 +1,6 @@
 ---
 title: Learn dbt
-title-cs: Nauč se dbt
+lang: en
 category: data-analytics
 tags: [learn, dbt]
 season: autumn

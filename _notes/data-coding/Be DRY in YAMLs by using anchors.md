@@ -1,11 +1,11 @@
 ---
 title: Be DRY in YAMLs by using anchors
-title-cs: 
+lang: en
 category: data-coding
 tags: [idea, yaml]
 season: spring
 created: 11 Mar 2021
-updated: 20 Aug 2022
+updated: 07 Apr 2023
 sources: https://joshdevlin.com/blog/yaml-repeating-sections/
 ---
 

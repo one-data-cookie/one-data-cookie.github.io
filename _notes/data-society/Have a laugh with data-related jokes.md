@@ -1,11 +1,11 @@
 ---
 title: Have a laugh with data-related jokes
-title-cs: 
+lang: en
 category: data-society
 tags: [random]
 season: winter
 created: 03 Apr 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: dilbert.com
 ---
 

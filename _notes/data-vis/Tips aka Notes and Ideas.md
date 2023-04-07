@@ -62,57 +62,57 @@ Learning way more about the design?
 
 Someday
 
-*   Dashboards: Strategic, Tactical, Operational
-    *   different goals and level of detail
+-   Dashboards: Strategic, Tactical, Operational
+    -   different goals and level of detail
 
 Sunday 30/09/2018, 10:37 AM
 
-*   [data.un.org](http://data.un.org/)
-*   Using slope diagram for changes
+-   [data.un.org](http://data.un.org/)
+-   Using slope diagram for changes
 
 Thursday 27/09/2018, 08:18 AM
 
-*   D3: 
-    *   [http://bost.ocks.org/mike/](http://bost.ocks.org/mike/)
-    *   [http://chimera.labs.oreilly.com/books/1230000000345/index.html](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
-*   [https://medium.com/@uptownnickbrown/the-past-and-future-of-data-visualization-d58a4b0af6b0](https://medium.com/@uptownnickbrown/the-past-and-future-of-data-visualization-d58a4b0af6b0)
+-   D3: 
+    -   [http://bost.ocks.org/mike/](http://bost.ocks.org/mike/)
+    -   [http://chimera.labs.oreilly.com/books/1230000000345/index.html](http://chimera.labs.oreilly.com/books/1230000000345/index.html)
+-   [https://medium.com/@uptownnickbrown/the-past-and-future-of-data-visualization-d58a4b0af6b0](https://medium.com/@uptownnickbrown/the-past-and-future-of-data-visualization-d58a4b0af6b0)
 
 Wednesday 26/09/2018, 08:01 AM
 
-*   Pentagon for vizes
-*   Check the alignment
+-   Pentagon for vizes
+-   Check the alignment
 
-*   Go through links in the Data Tips
-*   Make some sense to Data Tips
-*   Share Visual Vocabulary
-*   How to do the round chart?
-*   Do a viz on my computer and phone activity
+-   Go through links in the Data Tips
+-   Make some sense to Data Tips
+-   Share Visual Vocabulary
+-   How to do the round chart?
+-   Do a viz on my computer and phone activity
 
-*   Split my Pintrest based on Nadieh
+-   Split my Pintrest based on Nadieh
 
 Tuesday 25/09/2018, 10:52 AM
 
-*   [http://www.accurat.it/](http://www.accurat.it/)
-*   Periscopic
-*   Watch video from article on Visualising Data Well
-*   Sum up in the end of a week -- starred
+-   [http://www.accurat.it/](http://www.accurat.it/)
+-   Periscopic
+-   Watch video from article on Visualising Data Well
+-   Sum up in the end of a week -- starred
 
 Monday 24/09/2018, 11:52 AM
 
-*   Inductive and deductive approach
-*   Having a central question often helps, but could be just a broad topic
-*   Visual variables: the size/position/colour
-*   Everything need to be justifiable, reasoned, etc.
-*   Gestalt laws
-*   Trying different angles/designs, make it work BW
-*   Colour Theory (podcast)
-*   Standard approachs to different datasets
-*   Array of metaphors: Visaulisation for Designers
-*   Schneiderman's mantra
-*   Know when to finish
-*   Cognitive science
-*   Colling Ware: lalala in Design
-*   Analysing my own data from computer/phone or from APIs
+-   Inductive and deductive approach
+-   Having a central question often helps, but could be just a broad topic
+-   Visual variables: the size/position/colour
+-   Everything need to be justifiable, reasoned, etc.
+-   Gestalt laws
+-   Trying different angles/designs, make it work BW
+-   Colour Theory (podcast)
+-   Standard approachs to different datasets
+-   Array of metaphors: Visaulisation for Designers
+-   Schneiderman's mantra
+-   Know when to finish
+-   Cognitive science
+-   Colling Ware: lalala in Design
+-   Analysing my own data from computer/phone or from APIs
 
 ---
 

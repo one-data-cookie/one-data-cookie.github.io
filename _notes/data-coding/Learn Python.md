@@ -1,6 +1,6 @@
 ---
 title: Learn Python
-title-cs: Nauč se Python
+lang: en
 category: data-coding
 tags: [learn, python]
 season: summer

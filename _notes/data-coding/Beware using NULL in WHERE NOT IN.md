@@ -1,11 +1,11 @@
 ---
 title: Beware using NULL in WHERE NOT IN
-title-cs: 
+lang: en 
 category: data-coding
 tags: [idea, sql]
 season: spring
 created: 28 Jan 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://www.polderknowledge.nl/2018/03/02/sql-beware-null-where-not/
 ---
  

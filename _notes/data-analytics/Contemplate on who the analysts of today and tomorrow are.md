@@ -1,11 +1,11 @@
 ---
 title: Contemplate on who the analysts of today and tomorrow are
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea]
 season: summer
 created: 19 Jul 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 

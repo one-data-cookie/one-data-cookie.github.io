@@ -1,6 +1,6 @@
 ---
 title: Create fizzbuzz for SQL to test candidates
-title-cs:
+lang: en
 category: data-business
 tags: [sql, hiring]
 season: winter

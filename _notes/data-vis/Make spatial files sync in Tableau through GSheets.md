@@ -1,11 +1,11 @@
 ---
 title: Make spatial files sync in Tableau through GSheets
-title-cs: 
+lang: en
 category: data-vis
 tags: [tableau]
 season: spring
 created: 15 Jun 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: NA
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Assess your data maturity through three levels of analytics maturity
-title-cs: 
+lang: en
 category: data-business
 tags: [idea]
 season: spring

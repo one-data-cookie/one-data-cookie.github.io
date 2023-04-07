@@ -1,6 +1,6 @@
 ---
 title: Do data analytics right
-title-cs: 
+lang: en
 category: data-business
 tags: [idea]
 season: spring

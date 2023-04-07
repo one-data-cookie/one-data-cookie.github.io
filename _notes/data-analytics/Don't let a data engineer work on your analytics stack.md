@@ -1,11 +1,11 @@
 ---
 title: Don't let a data engineer work on your analytics stack
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea]
 season: winter
 created: 15 Sep 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://getdbt.slack.com/archives/C022A67TLFL/p1628609635109800?thread_ts=1628279819.038800&cid=C022A67TLFL
 ---
 

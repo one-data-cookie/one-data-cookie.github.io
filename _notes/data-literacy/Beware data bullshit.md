@@ -1,6 +1,6 @@
 ---
 title: Beware data bullshit
-title-cs: Kolem i v nás je spousta "data bullshit"
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter

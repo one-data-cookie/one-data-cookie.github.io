@@ -1,9 +1,9 @@
 ---
 title: Consider a role of an Analytics Engineer
-title-cs: Pojmenoval bych se jako Analytics Engineer
+lang: en
 category: data-analytics
 tags: [idea]
-season: summer
+season: spring
 created: 17 Dec 2020
 updated: 07 Apr 2023
 sources: Misc
@@ -13,28 +13,15 @@ The full context of analytics engineering is to be found in [The Analytics Engin
 
 ---
 
-Three roles in one:
 ![](../../assets/files/three-data-roles.png)
 
 ---
 
-> These are only possible through the one-two punch of deep business context and technical excellence.
-
-To se dá samozřejmě napasovat na ledacos, ale u Analytics je to podle mě stěžejní, aby to člověk měl v dobré rovnováze.
-
-> "Analytics Engineers"
-
-To se mi velmi líbí, i v návaznosti na ten předchozí bod. Řekl bych, že to mnohem víc vystihuje, jak technická ta role často je. "Data Analyst" spíš evokuje výhradně analyzování, ale my -- troufám si říct -- docela dost i tvoříme. Nepotřebuju ke své práci nutně nálepku, ale tahle mi přijde asi nejvhodnější, co jsem se zatím setkal. Navíc totiž -- jak se tam zmiňuje -- je to dostatečně obecný na to, aby to nesvazovalo a člověk si v tom mohl najít to svoje.
-
 > The Analyst, The Engineer, The Visualizer
-
-U nás nejsme tak specializování, spíš jsme každej na nějaké škále pro všechny tři, ale tu práci to pěkně shrnuje do tří person, přičemž každou používáme ve správnej čas podle potřeby.
 
 ![Analyst, Engineer, Visualiser](https://miro.medium.com/max/2720/1*Pm_2Ai349Qh0W-caNQ9agQ.png)
 
 > Since the problem space is so varied, we align our analytics professionals with the listed business area verticals rather than organizing them within a single functional horizontal. The expectation is that individuals in these roles possess deep business context and are thought leaders alongside their business counterparts. This enables them to fully understand where their partners are coming from. It also means Analytics and Visualization Engineers are a specialized resource and a rare commodity. There are many more questions and stakeholders than analytics team members, and the job is not to take on every request. Instead, these individual contributors are given freedom to choose their projects and are responsible for prioritizing the ones that will have the most business impact (and deprioritizing the rest). This requires a lot of judgment and embodies our "context not control" culture.
-
-Jen tak na okraj -- tento odstavec pěkně popisuje i náš způsob uvažování nad umístěním té role v rámci hierarchie. Určitě ještě nejsme tak daleko, ale snažíme se to tam směřovat, řekl bych.
 
 -- [Who We Are and What We Do by Analytics at Netflix](https://netflixtechblog.com/analytics-at-netflix-who-we-are-and-what-we-do-7d9c08fe6965)
 

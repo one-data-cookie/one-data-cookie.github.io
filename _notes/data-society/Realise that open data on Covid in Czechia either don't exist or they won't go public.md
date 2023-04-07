@@ -1,11 +1,11 @@
 ---
 title: Realise that open data on Covid in Czechia either don't exist or they won't go public
-title-cs: Otevřená data na covid - vláda je buď nemá, nebo si je škudlí jako za totality
+lang: cs
 category: data-society
 tags: [idea, open-data]
 season: winter
 created: 12 May 2020
-updated: 16 Aug 2022
+updated: 07 Apr 2023
 sources: https://www.respekt.cz/rozhovor/otvirat-zemi-bez-dat-je-ruska-ruleta-varuje-vykazany-expert
 ---
 

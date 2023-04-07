@@ -1,6 +1,6 @@
 ---
 title: Build modern data stack
-title-cs: 
+lang: en 
 category: data-engineering
 tags: [learn]
 season: summer

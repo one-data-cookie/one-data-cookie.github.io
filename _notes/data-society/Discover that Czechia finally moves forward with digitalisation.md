@@ -1,11 +1,11 @@
 ---
 title: Discover that Czechia finally moves forward with digitalisation
-title-cs: 
+lang: cs
 category: data-society
 tags: [idea]
 season: autumn
 created: 16 Mar 2023
-updated: 16 Mar 2023
+updated: 07 Apr 2023
 sources: https://www.seznamzpravy.cz/clanek/domaci-politika-revoluce-v-dokladech-obcanka-ridicak-i-diplom-v-telefonu-planuje-bartos-227058
 ---
 

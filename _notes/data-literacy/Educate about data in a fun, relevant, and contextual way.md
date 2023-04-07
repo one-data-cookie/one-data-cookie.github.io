@@ -1,6 +1,6 @@
 ---
 title: Educate about data in a fun, relevant, and contextual way
-title-cs: Vzdělávání o datech by mělo být zábavné, relevantní, o "why" a zaměřit se i na business stránku
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter

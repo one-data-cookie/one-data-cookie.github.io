@@ -1,6 +1,6 @@
 ---
 title: Learn data
-title-cs: Nauč se data
+lang: en
 category: data-literacy
 tags: [learn]
 season: winter

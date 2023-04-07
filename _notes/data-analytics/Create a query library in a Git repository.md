@@ -1,11 +1,11 @@
 ---
 title: Create a query library in a Git repository
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea]
 season: spring
 created: 03 Apr 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://caitlinhudon.com/2018/11/28/git-sql-together/
 ---
 

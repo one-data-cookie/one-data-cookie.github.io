@@ -1,6 +1,6 @@
 ---
 title: Learn Git
-title-cs: Nauč se Git
+lang: en
 category: data-coding
 tags: [learn, git]
 season: summer

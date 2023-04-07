@@ -1,11 +1,11 @@
 ---
 title: Consider using notebooks for analyses
-title-cs: 
+lang: en
 category: data-analytics
 tags: [tools, sql, python]
 season: spring
 created: 15 Sep 2021
-updated: 14 Mar 2023
+updated: 07 Apr 2023
 sources: Misc
 ---
 

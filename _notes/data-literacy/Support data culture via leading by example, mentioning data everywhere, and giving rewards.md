@@ -1,11 +1,11 @@
 ---
 title: Support data culture via leading by example, mentioning data everywhere, and giving rewards
-title-cs: Vést příkladem, zmiňovat všude a pobídky pomáhají k data culture
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter
 created: 08 Mar 2019
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://hbr.org/2018/10/make-data-a-cornerstone-of-your-team
 ---
 

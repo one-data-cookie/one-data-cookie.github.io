@@ -1,10 +1,11 @@
 ---
-title: Geocode easily
-title-cs: 
+title: Find out about geocoding
+lang: en 
 category: data-coding
 tags: [how-to, python, js]
 season: spring
-dates: [21 Apr 2022, 21 Apr 2022]
+created: 21 Apr 2022
+updated: 21 Apr 2022
 sources: Misc
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Improve data culture through data democratisation
-title-cs: Data literacy jedině skrze data democratisation
+lang: en
 category: data-business
 tags: [idea]
 season: winter

@@ -1,6 +1,6 @@
 ---
 title: Educate children about data in primary school
-title-cs: I děti na základce by se měli učit data literacy
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter

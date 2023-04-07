@@ -1,11 +1,11 @@
 ---
 title: Explore Spotify's way of using deep learning for Discover Weekly
-title-cs: Spotify používá cool deep learning pro Discover Weekly
+lang: en
 category: data-science
 tags: [idea, deep-learning]
 season: winter
 created: 16 Mar 2019
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
 ---
 

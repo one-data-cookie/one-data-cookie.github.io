@@ -1,6 +1,6 @@
 ---
 title: Be able to explain what you do to your granny
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea]
 season: spring

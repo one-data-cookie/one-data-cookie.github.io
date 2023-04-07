@@ -1,11 +1,11 @@
 ---
 title: Learn R
-title-cs: Nauč se R
+lang: en
 category: data-coding
 tags: [learn, r]
 season: spring
 created: 13 Feb 2021
-updated: 24 Aug 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 

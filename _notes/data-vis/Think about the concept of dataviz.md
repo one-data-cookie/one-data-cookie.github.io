@@ -1,11 +1,11 @@
 ---
 title: Think about the concept of dataviz
-title-cs: 
+lang: en
 category: data-vis
 tags: [idea]
 season: autumn
 created: 24 Feb 2021
-updated: 17 Aug 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 

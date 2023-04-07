@@ -1,11 +1,11 @@
 ---
 title: Check these when reviewing a PR
-title-cs: 
+lang: en 
 category: data-coding
 tags: [checklist]
 season: spring
 created: 04 Mar 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://medium.com/@hugooodias/the-anatomy-of-a-perfect-pull-request-567382bb6067, https://blog.getdbt.com/how-to-review-an-analytics-pull-request/, https://mtlynch.io/code-review-love/
 ---
 

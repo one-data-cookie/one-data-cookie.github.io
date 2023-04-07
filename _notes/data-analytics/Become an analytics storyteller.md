@@ -1,6 +1,6 @@
 ---
 title: Become an analytics storyteller
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea, coalesce]
 season: winter

@@ -1,6 +1,6 @@
 ---
 title: Learn ChatGPT
-title-cs: 
+lang: en 
 category: data-coding
 tags: [learn, chatgpt]
 season: summer

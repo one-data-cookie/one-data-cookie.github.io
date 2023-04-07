@@ -1,11 +1,11 @@
 ---
 title: Consider participating in Czechitas
-title-cs: Mohlo by být zajímavý angažovat se v Czechitas
+lang: cs
 category: data-society
 tags: [idea]
 season: autumn
 created: 16 Mar 2019
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://open.spotify.com/episode/308ZJKb2uI6z1SyZKDbZmf?si=6K8MUH7HTOOeMYMrkvO37A
 ---
 

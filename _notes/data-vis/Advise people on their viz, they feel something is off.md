@@ -1,6 +1,6 @@
 ---
 title: Advise people on their viz, they feel something is off
-title-cs: 
+lang: en
 category: data-vis
 tags: [idea]
 season: winter

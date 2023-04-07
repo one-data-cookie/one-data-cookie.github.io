@@ -1,11 +1,11 @@
 ---
 title: Understand that data-driven teams need quantitative and analytical skills, plus training
-title-cs: Data Team potřebuje kvantitativní lidi, trénink, kritické myšlení
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter
 created: 16 Jan 2019
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://hbr.org/2018/10/3-ways-to-build-a-data-driven-team
 ---
 

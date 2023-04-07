@@ -1,11 +1,11 @@
 ---
 title: Select first several items to understand new data
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea, sql]
 season: spring
 created: 19 Mar 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://selectstar.blog/2019/02/02/the-first-query/
 ---
 

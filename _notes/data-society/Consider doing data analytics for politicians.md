@@ -1,11 +1,11 @@
 ---
 title: Consider doing data analytics for politicians
-title-cs: Politika potřebuje schopné datové analytiky
+lang: cs
 category: data-society
 tags: [idea]
 season: autumn
 created: 21 Nov 2020
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://www.profant.eu/2020/data-a-pandemie.html, https://www.seznamzpravy.cz/clanek/tajemny-muz-ktery-na-jare-zachranil-cesko-exreditel-ceske-pojistovny-124767
 ---
 

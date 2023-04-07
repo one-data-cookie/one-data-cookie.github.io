@@ -1,6 +1,6 @@
 ---
 title: Build the data team in the right way
-title-cs: 
+lang: en
 category: data-business
 tags: [idea]
 season: autumn

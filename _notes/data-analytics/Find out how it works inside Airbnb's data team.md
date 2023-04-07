@@ -1,11 +1,11 @@
 ---
 title: Find out how it works inside Airbnb's data team
-title-cs:
+lang: cs
 category: data-analytics
 tags: [idea]
 season: autumn
 created: 01 Mar 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: 
 ---
 

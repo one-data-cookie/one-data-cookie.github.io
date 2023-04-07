@@ -1,6 +1,6 @@
 ---
 title: Dig insights thoroughly, triple-check, and simplify
-title-cs: Hledej příběhy v datech poctivě, ověřuj a zjednodušuj
+lang: cs
 category: data-analytics
 tags: [idea]
 season: winter

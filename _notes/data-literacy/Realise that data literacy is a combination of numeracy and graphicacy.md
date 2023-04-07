@@ -1,11 +1,11 @@
 ---
 title: Realise that data literacy is a combination of numeracy and graphicacy 
-title-cs: Datová gramotnost je kombinace numerické a vizuální gramotnosti
+lang: en
 category: data-literacy
 tags: [idea]
 season: spring
 created: 18 Oct 2020
-updated: 15 Aug 2022
+updated: 07 Apr 2023
 sources: https://www.tableau.com/learn/data-literacy
 ---
 

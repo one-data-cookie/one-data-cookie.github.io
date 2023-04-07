@@ -1,11 +1,11 @@
 ---
 title: Show that analysts are to solve key business challenges by high-quality well-documented work
-title-cs: 
+lang: en
 category: data-business
 tags: [idea]
 season: spring
 created: 21 Jun 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://towardsdatascience.com/dont-be-data-driven-be-analytics-driven-74cbb0518640
 ---
 

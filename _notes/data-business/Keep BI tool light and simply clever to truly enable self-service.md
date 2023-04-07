@@ -1,6 +1,6 @@
 ---
 title: Keep BI tool light and simply clever to truly enable self-service
-title-cs: 
+lang: en
 category: data-business
 tags: [idea]
 season: spring

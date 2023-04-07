@@ -1,17 +1,17 @@
 ---
 title: Understand how to provide feedback through dashboards
-title-cs: 
+lang: en
 category: data-vis
 tags: [idea, dashboard]
 season: spring
 created: 28 Apr 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://medium.com/nightingale/dashboard-psychology-of-feedback-in-data-design-dd3176b9f67c?source=friends_link&sk=732ff2bf7ceb786863d2cc36bafeb176
 ---
 
-* “What you measure, you improve.” _But how does this actually work?_
-* To understand effective, motivational data design, you need to understand the **psychology of feedback**.
-* Effective dashboards provide effective feedback and rely on two dynamics:
+- “What you measure, you improve.” _But how does this actually work?_
+- To understand effective, motivational data design, you need to understand the **psychology of feedback**.
+- Effective dashboards provide effective feedback and rely on two dynamics:
 	1. They increase our commitment to a goal; by:
 		-  Highlighting past progress (e.g., Atom, fundraising progress bars)
 		-  Making the feedback experience itself rewarding or fascinating (e.g., Atom, Robinhood)
@@ -22,7 +22,7 @@ sources: https://medium.com/nightingale/dashboard-psychology-of-feedback-in-data
 		-  Long distance goals (e.g., weight graphs, fundraising progress bars)
 		-  Social comparisons
 		-  Various benchmarks (e.g., Tufte and Powsner, Worklytics)
-* *Example*: The left speaks to viewers’ commitment. The right highlights the contrast between users’ current and target states.
+- *Example*: The left speaks to viewers’ commitment. The right highlights the contrast between users’ current and target states.
 
 ![](https://miro.medium.com/1*--D5nHbtWDiJAuAPLMxZaw.png)
 

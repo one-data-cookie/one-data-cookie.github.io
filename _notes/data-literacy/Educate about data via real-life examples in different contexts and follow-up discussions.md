@@ -1,6 +1,6 @@
 ---
 title: Educate about data via real-life examples in different contexts and follow-up discussions
-title-cs: Nejlépe se data literacy učí přímo praxí v různých kontextech a následnou diskusí
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter

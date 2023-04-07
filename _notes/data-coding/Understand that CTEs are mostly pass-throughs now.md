@@ -1,11 +1,11 @@
 ---
 title: Understand that CTEs are mostly pass-throughs now
-title-cs: 
+lang: en 
 category: data-coding
 tags: [idea, sql]
 season: winter
 created: 02 Mar 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://discourse.getdbt.com/t/ctes-are-passthroughs-some-research/155, https://news.ycombinator.com/item?id=7024419
 ---
 

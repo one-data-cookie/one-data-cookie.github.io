@@ -1,11 +1,11 @@
 ---
 title: Think about whether the future is open source
-title-cs: 
+lang: en 
 category: data-coding
 tags: [idea]
 season: spring
 created: 10 Mar 2021
-updated: 01 May 2022
+updated: 07 Apr 2023
 sources: https://www.niallrees.com/posts/lessons-from-a-year-of-open-source, https://maximebeauchemin.medium.com/the-future-of-business-intelligence-is-open-source-9b654595773a
 ---
 

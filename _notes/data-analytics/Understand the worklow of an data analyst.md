@@ -1,11 +1,11 @@
 ---
 title: Understand the worklow of an data analyst
-title-cs: 
+lang: en
 category: data-analytics
 tags: [idea, process]
 season: winter
 created: 04 Oct 2020
-updated: 15 Aug 2022
+updated: 07 Apr 2023
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 

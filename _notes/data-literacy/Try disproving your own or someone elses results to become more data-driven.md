@@ -1,11 +1,11 @@
 ---
 title: Try disproving your own or someone elses results to become more data-driven
-title-cs: Nejdůležitější otázka pro to být správně data-driven – How Can I Disprove It
+lang: en
 category: data-literacy
 tags: [idea]
 season: winter
 created: 08 Oct 2020
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: David Sigerson, How to Lie with Statistics, https://tc20.tableau.com/episodes/how-lie-statistics-108
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Run the data team like a product team
-title-cs: 
+lang: en
 category: data-business
 tags: [idea]
 season: spring
 created: 22 Jun 2021
-updated: 28 Nov 2022
+updated: 07 Apr 2023
 sources: https://locallyoptimistic.com/post/run-your-data-team-like-a-product-team/
 ---
 

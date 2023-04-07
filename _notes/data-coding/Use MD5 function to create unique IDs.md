@@ -1,11 +1,11 @@
 ---
 title: Use MD5 function to create unique IDs
-title-cs: 
+lang: en 
 category: data-coding
 tags: [idea, sql]
 season: spring
 created: 03 Apr 2021
-updated: 22 Aug 2022
+updated: 07 Apr 2023
 sources: https://blog.getdbt.com/one-analysts-guide-for-going-from-good-to-great/
 ---
 

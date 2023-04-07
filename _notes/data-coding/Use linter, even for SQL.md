@@ -1,11 +1,11 @@
 ---
 title: Use linter, even for SQL
-title-cs: 
+lang: en 
 category: data-coding
 tags: [ideas, sql]
 season: spring
 created: 19 Jun 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://towardsdatascience.com/sqlfluff-the-linter-for-modern-sql-8f89bd2e9117
 ---
 

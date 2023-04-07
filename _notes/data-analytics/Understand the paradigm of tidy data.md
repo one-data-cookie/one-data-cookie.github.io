@@ -1,11 +1,11 @@
 ---
 title: Understand the paradigm of tidy data
-title-cs:
+lang: en
 category: data-analytics
 tags: [idea, cleaning]
 season: spring
 created: 02 Mar 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: Hadley Wickham, RStudio, https://vita.had.co.nz/papers/tidy-data.pdf
 ---
 

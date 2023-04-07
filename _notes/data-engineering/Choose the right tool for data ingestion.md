@@ -1,11 +1,11 @@
 ---
 title: Choose the right tool for data ingestion
-title-cs: 
+lang: en 
 category: data-engineering
 tags: [tools]
 season: winter
 created: 20 Jun 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://docs.airbyte.io/faq/differences-with/, https://preset.io/blog/2021-4-22-data-integration-tooling/
 ---
 

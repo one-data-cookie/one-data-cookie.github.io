@@ -1,11 +1,11 @@
 ---
 title: Choose the right font
-title-cs: 
+lang: en
 category: data-vis
 tags: [tutorial, font]
 season: autumn
 created: 08 Jan 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/
 ---
 
@@ -20,39 +20,39 @@ Before you choose a cool font, keep [this](https://www.flerlagetwins.com/2020/08
 ---
 # For numbers
 ### Serif Fonts
-* [Droid Serif](https://fonts.google.com/specimen/Droid+Serif)
-* [Crimson Text](https://fonts.google.com/specimen/Crimson+Text)
-* [Old Standard TT](https://fonts.google.com/specimen/Old+Standard+TT)
-* [Kameron](https://fonts.google.com/specimen/Kameron)
-* [Copse](https://fonts.google.com/specimen/Copse)
+- [Droid Serif](https://fonts.google.com/specimen/Droid+Serif)
+- [Crimson Text](https://fonts.google.com/specimen/Crimson+Text)
+- [Old Standard TT](https://fonts.google.com/specimen/Old+Standard+TT)
+- [Kameron](https://fonts.google.com/specimen/Kameron)
+- [Copse](https://fonts.google.com/specimen/Copse)
 
 ### Sans Serif Fonts
-* [Open Sans](https://fonts.google.com/specimen/Open+Sans)
-* [Lato](https://fonts.google.com/specimen/Lato)
-* [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)
-* [Titillium Web](https://fonts.google.com/specimen/Titillium+Web)
-* [Varela Round](https://fonts.google.com/specimen/Varela+Round)
+- [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- [Lato](https://fonts.google.com/specimen/Lato)
+- [Roboto Condensed](https://fonts.google.com/specimen/Roboto+Condensed)
+- [Titillium Web](https://fonts.google.com/specimen/Titillium+Web)
+- [Varela Round](https://fonts.google.com/specimen/Varela+Round)
 
 ### Display Fonts
-* [Graduate](https://fonts.google.com/specimen/Graduate)
-* [Changa One](https://fonts.google.com/specimen/Changa+One)
-* [Special Elite](https://fonts.google.com/specimen/Special+Elite)
-* [Stardos Stencil](https://fonts.google.com/specimen/Stardos+Stencil)
-* [Iceland](https://fonts.google.com/specimen/Iceland)
+- [Graduate](https://fonts.google.com/specimen/Graduate)
+- [Changa One](https://fonts.google.com/specimen/Changa+One)
+- [Special Elite](https://fonts.google.com/specimen/Special+Elite)
+- [Stardos Stencil](https://fonts.google.com/specimen/Stardos+Stencil)
+- [Iceland](https://fonts.google.com/specimen/Iceland)
 
 ### Proportional Fonts
-* [Montserrat](https://fonts.google.com/specimen/Montserrat)
-* [Poppins](https://fonts.google.com/specimen/Poppins)
-* [Bitter](https://fonts.google.com/specimen/Bitter)
-* [Ultra](https://fonts.google.com/specimen/Ultra)
-* [Fjalla One](https://fonts.google.com/specimen/Fjalla+One)
+- [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- [Poppins](https://fonts.google.com/specimen/Poppins)
+- [Bitter](https://fonts.google.com/specimen/Bitter)
+- [Ultra](https://fonts.google.com/specimen/Ultra)
+- [Fjalla One](https://fonts.google.com/specimen/Fjalla+One)
 
 *Source:* https://blog.graphiq.com/finding-the-best-free-fonts-for-numbers-25c54002a895
  
 ---
 
 # For small text
-* labels, sources, callouts
+- labels, sources, callouts
 
 Good visualizations help the user understand complicated data without allowing the design to get in the way.
 
@@ -65,26 +65,26 @@ While some serif fonts are passable at smaller sizes, if you are unsure, then sk
 Because that little bit of awkward space requires your brain to work to understand that this is a continuous string of numbers. We can eliminate that work by **choosing a typeface with tabular numbers and even spacing**.
 
 ## Good Fonts
- * [Lato](https://fonts.google.com/specimen/Lato) is a good data visualization typeface because it is highly readable at small sizes.
- * [Assistant](https://fonts.google.com/specimen/Assistant) is a crisp, modern typeface that works well in design because of its simple, open aesthetic, and rhythmic letter sizing.
- * [PT Sans](https://fonts.google.com/specimen/PT+Sans) — a strong, rounded typeface with a generous x-height. PT Sans and PT Serif were developed for the Russian alphabet as a comprehensive font to encourage printing and reading in the national language. The family also includes a PT Sans Caption style which was designed specifically for small type and works well for long notes or sources sections.
- * [Noto Sans](https://fonts.google.com/specimen/Noto+Sans), a clean font, with slightly condensed letter spacing, compensated by clear circular counters and a generous x height. Noto Sans is part of a [larger family of Noto typefaces](https://www.google.com/get/noto/). There are over 100 different typefaces in the group, with the purpose of providing “visual harmony” across multiple languages and script forms. This makes Noto Sans a particularly good option for multilingual visualizations.
- *  [Merriweather](https://fonts.google.com/specimen/Merriweather) is a slightly bubbly font with thick and thin stroke widths of medium contrast, making it suitable for headings, but not for small text.
- *  [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?preview.text=32154&preview.text_type=custom) is used for the content. Source Sans Pro was specifically designed for user interfaces.
- *  [Lora](https://fonts.google.com/specimen/Lora) is a Google font optimized for screen, but also works well for print projects.
- *  [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin), a Franklin-based typeface, meaning it belongs to a group of fonts inspired by the original [Franklin Gothic typeface](https://en.wikipedia.org/wiki/Franklin_Gothic) designed around 1910.
+ - [Lato](https://fonts.google.com/specimen/Lato) is a good data visualization typeface because it is highly readable at small sizes.
+ - [Assistant](https://fonts.google.com/specimen/Assistant) is a crisp, modern typeface that works well in design because of its simple, open aesthetic, and rhythmic letter sizing.
+ - [PT Sans](https://fonts.google.com/specimen/PT+Sans) — a strong, rounded typeface with a generous x-height. PT Sans and PT Serif were developed for the Russian alphabet as a comprehensive font to encourage printing and reading in the national language. The family also includes a PT Sans Caption style which was designed specifically for small type and works well for long notes or sources sections.
+ - [Noto Sans](https://fonts.google.com/specimen/Noto+Sans), a clean font, with slightly condensed letter spacing, compensated by clear circular counters and a generous x height. Noto Sans is part of a [larger family of Noto typefaces](https://www.google.com/get/noto/). There are over 100 different typefaces in the group, with the purpose of providing “visual harmony” across multiple languages and script forms. This makes Noto Sans a particularly good option for multilingual visualizations.
+ -  [Merriweather](https://fonts.google.com/specimen/Merriweather) is a slightly bubbly font with thick and thin stroke widths of medium contrast, making it suitable for headings, but not for small text.
+ -  [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?preview.text=32154&preview.text_type=custom) is used for the content. Source Sans Pro was specifically designed for user interfaces.
+ -  [Lora](https://fonts.google.com/specimen/Lora) is a Google font optimized for screen, but also works well for print projects.
+ -  [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin), a Franklin-based typeface, meaning it belongs to a group of fonts inspired by the original [Franklin Gothic typeface](https://en.wikipedia.org/wiki/Franklin_Gothic) designed around 1910.
  
  ## Typographic Design Systems
- * **One font/One size**
-	 * The “One font/One size” typographic system uses a single typeface with a continuous set size, resulting in a universal visual texture.
- * **One font / Big header**
-	 * The “One font/Big header” typographic system uses a single font with a header that is larger and bolder than the rest of the content.
- * **Two fonts / Heavy & light**
-	 * The “Two fonts/Heavy & light” typographic system uses two sans-serif fonts with complementary x-heights and letter spacing. The header is set to a heavy weight, the content is set to a light weight.
- * **One serif / One sans-serif**
-	 * The “One serif/One sans-serif” system uses two fonts — one serif and one sans-serif.
- * **Serif for reading/Sans-serif for labeling**
-	 * With the “Serif for reading/Sans-serif for labeling” system, the header, sub-header, and any article copy is should be set to a serif typeface. For maximum readability, keep line length to less than 60 characters.
+ - **One font/One size**
+	 - The “One font/One size” typographic system uses a single typeface with a continuous set size, resulting in a universal visual texture.
+ - **One font / Big header**
+	 - The “One font/Big header” typographic system uses a single font with a header that is larger and bolder than the rest of the content.
+ - **Two fonts / Heavy & light**
+	 - The “Two fonts/Heavy & light” typographic system uses two sans-serif fonts with complementary x-heights and letter spacing. The header is set to a heavy weight, the content is set to a light weight.
+ - **One serif / One sans-serif**
+	 - The “One serif/One sans-serif” system uses two fonts — one serif and one sans-serif.
+ - **Serif for reading/Sans-serif for labeling**
+	 - With the “Serif for reading/Sans-serif for labeling” system, the header, sub-header, and any article copy is should be set to a serif typeface. For maximum readability, keep line length to less than 60 characters.
 
 ---
 Choosing the “right” font for your design determines how well your designs are perceived.
@@ -199,9 +199,9 @@ Now, we’re not saying any two typefaces can work well together, but there are 
 
 There is a good rule of thumb at work here that you can use in your designs. If the two typefaces have one thing in common but are otherwise vastly different, this helps determine if the two might look elegant when paired together:
 
-*   If the two have a similar x-height or stroke weight
-*   If the two are from the same period of time
-*   If the two are by the same designer
+-   If the two have a similar x-height or stroke weight
+-   If the two are from the same period of time
+-   If the two are by the same designer
 
 ![](https://s3-us-west-2.amazonaws.com/storage.trydesignlab.com/blog/how+to+choose+font/gill3.jpg)
 

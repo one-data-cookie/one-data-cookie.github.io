@@ -1,6 +1,6 @@
 ---
 title: Think about data science as split into Analytics, Algorithms, Inference
-title-cs: Data Science se dá hezky rozdělit na Analytics, Algorithms, Inference
+lang: en
 category: data-science
 tags: [idea]
 season: winter

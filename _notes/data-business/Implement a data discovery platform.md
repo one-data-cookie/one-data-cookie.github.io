@@ -1,11 +1,11 @@
 ---
 title: Implement a data discovery platform
-title-cs: 
+lang: en
 category: data-business
 tags: [idea]
 season: spring
 created: 03 Apr 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://eugeneyan.com/writing/data-discovery-platforms/
 ---
 

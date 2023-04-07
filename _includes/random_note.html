@@ -15,7 +15,7 @@ Use liquid to get an the number of notes in the site
 
 {%- assign i = 0 -%}
 {%- for post in site.notes -%}
-    {%- unless post.season == "autumn" -%}
+    {%- unless post.season == "autumn" or post.lang != "en" -%}
     {%- assign i = i | plus: 1 -%}
     {%- endunless -%}
 {%- endfor -%}
@@ -26,7 +26,7 @@ Use liquid to get an the number of notes in the site
 
   const allPosts =
     [{%- for post in site.notes -%}
-    {%- unless post.season == "autumn" -%}
+    {%- unless post.season == "autumn" or post.lang != "en" -%}
       {%- assign i = i | minus: 1 -%}
       "{{ site.url }}{{ post.url }}"{%- unless i == 0 -%},{%- endunless -%}
     {%- endunless -%}

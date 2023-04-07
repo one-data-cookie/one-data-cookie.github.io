@@ -33,7 +33,7 @@
   function filterUsingCategory(selectedCategory) {
     var id = 0;
     {% for post in site.notes %}
-    {% if post.season != "autumn" %}
+    {% if post.season != "autumn" and post.lang == 'en' %}
       var cats = {{ post.category | jsonify }}
 
       var postDiv = document.getElementById(++id);
@@ -65,7 +65,7 @@
 
 {% assign id = 0 %}
 {% for post in site.notes %}
-{% if post.season != "autumn" %}
+{% if post.season != "autumn" and post.lang == 'en' %}
   {% assign id = id | plus:1 %}
   <div class="block note-cards">
       <div class="box-feed" data-url="{{ site.url }}{{ post.url }}" id="{{ id }}">

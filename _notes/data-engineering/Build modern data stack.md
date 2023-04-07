@@ -5,9 +5,12 @@ category: data-engineering
 tags: [learn]
 season: spring
 created: 04 Apr 2021
-updated: 30 Dec 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
+
+> A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.
+> -- Antoine de Saint-Exupéry 
 
 # Links
 
@@ -293,13 +296,15 @@ $ docker exec -it postgres psql -U cookie -d postgres
 # Superset
 $ docker pull apache/superset
 $ docker run -d -p 8080:8088 --name superset apache/superset
+# -v $PWD/local_config.py:/app/pythonpath/superset_config.py
 $ docker exec -it superset superset fab create-admin \
               --username admin \
               --firstname Superset \
               --lastname Admin \
               --email admin@superset.com \
               --password admin
-$ docker exec -it superset superset load_examples
+$ docker exec -it superset superset db upgrade
+# $ docker exec -it superset superset load_examples
 $ docker exec -it superset superset init
 
 # postgresql+psycopg2://cookie:cookie@host.docker.internal:5432/postgres

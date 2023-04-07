@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: spring
 created: 10 Mar 2023
-updated: 12 Mar 2023
+updated: 07 Apr 2023
 sources: Misc
 ---
 
@@ -64,3 +64,4 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [OpenAI API](https://platform.openai.com/)
 - [AI Text Classifier](https://platform.openai.com/ai-text-classifier)
 - [Perplexity.ai](https://www.perplexity.ai/)
+- [Future Tools](https://www.futuretools.io/)

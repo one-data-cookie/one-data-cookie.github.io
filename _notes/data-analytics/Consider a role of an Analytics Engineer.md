@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: autumn
 created: 17 Dec 2020
-updated: 13 Mar 2023
+updated: 07 Apr 2023
 sources: Misc
 ---
 
@@ -36,13 +36,13 @@ U nás nejsme tak specializování, spíš jsme každej na nějaké škále pro 
 
 Jen tak na okraj -- tento odstavec pěkně popisuje i náš způsob uvažování nad umístěním té role v rámci hierarchie. Určitě ještě nejsme tak daleko, ale snažíme se to tam směřovat, řekl bych.
 
--- [Who We Are and What We Do by Analytics at Netflix````](https://netflixtechblog.com/analytics-at-netflix-who-we-are-and-what-we-do-7d9c08fe6965)
+-- [Who We Are and What We Do by Analytics at Netflix](https://netflixtechblog.com/analytics-at-netflix-who-we-are-and-what-we-do-7d9c08fe6965)
 
 ---
 
-Analytics engineers deliver well-defined, transformed, tested, documented, and code-reviewed data sets. Because of the high quality of this data and the associated documentation, business users are able to use BI tools to do their own analysis while getting reliable, consistent answers.
+> Analytics engineers deliver well-defined, transformed, tested, documented, and code-reviewed data sets. Because of the high quality of this data and the associated documentation, business users are able to use BI tools to do their own analysis while getting reliable, consistent answers.
 
-Analytics engineers are like librarians. They curate the catalog so that the researchers can do their work more effectively.
+> Analytics engineers are like librarians. They curate the catalog so that the researchers can do their work more effectively.
 
 - Is it possible to build a single table that allows us to answer this entire set of business questions?
 - What is clearest possible naming convention for tables in our warehouse?

@@ -3,7 +3,7 @@ title: Consider a role of an Analytics Engineer
 title-cs: Pojmenoval bych se jako Analytics Engineer
 category: data-analytics
 tags: [idea]
-season: autumn
+season: summer
 created: 17 Dec 2020
 updated: 07 Apr 2023
 sources: Misc

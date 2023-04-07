@@ -3,9 +3,9 @@ title: Get familiar with the materials on data literacy
 title-cs: 
 category: data-literacy
 tags: [idea]
-season: spring
+season: summer
 created: 07 Mar 2021
-updated: 11 Mar 2023
+updated: 07 Apr 2023
 sources: Misc
 ---
 

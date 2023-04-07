@@ -5,7 +5,7 @@ category: data-business
 tags: [idea]
 season: autumn
 created: 15 Sep 2021
-updated: 28 Nov 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 
@@ -19,3 +19,7 @@ sources: Misc
 > That said, I think small companies typically do better with centralized teams and bigger companies do better with a hub and spoke model. Having a central team for managing shared tools, infrastructure, data models, etc helps a lot.
 > 
 > -- Ray Buhr, [dbt Slack](https://getdbt.slack.com/archives/C022A67TLFL/p1629901727222200?thread_ts=1629894719.221900&cid=C022A67TLFL)
+
+
+>  The best setup really depends on the company size and priorities. You can get a feeling of how developed you're in the data space based on the type of questions you can answer today to your stakeholders, and the questions they ask but you still can't answer. Moving closer to the business is always a smart move. The data team cannot be centralized nor siloed, it will inevitably become a bottleneck. The number of Analytics Engineers needs to grow with the business, not reactively. In the long run, as things grow, the embedded way works best.
+>  -- someone, [dbt Slack](https://getdbt.slack.com/archives/C022A67TLFL/p1638493069170100?thread_ts=1638481179.168700&cid=C022A67TLFL)

@@ -1,9 +1,9 @@
 ---
 title: Learn Docker
 title-cs: 
-category: data-engineering
+category: data-coding
 tags: [docker]
-season: autumn
+season: winter
 created: 13 Dec 2021
 updated: 07 Apr 2023
 sources: Misc

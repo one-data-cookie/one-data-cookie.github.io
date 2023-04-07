@@ -1,7 +1,7 @@
 ---
 title: Prefer trunk-based development over other branching models
 title-cs: 
-category: data-analytics
+category: data-coding
 tags: [idea]
 season: spring
 created: 17 Mar 2021

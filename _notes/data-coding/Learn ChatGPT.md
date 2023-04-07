@@ -3,7 +3,7 @@ title: Learn ChatGPT
 title-cs: 
 category: data-coding
 tags: [learn, chatgpt]
-season: spring
+season: summer
 created: 10 Mar 2023
 updated: 07 Apr 2023
 sources: Misc

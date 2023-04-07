@@ -5,7 +5,7 @@ category: data-analytics
 tags: [learn, dbt]
 season: autumn
 created: 21 Feb 2021
-updated: 18 Feb 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 
@@ -106,7 +106,8 @@ https://serge-g.medium.com/dynamic-sql-pivots-with-dbt-dea16d7b9b63
 
 ## What is dbt?
 
-[Data build tool](https://www.getdbt.com/) (dbt) is a tool that allows DAs to adopt software engineering best practices in how they manage their data. The general principle is that data is ingested into the warehouse in its raw form and SQL is used with version control, testing and metadata (data dictionaries) to manage the data that lives in production. It incorporates the benefits of functional programming to ensure reproducibility and simplicity.
+- [data build tool](https://www.getdbt.com/) (dbt) is a tool that allows **data analysts** to adopt **software engineering best practices** in how they manage their data.
+- The general principle is that data is ingested into the warehouse in its raw form and SQL is used with version control, testing and metadata (data dictionaries) to manage the data that lives in production. It incorporates the benefits of functional programming to ensure reproducibility and simplicity.
 
 https://medium.com/snaptravel/how-should-our-company-structure-our-data-team-e71f6846024d
 

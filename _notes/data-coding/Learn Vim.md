@@ -3,9 +3,9 @@ title: Learn Vim
 title-cs: 
 category: data-coding
 tags: [learn, vim]
-season: winter
+season: spring
 created: 14 Aug 2022
-updated: 20 Aug 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 

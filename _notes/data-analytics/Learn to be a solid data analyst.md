@@ -5,11 +5,11 @@ category: data-analytics
 tags: [learn]
 season: winter
 created: 03 Apr 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: NA
 ---
 
-* Pick a data job that fits you
-https://medium.com/montreal-analytics/how-to-pick-a-data-job-84d692d1b3a5
-* Go from a good to a great data analyst
-https://blog.getdbt.com/one-analysts-guide-for-going-from-good-to-great/
+- [Pick a data job that fits you](
+https://medium.com/montreal-analytics/how-to-pick-a-data-job-84d692d1b3a5)
+- [Go from a good to a great data analyst](
+https://blog.getdbt.com/one-analysts-guide-for-going-from-good-to-great/)

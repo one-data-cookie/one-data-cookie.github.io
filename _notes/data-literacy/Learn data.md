@@ -3,24 +3,20 @@ title: Learn data
 title-cs: Nauč se data
 category: data-literacy
 tags: [learn]
-season: spring
+season: winter
 created: 03 Jan 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 
 ## General
-* [Manifesto for Data Practices](https://datapractices.org/manifesto/)
-* [Zbierka úloh na pohovory Analytických pozícii](https://mocnedata.sk)
-* [Descriptive, Predictive, and Prescriptive Analytics Explained](https://halobi.com/blog/descriptive-predictive-and-prescriptive-analytics-explained/)
+- [Manifesto for Data Practices](https://datapractices.org/manifesto/)
+- [Zbierka úloh na pohovory Analytických pozícii](https://mocnedata.sk)
+- [Descriptive, Predictive, and Prescriptive Analytics Explained](https://halobi.com/blog/descriptive-predictive-and-prescriptive-analytics-explained/)
 
 ## Data
-* [The School of Data](https://schoolofdata.org/courses/)
+- [The School of Data](https://schoolofdata.org/courses/)
 	* The School of Data aims to make your learning experience as tailored as possible through independent learning modules.
-
-## Coding
-* Automate the Boring Stuff with Python – [book](https://automatetheboringstuff.com/2e/) and [course](https://www.udemy.com/course/automate/)
-	* A practical programming course for office workers, academics, and administrators who want to improve their productivity.
 
 ## Visualisation
 * [DVS's Youtube Channel](https://www.youtube.com/watch?v=XoaX5noONZM&list=PLAm5TIX-yz7IOHEeM-BAZYlDbuFOb7l0o)

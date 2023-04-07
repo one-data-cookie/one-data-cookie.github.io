@@ -3,9 +3,9 @@ title: Consider using scrollytelling
 title-cs: 
 category: data-vis
 tags: [idea]
-season: 
+season: autumn
 created: 15 Dec 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 

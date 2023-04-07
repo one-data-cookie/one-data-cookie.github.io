@@ -3,7 +3,7 @@ title: Build modern data stack
 title-cs: 
 category: data-engineering
 tags: [learn]
-season: spring
+season: summer
 created: 04 Apr 2021
 updated: 07 Apr 2023
 sources: Misc

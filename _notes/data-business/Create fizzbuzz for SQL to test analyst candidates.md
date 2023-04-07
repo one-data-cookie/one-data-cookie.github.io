@@ -3,8 +3,9 @@ title: Create fizzbuzz for SQL to test candidates
 title-cs:
 category: data-business
 tags: [sql, hiring]
-season: autumn
-dates: [08 Feb 2022, 08 Feb 2022]
+season: winter
+created: 08 Feb 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 

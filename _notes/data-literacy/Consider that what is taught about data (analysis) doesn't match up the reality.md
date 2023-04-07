@@ -3,9 +3,9 @@ title: Consider that what is taught about data (analysis) doesn't match up the r
 title-cs: 
 category: data-literacy
 tags: [idea]
-season: spring
+season: winter
 created: 20 Jun 2021
-updated: 05 Jan 2022
+updated: 07 Apr 2023
 sources: https://analyticsengineers.club/data-education-is-broken/
 ---
 

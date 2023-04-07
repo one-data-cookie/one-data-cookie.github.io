@@ -1,7 +1,7 @@
 ---
 title: Have a laugh with data-related jokes
 title-cs: 
-category: data-analytics
+category: data-society
 tags: [random]
 season: winter
 created: 03 Apr 2021

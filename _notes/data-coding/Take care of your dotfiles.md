@@ -5,7 +5,7 @@ category: data-coding
 tags: [how-to, idea]
 season: spring
 created: 11 Apr 2022
-updated: 21 Aug 2022
+updated: 07 Apr 2023
 sources: https://kevinquinn.fun/blog/personalize-your-development-environment-with-dotfiles/, https://missing.csail.mit.edu/2020/command-line/
 ---
 
@@ -25,6 +25,8 @@ They should be in their own folder, under version control, and symlinked into 
 
 ## Draw inspiration from others
 - Simply from [GitHub](https://github.com/search?o=desc&q=dotfiles&s=stars&type=Repositories) but you might be better off with [some navigation help](https://dotfiles.github.io/)
+ - [nikitavoloboev](https://github.com/nikitavoloboev/config)
+ - [mathiasbynens](https://github.com/mathiasbynens/dotfiles/blob/main/.macos)
 
 ## Work on multiple machines
 - A common pain with dotfiles is that the configurations might not work when working with several machines or you might want some configuration to be applied only in a given machine.

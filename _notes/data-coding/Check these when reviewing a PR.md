@@ -1,7 +1,7 @@
 ---
 title: Check these when reviewing a PR
 title-cs: 
-category: data-analytics
+category: data-coding
 tags: [checklist]
 season: spring
 created: 04 Mar 2021

@@ -1,9 +1,9 @@
 ---
 title: Focus on learning and teaching soft data skills and not just hard data skills
 title-cs: 
-category: data-society
+category: data-literacy
 tags: [idea]
-season: spring
+season: winter
 dates: [01 May 2022, 01 May 2022]
 sources: NA
 ---

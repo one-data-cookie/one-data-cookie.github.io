@@ -1,7 +1,7 @@
 ---
 title: Use linter, even for SQL
 title-cs: 
-category: data-analytics
+category: data-coding
 tags: [ideas, sql]
 season: spring
 created: 19 Jun 2021

@@ -3,9 +3,9 @@ title: Use launchd to run scripts on Mac
 title-cs: 
 category: data-coding
 tags: [mac]
-season: winter
+season: spring
 created: 26 Nov 2021
-updated: 23 Aug 2022
+updated: 07 Apr 2023
 sources: Misc
 ---
 

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn]
 season: spring
 created: 17 Mar 2023
-updated: 17 Mar 2023
+updated: 07 Apr 2023
 sources: Misc
 ---
 
@@ -23,4 +23,5 @@ sources: Misc
 - [[data-coding/Learn SQL]]
 - [[data-coding/Learn Python]]
 - [[data-coding/Learn R]]
+- [[data-coding/Learn Docker]]
 - [[data-coding/Learn Vim]]

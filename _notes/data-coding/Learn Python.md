@@ -11,15 +11,16 @@ sources: Misc
 
 ## Links
 - [Quora Discussion](https://www.quora.com/How-should-I-start-learning-Python-1)
-- [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
+- [Automate the Boring Stuff with Python](https://www.udemy.com/course/automate/) or [book](https://automatetheboringstuff.com/2e/) – a practical programming course for office workers, academics, and administrators who want to improve their productivity
 - [Learn Python The Hard Way, 3rd Edition.pdf](../../assets/files/Learn-Python-The-Hard-Way.pdf)
-- [Machine Learning A-Z™ on Udemy](https://www.udemy.com/machinelearning/)
-	- Hands-on course in Data Science using Python & R with [these datasets](https://www.superdatascience.com/machine-learning/)
+- [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
 - [Jupyter Samples](https://github.com/ibm-et/jupyter-samples)
 - Should you choose [Python over R](../../assets/files/r-vs-python.png)?
 
 ## Specific topics
 - [How to Use Generators and `yield` in Python](https://realpython.com/introduction-to-python-generators/), together with [`yield from`](https://python.astrotech.io/advanced/generator/yield-from.html)
+- [[data-coding/Create pip-installable packages]]
+- [[data-coding/Use virtual environments to develop Python code]]
 
 ## Running remotely
 - [Colaboratory](https://colab.research.google.com/)

@@ -9,6 +9,9 @@ updated: 05 Jan 2022
 sources: https://www.wired.co.uk/article/spreadsheet-excel-errors
 ---
 
-Miric notes that bespoke software simply isn't an option for some of his African clients. "As a result spreadsheets almost become the default – especially within governments," he says.
+- Some people fix them as a job
+- Bespoke software simply isn't an option for some of the African clients.
 
-*In the end, the problem isn't spreadsheets, but people.*
+> "As a result spreadsheets almost become the default – especially within governments."
+
+> "In the end, the problem isn't spreadsheets, but people."

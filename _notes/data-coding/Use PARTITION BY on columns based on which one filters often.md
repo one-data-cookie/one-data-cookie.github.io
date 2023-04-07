@@ -1,9 +1,9 @@
 ---
 title: Use PARTITION BY on columns based on which one filters often
 title-cs: Používej PARTITION BY na sloupce, podle kterých filtruješ
-category: data-analytics
+category: data-coding
 tags: [idea, sql]
-season: spring
+season: winter
 created: 16 Mar 2019
 updated: 05 Jan 2022
 sources: https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/

@@ -1,7 +1,7 @@
 ---
 title: Mind that data is never objective
 title-cs: 
-category: data-analytics
+category: data-society
 tags: [idea]
 season: winter
 created: 07 Feb 2020

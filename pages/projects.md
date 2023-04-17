@@ -5,9 +5,9 @@ content-type: eg
 ---
 
 ## If Now
-My first weeks of 2023 are pretty chilled (even with some time off planned!) to recharge batteries for anything that's to come later this year.
+At the beginning of this spring, I intentionally slowed down to relax and gather energy for the exciting projects just around the corner. I'm thrilled to be organising and taking part in data meetups, teaching data storytelling lessons at [Czechitas](https://www.czechitas.cz/en), and developing an extensive, semester-long data course for [Masaryk University](https://www.muni.cz/en).
 
-Scroll down to check some of my previous engagements and projects.
+Scroll down to check some of my previous engagements and projects!
 
 ## Else
 
@@ -24,9 +24,9 @@ Already the first week of 2023 brought an exciting experience – appearing as a
 Just before Christmas time in [2021](https://blog.seznam.cz/2021/11/soutez-tableau-vyzva-od-analytiku-z-vyhledavani/) and [2022](https://blog.seznam.cz/2022/11/soutez-analytici-z-vyhledavani-vas-zvou-do-tableau-vyzvy/), the analytics team from [Seznam](https://www.seznam.cz/) invited the Czech data community to play around with a (tweaked) dataset on their search engine's traffic and prepare a visualisation in [Tableau](https://www.tableau.com/). Not sure how but I ended up being brought to the spotlight on [both](https://blog.seznam.cz/2022/03/5-tipu-pro-vase-vizualizace-aneb-to-nejlepsi-z-tableau-vyzvy/) [occasions](https://blog.seznam.cz/2023/02/zname-viteze-2-rocniku-vyzvy-od-analytiku/).
 
 ### Organising dbt meetup in Brno
-Having joined forces with [Michal](https://www.linkedin.com/in/dubravcik) from [Kontent](https://kontent.ai/), we put together the very first [dbt](https://www.getdbt.com/) meetup in Brno. It took place at [Kentico](https://www.kentico.com/) HQ in mid-December and we strived for introducing this beloved data tool of ours to local audience through [these talks](https://docs.google.com/presentation/d/1XZS-x6uIiNbAKBOUHOGq-c8pg7Q-uYYh2FbHIMqeSus/edit?usp=sharing) delivered by Michal himself, [Ivo](https://www.linkedin.com/in/ivan-steiner) from [Slido](https://www.slido.com/), and [Pavel](https://www.linkedin.com/in/jezekpavel) from [STRV](https://www.strv.com/). As I also had the pleasure to host the event (while having been able to throw in some Christmas spirit), I've found it to be great fun! And – based on the feedback (4.9/5) – I might not have been alone.
+Having joined forces with [Michal](https://www.linkedin.com/in/dubravcik) from [Kontent.ai](https://kontent.ai/), we put together the very first [dbt](https://www.getdbt.com/) meetup in Brno. It took place at [Kentico](https://www.kentico.com/) HQ in mid-December and we strived for introducing this beloved data tool of ours to local audience through [these talks](https://docs.google.com/presentation/d/1XZS-x6uIiNbAKBOUHOGq-c8pg7Q-uYYh2FbHIMqeSus/edit?usp=sharing) delivered by Michal himself, [Ivo](https://www.linkedin.com/in/ivan-steiner) from [Slido](https://www.slido.com/), and [Pavel](https://www.linkedin.com/in/jezekpavel) from [STRV](https://www.strv.com/). As I also had the pleasure to host the event (while having been able to throw in some Christmas spirit), I've found it to be great fun! And – based on the feedback (4.9/5) – I might not have been alone.
 
-### Hosting data meetup in Bratislava
+### Hosting Data Meetup in Bratislava
 We at [Slido](https://www.slido.com/) long felt that there wasn't a decent platform for sharing inspiration and best practices amongst data practitioners in Bratislava. That's why we kicked off a series of data meetups together with our friends from [Kiwi](https://www.kiwi.com/). The first edition came about in early December and was focused on analytics. It featured [these talks](https://docs.google.com/presentation/d/16lasZVOzDS87bCialZzpAa2Q9JS2zEbx8mEaH5euN9c/edit?usp=sharing) given by [Jakub] from [Assetario](https://www.assetario.com/), [Miriama](https://www.linkedin.com/in/miriama-k%C5%99%C3%AD%C5%BEkov%C3%A1-998731114) from [Slido](https://www.slido.com/), and [Tomas](https://www.linkedin.com/in/tomas-tremko) from [Kiwi](https://www.kiwi.com/). There is also a [recording](https://www.youtube.com/watch?v=aiY3TYQfLNU) available, so you can judge for yourself how it went and also whether my hosting fit the bill.
 
 ### Evaluating data projects at Czechitas

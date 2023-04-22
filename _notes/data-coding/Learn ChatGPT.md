@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 16 Apr 2023
+updated: 22 Apr 2023
 sources: Misc
 ---
 
@@ -66,6 +66,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [AI Text Classifier](https://platform.openai.com/ai-text-classifier)
 - [Perplexity.ai](https://www.perplexity.ai/)
 - [Future Tools](https://www.futuretools.io/)
+- [Auto GPT](https://auto-gpt.ai/)
 
 ## Prompt Engineering
 - Make it conversational with feedback loop

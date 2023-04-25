@@ -5,7 +5,7 @@ category: data-science
 tags: [learn]
 season: spring
 created: 21 Feb 2021
-updated: 07 Apr 2023
+updated: 25 Apr 2023
 sources: Misc
 ---
 
@@ -25,6 +25,11 @@ sources: Misc
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap2.html) – a hands-on course in Data Science using Python & R with [these datasets](https://www.superdatascience.com/machine-learning/)
 - [Text mining and word cloud fundamentals in R](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know)
 - [Decision Trees vs. Clustering](http://blog.data-miners.com/2008/10/decision-trees-and-clustering.html)
+
+## AI
+- [Elements of AI](https://www.elementsofai.com/)
+- [Prague AI](https://prg.ai/)
+- [Brno AI](https://www.brno.ai/)
 
 ## Infographics
 

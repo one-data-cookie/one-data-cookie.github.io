@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leading a workshop on Superset for public sector
+title: Leading a workshop on Superset for the public sector
 category: speaking
 dates: [2023-02-09]
 content-type: eg

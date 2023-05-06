@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Organising Data Meetup in Bratislava
+title: Organising data meetups with Kiwi.com in Bratislava
 category: organising
 dates: [2022-12-08]
 content-type: eg

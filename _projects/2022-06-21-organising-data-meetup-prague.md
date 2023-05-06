@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Speaking at Data Meetup in Prague
-category: speaking
+title: Organising data meetup with Productboard in Prague
+category: organising
 dates: [2022-06-21]
 content-type: eg
 ---

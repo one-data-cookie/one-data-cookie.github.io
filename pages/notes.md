@@ -3,7 +3,7 @@ layout: post
 permalink: /notes
 ---
 
-This is my **digital garden** – place for putting links, drafts, ideas; in particular anything related to the field of *data analytics*.
+This is my **digital garden** – place for putting links, drafts, ideas; in particular anything related to *data*.
 
 Keep in mind that this is *not* a blog. As it is the case for most gardens, it's never finished, only loosely tended, and evolves with time.
 

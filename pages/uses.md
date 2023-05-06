@@ -41,8 +41,8 @@ I keep a list of things I use. And it seems I'm [not the only one](https://uses.
 - [Stretchly](https://hovancik.net/stretchly/), break reminder
 
 ### Coding
-- [Atom](https://atom.io/), text editor
 - [iTerm2](https://iterm2.com/), terminal on steroids
+- [Visual Studio Code](https://code.visualstudio.com/), code editor
 
 ### Datavis
 - [Adobe Illustrator](https://www.adobe.com/products/illustrator.html), vector graphics
@@ -53,7 +53,6 @@ I keep a list of things I use. And it seems I'm [not the only one](https://uses.
 - [Avast Security](https://www.avast.com/cs-cz/index#mac), Czech antivirus
 
 ### Fun
-- [qView](https://interversehq.com/qview/), photo viewer
 - [Spotify](https://open.spotify.com/), music player
 - [VLC](https://www.videolan.org/vlc/), media player
 

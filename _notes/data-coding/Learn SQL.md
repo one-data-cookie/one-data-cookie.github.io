@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 21 Feb 2021
-updated: 07 Apr 2023
+updated: 06 May 2023
 sources: Misc
 ---
 
@@ -17,13 +17,13 @@ sources: Misc
 ## Reading
 - Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.
 - [I don't want to learn your garbage query language. I just want my SQL back.](https://erikbern.com/2018/08/30/i-dont-want-to-learn-your-garbage-query-language.html)
-- [[data-coding/Understand that SQL queries start with FROM]]
-- [[data-coding/Understand that CROSS JOIN UNNEST works through value tables]]
-- [[data-coding/Understand that CTEs are mostly pass-throughs now]]
-- [[data-coding/Use PARTITION BY on columns based on which one filters often]]
-- [[data-coding/Use linter, even for SQL]]
-- [[data-coding/Beware using NULL in WHERE NOT IN]]
-- [[data-business/Create fizzbuzz for SQL to test analyst candidates]]
+- [[Understand that SQL queries start with FROM]]
+- [[Understand that CROSS JOIN UNNEST works through value tables]]
+- [[Understand that CTEs are mostly pass-throughs now]]
+- [[Use PARTITION BY on columns based on which one filters often]]
+- [[Use linter, even for SQL]]
+- [[Beware using NULL in WHERE NOT IN]]
+- [[Create fizzbuzz for SQL to test analyst candidates]]
 
 ## Tools
 - [Trino](https://trino.io/) – SQL query engine that runs at ludicrous speed. Used to be PrestoSQL.

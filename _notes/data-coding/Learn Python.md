@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, python]
 season: summer
 created: 21 Feb 2021
-updated: 07 Apr 2023
+updated: 06 May 2023
 sources: Misc
 ---
 
@@ -19,8 +19,8 @@ sources: Misc
 
 ## Specific topics
 - [How to Use Generators and `yield` in Python](https://realpython.com/introduction-to-python-generators/), together with [`yield from`](https://python.astrotech.io/advanced/generator/yield-from.html)
-- [[data-coding/Create pip-installable packages]]
-- [[data-coding/Use virtual environments to develop Python code]]
+- [[Create pip-installable packages]]
+- [[Use virtual environments to develop Python code]]
 
 ## Running remotely
 - [Colaboratory](https://colab.research.google.com/)

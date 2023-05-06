@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn]
 season: spring
 created: 17 Mar 2023
-updated: 07 Apr 2023
+updated: 06 May 2023
 sources: Misc
 ---
 
@@ -17,11 +17,11 @@ sources: Misc
 	- Create and share beautiful images of your source code.
 
 ## Learn specifically
-- [[data-coding/Learn markdown]]
-- [[data-coding/Learn Git]]
-- [[data-coding/Learn CLI]]
-- [[data-coding/Learn SQL]]
-- [[data-coding/Learn Python]]
-- [[data-coding/Learn R]]
-- [[data-coding/Learn Docker]]
-- [[data-coding/Learn Vim]]
+- [[Learn markdown]]
+- [[Learn Git]]
+- [[Learn CLI]]
+- [[Learn SQL]]
+- [[Learn Python]]
+- [[Learn R]]
+- [[Learn Docker]]
+- [[Learn Vim]]

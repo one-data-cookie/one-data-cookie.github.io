@@ -198,7 +198,8 @@ button {
   transition: 0.25s linear;
 }
 
-button:hover{
+button:hover,
+button.is-filtered {
   color: var(--bg-main);
   background-color: var(--text-main);
 }

@@ -97,11 +97,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-tidy
 
-## Enable _notes Collection
+## Enable _notes and _projects Collection
 collections:
     notes:
       output: true
       permalink: /notes/:title
+    projects:
+      output: true
+      permalink: /projects/:title
 # Disqus Comments
 disqus:
     # Leave shortname blank to disable comments site-wide.

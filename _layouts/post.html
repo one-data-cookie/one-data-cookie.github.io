@@ -245,6 +245,17 @@
                 </div>
             {%- endif -%}
 
+            <!--- CASE 6 :  Projects Listing page -->
+
+            {%- if page.permalink == "/projects" -%}
+                <div class="column is-half">
+                    {%- include content.html -%}
+                    <br>
+                    {%- include feed-projects.html -%}
+                    {%- include footer.html -%}
+                </div>
+            {%- endif -%}
+
         </div>
     </section>
 </body>

@@ -1,0 +1,76 @@
+<script type="text/javascript">
+  function filterUsingCategory(selectedCategory) {
+    var id = 0;
+    {% for project in site.projects reversed %}
+      var cats = {{ project.category | jsonify }}
+
+      var postDiv = document.getElementById(++id);
+      if (postDiv) {
+        postDiv.style.display = (selectedCategory == 'all' || cats.includes(selectedCategory))
+          ? 'block'
+          : 'none';
+      }
+    {% endfor %}
+  
+    // Update the active button
+    var buttons = document.querySelectorAll('button[id]');
+    buttons.forEach(function (button) {
+      button.classList.remove('is-filtered');
+      if (button.getAttribute('id') === selectedCategory) {
+        button.classList.add('is-filtered');
+      }
+    });
+
+    // Update the URL without causing a page reload
+    var newURL = window.location.origin + window.location.pathname;
+    if (selectedCategory != 'all') {
+      newURL += '?type=' + encodeURIComponent(selectedCategory);
+    }
+    window.history.pushState({ path: newURL }, '', newURL);
+  }
+
+  // Function to get URL parameters
+  function getURLParameter(name) {
+    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20')) || null;
+  }
+
+  // Check for category URL parameter and filter notes accordingly
+  document.addEventListener("DOMContentLoaded", function() {
+    var selectedCategory = getURLParameter('category') || 'all';
+    filterUsingCategory(selectedCategory);
+  });
+
+  // Set the "all" button as active by default
+  filterUsingCategory('all');
+</script>
+
+<div>
+  <button id="all" onclick="filterUsingCategory('all')"><b>all</b></button>
+  {% assign categories = site.projects | map: 'category' | join: ' ' | split: ' ' | uniq | sort %}
+  {% for cat in categories %}
+  <button id="{{ cat }}" onclick="filterUsingCategory('{{ cat }}')">{{ cat }}</button>
+  {% endfor %}
+  <hr />
+</div>
+
+{% assign id = 0 %}
+{% for project in site.projects reversed %}
+  {% assign id = id | plus:1 %}
+  <div class="block note-cards">
+      <div class="box-feed" id="{{ id }}" style="cursor: default;">
+          <h4>{{ project.title }}</h4>
+          <div class="content">
+              <p style="margin: 0px;">
+                  {{ project.content }}
+              </p>
+          </div>
+          <ul class="tags">
+            <li style="padding: 0 5px;" class="tag"><b>{{ project.category }}</b></li>
+            {%- for date in project.dates -%}
+                <li style="padding: 0 5px; margin-left: 5px" class="tag">{{ date | date: "%b %Y" }} </li>
+            {%- endfor -%}
+            <li style="padding: 0 5px; margin-left: 5px" class="tag"><i>{{ project.season }}</i></li>
+        </ul>
+      </div>
+  </div>
+{% endfor %}

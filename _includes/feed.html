@@ -37,9 +37,11 @@
       var cats = {{ post.category | jsonify }}
 
       var postDiv = document.getElementById(++id);
-      postDiv.style.display = (selectedCategory == 'all' || cats.includes(selectedCategory))
-        ? 'block'
-        : 'none';
+      if (postDiv) {
+        postDiv.style.display = (selectedCategory == 'all' || cats.includes(selectedCategory))
+          ? 'block'
+          : 'none';
+      }
     {% endif %}
     {% endfor %}
   }

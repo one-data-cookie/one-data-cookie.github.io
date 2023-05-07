@@ -19,11 +19,11 @@ content-type: homepage
 
 💜 Most of my day is spent [being purple](https://blog.getdbt.com/we-the-purple-people/) as a **head of [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) at [Slido](https://www.slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
 
-🤗 If the time allows, I love **sharing what I know** through [creating, organising, speaking, or teaching](/projects).
+🤗 If the time allows, I love **sharing what I know** through [creating, organising, speaking, and teaching](/projects).
 
 ## Away from laptop
 🌲 **Walking in nature** (alone, with my wife, or [our dog](https://www.instagram.com/falco.theminidachshund/); anywhere in the world)
 
 📚 **Reading good stories** (mostly biographies; fiction books, too, though)
 
-🏸 **Playing racquet sports** (squash, badminton, table tennis, tennis; any will do)
+🏸 **Playing racquet sports** (squash, badminton, table tennis; any will do)

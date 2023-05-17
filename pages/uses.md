@@ -16,7 +16,7 @@ I keep a list of things I use. And it seems I'm [not the only one](https://uses.
 - [Logitech MX Anywhere](https://www.logitech.com/en-us/products/mice/mx-anywhere-3.html), wireless mouse
 - [Logitech MX Keys](https://www.logitech.com/en-us/products/keyboards/mx-keys-wireless-keyboard.920-009418.html), wireless keyboard
 - [MacBook Air 13"](https://www.apple.com/uk/macbook-air/), laptop for personal use
-- [MacBook Pro 15"](https://www.apple.com/uk/macbook-pro/), laptop for work
+- [MacBook Pro 14"](https://www.apple.com/uk/macbook-pro/), laptop for work
 - [Rapture RESPAWN XL](https://www.alza.cz/EN/rapture-respawn-xl-black-d6900120.htm?o=1), desk pad
 - [Roost V2](https://www.therooststand.com/collections/roost-laptop-stand/products/roost-laptop-stand), laptop stand
 - [WD Elements Portable](https://www.westerndigital.com/products/portable-drives/wd-elements-portable-usb-3-0-hdd), external drives

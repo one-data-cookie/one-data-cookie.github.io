@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 03 Jan 2021
-updated: 07 Apr 2023
+updated: 12 Jun 2023
 sources: Misc
 ---
 
@@ -30,12 +30,14 @@ sources: Misc
 	* The CZSO acquires and compiles statistical information on the social, economic, demographic, and environmental development in Czechia and provides and publishes data thereto.
 * [Agentura ochrany přírody a krajiny ČR](https://gis-aopkcr.opendata.arcgis.com/)
 	* The Agency for Nature and Landscape Protection of the Czech Republic is opening its data for you. Explore Czech nature through data with them.
-* [Soubor správních hranic a hranic katastrálních území ČR](https://geoportal.cuzk.cz/(S(m1uwhmxw050u2bm2abneexph))/Default.aspx?mode=TextMeta&side=dSady_RUIAN&metadataID=CZ-CUZK-SH-V&mapid=5&head_tab=sekce-02-gp&menu=252)
+* [Geoportál ČÚZK](https://geoportal.cuzk.cz/)
 	* Follow [[../data-vis/Change encoding of Czech spatial files\|this article]] to make sure it works well in #tableau.  
 * [data.Brno](https://data.brno.cz/)
 	* All the data about the city of Brno you can think of.
 * [Otevřená data PID](https://pid.cz/o-systemu/opendata/)
 	* Open data of Prague Integrated Transport with a few more details in [this Github repository](https://github.com/datastory/dpp-prepravni-pruzkumy).
+* [Monitora](https://monitora.cz/)
+	* Media intelligence – tracking and analysis of keywords in press and on social media
 
 ## Tools
 * [Dolt](https://github.com/dolthub/dolt)

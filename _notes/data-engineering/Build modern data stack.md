@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 04 Apr 2021
-updated: 06 May 2023
+updated: 12 Jun 2023
 sources: Misc
 ---
 
@@ -23,6 +23,7 @@ sources: Misc
 * [How I made an open housing dataset with BigQuery and dbt](https://verifyanalytics.wordpress.com/2021/02/20/open-housing-dataset-bigquery-dbt/)
 * [Data Stacks For Fun & Nonprofit — Part III](https://towardsdatascience.com/data-stacks-for-fun-nonprofit-part-iii-dcfd46da9f9f)
 * [A Simple Analytics Project Using Airflow, dbt and Superset](https://datajaffa.com/blog/end-to-end-analytics-project/)
+* [dbt Core & Airflow](https://medium.com/albert-franzi/dbt-core-airflow-7d94edac9cdf)
 * [Startup analytics 101: from seed to scale](https://blog.flockcover.com/startup-analytics-101-from-seed-to-scale-b8f47d691ade)
 * [Open Source Data Stack Conference](https://www.opensourcedatastack.com/)
 * [Gaining insights on my workout data with Apache Superset](https://marcel-jan.eu/datablog/2021/10/24/gaining-insights-on-my-workout-data-with-apache-superset/)

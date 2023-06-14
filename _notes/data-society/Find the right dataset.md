@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 03 Jan 2021
-updated: 12 Jun 2023
+updated: 14 Jun 2023
 sources: Misc
 ---
 
@@ -28,6 +28,11 @@ sources: Misc
 	* Open Data Portal and National Catalog of Open Data of the Czech Republic.
 * [Český statistický úřad](https://www.czso.cz/)
 	* The CZSO acquires and compiles statistical information on the social, economic, demographic, and environmental development in Czechia and provides and publishes data thereto.
+* [Český sociálněvědní datový archiv](https://archiv.soc.cas.cz/cz/)
+	* We acquire, store and make available social science research data for a long time. 
+	* We provide knowledge on how to **search** for data and how to work with them, as well as support the reuse of data in research and teaching.
+* [TA ČR Starfos](https://starfos.tacr.cz/cs)
+	* Data on research, development, and innovation conducted with the support from the government budget.
 * [Agentura ochrany přírody a krajiny ČR](https://gis-aopkcr.opendata.arcgis.com/)
 	* The Agency for Nature and Landscape Protection of the Czech Republic is opening its data for you. Explore Czech nature through data with them.
 * [Geoportál ČÚZK](https://geoportal.cuzk.cz/)

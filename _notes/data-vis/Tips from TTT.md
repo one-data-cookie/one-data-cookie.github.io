@@ -5,7 +5,7 @@ tags: [tips]
 season: autumn
 ---
 
-![](../../assets/files/ttt.jpeg)
+![](../__files/ttt.jpeg)
 
 ---
 

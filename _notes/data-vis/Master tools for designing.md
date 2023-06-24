@@ -26,7 +26,7 @@ sources: Misc
 	- Wondering which type of graph is the best fit for your data? Explore our interactive chart chooser using the filters.
 - [The Tableau Chart Catalog](https://www.flerlagetwins.com/2019/08/the-tableau-chart-catalog_97.html)
 	- Examples created by Tableau by the Tableau community.
-- [Chart Suggestions](../../assets/files/How-to-Choose-Chart-Types.png)
+- [Chart Suggestions](../__files/How-to-Choose-Chart-Types.png)
 	- A though-starter for choosing the right chart.
 - [Visual Vocabulary by Financial Times](http://ft-interactive.github.io/visual-vocabulary/)
 	- Small examples of data driven graphics – to be used as starting points.

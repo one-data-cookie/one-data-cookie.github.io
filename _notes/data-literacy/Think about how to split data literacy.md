@@ -9,9 +9,9 @@ updated: 07 Apr 2023
 sources: NA
 ---
 
-![](../../assets/files/rozdeleni-datove-gramotnosti.jpeg)
+![](../__files/rozdeleni-datove-gramotnosti.jpeg)
 
-* Based on [Deahl (MIT)](../../assets/files/better-data-you-know.pdf)
+* Based on [Deahl (MIT)](../__files/better-data-you-know.pdf)
 
 **The definitions:**
 

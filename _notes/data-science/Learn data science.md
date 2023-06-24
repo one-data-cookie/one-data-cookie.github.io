@@ -33,6 +33,6 @@ sources: Misc
 
 ## Infographics
 
-![](../../assets/files/become-effective-data-scientist.png)
+![](../__files/become-effective-data-scientist.png)
 
-![](../../assets/files/machine-learning.jpeg)
+![](../__files/machine-learning.jpeg)

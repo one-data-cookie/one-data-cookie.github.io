@@ -5,17 +5,17 @@ category: data-coding
 tags: [learn, python]
 season: summer
 created: 21 Feb 2021
-updated: 06 May 2023
+updated: 24 Jun 2023
 sources: Misc
 ---
 
 ## Links
 - [Quora Discussion](https://www.quora.com/How-should-I-start-learning-Python-1)
 - [Automate the Boring Stuff with Python](https://www.udemy.com/course/automate/) or [book](https://automatetheboringstuff.com/2e/) – a practical programming course for office workers, academics, and administrators who want to improve their productivity
-- [Learn Python The Hard Way, 3rd Edition.pdf](../__files/Learn-Python-The-Hard-Way.pdf)
+- [Learn Python The Hard Way, 3rd Edition.pdf](../../assets/files/Learn-Python-The-Hard-Way.pdf)
 - [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
 - [Jupyter Samples](https://github.com/ibm-et/jupyter-samples)
-- Should you choose [Python over R](../__files/r-vs-python.png)?
+- Should you choose [Python over R](../../assets/files/r-vs-python.png)?
 
 ## Specific topics
 - [How to Use Generators and `yield` in Python](https://realpython.com/introduction-to-python-generators/), together with [`yield from`](https://python.astrotech.io/advanced/generator/yield-from.html)

@@ -5,7 +5,7 @@ category: data-engineering
 tags: [idea]
 season: winter
 created: 21 Nov 2020
-updated: 07 Apr 2023
+updated: 24 Jun 2023
 sources: https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/
 ---
 
@@ -26,4 +26,4 @@ Data infrastructure is undergoing rapid, fundamental changes at an architectural
 - matura data science (pandas, numpy)
 - operational ML/AI
 
-![](../__files/data-infra.png)
+![](../../assets/files/data-infra.png)

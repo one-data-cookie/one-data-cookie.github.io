@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: spring
 created: 17 Dec 2020
-updated: 07 Apr 2023
+updated: 24 Jun 2023
 sources: Misc
 ---
 
@@ -13,7 +13,7 @@ The full context of analytics engineering is to be found in [The Analytics Engin
 
 ---
 
-![](../__files/three-data-roles.png)
+![](../../assets/files/three-data-roles.png)
 
 ---
 

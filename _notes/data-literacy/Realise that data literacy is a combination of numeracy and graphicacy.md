@@ -5,7 +5,7 @@ category: data-literacy
 tags: [idea]
 season: spring
 created: 18 Oct 2020
-updated: 07 Apr 2023
+updated: 24 Jun 2023
 sources: https://www.tableau.com/learn/data-literacy
 ---
 
@@ -22,6 +22,6 @@ sources: https://www.tableau.com/learn/data-literacy
 * "All data is personal."
 * Data is biased because of the decision we made when gathering/cleaning/analysing the data. > Investigator of truth and not stop when you confirm your cognitive biases.
 
-![](../__files/data-training.jpg)
+![](../../assets/files/data-training.jpg)
 
-![](../__files/data-literacy-score.jpg)
+![](../../assets/files/data-literacy-score.jpg)

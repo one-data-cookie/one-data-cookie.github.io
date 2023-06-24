@@ -42,16 +42,16 @@ Notes
     -   [http://www.datablick.com/blog/2015/08/27/diy-chord-diagrams-in-tableau-by-noah-salvaterra](http://www.datablick.com/blog/2015/08/27/diy-chord-diagrams-in-tableau-by-noah-salvaterra)
 -   How to save up some space in dashboards?
 
-[[../__files/ttt-may-18- saving-space.twbx | Tiny Tableau Talk May 2018 - Saving space in dashb.twbx]]
+[[../../assets/files/ttt-may-18- saving-space.twbx | Tiny Tableau Talk May 2018 - Saving space in dashb.twbx]]
 
 -   How to do chart with spikes around the clock = radial bar chart?
     -   [https://www.youtube.com/watch?v=d6-aptKLvgg&index=17&list=PLE50-dh6JzC450Hn6EjPM238yZUPs-RQ1](https://www.youtube.com/watch?v=d6-aptKLvgg&index=17&list=PLE50-dh6JzC450Hn6EjPM238yZUPs-RQ1)
 
-[[../__files/london-cycle-hire-usage.twbx | London Cycle Hire Usage (MakeoverMonday W26).twbx]]
+[[../../assets/files/london-cycle-hire-usage.twbx | London Cycle Hire Usage (MakeoverMonday W26).twbx]]
 
 -   How to do a donut chart + comparison of two bar charts by "needle"?
 
-![../__files//australian-wage-gap.twbx | Australian Wage Gap.twbx]]
+![../../assets/files//australian-wage-gap.twbx | Australian Wage Gap.twbx]]
 
 -   How to create "density"?
     -   Just put there large circles and give small opacity.
@@ -64,27 +64,27 @@ Notes
 
 Documents
 
-[[../__files/viz-tips.pdf | Viz Tips.pdf]]
+[[../../assets/files/viz-tips.pdf | Viz Tips.pdf]]
 
 [http://ft-interactive.github.io/visual-vocabulary/](http://ft-interactive.github.io/visual-vocabulary/)
 [https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary)
 [https://policyviz.com/2014/09/09/graphic-continuum/](https://policyviz.com/2014/09/09/graphic-continuum/)
 [https://www.vizwiz.com/2018/07/visual-vocabulary.html](https://www.vizwiz.com/2018/07/visual-vocabulary.html)
 
-![](../__files/colorwheel.png)
+![](../../assets/files/colorwheel.png)
 
-![](../__files/colours-in-culture.png)
+![](../../assets/files/colours-in-culture.png)
 
 [[data-viz-links.pdf | Data Viz Links.pdf]]
 
-![](../__files/graphic-continuum.png)
-![](../__files/chart-suggestions.jpeg)
-![](../__files/graphic-continuum2.jpeg)
+![](../../assets/files/graphic-continuum.png)
+![](../../assets/files/chart-suggestions.jpeg)
+![](../../assets/files/graphic-continuum2.jpeg)
 - Could be bought as a poster [here](https://policyviz.com/product/graphic-continuum-poster/)
 
-![](../__files/ft-poster.png)
+![](../../assets/files/ft-poster.png)
 
-![](../__files/dataviz-cheatsheet.png)
+![](../../assets/files/dataviz-cheatsheet.png)
 
 ---
 

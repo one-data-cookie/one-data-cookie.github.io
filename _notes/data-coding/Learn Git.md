@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: summer
 created: 13 Feb 2021
-updated: 06 May 2023
+updated: 27 Jun 2023
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -80,6 +80,11 @@ git diff main...origin/your-branch | diffstat -Cm
 git diff master 00aa0157f23f50151f74e4ba203deb8f11621946 . | diffstat -Cm
 ```
 
+- Get stats for commits per person per month
+```shell
+git log --pretty=format:"%h,%aN,%ad" --date=format:'%Y/%m' | awk -F, '{print $2","$3}' | sort | uniq -c | awk '{print $3","$2","$1}' > output.csv
+```
+
 - Save your work for later
 ```shell
 git stash # stash all files
@@ -97,3 +102,4 @@ git stash drop stash@{0} # delete stashes
 - [Git's data model](https://missing.csail.mit.edu/2020/version-control/)
 - Git uses hashing via [SHA-1](https://en.wikipedia.org/wiki/SHA-1) – maps arbitrary-sized inputs to 160-bit outputs (which can be represented as 40 hexadecimal characters, e.g. commit hashes) but [no longer unbroken](https://shattered.io/); more info in [[Learn about cryptography]]
 - There are [many](https://nvie.com/posts/a-successful-git-branching-model/) [different](https://www.endoflineblog.com/gitflow-considered-harmful) [workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)), i.e. practices to follow when working on big projects.
+- [Analyse how a Git repo grows over time](https://github.com/erikbern/git-of-theseus)

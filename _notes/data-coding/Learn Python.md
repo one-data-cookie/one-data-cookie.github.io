@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, python]
 season: summer
 created: 21 Feb 2021
-updated: 24 Jun 2023
+updated: 20 Jul 2023
 sources: Misc
 ---
 
@@ -55,7 +55,8 @@ sources: Misc
 	- This website displays hundreds of charts, always providing the reproducible code! It aims to showcase the awesome dataviz possibilities of Python.
 - [Python Data Visualization Libraries](https://mode.com/blog/python-data-visualization-libraries/)
 	- Ten Python dataviz libraries for any field.
-
+- [Polars](https://github.com/pola-rs/polars)
+	- Fast multi-threaded, hybrid-out-of-core query engine focussing on DataFrame front-ends
 
 ## Snippets
 - Find out available versions for `pip` package:

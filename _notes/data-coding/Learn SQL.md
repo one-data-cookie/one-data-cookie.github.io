@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 21 Feb 2021
-updated: 12 Jun 2023
+updated: 20 Jul 2023
 sources: Misc
 ---
 
@@ -18,6 +18,7 @@ sources: Misc
 
 ## Reading
 - Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.
+- [Learn why SQL should be the default choice for data transformation logic](https://www.robinlinacre.com/recommend_sql/)
 - [I don't want to learn your garbage query language. I just want my SQL back.](https://erikbern.com/2018/08/30/i-dont-want-to-learn-your-garbage-query-language.html)
 - [[Understand that SQL queries start with FROM]]
 - [[Understand that CROSS JOIN UNNEST works through value tables]]
@@ -31,7 +32,10 @@ sources: Misc
 - [Trino](https://trino.io/) – SQL query engine that runs at ludicrous speed. Used to be PrestoSQL.
 - [SQLite](https://sqliteonline.com/)
 - [Sribe](https://scribedata.app/) – API that provides line by line descriptions of your queries.
-- [Malloy](https://github.com/looker-open-source/malloy) that is ["React of SQL"](https://roundup.getdbt.com/p/lots-going-on-metrics-malloy-sanity)
+- [Malloy](https://github.com/looker-open-source/malloy) – ["React of SQL"](https://roundup.getdbt.com/p/lots-going-on-metrics-malloy-sanity)
+- [Splink](https://github.com/moj-analytical-services/splink) – fast, accurate and scalable probabilistic data linkage
+- [Ibis](https://github.com/ibis-project/ibis) – translate Python to SQL
+- [SQLGlot](https://github.com/tobymao/sqlglot) – translate between SQL flavours
 
 ## Snippets
 - [Snippets](https://sql-snippets.count.co/)

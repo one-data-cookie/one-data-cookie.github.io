@@ -54,7 +54,7 @@ The *Transformer* architecture used by GPT models is better than the architectur
 This makes it more powerful and flexible, and allows it to achieve better performance on a wide range of natural language processing tasks.
 
 ## GPT and beyond
-![[../../../assets/files/gpt-history.png]]
+![[../../__files/gpt-history.png]]
 
 ## Cool links
 - [OpenAI API](https://platform.openai.com/)

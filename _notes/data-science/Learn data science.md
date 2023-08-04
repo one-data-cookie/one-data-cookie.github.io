@@ -5,7 +5,7 @@ category: data-science
 tags: [learn]
 season: spring
 created: 21 Feb 2021
-updated: 24 Jun 2023
+updated: 04 Aug 2023
 sources: Misc
 ---
 
@@ -33,6 +33,6 @@ sources: Misc
 
 ## Infographics
 
-![](../__files/become-effective-data-scientist.png)
+![](../../assets/files/become-effective-data-scientist.png)
 
-![](../__files/machine-learning.jpeg)
+![](../../assets/files/machine-learning.jpeg)

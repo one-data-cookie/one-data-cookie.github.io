@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 24 Jun 2023
+updated: 04 Aug 2023
 sources: Misc
 ---
 
@@ -54,7 +54,7 @@ The *Transformer* architecture used by GPT models is better than the architectur
 This makes it more powerful and flexible, and allows it to achieve better performance on a wide range of natural language processing tasks.
 
 ## GPT and beyond
-![[../../__files/gpt-history.png]]
+![[../../../assets/files/gpt-history.png]]
 
 ## Cool links
 - [OpenAI API](https://platform.openai.com/)

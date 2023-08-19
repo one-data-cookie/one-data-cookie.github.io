@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 04 Aug 2023
+updated: 19 Aug 2023
 sources: Misc
 ---
 
@@ -58,6 +58,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 ## Cool links
 - [OpenAI API](https://platform.openai.com/)
+- [smol-ai/developer](https://github.com/smol-ai/developer/)
 - [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac)
 - [awesome-gpt3](https://github.com/elyase/awesome-gpt3)
 - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 21 Feb 2021
-updated: 20 Jul 2023
+updated: 19 Aug 2023
 sources: Misc
 ---
 
@@ -43,3 +43,7 @@ sources: Misc
   - `from jinja2 import Template`
   - Combine minus signs on the start of the opening block and the start of the ending block.
   - Since we now have a nested loop, we need to keep track of two indices. We can do this by using the block {% raw %}`{% set outer_loop = loop %}`{% endraw %} to assign the outer loop to a new variable `outer_loop` before it is “replaced” by the inner loop.
+
+## Notes
+>  "SQL is [declarative](https://en.wikipedia.org/wiki/Declarative_programming), but used for [imperative](https://en.wikipedia.org/wiki/Imperative_programming) ends—we need to know how it works, step by step. Software is the opposite: It typically uses imperative means for declarative ends."
+>  -- Benn Stancil, [The smol analyst](https://benn.substack.com/p/the-smol-analyst)

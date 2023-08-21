@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 21 Feb 2021
-updated: 19 Aug 2023
+updated: 21 Aug 2023
 sources: Misc
 ---
 
@@ -14,7 +14,7 @@ sources: Misc
 - [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [DataCamp](https://campus.datacamp.com/courses/introduction-to-sql/)
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/)
-- [SQL Window Functions Questions](http://www.windowfunctions.com/)
+- Window Functions – [intro](https://www.freecodecamp.org/news/window-functions-in-sql/), [questions](http://www.windowfunctions.com/)
 
 ## Reading
 - Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.

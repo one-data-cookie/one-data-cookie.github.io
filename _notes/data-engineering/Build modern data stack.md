@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 04 Apr 2021
-updated: 12 Jun 2023
+updated: 22 Aug 2023
 sources: Misc
 ---
 
@@ -109,6 +109,7 @@ sources: Misc
 
 ## Dashboarding
 ### Superset
+* [Set up using Makefile](https://dev.to/lyndsiwilliams/apache-superset-installing-locally-is-easy-using-the-makefile-4ofi)
 * Running on **Heroku**
 	* [Running Superset on Heroku](https://chizurumolorondu.medium.com/setting-up-apache-superset-on-heroku-b547302f600e)
 		* [Heroku Template no. 1](https://github.com/zi-nt/superset-on-heroku) and [no. 2](https://github.com/dugjason/superset-on-heroku)

@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 03 Jan 2021
-updated: 14 Jun 2023
+updated: 03 Sep 2023
 sources: Misc
 ---
 
@@ -37,6 +37,8 @@ sources: Misc
 	* The Agency for Nature and Landscape Protection of the Czech Republic is opening its data for you. Explore Czech nature through data with them.
 * [Geoportál ČÚZK](https://geoportal.cuzk.cz/)
 	* Follow [[../data-vis/Change encoding of Czech spatial files\|this article]] to make sure it works well in #tableau.  
+* [JMK data](https://geodata-jmkgis.opendata.arcgis.com/)
+	* All the data about the South Moravia Region, perhaps replacing [JMK Geoportal](https://mapy.jmk.cz/) and linking their [DTM](https://dtm.jmk.cz/dtm/map/public?).
 * [data.Brno](https://data.brno.cz/)
 	* All the data about the city of Brno you can think of.
 * [Otevřená data PID](https://pid.cz/o-systemu/opendata/)

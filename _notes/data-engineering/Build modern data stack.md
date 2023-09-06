@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 04 Apr 2021
-updated: 22 Aug 2023
+updated: 06 Sep 2023
 sources: Misc
 ---
 
@@ -110,7 +110,7 @@ sources: Misc
 ## Dashboarding
 ### Superset
 * [Set up using Makefile](https://dev.to/lyndsiwilliams/apache-superset-installing-locally-is-easy-using-the-makefile-4ofi)
-* Running on **Heroku**
+* Running on Heroku:
 	* [Running Superset on Heroku](https://chizurumolorondu.medium.com/setting-up-apache-superset-on-heroku-b547302f600e)
 		* [Heroku Template no. 1](https://github.com/zi-nt/superset-on-heroku) and [no. 2](https://github.com/dugjason/superset-on-heroku)
 
@@ -158,7 +158,6 @@ $ heroku open
 	* *Cloud Run*: example [one](https://towardsdatascience.com/deploying-apache-superset-on-google-cloud-run-4e8f9b85a78a) and [two](https://github.com/K12-Analytics-Engineering/superset)
 	* *App Engine*: example [here](https://medium.com/@feroult/serverless-superset-on-google-cloud-87d3cf324845)
 	* [Cloud Run vs App Engine](https://medium.com/google-cloud/cloud-run-vs-app-engine-whats-the-lowest-cost-6c82b874ed61)
-
 * [Adding New Database Drivers in Docker](https://superset.apache.org/docs/databases/dockeradddrivers)
 
 ## Querying

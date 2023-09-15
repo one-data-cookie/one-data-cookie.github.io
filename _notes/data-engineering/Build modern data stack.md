@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 04 Apr 2021
-updated: 06 Sep 2023
+updated: 15 Sep 2023
 sources: Misc
 ---
 
@@ -18,6 +18,7 @@ sources: Misc
 * [Modern Data Stack](https://preset.io/blog/modern-data-stack/). Read what the modern data stack is and how came around.
 * [[Find out about Redshift's impact on modern data stack]]
 * [Data Stack](https://www.moderndatastack.xyz/stacks). Learn how some of the most amazing companies in the world are organising their data stack. Learn more about the tools that they are using and why.
+* The modern data stack was built around **SQL**.
 
 ## Fullstack
 * [How I made an open housing dataset with BigQuery and dbt](https://verifyanalytics.wordpress.com/2021/02/20/open-housing-dataset-bigquery-dbt/)

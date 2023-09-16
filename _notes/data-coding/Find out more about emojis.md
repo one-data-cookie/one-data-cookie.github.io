@@ -5,7 +5,7 @@ category: data-coding
 tags: [tech, emoji, internet]
 season: summer
 created: 03 Apr 2021
-updated: 03 Apr 2021
+updated: 16 Sep 2023
 sources: Misc
 ---
 
@@ -19,4 +19,4 @@ sources: Misc
 
 ## Links
 - [Support emojis](http://www.emojination.org/)
-- [Create your own](https://tikolu.net/emojimix/)
+- [Create your own](https://tikolu.net/emojimix/) or [from Google](https://www.google.com/search?q=emoji+kitchen)

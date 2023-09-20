@@ -5,7 +5,7 @@ category: data-analytics
 tags: [learn, dbt]
 season: autumn
 created: 21 Feb 2021
-updated: 07 Apr 2023
+updated: 20 Sep 2023
 sources: Misc
 ---
 
@@ -105,10 +105,33 @@ https://serge-g.medium.com/dynamic-sql-pivots-with-dbt-dea16d7b9b63
 ---
 
 ## What is dbt?
-
 - [data build tool](https://www.getdbt.com/) (dbt) is a tool that allows **data analysts** to adopt **software engineering best practices** in how they manage their data.
 - The general principle is that data is ingested into the warehouse in its raw form and SQL is used with version control, testing and metadata (data dictionaries) to manage the data that lives in production. It incorporates the benefits of functional programming to ensure reproducibility and simplicity.
 
 https://medium.com/snaptravel/how-should-our-company-structure-our-data-team-e71f6846024d
 
 ![](https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi.imgflip.com%2F5f05fj.jpg)
+
+## Testing in dbt
+**General**
+- [Data testing by dbt Labs](https://www.getdbt.com/analytics-engineering/transformation/data-testing)
+- [Data testing by GitLab](https://about.gitlab.com/handbook/business-technology/data-team/platform/dbt-guide/#trusted-data-framework)
+
+**Basic**
+- [Add tests to your DAG](https://docs.getdbt.com/docs/build/tests)
+
+**Coverage**
+- [`dbt-meta-testing`](https://github.com/tnightengale/dbt-meta-testing)
+- [`dbt-coverage`](https://github.com/slidoapp/dbt-coverage)
+
+**Comparisons**
+- [`data-diff`](https://github.com/datafold/data-diff)
+- [`dbt-audit-helper`](https://github.com/dbt-labs/dbt-audit-helper)
+
+**Advanced**
+- [Source `freshness`](https://docs.getdbt.com/reference/resource-properties/freshness)
+- Using Python through [`dbt-fal`](https://github.com/fal-ai/dbt-fal), e.g. advanced metadata or anomaly detection
+
+**Tools**
+- [Datafold](https://www.datafold.com/)
+- [Elementary](https://github.com/elementary-data/elementary)

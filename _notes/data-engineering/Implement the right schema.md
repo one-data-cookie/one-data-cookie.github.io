@@ -1,15 +1,31 @@
 ---
-title: Consider implementing activity schema
+title: Implement the right schema
 lang: en 
 category: data-engineering
 tags: [idea]
 season: spring
 created: 22 Oct 2021
 updated: 07 Apr 2023
-sources: https://www.activityschema.com/, https://github.com/ActivitySchema/ActivitySchema/blob/main/spec.md
+sources: https://www.activityschema.com/, https://github.com/ActivitySchema/ActivitySchema/blob/main/spec.md, https://www.fivetran.com/blog/star-schema-vs-obt
 ---
 
-## Principles
+## Star Schema & One Big Table
+### Star Schema
+A star schema uses a central table, known as a fact table, to store measured or transactional data. A fact table uses aggregated facts to store key business information, such as financial data or logged performance data. Fact tables are surrounded by multiple dimensional tables that store attributes related to data in the fact table.
+
+Star schema is generally considered ideal for reporting as it makes data retrieval easier. It’s also quite convenient to use joins in queries in star schema, which can boost query performance.
+
+### One Big Table
+OBT stands for one big table. As the name suggests, it refers to using a single table for housing all data in a single large table. This approach ensures the warehouse doesn't have to perform any joins on the fly. Due to its simplicity, OBT is good for small teams and small projects that are focused on tracking a specific item. This item is usually the one that has several attributes associated with it.
+
+For example, if you’re looking to use your data warehouse for customer analysis, your OBT will be focused on “customers” with attributes, such as customer id, name, age, etc.
+
+### Star Schema vs One Big Table
+→ **Denormalised tables result in faster query response**
+
+## Activity Schema
+
+### Principles
 - At its core an activity schema consists of transforming raw tables into a single, time series table called an activity stream. All downstream plots, tables, materialized views, etc used for BI are built directly from that single table, with no other dependencies.
 - There are two types of tables in an Activity Schema
 	1. activity stream (one per activity schema)
@@ -25,7 +41,7 @@ sources: https://www.activityschema.com/, https://github.com/ActivitySchema/Acti
 - This means that querying is a bit different but substantially more powerful. An activity schema does not require any foreign key joins. All joins are self-joins to the `activity_stream` table, and they only use the entity and timestamp columns. This means there is always a way to relate any data in an activity schema to anything else. This means that someone could build a customer lifetime value analysis, and run it on any number of companies' data with minimal modification.
 - And because the activity schema ensures all activities can relate to each other, there are no queries that have to be hand-built. As long as an activity exists, it can be used for querying, analysis, etc with no extra work. Implementations of an activity schema (see below) will often provide a UI for the user to select activities and the relationships between them, and automatically generate and run queries.
 
-## My notes
+### My notes
 - The main notion sounds intriguing. It might certainly simplify the *staging* layer of transformations.
 - It could be especially powerful and useful if data streaming is already a part of your data stack.
 - It might have a great impact for business users for whom a star schema is often too complex.

@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools]
 season: summer
 created: 03 Jan 2021
-updated: 07 Apr 2023
+updated: 29 Sep 2023
 sources: Misc
 ---
 
@@ -18,7 +18,9 @@ sources: Misc
 - [Charticulator](https://charticulator.com/)
 	- Create bespoke chart designs without programming; free and open source from Microsoft Research.
 - [RAWGraphs](https://rawgraphs.io/)
-	- The missing link between spreadsheets and data visualization.
+	- Free and open source tool for data visualization
+- [Datawrapper](https://www.datawrapper.de/)
+	- Datawrapper lets you show your data as beautiful, interactive charts, maps or tables with a few clicks.
 - [Infogram](https://infogram.com/)
 	- Infogram is an intuitive visualization tool that empowers people and teams to create beautiful content.
 - [Lyra](https://idl.cs.washington.edu/projects/lyra/)

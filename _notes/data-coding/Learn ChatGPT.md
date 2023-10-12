@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 06 Sep 2023
+updated: 12 Oct 2023
 sources: Misc
 ---
 
@@ -82,6 +82,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [LINDAT Translation](https://lindat.mff.cuni.cz/services/translation/)
 
 ## Prompt Engineering
+- [Learn Prompting](https://learnprompting.org/)
 - Make it conversational with feedback loop
 - Give it a specific role and goals
 - Consider asking for step-by-step instructions

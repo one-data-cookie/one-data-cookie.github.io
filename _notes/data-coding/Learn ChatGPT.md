@@ -1,11 +1,13 @@
 ---
 title: Learn ChatGPT
-lang: en 
+lang: en
 category: data-coding
-tags: [learn, chatgpt]
+tags:
+  - learn
+  - chatgpt
 season: summer
 created: 10 Mar 2023
-updated: 12 Oct 2023
+updated: 13 Oct 2023
 sources: Misc
 ---
 
@@ -76,6 +78,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Poe](https://poe.com/): universal AI messaging app
 - [Midjourney](https://www.midjourney.com/): create pictures
 - [Claude](https://claude.ai/): yet another chat
+- [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model 
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

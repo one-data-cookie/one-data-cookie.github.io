@@ -5,13 +5,13 @@ category: data-vis
 tags: [tools]
 season: summer
 created: 03 Jan 2021
-updated: 29 Sep 2023
+updated: 16 Oct 2023
 sources: Misc
 ---
 
 - [Apache Superset](https://superset.apache.org/)
 	- Apache Superset is a modern data exploration and visualization platform
-- [DS.js](https://d3js.org/)
+- [D3.js](https://d3js.org/)
 	- D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS.
 - [Flourish Studio](https://flourish.studio/)
 	- Flourish is a powerful platform for data visualisation and storytelling.

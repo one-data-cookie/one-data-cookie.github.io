@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 13 Feb 2021
-updated: 30 Sep 2023
+updated: 20 Oct 2023
 sources: Misc
 ---
 
@@ -62,6 +62,7 @@ sources: Misc
 	- (Datafam) Mentoring Meetup, a centralized location for finding and offering to be a Tableau mentor.
 
 ## People
+- [Viz Heads](https://vizheads.com/)
 - [Data Visualization Society](https://www.datavisualizationsociety.com/)
 	- The Data Visualization Society aims to collect and establish best practices, fostering a community that supports members as they grow and develop data visualization skills.
 - [Tableau Zen Masters](https://www.tableau.com/zen-masters)

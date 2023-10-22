@@ -2,12 +2,10 @@
 title: Learn ChatGPT
 lang: en
 category: data-coding
-tags:
-  - learn
-  - chatgpt
+tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 13 Oct 2023
+updated: 22 Oct 2023
 sources: Misc
 ---
 
@@ -67,6 +65,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [How to use ChatGPT correctly](https://www.youtube.com/watch?v=cWil0mqdXRY)
 - [OpenAI’s 'Pay As You Go' Is the Best Way to Use ChatGPT](https://lifehacker.com/openai-s-pay-as-you-go-is-the-best-way-to-use-chatgpt-1850318349)
 - [Prompt Advice from Rob Lennon](https://twitter.com/thatroblennon/status/1610316022174683136)
+- [ej:aj](https://ejaj.cz/)
 
 ## Cool tools
 - [How to Use AI to Do Stuff: An Opinionated Guide](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-stuff-an-opinionated)

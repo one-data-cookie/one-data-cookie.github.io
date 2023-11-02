@@ -1,5 +1,5 @@
 ---
-title: Learn ChatGPT
+title: Learn ChatGPT and AI
 lang: en
 category: data-coding
 tags: [learn, chatgpt]
@@ -77,7 +77,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Poe](https://poe.com/): universal AI messaging app
 - [Midjourney](https://www.midjourney.com/): create pictures
 - [Claude](https://claude.ai/): yet another chat
-- [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model 
+- [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model
+- [Hotshot](https://hotshot.co/): create GIFs using AI
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea, process]
 season: spring
 created: 04 Oct 2020
-updated: 04 Aug 2023
+updated: 02 Nov 2023
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 
@@ -20,3 +20,7 @@ This fits within a broader **PPDAC cycle**:
 5. **Conclusion**: Interpret your analysis in the context of the original problem. Make conclusions or predictions based on your results, and consider if your findings answer your initial question.
 
 ![](../../assets/files/ppdac.png)
+
+But one can also think about it as this double-diamond from [here](https://nightingaledvs.com/embrace-the-challenge-to-beat-imposter-syndrome/).
+
+![[data-analysis-double-diamond.png]]

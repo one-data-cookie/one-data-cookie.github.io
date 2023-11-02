@@ -5,7 +5,7 @@ category: data-analytics
 tags: [learn, dbt]
 season: autumn
 created: 21 Feb 2021
-updated: 20 Sep 2023
+updated: 02 Nov 2023
 sources: Misc
 ---
 
@@ -23,8 +23,7 @@ https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 * [What is dbt?](https://blog.getdbt.com/what--exactly--is-dbt-/)
 * [Paid course](https://corise.com/course/analytics-engineering-with-dbt)
 * Key blog posts
-	* [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/)
-* [Analytics Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
+	* [Building a Mature Analytics Workflow](https://blog.getdbt.com/building-a-mature-analytics-workflow/) → [The dbt Viewpoint](https://docs.getdbt.com/docs/about/viewpoint/)
 * Fundamentals?
 * [Github](https://github.com/fishtown-analytics/dbt)
 * [COALESCE Conference](https://www.getdbt.com/coalesce)

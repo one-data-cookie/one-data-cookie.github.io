@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 03 Jan 2021
-updated: 04 Aug 2023
+updated: 05 Nov 2023
 sources: Misc
 ---
 
@@ -33,6 +33,8 @@ sources: Misc
 	- Static version [here](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary).
 - [Visual Vocabulary by Andy Kriebel](https://www.vizwiz.com/2018/07/visual-vocabulary.html)
 	- Tableau edition of the FT's Visual Vocabulary
+- [SWD Chart Guide](https://www.storytellingwithdata.com/chart-guide)
+	- We share the good and the bad of commonly used charts and graphs for data communications.
 
 ## Text
 - [Google Fonts](https://fonts.google.com/)

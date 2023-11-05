@@ -5,7 +5,7 @@ category: data-literacy
 tags: [idea]
 season: summer
 created: 07 Mar 2021
-updated: 04 Aug 2023
+updated: 05 Nov 2023
 sources: Misc
 ---
 
@@ -71,6 +71,8 @@ sources: Misc
 - [European Data Science Academy](http://edsa-project.eu/news/)
 - [European Association for Digital Humanities](https://eadh.org/projects)
 - [AMULAB](https://ksvi.mff.cuni.cz/amulab/index.php/cs/amulab/)
+- [Data Education in Schools](https://dataschools.education/)
+- [Data-Driven Innovation](https://ddi.ac.uk/)
 
 ## Blogs
 - Jane Croft

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 22 Oct 2023
+updated: 09 Nov 2023
 sources: Misc
 ---
 
@@ -65,6 +65,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [How to use ChatGPT correctly](https://www.youtube.com/watch?v=cWil0mqdXRY)
 - [OpenAI’s 'Pay As You Go' Is the Best Way to Use ChatGPT](https://lifehacker.com/openai-s-pay-as-you-go-is-the-best-way-to-use-chatgpt-1850318349)
 - [Prompt Advice from Rob Lennon](https://twitter.com/thatroblennon/status/1610316022174683136)
+- [Prompt Injection via Gandalf](https://gandalf.lakera.ai/)
 - [ej:aj](https://ejaj.cz/)
 
 ## Cool tools
@@ -97,3 +98,6 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > 1. Your first response will be to ask me what the prompt should be about. I will provide my answer, but we will need to improve it through continual iterations by going through the next steps. 
 > 2. Based on my input, you will generate 3 sections. a) Revised prompt (provide your rewritten prompt. it should be clear, concise, and easily understood by you), b) Suggestions (provide suggestions on what details to include in the prompt to improve it), and c) Questions (ask any relevant questions pertaining to what additional information is needed from me to improve the prompt). 
 > 3. We will continue this iterative process with me providing additional information to you and you updating the prompt in the Revised prompt section until it's complete.
+
+## Biases
+![[chat-gpt-biases.png]]

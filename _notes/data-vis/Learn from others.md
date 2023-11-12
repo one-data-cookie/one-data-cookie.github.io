@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 13 Feb 2021
-updated: 27 Oct 2023
+updated: 12 Nov 2023
 sources: Misc
 ---
 
@@ -29,6 +29,8 @@ sources: Misc
 	- Blog of Nathan Yau
 - [Information is Beautiful](https://informationisbeautiful.net/)
 	- Blog of David McCandless
+- [Karthikeya GS](https://karthikeyags.myportfolio.com/)
+	- Portfolio of Karthikeya GS
 - [storytelling with data](http://www.storytellingwithdata.com/blog)
 	- Blog of several dataviz practitioners
 - [PlatyfairData](https://playfairdata.com/blog/)

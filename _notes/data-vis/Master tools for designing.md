@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 03 Jan 2021
-updated: 05 Nov 2023
+updated: 16 Nov 2023
 sources: Misc
 ---
 
@@ -28,6 +28,8 @@ sources: Misc
 	- Examples created by Tableau by the Tableau community.
 - [Chart Suggestions](../../assets/files/How-to-Choose-Chart-Types.png)
 	- A though-starter for choosing the right chart.
+- [From Data to Vis](https://www.data-to-viz.com/)
+	- It leads you to the most appropriate graph for your data. It links to the code to build it and lists common caveats you should avoid.
 - [Visual Vocabulary by Financial Times](http://ft-interactive.github.io/visual-vocabulary/)
 	- Small examples of data driven graphics – to be used as starting points.
 	- Static version [here](https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary).

@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 03 Jan 2021
-updated: 16 Nov 2023
+updated: 17 Nov 2023
 sources: Misc
 ---
 
@@ -66,11 +66,13 @@ sources: Misc
 - [Colour Wheel](https://color.adobe.com/create/color-wheel)
 	 - Create colour schemes with the color wheel or browse thousands of color combinations from the Color community.
 - [Color Calculator](https://www.sessions.edu/color-calculator/)
-	- Your handy interactive color wheel
+	- Your handy interactive color wheel.
+- [Color Picker](https://imagecolorpicker.com/)
+	- Pick your color online.
 - [Grabient](https://www.grabient.com/)
 	 - Gallery of different gradients.
 - [ColorBrewer](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3)
-	- Color advice for cartography
+	- Color advice for cartography.
 - [Color Blender](https://meyerweb.com/eric/tools/color-blend/#:::hex)
 	- Pick a color value format, input two valid CSS color values in the format you chose, and pick the number of midpoints you'd like to see. The palette will show the colors you input as well as the requested number of midpoint colors, and the values of those colors.
 - [Web colors](https://en.wikipedia.org/wiki/Web_colors)

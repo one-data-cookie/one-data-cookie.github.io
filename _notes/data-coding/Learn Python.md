@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, python]
 season: summer
 created: 21 Feb 2021
-updated: 04 Aug 2023
+updated: 18 Nov 2023
 sources: Misc
 ---
 
@@ -51,6 +51,8 @@ sources: Misc
 	-  Tableau-style UI for visual data exploration
 - [Jupyter Notebooks in Excel](https://towardsdatascience.com/python-jupyter-notebooks-in-excel-5ab34fc6439)
 	- Embed Jupyter into Microsoft Excel and write Python instead of VBA
+- [Neptyne](https://www.neptyne.com/)
+	- Build powerful Spreadsheet apps in Python or [bring Python to Google Sheets](https://www.neptyne.com/google-sheets)
 - [Python Graph Gallery](https://python-graph-gallery.com/)
 	- This website displays hundreds of charts, always providing the reproducible code! It aims to showcase the awesome dataviz possibilities of Python.
 - [Python Data Visualization Libraries](https://mode.com/blog/python-data-visualization-libraries/)
@@ -82,6 +84,13 @@ from IPython.display import JSON
 JSON(json.loads('{"map": 1}'))
 ```
 
+- Remove accents:
+```python
+from unidecode import unidecode
+
+def remove_accents(str):
+   return unidecode(str)
+```
 
 ## Debugging
 > "Code does not do what you expect it to do, but what you tell it to do."

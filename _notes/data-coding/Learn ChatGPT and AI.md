@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 09 Nov 2023
+updated: 19 Nov 2023
 sources: Misc
 ---
 
@@ -80,6 +80,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Claude](https://claude.ai/): yet another chat
 - [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model
 - [Hotshot](https://hotshot.co/): create GIFs using AI
+- [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

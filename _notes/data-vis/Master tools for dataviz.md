@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools]
 season: summer
 created: 03 Jan 2021
-updated: 16 Oct 2023
+updated: 22 Nov 2023
 sources: Misc
 ---
 
@@ -16,7 +16,7 @@ sources: Misc
 - [Flourish Studio](https://flourish.studio/)
 	- Flourish is a powerful platform for data visualisation and storytelling.
 - [Charticulator](https://charticulator.com/)
-	- Create bespoke chart designs without programming; free and open source from Microsoft Research.
+	- Create bespoke chart designs without programming; free and open source from Microsoft Research. Closed in December 2023.
 - [RAWGraphs](https://rawgraphs.io/)
 	- Free and open source tool for data visualization
 - [Datawrapper](https://www.datawrapper.de/)
@@ -24,7 +24,7 @@ sources: Misc
 - [Infogram](https://infogram.com/)
 	- Infogram is an intuitive visualization tool that empowers people and teams to create beautiful content.
 - [Lyra](https://idl.cs.washington.edu/projects/lyra/)
-	- Lyra is an interactive environment that enables custom visualization design without writing any code.
+	- Lyra is an interactive environment that enables custom visualization design without writing any code. One of the first of its kind.
 - [[../data-coding/Master tools for Python\|Python]]
 	- Using Python to visualise data.
 - [visx](https://airbnb.io/visx/)

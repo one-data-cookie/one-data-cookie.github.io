@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: summer
 created: 13 Feb 2021
-updated: 27 Jun 2023
+updated: 28 Nov 2023
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -26,7 +26,7 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 - For further getting a better grasp on some terms, it's worth going through [this one](https://xosh.org/explain-git-in-simple-words/).
 - When it's time to start playing around on some examples, [this interactive website](https://learngitbranching.js.org/) is the perfect place for it.
 - If it still doesn't make sense, maybe a [visual tutorial](https://agripongit.vincenttunru.com/) good be the way to go?
-- Before pushing a first commit, it might be a good idea to find out how to write a [good commit message](https://juffalow.com/other/write-good-git-commit-message).
+- Before pushing a first commit, it might be a good idea to find out how to write a [good commit message](https://cbea.ms/git-commit/). Like [this one](https://dhwthompson.com/2019/my-favourite-git-commit), for example.
 - If there is still anything unclear, [Git docs/book](https://git-scm.com/book/en/v2) will almost certainly have an answer.
 - In case you wish to discover more commands that you might encounter and you are a visual learner [this Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)might be of interest to you.
 - Still confused about some terms and hungry for some more (sometimes a bit technical) explanation, try [How to explain git in simple words?](https://xosh.org/explain-git-in-simple-words/).

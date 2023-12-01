@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 19 Nov 2023
+updated: 01 Dec 2023
 sources: Misc
 ---
 
@@ -78,6 +78,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Poe](https://poe.com/): universal AI messaging app
 - [Midjourney](https://www.midjourney.com/): create pictures
 - [Claude](https://claude.ai/): yet another chat
+- [Koala](https://koala.sh/chat): and another chat but with free GPT 3.5
 - [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model
 - [Hotshot](https://hotshot.co/): create GIFs using AI
 - [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps

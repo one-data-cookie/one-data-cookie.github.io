@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: summer
 created: 13 Feb 2021
-updated: 28 Nov 2023
+updated: 01 Dec 2023
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -28,7 +28,7 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 - If it still doesn't make sense, maybe a [visual tutorial](https://agripongit.vincenttunru.com/) good be the way to go?
 - Before pushing a first commit, it might be a good idea to find out how to write a [good commit message](https://cbea.ms/git-commit/). Like [this one](https://dhwthompson.com/2019/my-favourite-git-commit), for example.
 - If there is still anything unclear, [Git docs/book](https://git-scm.com/book/en/v2) will almost certainly have an answer.
-- In case you wish to discover more commands that you might encounter and you are a visual learner [this Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)might be of interest to you.
+- In case you wish to discover more commands that you might encounter and you are a visual learner [this Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html) might be of interest to you.
 - Still confused about some terms and hungry for some more (sometimes a bit technical) explanation, try [How to explain git in simple words?](https://xosh.org/explain-git-in-simple-words/).
 
 ## Snippets
@@ -101,5 +101,5 @@ git stash drop stash@{0} # delete stashes
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 - [Git's data model](https://missing.csail.mit.edu/2020/version-control/)
 - Git uses hashing via [SHA-1](https://en.wikipedia.org/wiki/SHA-1) – maps arbitrary-sized inputs to 160-bit outputs (which can be represented as 40 hexadecimal characters, e.g. commit hashes) but [no longer unbroken](https://shattered.io/); more info in [[Learn about cryptography]]
-- There are [many](https://nvie.com/posts/a-successful-git-branching-model/) [different](https://www.endoflineblog.com/gitflow-considered-harmful) [workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)), i.e. practices to follow when working on big projects.
+- There are [many](https://nvie.com/posts/a-successful-git-branching-model/) [different](https://www.endoflineblog.com/gitflow-considered-harmful) [workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), i.e. practices to follow when working on big projects.
 - [Analyse how a Git repo grows over time](https://github.com/erikbern/git-of-theseus)

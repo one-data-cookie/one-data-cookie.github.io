@@ -5,12 +5,15 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 13 Feb 2021
-updated: 12 Nov 2023
+updated: 02 Dec 2023
 sources: Misc
 ---
 
 > "A data visualization hides as much as it shows."
 > -- Alberto Cairo
+
+> "Viz what you love"
+> -- [Zach Bowders](https://nightingaledvs.com/viz-what-you-love/)
 
 ## Blogs
 - [The Information Lab](https://www.theinformationlab.co.uk/)

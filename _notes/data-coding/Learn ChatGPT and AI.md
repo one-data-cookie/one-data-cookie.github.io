@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 01 Dec 2023
+updated: 02 Dec 2023
 sources: Misc
 ---
 
@@ -103,3 +103,6 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 ## Biases
 ![[chat-gpt-biases.png]]
+
+## Thoughts
+- [Is LLMs maybe the query language for text?](https://benn.substack.com/p/avg-text)

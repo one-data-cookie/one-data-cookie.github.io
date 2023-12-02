@@ -5,7 +5,7 @@ category: data-business
 tags: [idea, business]
 season: winter
 created: 15 Aug 2019
-updated: 07 Apr 2023
+updated: 02 Dec 2023
 sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCpihwqzaaSng
 ---
 
@@ -17,3 +17,10 @@ sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCp
 - Skill vs vule. Prvni jde zmenit, druhy ne.
 - GoodData/Superset vs Tableau: jednoduchy veci vsem vs analyticky veci pro jednoho a staticky
 - Jeho stack s business vzdelanim je totoznej mymu, skoro: Excel, SQL, Python, Keboola, GoodData, Tableau
+
+Especially when you consider the following from [here](https://benn.substack.com/p/day-of-reckoning):
+> The data of a mid-sized B2B SaaS product simply doesn’t have the potential energy of Google’s search histories, or of an Amazon’s browsing logs. If the latter examples are the new oil, the former is a new peat bog. No matter how good the tools are that clean and analyze it, how skilled the engineers are who are working on it, or how mature the culture is around it, it’ll never burn as hot or as bright… 
+>
+> We assume that there are diamonds buried in our rough data, if only we clean it properly, analyze it effectively, or stuff it through the right YC startup's new tool. 
+>
+> But what if there aren’t? Or what if they’re buried so deep that they’re impractical to extract? What if some data, no matter how clean and complete it is, just isn’t valuable to the business that owns it?

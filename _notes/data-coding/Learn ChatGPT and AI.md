@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 07 Dec 2023
+updated: 09 Dec 2023
 sources: Misc
 ---
 
@@ -107,3 +107,4 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 ## Thoughts
 - [Is LLMs maybe the query language for text?](https://benn.substack.com/p/avg-text)
 - [Miloš Čermák, GUG](https://www.youtube.com/watch?v=ZSl3Y698--U): "It's more like a human, than a technology" (because of being trained on our language and making mistakes)
+- [This research](https://ct24.ceskatelevize.cz/clanek/veda/umele-inteligence-maji-obri-uhlikovou-stopu-vytvoreni-jednoho-obrazku-spotrebuje-stejne-elektriny-ja-343897): It takes about the same amount of energy to charge a phone as to generate one image using AI

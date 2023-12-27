@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools]
 season: summer
 created: 03 Jan 2021
-updated: 22 Nov 2023
+updated: 27 Dec 2023
 sources: Misc
 ---
 
@@ -47,3 +47,5 @@ sources: Misc
 	- GeoDa is a free and open source software tool that serves as an introduction to spatial data analysis.
 - [Lightdash](https://lightdash.com/)
 	- Lightdash is an open-source BI that connects to your dbt project and allows everyone to answer their own data questions.
+- [ezgif](https://ezgif.com/)
+	- Online GIF maker and image editor

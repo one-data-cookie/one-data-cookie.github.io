@@ -166,9 +166,9 @@
             {%- if page.content-type == "post" -%}
                 <div class="column is-three-fifths">
                     <main>
-                      <div class="note-page-section">
+                      <div align="center" class="note-page-section">
                         {% if page.img %}
-                          <img src="{{ '/assets/viz/' | prepend: page.baseurl | append : page.img }}" alt="{{ page.title }}">
+                          <img src="{{ '/assets/viz/' | prepend: page.baseurl | append: page.img }}" alt="{{ page.title }}">
                         {% else %}
                         {% endif %}
                         <div align="center" style="padding-top: 10px;">
@@ -221,8 +221,10 @@
                                               {{ item.description | strip_html | strip | remove: "[[" | remove: "]]" | escape | truncatewords: 15 }}
                                             </p>
                                         </div> -->
-                                        {% if item.img %}
-                                        <img src="{{ '/assets/viz/' | prepend: item.baseurl | append : item.img }}" alt="{{ item.title }}">
+                                        {% if item.cover %}
+                                        <img src="{{ '/assets/viz/' | prepend: item.baseurl | append: item.cover }}" alt="{{ item.title }}">
+                                        {% elsif item.img %}
+                                        <img src="{{ '/assets/viz/' | prepend: item.baseurl | append: item.img }}" alt="{{ item.title }}">
                                         {% else %}
                                         {% endif %}
                                     </a>

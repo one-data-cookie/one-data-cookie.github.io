@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 23 Dec 2023
+updated: 02 Jan 2024
 sources: Misc
 ---
 
@@ -83,6 +83,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Hotshot](https://hotshot.co/): create GIFs using AI
 - [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps
 - [GPT for Work](https://gptforwork.com/): GPT for Excel and Word, GPT for Google Sheets and Docs
+- [Runway](https://runwayml.com/): text and image processing and generation
+- [Pika](https://pika.art/): video generation 
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

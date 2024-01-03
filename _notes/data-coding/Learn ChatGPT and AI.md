@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 02 Jan 2024
+updated: 03 Jan 2024
 sources: Misc
 ---
 
@@ -80,11 +80,14 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Claude](https://claude.ai/): yet another chat
 - [Koala](https://koala.sh/chat): and another chat but with free GPT 3.5
 - [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model
+- [Illusion Diffusion](https://huggingface.co/spaces/AP123/IllusionDiffusion): generate illusion art with Stable Diffusion
+- [Image Mixer](https://huggingface.co/spaces/lambdalabs/image-mixer-demo): mix images together through Stable Diffusion
 - [Hotshot](https://hotshot.co/): create GIFs using AI
 - [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps
 - [GPT for Work](https://gptforwork.com/): GPT for Excel and Word, GPT for Google Sheets and Docs
 - [Runway](https://runwayml.com/): text and image processing and generation
-- [Pika](https://pika.art/): video generation 
+- [Pika](https://pika.art/): video generation
+- [Sanctum](https://sanctum.ai/): run & interact with open-source LLMs locally
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

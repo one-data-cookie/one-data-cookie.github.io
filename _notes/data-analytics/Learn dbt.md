@@ -5,7 +5,7 @@ category: data-analytics
 tags: [learn, dbt]
 season: autumn
 created: 21 Feb 2021
-updated: 02 Nov 2023
+updated: 04 Jan 2024
 sources: Misc
 ---
 
@@ -134,3 +134,6 @@ https://medium.com/snaptravel/how-should-our-company-structure-our-data-team-e71
 **Tools**
 - [Datafold](https://www.datafold.com/)
 - [Elementary](https://github.com/elementary-data/elementary)
+
+## Tools
+- [Turntable](https://www.turntable.so/extension): view column-level lineage, edit documentation in-line, and use AI for auto-generated drafts

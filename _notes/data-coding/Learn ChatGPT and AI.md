@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 03 Jan 2024
+updated: 11 Jan 2024
 sources: Misc
 ---
 
@@ -86,6 +86,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps
 - [GPT for Work](https://gptforwork.com/): GPT for Excel and Word, GPT for Google Sheets and Docs
 - [Runway](https://runwayml.com/): text and image processing and generation
+- [Creative Reality](https://studio.d-id.com/): image-to-video generation
 - [Pika](https://pika.art/): video generation
 - [Sanctum](https://sanctum.ai/): run & interact with open-source LLMs locally
 

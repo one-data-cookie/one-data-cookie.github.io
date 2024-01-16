@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, python]
 season: summer
 created: 21 Feb 2021
-updated: 18 Nov 2023
+updated: 16 Jan 2024
 sources: Misc
 ---
 
@@ -90,6 +90,30 @@ from unidecode import unidecode
 
 def remove_accents(str):
    return unidecode(str)
+```
+
+- [Generate passwords](https://stackoverflow.com/a/61471228)
+```python
+import random
+import secrets
+import string
+
+def generate_password_simple(nbytes):
+	# the password will be long 1.3x the size
+	pw = secrets.token_urlsafe(nbytes)
+	return pw
+
+def generate_password_custom(length, added):
+	chars = string.ascii_letters + string.digits
+	specs = ".+-*/="
+
+	main = [secrets.choice(chars) for i in range(length - added)]
+	extra = [secrets.choice(specs) for i in range(added)]
+	final = main + extra
+	random.shuffle(final)
+
+	pw = ''.join(final)
+	return pw
 ```
 
 ## Debugging

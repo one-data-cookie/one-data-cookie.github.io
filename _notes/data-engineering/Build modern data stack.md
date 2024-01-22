@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 04 Apr 2021
-updated: 15 Sep 2023
+updated: 22 Jan 2024
 sources: Misc
 ---
 
@@ -78,7 +78,6 @@ sources: Misc
 	- [How to Deploy dbt to Production using GitHub Actions](https://towardsdatascience.com/how-to-deploy-dbt-to-production-using-github-action-778bf6a1dff6)
 	- hint on deploying [from dbt](https://docs.getdbt.com/docs/guides/building-packages#5-deploy-the-docs-for-your-package)
 	- to specify steps based on trigger: `if: github.event_name == 'workflow_dispatch'`
-
 ## Docs
 - [How to deploy dbt docs to GitLab Pages](https://vitorbaptista.com/how-to-deploy-dbt-docs-to-gitlab-pages)
 - Make it [password protected](https://github.com/chrissy-dev/protected-github-pages)

@@ -6,4 +6,4 @@ dates: [2023-09-22]
 content-type: eg
 ---
 
-Over the summer 2023, I was helping out with digital transformation at [JINAG](https://jinag.eu/en). The idea was to unify multiple old, scattered, disconnected systems into single source of truth. After careful consideration, [Notion](https://www.notion.so/) was the tool of choice for the team, bringing together documentation, project management, and simple CRM system.
+In the summer of 2023, I contributed to digital transformation efforts at the regional innovation agency [JINAG](https://jinag.eu/en). Our focus was on merging several legacy, isolated systems into a unified source of truth. After careful consideration, the team selected [Notion](https://www.notion.so/) as the preferred tool, integrating documentation, project management, and a flexible CRM system into a single, modern environment.

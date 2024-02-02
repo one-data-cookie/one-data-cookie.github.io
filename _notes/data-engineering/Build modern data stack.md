@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 04 Apr 2021
-updated: 22 Jan 2024
+updated: 02 Feb 2024
 sources: Misc
 ---
 
@@ -30,6 +30,7 @@ sources: Misc
 * [Gaining insights on my workout data with Apache Superset](https://marcel-jan.eu/datablog/2021/10/24/gaining-insights-on-my-workout-data-with-apache-superset/)
 * [The four priorities of a one-person analytics team: lessons from Lola.com](https://blog.getdbt.com/the-four-priorities-of-an-analytics-team-of-one-lessons-from-lola-com/)
 * [Bootstrap a Modern Data Stack in 5 minutes with Terraform](https://towardsdatascience.com/bootstrap-a-modern-data-stack-in-5-minutes-with-terraform-32342ee10e79)
+* [Jan Soubusta – Data Pipeline as Code: Journey of our Blueprint](https://medium.com/gooddata-developers/data-pipeline-as-code-journey-of-our-blueprint-99912b1485d2)
 * Recipes from Airbyte:
 	* [Set up a modern data stack with Docker](https://airbyte.io/recipes/modern-data-stack-docker)
 	* [Orchestrate ELT pipelines with Prefect, Airbyte and dbt](https://airbyte.io/recipes/elt-pipeline-prefect-airbyte-dbt)

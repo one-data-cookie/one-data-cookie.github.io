@@ -19,7 +19,7 @@ content-type: homepage
 
 💜 Most of my days are spent [being purple](https://www.getdbt.com/blog/we-the-purple-people) as an **[analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) lead at [Slido](https://www.slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
 
-🤗 I very much enjoy giving back to community by **sharing what I know** through [creating, organising, speaking, and teaching](/projects).
+🤗 I very much enjoy giving back to community by **sharing what I know** through [creating, organising, speaking, and especially teaching](/projects).
 
 ## Away from laptop
 🌲 **Walking in nature** (alone, with my wife, or [our dog](https://www.instagram.com/falco.theminidachshund/); anywhere in the world)

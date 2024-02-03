@@ -11,6 +11,10 @@ echo "Loading config file"
 source ./utilities/config
 
 ### Exporting from Obsidian
+# Fix file links of public folders in _notes, eg. from ![[image.png]] to ![](../_files/image.png)
+echo "Fixing links in public folders"
+find _notes -type f -name "*.md" -not -path "_notes/_*" -exec sed -i '' -e 's#!\[\[\(.*\)\]\]#![](..\/__files\/\1)#g' {} \;
+
 # Change file links of public folders in _notes to assets
 # https://www.grymoire.com/Unix/Sed.html
 echo "Changing links in public folders"

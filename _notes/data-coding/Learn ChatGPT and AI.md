@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 10 Mar 2023
-updated: 18 Jan 2024
+updated: 04 Feb 2024
 sources: Misc
 ---
 
@@ -54,7 +54,7 @@ The *Transformer* architecture used by GPT models is better than the architectur
 This makes it more powerful and flexible, and allows it to achieve better performance on a wide range of natural language processing tasks.
 
 ## GPT and beyond
-![[../../../assets/files/gpt-history.png]]
+![](../../../assets/files/gpt-history.png)
 
 ## Cool links
 - [OpenAI API](https://platform.openai.com/)
@@ -110,7 +110,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > 3. We will continue this iterative process with me providing additional information to you and you updating the prompt in the Revised prompt section until it's complete.
 
 ## Biases
-![[chat-gpt-biases.png]]
+![](chat-gpt-biases.png)
 
 ## Thoughts
 - [Is LLMs maybe the query language for text?](https://benn.substack.com/p/avg-text)

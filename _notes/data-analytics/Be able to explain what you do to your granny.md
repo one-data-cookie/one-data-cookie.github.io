@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: spring
 created: 12 Oct 2021
-updated: 31 Dec 2023
+updated: 04 Feb 2024
 sources: https://getdbt.slack.com/archives/C02A4CHCD2S/p1633716950074400
 ---
 
@@ -21,4 +21,7 @@ sources: https://getdbt.slack.com/archives/C02A4CHCD2S/p1633716950074400
 - The parts we assemble should empower the builders to focus on creating a world more efficiently and without worrying as much about structural integrity.
 - A fun part of my job is deciding what those parts will be, which involves creativity and subjectivity. We have to think about things like: what might the builders build in the future? How can we build parts that efficiently serve multiple purposes today? All of this involves cooperation and collaboration with both the gatherers and the builders.
 
-![[../../assets/files/maths-evolution.jpeg]]
+![](../../assets/files/maths-evolution.jpeg)
+![](Pasted%20image%2020240204102608.png)
+
+![](../__desktop/Pasted%20image%2020240204102510.png)

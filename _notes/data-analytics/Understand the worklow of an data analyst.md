@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea, process]
 season: spring
 created: 04 Oct 2020
-updated: 02 Nov 2023
+updated: 04 Feb 2024
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 
@@ -23,4 +23,4 @@ This fits within a broader **PPDAC cycle**:
 
 But one can also think about it as this double-diamond from [here](https://nightingaledvs.com/embrace-the-challenge-to-beat-imposter-syndrome/).
 
-![[data-analysis-double-diamond.png]]
+![](../../assets/files/data-analysis-double-diamond.png)

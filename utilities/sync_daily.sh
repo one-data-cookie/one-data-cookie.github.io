@@ -29,28 +29,31 @@ echo "Staging changes"
 git add _notes
 git add assets/files
 
-# Update "updated" on modified files from _notes
+# Update files from _notes
 # From https://stackoverflow.com/a/33721446
+# and https://stackoverflow.com/a/10274182
 # split by only tab: https://www.gnu.org/software/bash/manual/bash.html#Word-Splitting
-echo "Updating date updated"
+
+echo "Updating modified files"
 git diff --cached --name-status | grep "^M" | grep "_notes/" | while IFS=$'\t' read a b; do
-  cat "$b" | sed "/---.*/,/---.*/s/^updated:.*$/updated: $(date -u "+%d %b %Y")/" > tmp
+  cat "$b" | sed "/---.*/,/---.*/s/^updated:.*$/updated: $(date -u "+%Y-%m-%d")/" > tmp
   mv tmp "$b"
   git add "$b"
 done
 
-# Update "category" on renamed and added files from _notes
-# From https://stackoverflow.com/a/33721446
-# and https://stackoverflow.com/a/10274182
-echo "Updating categories"
+echo "Updating renamed files"
 git diff --cached --name-status | grep "^R" | grep "_notes/" | while IFS=$'\t' read a b c; do
-  cat "$c" | sed "/---.*/,/---.*/s/^category:.*$/category: $(basename $(dirname "$c"))/" > tmp
+  cat "$c" | sed "/---.*/,/---.*/s/^title:.*$/title: $(basename "$c" .md)/" > tmp
+  cat tmp | sed "/---.*/,/---.*/s/^category:.*$/category: $(basename $(dirname "$c"))/" > tmp
+  cat tmp | sed "/---.*/,/---.*/s/^updated:.*$/updated: $(date -u "+%Y-%m-%d")/" > tmp
   mv tmp "$c"
   git add "$c"
 done
 
+echo "Updating added files"
 git diff --cached --name-status | grep "^A" | grep "_notes/" | while IFS=$'\t' read a b; do
-  cat "$b" | sed "/---.*/,/---.*/s/^category:.*$/category: $(basename $(dirname "$b"))/" > tmp
+  cat "$b" | sed "/---.*/,/---.*/s/^title:.*$/title: $(basename "$b" .md)/" > tmp
+  cat tmp | sed "/---.*/,/---.*/s/^category:.*$/category: $(basename $(dirname "$b"))/" > tmp
   mv tmp "$b"
   git add "$b"
 done

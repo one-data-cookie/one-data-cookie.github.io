@@ -55,8 +55,8 @@ def export_items(items, consumer_key, access_token):
             "category":
                 ' '.join(item['tags'].keys()) if item.get('tags')
                 else "",
-            "created": datetime.fromtimestamp(int(item['time_read'])).strftime('%d %b %Y'),
-            "updated": datetime.now().strftime('%d %b %Y'),
+            "created": datetime.fromtimestamp(int(item['time_read'])).strftime('%Y-%m-%d'),
+            "updated": datetime.now().strftime('%Y-%m-%d'),
             "sources": item['resolved_url'],
             "excerpt": item['excerpt'],
             "annotations":

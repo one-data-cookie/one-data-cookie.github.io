@@ -4,7 +4,8 @@ lang: en
 category: data-analytics
 tags: [idea, coalesce]
 season: winter
-dates: [19 Jan 2022, 19 Jan 2022]
+created: 2022-01-19
+updated: 2024-02-05
 sources: Analytics Engineering for storytellers, https://youtu.be/XrUy3jzuFSE
 ---
 

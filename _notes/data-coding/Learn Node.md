@@ -1,11 +1,11 @@
 ---
-title: Change your Node version with n
+title: Learn Node
 lang: en 
 category: data-coding
-tags: [how-to, node]
+tags: [learn, node]
 season: winter
 created: 2021-11-14
-updated: 2023-07-22
+updated: 2024-02-05
 sources: Misc
 ---
 

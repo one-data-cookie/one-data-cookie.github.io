@@ -2,8 +2,7 @@
 title: Learn about cryptography
 lang: en
 category: data-coding
-tags:
-  - learn
+tags: [learn]
 season: summer
 created: 2022-08-22
 updated: 2024-02-05

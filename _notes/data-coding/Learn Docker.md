@@ -2,10 +2,10 @@
 title: Learn Docker
 lang: en 
 category: data-coding
-tags: [docker]
+tags: [learn, docker]
 season: winter
 created: 2021-12-13
-updated: 2023-04-07
+updated: 2024-02-05
 sources: Misc
 ---
 

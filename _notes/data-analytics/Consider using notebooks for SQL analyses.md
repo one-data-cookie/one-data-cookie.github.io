@@ -1,11 +1,11 @@
 ---
-title: Consider using notebooks for analyses
+title: Consider using notebooks for SQL analyses
 lang: en
 category: data-analytics
 tags: [tools, sql, python]
 season: spring
 created: 2021-09-15
-updated: 2023-04-07
+updated: 2024-02-05
 sources: Misc
 ---
 

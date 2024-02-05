@@ -1,11 +1,11 @@
 ---
-title: Use INNER JOIN over subqueries mostly
+title: Use INNER JOIN over WHERE IN subqueries mostly
 lang: en
 category: data-coding
 tags: [idea, sql]
 season: spring
 created: 2023-08-23
-updated: 2023-08-23
+updated: 2024-02-05
 sources: Misc
 ---
 

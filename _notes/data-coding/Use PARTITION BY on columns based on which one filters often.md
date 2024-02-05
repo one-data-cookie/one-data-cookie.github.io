@@ -2,9 +2,7 @@
 title: Use PARTITION BY on columns based on which one filters often
 lang: en
 category: data-coding
-tags:
-  - idea
-  - sql
+tags: [idea, sql]
 season: winter
 created: 2019-03-16
 updated: 2024-02-05

@@ -1,12 +1,11 @@
 ---
-title: Find out that Excel mistakes cost millions of dollars and some people fix them as a job
+title: Find out about Excel
 lang: en
 category: data-business
-tags:
-  - idea
+tags: [idea]
 season: winter
 created: 2020-11-01
-updated: 2023-04-07
+updated: 2024-02-05
 sources: Misc
 ---
 

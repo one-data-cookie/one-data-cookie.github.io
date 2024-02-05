@@ -1,11 +1,11 @@
 ---
-title: Realise that data literacy is a combination of numeracy and graphicacy 
+title: Realise that data literacy is a combination of numeracy and graphicacy
 lang: en
 category: data-literacy
 tags: [idea]
 season: spring
 created: 2020-10-18
-updated: 2023-08-04
+updated: 2024-02-05
 sources: https://www.tableau.com/learn/data-literacy
 ---
 

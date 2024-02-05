@@ -2,9 +2,7 @@
 title: Understand that CROSS JOIN UNNEST works through value tables
 lang: en
 category: data-coding
-tags:
-  - idea
-  - sql
+tags: [idea, sql]
 season: winter
 created: 2020-06-06
 updated: 2024-02-05

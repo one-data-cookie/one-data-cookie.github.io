@@ -1,11 +1,11 @@
 ---
-title: Find out about Redshift's impact on modern data stack 
+title: Find out about Redshift's impact on modern data stack
 lang: en
 category: data-engineering
 tags: [idea, mds, history]
 season: spring
 created: 2020-12-19
-updated: 2023-08-04
+updated: 2024-02-05
 sources: https://blog.getdbt.com/future-of-the-modern-data-stack/
 ---
 

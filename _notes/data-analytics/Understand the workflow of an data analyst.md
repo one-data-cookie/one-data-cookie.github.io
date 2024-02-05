@@ -1,11 +1,11 @@
 ---
-title: Understand the worklow of an data analyst
+title: Understand the workflow of an data analyst
 lang: en
 category: data-analytics
 tags: [idea, process]
 season: spring
 created: 2020-10-04
-updated: 2024-02-04
+updated: 2024-02-05
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 

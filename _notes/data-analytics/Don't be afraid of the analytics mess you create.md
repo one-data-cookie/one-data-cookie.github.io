@@ -1,11 +1,11 @@
 ---
-title: Don't be afraid of the analytics mess you create, just plan for tidying it up
+title: Don't be afraid of the analytics mess you create
 lang: en
 category: data-analytics
 tags: [idea]
 season: spring
 created: 2021-07-26
-updated: 2023-04-07
+updated: 2024-02-05
 sources: https://benn.substack.com/p/analytics-is-a-mess
 ---
 

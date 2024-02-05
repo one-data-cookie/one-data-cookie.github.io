@@ -1,11 +1,11 @@
 ---
-title: Create fizzbuzz for SQL to test candidates
+title: Create fizzbuzz for SQL to test analyst candidates
 lang: en
 category: data-business
 tags: [sql, hiring]
 season: winter
 created: 2022-02-08
-updated: 2023-04-07
+updated: 2024-02-05
 sources: Misc
 ---
 

@@ -2,9 +2,7 @@
 title: Understand that SQL queries start with FROM
 lang: en
 category: data-coding
-tags:
-  - idea
-  - sql
+tags: [idea, sql]
 season: winter
 created: 2019-10-09
 updated: 2024-02-05

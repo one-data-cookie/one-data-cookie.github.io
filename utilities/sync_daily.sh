@@ -1,9 +1,8 @@
 #!/bin/zsh
 
 ### Launch
-timestamp=$(date -u "+%Y/%m/%d %T %Z")
 echo # add empty line before new log
-echo "Launching the script at $timestamp"
+echo "Launching the script at $(date -u "+%Y-%m-%d %T %Z")"
 
 # Load config file
 # https://askubuntu.com/a/743641
@@ -60,8 +59,7 @@ done
 
 # Commit and push to Github
 echo "Pushing changes"
-timestamp=$(date -u "+%Y/%m/%d %T %Z")
-git commit -m "sync notes and files as of $timestamp"
+git commit -m "sync notes and files as of $(date -u "+%Y-%m-%d %T %Z")"
 git push origin main
 
 ### Importing to Obsidian

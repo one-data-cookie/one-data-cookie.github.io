@@ -1,11 +1,13 @@
 ---
 title: Understand that SQL queries start with FROM
-lang: en Pochop, že SQL začíná od FROM
+lang: en
 category: data-coding
-tags: [idea, sql]
+tags:
+  - idea
+  - sql
 season: winter
 created: 09 Oct 2019
-updated: 07 Apr 2023
+updated: 2024-02-05
 sources: https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/
 ---
 

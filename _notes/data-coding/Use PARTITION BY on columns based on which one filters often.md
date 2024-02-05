@@ -1,11 +1,13 @@
 ---
 title: Use PARTITION BY on columns based on which one filters often
-lang: en Používej PARTITION BY na sloupce, podle kterých filtruješ
+lang: en
 category: data-coding
-tags: [idea, sql]
+tags:
+  - idea
+  - sql
 season: winter
 created: 16 Mar 2019
-updated: 07 Apr 2023
+updated: 2024-02-05
 sources: https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
 ---
 

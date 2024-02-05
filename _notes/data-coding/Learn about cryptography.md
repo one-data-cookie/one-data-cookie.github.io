@@ -1,11 +1,12 @@
 ---
 title: Learn about cryptography
-lang: en 
+lang: en
 category: data-coding
-tags: [learn]
+tags:
+  - learn
 season: summer
 created: 22 Aug 2022
-updated: 07 Apr 2023
+updated: 2024-02-05
 sources: https://missing.csail.mit.edu/2020/security/
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [learn, git]
 season: summer
-created: 13 Feb 2021
-updated: 01 Dec 2023
+created: 2021-02-13
+updated: 2023-12-01
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 

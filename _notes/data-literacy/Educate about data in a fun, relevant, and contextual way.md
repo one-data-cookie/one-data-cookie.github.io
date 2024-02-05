@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 17 Dec 2020
-updated: 07 Apr 2023
+created: 2020-12-17
+updated: 2023-04-07
 sources: https://www.alteryx.com/input/4-tips-for-growing-a-data-literate-workforce
 ---
 

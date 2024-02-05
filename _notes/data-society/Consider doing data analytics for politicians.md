@@ -4,8 +4,8 @@ lang: cs
 category: data-society
 tags: [idea]
 season: autumn
-created: 21 Nov 2020
-updated: 07 Apr 2023
+created: 2020-11-21
+updated: 2023-04-07
 sources: https://www.profant.eu/2020/data-a-pandemie.html, https://www.seznamzpravy.cz/clanek/tajemny-muz-ktery-na-jare-zachranil-cesko-exreditel-ceske-pojistovny-124767
 ---
 

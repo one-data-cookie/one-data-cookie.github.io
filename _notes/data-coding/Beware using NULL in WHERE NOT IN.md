@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [idea, sql]
 season: spring
-created: 28 Jan 2021
-updated: 07 Apr 2023
+created: 2021-01-28
+updated: 2023-04-07
 sources: https://www.polderknowledge.nl/2018/03/02/sql-beware-null-where-not/
 ---
  

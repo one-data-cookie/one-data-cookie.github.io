@@ -4,8 +4,8 @@ lang: en
 category: data-analytics
 tags: [idea]
 season: spring
-created: 12 Oct 2021
-updated: 04 Feb 2024
+created: 2021-10-12
+updated: 2024-02-04
 sources: https://getdbt.slack.com/archives/C02A4CHCD2S/p1633716950074400
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-analytics
 tags: [idea, process]
 season: spring
-created: 04 Oct 2020
-updated: 04 Feb 2024
+created: 2020-10-04
+updated: 2024-02-04
 sources: https://www.coordinationtoolkit.org/wp-content/uploads/130907-Data-flow.pdf
 ---
 

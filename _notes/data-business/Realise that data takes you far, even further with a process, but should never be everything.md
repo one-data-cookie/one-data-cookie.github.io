@@ -4,8 +4,8 @@ lang: cs
 category: data-business
 tags: [idea, business]
 season: winter
-created: 15 Aug 2019
-updated: 02 Dec 2023
+created: 2019-08-15
+updated: 2023-12-02
 sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCpihwqzaaSng
 ---
 

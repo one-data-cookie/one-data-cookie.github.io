@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [learn, sql]
 season: summer
-created: 21 Feb 2021
-updated: 21 Aug 2023
+created: 2021-02-21
+updated: 2023-08-21
 sources: Misc
 ---
 

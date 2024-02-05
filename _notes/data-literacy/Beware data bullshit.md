@@ -4,7 +4,7 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 18 Feb 2019
+created: 2019-02-18
 updated: 2024-02-05
 sources: Data Stories, Calling Bullshit, https://open.spotify.com/episode/192ZTX8K36SUCct1V9IGsJ?si=GH5q8CqURomk7VMNX01Wrg
 ---

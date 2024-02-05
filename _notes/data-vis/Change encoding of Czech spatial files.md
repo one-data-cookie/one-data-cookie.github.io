@@ -4,8 +4,8 @@ lang: en
 category: data-vis
 tags: [tutorial, tableau, map, czechia]
 season: spring
-created: 30 Nov 2020
-updated: 07 Apr 2023
+created: 2020-11-30
+updated: 2023-04-07
 sources: https://help.tableau.com/current/pro/desktop/en-us/maps_shapefiles.htm
 ---
 

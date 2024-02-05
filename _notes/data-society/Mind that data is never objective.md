@@ -4,8 +4,8 @@ lang: en
 category: data-society
 tags: [idea]
 season: winter
-created: 07 Feb 2020
-updated: 07 Apr 2023
+created: 2020-02-07
+updated: 2023-04-07
 sources: https://www.vice.com/en_us/article/9393w7/this-man-created-traffic-jams-on-google-maps-using-a-red-wagon-full-of-phones
 ---
 

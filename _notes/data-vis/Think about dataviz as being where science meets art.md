@@ -4,8 +4,8 @@ lang: en
 category: data-vis
 tags: [idea]
 season: winter
-created: 24 Jan 2019
-updated: 07 Apr 2023
+created: 2019-01-24
+updated: 2023-04-07
 sources: Michael Brenner at Visualising Data
 ---
 

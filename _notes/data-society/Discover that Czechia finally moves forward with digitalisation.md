@@ -4,8 +4,8 @@ lang: cs
 category: data-society
 tags: [idea]
 season: autumn
-created: 16 Mar 2023
-updated: 07 Apr 2023
+created: 2023-03-16
+updated: 2023-04-07
 sources: https://www.seznamzpravy.cz/clanek/domaci-politika-revoluce-v-dokladech-obcanka-ridicak-i-diplom-v-telefonu-planuje-bartos-227058
 ---
 

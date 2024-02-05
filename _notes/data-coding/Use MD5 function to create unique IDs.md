@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [idea, sql]
 season: spring
-created: 03 Apr 2021
-updated: 06 May 2023
+created: 2021-04-03
+updated: 2023-05-06
 sources: https://blog.getdbt.com/one-analysts-guide-for-going-from-good-to-great/
 ---
 

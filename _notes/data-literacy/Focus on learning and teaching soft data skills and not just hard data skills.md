@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 01 May 2022
-updated: 02 Sep 2023
+created: 2022-05-01
+updated: 2023-09-02
 sources: NA
 ---
 

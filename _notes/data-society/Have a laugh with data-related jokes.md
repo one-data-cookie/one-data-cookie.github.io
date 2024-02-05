@@ -4,8 +4,8 @@ lang: en
 category: data-society
 tags: [random]
 season: winter
-created: 03 Apr 2021
-updated: 07 Apr 2023
+created: 2021-04-03
+updated: 2023-04-07
 sources: dilbert.com
 ---
 

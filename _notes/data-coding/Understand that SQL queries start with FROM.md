@@ -6,7 +6,7 @@ tags:
   - idea
   - sql
 season: winter
-created: 09 Oct 2019
+created: 2019-10-09
 updated: 2024-02-05
 sources: https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/
 ---

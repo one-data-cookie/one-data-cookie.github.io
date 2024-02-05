@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [learn, cli]
 season: summer
-created: 19 Aug 2021
-updated: 07 Apr 2023
+created: 2021-08-19
+updated: 2023-04-07
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [mac]
 season: spring
-created: 26 Nov 2021
-updated: 07 Apr 2023
+created: 2021-11-26
+updated: 2023-04-07
 sources: Misc
 ---
 

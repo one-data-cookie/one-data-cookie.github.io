@@ -4,8 +4,8 @@ lang: cs
 category: data-analytics
 tags: [idea]
 season: winter
-created: 14 Jul 2020
-updated: 07 Apr 2023
+created: 2020-07-14
+updated: 2023-04-07
 sources: https://www.irozhlas.cz/zpravy-domov/vinohradska-12-podcast-datari-novinarska-cena_2006220600_bar
 ---
 

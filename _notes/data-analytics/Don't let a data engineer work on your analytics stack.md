@@ -4,8 +4,8 @@ lang: en
 category: data-analytics
 tags: [idea]
 season: winter
-created: 15 Sep 2021
-updated: 07 Apr 2023
+created: 2021-09-15
+updated: 2023-04-07
 sources: https://getdbt.slack.com/archives/C022A67TLFL/p1628609635109800?thread_ts=1628279819.038800&cid=C022A67TLFL
 ---
 

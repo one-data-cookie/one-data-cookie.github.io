@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [how-to, idea]
 season: spring
-created: 11 Apr 2022
-updated: 07 Apr 2023
+created: 2022-04-11
+updated: 2023-04-07
 sources: https://kevinquinn.fun/blog/personalize-your-development-environment-with-dotfiles/, https://missing.csail.mit.edu/2020/command-line/
 ---
 

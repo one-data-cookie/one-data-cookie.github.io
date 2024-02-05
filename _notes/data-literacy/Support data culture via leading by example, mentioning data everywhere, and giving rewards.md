@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 08 Mar 2019
-updated: 07 Apr 2023
+created: 2019-03-08
+updated: 2023-04-07
 sources: https://hbr.org/2018/10/make-data-a-cornerstone-of-your-team
 ---
 

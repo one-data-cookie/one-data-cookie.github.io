@@ -4,8 +4,8 @@ lang: en
 category: data-vis
 tags: [idea]
 season: autumn
-created: 24 Feb 2021
-updated: 04 Aug 2023
+created: 2021-02-24
+updated: 2023-08-04
 sources: Misc
 ---
 

@@ -4,8 +4,8 @@ lang: cs
 category: data-business
 tags: [idea, business]
 season: winter
-created: 15 Aug 2019
-updated: 07 Apr 2023
+created: 2019-08-15
+updated: 2023-04-07
 sources: Radek Hájek, Kofola, https://open.spotify.com/episode/46ShGA2oJZF9qlAdyCMiFn?si=clhakw4UTdOnjoCgg7DyaQ
 ---
 

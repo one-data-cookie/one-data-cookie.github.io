@@ -4,8 +4,8 @@ lang: en
 category: data-business
 tags: [idea]
 season: winter
-created: 18 Feb 2019
-updated: 07 Apr 2023
+created: 2019-02-18
+updated: 2023-04-07
 sources: https://www.forbes.com/sites/homaycotte/2014/10/28/data-literacy-what-it-is-and-why-none-of-us-have-it/#4d0bb6f68bb4
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 08 Oct 2020
-updated: 07 Apr 2023
+created: 2020-10-08
+updated: 2023-04-07
 sources: David Sigerson, How to Lie with Statistics, https://tc20.tableau.com/episodes/how-lie-statistics-108
 ---
 

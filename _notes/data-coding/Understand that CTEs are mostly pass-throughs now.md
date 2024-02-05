@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [idea, sql]
 season: winter
-created: 02 Mar 2021
-updated: 07 Apr 2023
+created: 2021-03-02
+updated: 2023-04-07
 sources: https://discourse.getdbt.com/t/ctes-are-passthroughs-some-research/155, https://news.ycombinator.com/item?id=7024419
 ---
 

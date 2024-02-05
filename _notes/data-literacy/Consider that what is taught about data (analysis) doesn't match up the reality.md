@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 20 Jun 2021
-updated: 07 Apr 2023
+created: 2021-06-20
+updated: 2023-04-07
 sources: https://analyticsengineers.club/data-education-is-broken/
 ---
 

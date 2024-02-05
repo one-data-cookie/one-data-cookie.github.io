@@ -4,8 +4,8 @@ lang: en
 category: data-science
 tags: [idea, deep-learning]
 season: winter
-created: 16 Mar 2019
-updated: 07 Apr 2023
+created: 2019-03-16
+updated: 2023-04-07
 sources: https://medium.com/s/story/spotifys-discover-weekly-how-machine-learning-finds-your-new-music-19a41ab76efe
 ---
 

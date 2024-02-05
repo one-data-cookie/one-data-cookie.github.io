@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 18 Feb 2019
-updated: 07 Apr 2023
+created: 2019-02-18
+updated: 2023-04-07
 sources: Data Stories, What's going on in this graph by New York Times, https://open.spotify.com/episode/6hQ3yDpvKdZHq3H00DZBhX?si=h_Md-BePR62mEfa_NBrgAA
 ---
 

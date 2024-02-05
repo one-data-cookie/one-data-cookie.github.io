@@ -4,8 +4,8 @@ lang: cs
 category: data-society
 tags: [idea]
 season: winter
-created: 08 Jul 2022
-updated: 07 Apr 2023
+created: 2022-07-08
+updated: 2023-04-07
 sources: Misc
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [idea]
 season: spring
-created: 24 Jun 2021
-updated: 07 Apr 2023
+created: 2021-06-24
+updated: 2023-04-07
 sources: https://about.gitlab.com/blog/2019/04/15/open-source-analytics/
 ---
 

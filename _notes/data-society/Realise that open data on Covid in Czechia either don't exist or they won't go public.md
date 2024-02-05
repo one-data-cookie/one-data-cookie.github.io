@@ -4,8 +4,8 @@ lang: cs
 category: data-society
 tags: [idea, open-data]
 season: winter
-created: 12 May 2020
-updated: 07 Apr 2023
+created: 2020-05-12
+updated: 2023-04-07
 sources: https://www.respekt.cz/rozhovor/otvirat-zemi-bez-dat-je-ruska-ruleta-varuje-vykazany-expert
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [how-to, python, js]
 season: spring
-created: 21 Apr 2022
-updated: 21 Apr 2022
+created: 2022-04-21
+updated: 2022-04-21
 sources: Misc
 ---
 

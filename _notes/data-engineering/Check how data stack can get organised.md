@@ -4,8 +4,8 @@ lang: en
 category: data-engineering
 tags: [idea]
 season: winter
-created: 15 Sep 2021
-updated: 04 Aug 2023
+created: 2021-09-15
+updated: 2023-08-04
 sources: https://blockblogfr.blogspot.com/2020/10/emerging-architectures-for-modern-data.html
 ---
 

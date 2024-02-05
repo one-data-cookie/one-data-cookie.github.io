@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [tech, emoji, internet]
 season: summer
-created: 03 Apr 2021
-updated: 16 Sep 2023
+created: 2021-04-03
+updated: 2023-09-16
 sources: Misc
 ---
 

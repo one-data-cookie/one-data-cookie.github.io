@@ -4,8 +4,8 @@ lang: en
 category: data-business
 tags: [idea]
 season: spring
-created: 03 Apr 2021
-updated: 07 Apr 2023
+created: 2021-04-03
+updated: 2023-04-07
 sources: https://www.secoda.co/blog/how-to-create-a-data-dictionary-a-step-by-step-guide, 
 ---
 

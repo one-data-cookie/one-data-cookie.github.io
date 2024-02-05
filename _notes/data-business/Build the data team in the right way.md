@@ -4,8 +4,8 @@ lang: en
 category: data-business
 tags: [idea]
 season: autumn
-created: 15 Sep 2021
-updated: 07 Apr 2023
+created: 2021-09-15
+updated: 2023-04-07
 sources: Misc
 ---
 

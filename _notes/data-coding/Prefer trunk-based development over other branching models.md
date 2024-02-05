@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [idea]
 season: spring
-created: 17 Mar 2021
-updated: 07 Apr 2023
+created: 2021-03-17
+updated: 2023-04-07
 sources: https://trunkbaseddevelopment.com/
 ---
 

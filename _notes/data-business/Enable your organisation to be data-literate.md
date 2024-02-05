@@ -4,8 +4,8 @@ lang: en
 category: data-business
 tags: [idea, coalesce]
 season: winter
-created: 19 Jan 2022
-updated: 07 Apr 2023
+created: 2022-01-19
+updated: 2023-04-07
 sources: Why dbt Labs is making the bet on a data literate organization, https://youtu.be/7OYGWM3Bwhw
 ---
 

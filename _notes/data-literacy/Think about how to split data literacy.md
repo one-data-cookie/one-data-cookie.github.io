@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: spring
-created: 10 Mar 2019
-updated: 04 Aug 2023
+created: 2019-03-10
+updated: 2023-08-04
 sources: NA
 ---
 

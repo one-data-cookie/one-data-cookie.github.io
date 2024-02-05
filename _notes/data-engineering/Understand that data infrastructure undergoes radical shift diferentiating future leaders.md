@@ -4,8 +4,8 @@ lang: en
 category: data-engineering
 tags: [idea]
 season: winter
-created: 21 Nov 2020
-updated: 04 Aug 2023
+created: 2020-11-21
+updated: 2023-08-04
 sources: https://a16z.com/2020/10/15/the-emerging-architectures-for-modern-data-infrastructure/
 ---
 

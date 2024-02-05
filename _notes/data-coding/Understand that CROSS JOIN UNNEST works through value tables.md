@@ -6,7 +6,7 @@ tags:
   - idea
   - sql
 season: winter
-created: 06 Jun 2020
+created: 2020-06-06
 updated: 2024-02-05
 sources: https://stackoverflow.com/questions/47670451/sql-array-flattening-why-doesnt-cross-join-unnest-join-every-nested-value-with
 ---

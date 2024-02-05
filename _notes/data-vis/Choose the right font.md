@@ -4,8 +4,8 @@ lang: en
 category: data-vis
 tags: [tutorial, font]
 season: autumn
-created: 08 Jan 2021
-updated: 07 Apr 2023
+created: 2021-01-08
+updated: 2023-04-07
 sources: https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [idea, sql]
 season: spring
-created: 23 Aug 2023
-updated: 23 Aug 2023
+created: 2023-08-23
+updated: 2023-08-23
 sources: Misc
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: spring
-created: 18 Oct 2020
-updated: 04 Aug 2023
+created: 2020-10-18
+updated: 2023-08-04
 sources: https://www.tableau.com/learn/data-literacy
 ---
 

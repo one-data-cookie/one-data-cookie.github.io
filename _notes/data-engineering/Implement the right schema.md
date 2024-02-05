@@ -4,8 +4,8 @@ lang: en
 category: data-engineering
 tags: [idea]
 season: spring
-created: 22 Oct 2021
-updated: 07 Apr 2023
+created: 2021-10-22
+updated: 2023-04-07
 sources: https://www.activityschema.com/, https://github.com/ActivitySchema/ActivitySchema/blob/main/spec.md, https://www.fivetran.com/blog/star-schema-vs-obt
 ---
 

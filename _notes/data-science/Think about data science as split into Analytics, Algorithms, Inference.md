@@ -4,8 +4,8 @@ lang: en
 category: data-science
 tags: [idea]
 season: winter
-created: 11 Oct 2019
-updated: 07 Apr 2023
+created: 2019-10-11
+updated: 2023-04-07
 sources: https://www.linkedin.com/pulse/one-data-science-job-doesnt-fit-all-elena-grewal
 ---
 

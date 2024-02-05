@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [ideas, sql]
 season: spring
-created: 19 Jun 2021
-updated: 07 Apr 2023
+created: 2021-06-19
+updated: 2023-04-07
 sources: https://towardsdatascience.com/sqlfluff-the-linter-for-modern-sql-8f89bd2e9117
 ---
 

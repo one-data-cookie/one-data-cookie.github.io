@@ -4,8 +4,8 @@ lang: cs
 category: data-society
 tags: [idea, open-data]
 season: winter
-created: 16 Feb 2019
-updated: 07 Apr 2023
+created: 2019-02-16
+updated: 2023-04-07
 sources: Michal Kubáně, national coordinator of open data in Czechia, https://open.spotify.com/episode/1UiMF5DnwNVsMkDgGKY9xV?si=Z2cAx2GYSRuiQ5tvLVTgBA
 ---
 

@@ -4,8 +4,8 @@ lang: cs
 category: data-analytics
 tags: [idea]
 season: autumn
-created: 01 Mar 2021
-updated: 07 Apr 2023
+created: 2021-03-01
+updated: 2023-04-07
 sources: 
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-vis
 tags: [checklist]
 season: spring
-created: 13 Feb 2021
-updated: 04 Aug 2023
+created: 2021-02-13
+updated: 2023-08-04
 sources: Misc
 ---
 

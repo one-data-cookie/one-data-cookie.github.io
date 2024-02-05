@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 16 Jan 2019
-updated: 07 Apr 2023
+created: 2019-01-16
+updated: 2023-04-07
 sources: https://hbr.org/2018/10/3-ways-to-build-a-data-driven-team
 ---
 

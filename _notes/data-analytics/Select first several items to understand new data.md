@@ -4,8 +4,8 @@ lang: en
 category: data-analytics
 tags: [idea, sql]
 season: spring
-created: 19 Mar 2021
-updated: 07 Apr 2023
+created: 2021-03-19
+updated: 2023-04-07
 sources: https://selectstar.blog/2019/02/02/the-first-query/
 ---
 

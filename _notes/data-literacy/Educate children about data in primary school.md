@@ -4,8 +4,8 @@ lang: en
 category: data-literacy
 tags: [idea]
 season: winter
-created: 16 Mar 2019
-updated: 07 Apr 2023
+created: 2019-03-16
+updated: 2023-04-07
 sources: https://open.spotify.com/episode/0HxgGb2wdSwNnzbWlNBtYR?si=oxesr4eRRBuaNcIDOrlEBQ
 ---
 

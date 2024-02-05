@@ -6,7 +6,7 @@ tags:
   - idea
   - sql
 season: winter
-created: 16 Mar 2019
+created: 2019-03-16
 updated: 2024-02-05
 sources: https://aws.amazon.com/blogs/big-data/top-10-performance-tuning-tips-for-amazon-athena/
 ---

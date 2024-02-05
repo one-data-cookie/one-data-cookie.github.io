@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [docker]
 season: winter
-created: 13 Dec 2021
-updated: 07 Apr 2023
+created: 2021-12-13
+updated: 2023-04-07
 sources: Misc
 ---
 

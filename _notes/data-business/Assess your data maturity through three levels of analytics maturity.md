@@ -4,8 +4,8 @@ lang: en
 category: data-business
 tags: [idea]
 season: spring
-created: 23 Jun 2021
-updated: 07 Apr 2023
+created: 2021-06-23
+updated: 2023-04-07
 sources: https://about.gitlab.com/blog/2019/11/04/three-levels-data-analysis/
 ---
 

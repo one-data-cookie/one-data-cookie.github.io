@@ -4,8 +4,8 @@ lang: cs
 category: data-society
 tags: [idea]
 season: autumn
-created: 16 Mar 2019
-updated: 07 Apr 2023
+created: 2019-03-16
+updated: 2023-04-07
 sources: https://open.spotify.com/episode/308ZJKb2uI6z1SyZKDbZmf?si=6K8MUH7HTOOeMYMrkvO37A
 ---
 

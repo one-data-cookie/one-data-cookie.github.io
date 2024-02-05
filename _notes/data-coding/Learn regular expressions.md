@@ -4,8 +4,8 @@ lang: en
 category: data-coding
 tags: [learn, regexp]
 season: spring
-created: 26 Apr 2022
-updated: 07 Apr 2023
+created: 2022-04-26
+updated: 2023-04-07
 sources: Misc
 ---
 

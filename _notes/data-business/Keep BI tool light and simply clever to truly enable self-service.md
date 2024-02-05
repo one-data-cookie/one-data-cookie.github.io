@@ -4,8 +4,8 @@ lang: en
 category: data-business
 tags: [idea]
 season: spring
-created: 18 Apr 2021
-updated: 07 Apr 2023
+created: 2021-04-18
+updated: 2023-04-07
 sources: https://benn.substack.com/p/self-serve-still-a-problem, https://getdbt.slack.com/archives/C0VLNUUTZ/p1617896542331100
 ---
 

@@ -4,8 +4,8 @@ lang: en
 category: data-vis
 tags: [checklist]
 season: summer
-created: 19 Aug 2018
-updated: 07 Apr 2023
+created: 2018-08-19
+updated: 2023-04-07
 sources: http://www.makeovermonday.co.uk/week-33-2018/
 ---
 

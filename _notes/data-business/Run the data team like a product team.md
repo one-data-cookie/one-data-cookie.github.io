@@ -4,8 +4,8 @@ lang: en
 category: data-business
 tags: [idea]
 season: spring
-created: 22 Jun 2021
-updated: 25 Jul 2023
+created: 2021-06-22
+updated: 2023-07-25
 sources: https://locallyoptimistic.com/post/run-your-data-team-like-a-product-team/, https://locallyoptimistic.com/post/data-product-manager/
 ---
 

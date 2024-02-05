@@ -4,8 +4,8 @@ lang: en
 category: data-engineering
 tags: [idea, mds, history]
 season: spring
-created: 19 Dec 2020
-updated: 04 Aug 2023
+created: 2020-12-19
+updated: 2023-08-04
 sources: https://blog.getdbt.com/future-of-the-modern-data-stack/
 ---
 

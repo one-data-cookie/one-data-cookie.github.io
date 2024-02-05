@@ -4,8 +4,8 @@ lang: en
 category: data-analytics
 tags: [idea, talk]
 season: winter
-created: 10 Jan 2021
-updated: 07 Apr 2023
+created: 2021-01-10
+updated: 2023-04-07
 sources: The Past and Future of Data Analysis, Roger Peng, PhD; Professor of Biostatistics, https://youtu.be/qFtJaq4TlqE
 ---
 

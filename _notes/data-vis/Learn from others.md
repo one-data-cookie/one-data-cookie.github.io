@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 2021-02-13
-updated: 2023-12-02
+updated: 2024-02-09
 sources: Misc
 ---
 
@@ -81,6 +81,7 @@ sources: Misc
 	- [Michal Škop](https://github.com/michalskop)
 	- [Lucia Kocincova](http://lucyia.com/)
 	- [Zuzana Vejrazkova](https://www.linkedin.com/in/zuzanavejrazkova)
+- [Financial Times: John Burn-Murdoch](https://www.ft.com/john-burn-murdoch)
 
 ## Challenges
 - [Dataviz challenges from DVS](https://docs.google.com/spreadsheets/d/1PDsC10-NRVLC5pxZaJ1JO_NzYxVmB7Bx7RPoYPT1h_8/edit#gid=649830353)

@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: spring
 created: 2021-10-12
-updated: 2024-02-04
+updated: 2024-02-10
 sources: https://getdbt.slack.com/archives/C02A4CHCD2S/p1633716950074400
 ---
 
@@ -22,6 +22,3 @@ sources: https://getdbt.slack.com/archives/C02A4CHCD2S/p1633716950074400
 - A fun part of my job is deciding what those parts will be, which involves creativity and subjectivity. We have to think about things like: what might the builders build in the future? How can we build parts that efficiently serve multiple purposes today? All of this involves cooperation and collaboration with both the gatherers and the builders.
 
 ![](../../assets/files/maths-evolution.jpeg)
-![](Pasted%20image%2020240204102608.png)
-
-![](../__desktop/Pasted%20image%2020240204102510.png)

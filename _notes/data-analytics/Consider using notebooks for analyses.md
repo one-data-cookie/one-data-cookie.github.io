@@ -1,11 +1,14 @@
 ---
-title: Consider using notebooks for SQL analyses
+title: Consider using notebooks for analyses
 lang: en
 category: data-analytics
-tags: [tools, sql, python]
+tags:
+  - tools
+  - sql
+  - python
 season: spring
 created: 2021-09-15
-updated: 2024-02-05
+updated: 2024-02-15
 sources: Misc
 ---
 
@@ -43,6 +46,12 @@ sources: Misc
 	- Build & share delightful ML apps
 	- Quick to set up, using Python
 	- Similar to Streamlit
+- [Marimo](https://marimo.io/)
+	- The future of Python notebooks
+	- No baggage, very nicely works even in virtual env, no extensions
+	- Solves a lot of [issues of standard Jupyter notebooks](https://www.youtube.com/watch?v=7jiPeIFXb6U)
+	- Itself written and run in Python and nothing else – easier to git-version etc.
+	- Has Copilot and Black out of the box
 
 ## SQL
 - [Evidence](https://www.evidence.dev/)

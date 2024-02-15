@@ -5,7 +5,7 @@ category: data-coding
 tags: [tutorial]
 season: spring
 created: 2021-09-29
-updated: 2023-05-06
+updated: 2024-02-15
 sources: Misc
 ---
 
@@ -23,3 +23,4 @@ sources: Misc
 - [Docs](https://python-poetry.org/docs/basic-usage/)
 - [When using Typer](https://typer.tiangolo.com/tutorial/package/)
 - [How to Effortlessly Publish your Python Package to PyPI Using Poetry](https://towardsdatascience.com/how-to-effortlessly-publish-your-python-package-to-pypi-using-poetry-44b305362f9f)
+- It also helps with setup via [`poetry init`](https://python-poetry.org/docs/cli/#init)

@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 2021-01-03
-updated: 2023-11-17
+updated: 2024-02-22
 sources: Misc
 ---
 
@@ -61,6 +61,8 @@ sources: Misc
 	- All Emojis to ✂️ Copy and 📋 Paste 👌
 
 ## Colours
+- [Color Designer](https://colordesigner.io/)
+	- Color tools platform with 11 different tools –  color wheel, palettes, scheme builder, gradient options and more.
 - [Picular](https://picular.co/)
 	- Picular is a rocket fast primary colour generator using Google’s image search. If you ever needed the perfect yellow hex code from a banana, this is the tool for you.
 - [Colour Wheel](https://color.adobe.com/create/color-wheel)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Speaking about Analytics Engineering at ECON MUNI
+title: Speaking about analytics engineering at ECON MUNI
 category: speaking
 dates: [2024-02-23]
 content-type: eg

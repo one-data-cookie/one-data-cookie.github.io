@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-02-17
+updated: 2024-03-14
 sources: Misc
 ---
 
@@ -93,6 +93,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [ElevenLabs](https://elevenlabs.io/): text-to-speech generation
 - [Pika](https://pika.art/): video generation
 - [Sanctum](https://sanctum.ai/): run & interact with open-source LLMs locally
+- [Suno](https://www.suno.ai/): generating music 
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

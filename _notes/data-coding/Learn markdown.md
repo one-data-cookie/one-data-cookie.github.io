@@ -5,13 +5,13 @@ category: data-coding
 tags: [learn, markdown]
 season: winter
 created: 2021-11-23
-updated: 2023-04-07
+updated: 2024-03-23
 sources: Misc
 ---
 
 ## General
 - [CommonMark](https://commonmark.org/)
-- [GitHub Markdown](https://github.github.com/gfm/)
+- [GitHub Markdown](https://github.github.com/gfm/), incl. things like [alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
 
 ## Snippets
 - How to reference local files

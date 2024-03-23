@@ -5,7 +5,7 @@ category: data-science
 tags: [learn]
 season: spring
 created: 2021-02-21
-updated: 2023-08-04
+updated: 2024-03-23
 sources: Misc
 ---
 
@@ -22,6 +22,8 @@ sources: Misc
 ## Machine Learning
 - [Making Friends with Machine Learning: The Entire Course](https://www.youtube.com/watch?v=1vkb7BCMQd0) – 6.5 hours of Google’s legendary AI course designed to enlighten AI beginners, grow technology leaders, inform better citizens, and amuse AI experts!
 - [Machine Learning A-Z™ on Udemy](https://www.udemy.com/machinelearning/)
+- [MIT – Introduction to Machine Learning](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/#block-v1:MITx+6.036+1T2019+type@sequential+block@intro_ml)
+- [Your First Machine Learning Project in Python Step-By-Step](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/chap2.html) – a hands-on course in Data Science using Python & R with [these datasets](https://www.superdatascience.com/machine-learning/)
 - [Text mining and word cloud fundamentals in R](http://www.sthda.com/english/wiki/text-mining-and-word-cloud-fundamentals-in-r-5-simple-steps-you-should-know)
 - [Decision Trees vs. Clustering](http://blog.data-miners.com/2008/10/decision-trees-and-clustering.html)

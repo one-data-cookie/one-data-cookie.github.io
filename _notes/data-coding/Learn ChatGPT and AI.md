@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-03-14
+updated: 2024-04-04
 sources: Misc
 ---
 
@@ -78,6 +78,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): an experimental open-source attempt to make GPT-4 fully autonomous (with [Cognosys](https://app.cognosys.ai/) and [AgentGPT](https://agentgpt.reworkd.ai/) as alternatives)
 - [Sharly](https://www.sharly.ai/): chat with any documents
 - [Poe](https://poe.com/): universal AI messaging app
+- [FlowGPT](https://flowgpt.com/): universal AI messaging app, more aimed at specific chat expriences
 - [Midjourney](https://www.midjourney.com/): create pictures
 - [Claude](https://claude.ai/): yet another chat
 - [Koala](https://koala.sh/chat): and another chat but with free GPT 3.5

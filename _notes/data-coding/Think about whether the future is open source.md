@@ -5,7 +5,7 @@ category: data-coding
 tags: [idea]
 season: spring
 created: 2021-03-10
-updated: 2023-04-07
+updated: 2024-04-13
 sources: https://www.niallrees.com/posts/lessons-from-a-year-of-open-source, https://maximebeauchemin.medium.com/the-future-of-business-intelligence-is-open-source-9b654595773a
 ---
 
@@ -39,3 +39,5 @@ If I could only use a single word to describe why the time is right for organiza
 2.  Contributing to a new codebase just _is_ hard, but a good workflow will make life easier
 3.  Contribute when you have a reason to.
 
+# Links
+- [OSS Insight](https://ossinsight.io/) – Deep insight into developers and repos on GitHub about stars, pull requests, issues, pushes, comments, reviews..

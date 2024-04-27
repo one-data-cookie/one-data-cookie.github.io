@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, tableau]
 season: spring
 created: 2018-09-23
-updated: 2023-08-04
+updated: 2024-04-27
 sources: Misc
 ---
 
@@ -41,6 +41,7 @@ sources: Misc
 - [Tableau Conference 2017 on YouTube](https://www.youtube.com/playlist?list=PL_qx68DwhYA8hi22EeVgfxQLmDMDyd049)
 
 ## Chart Types
+- [Tableau Viz Extensions](https://www.tableau.com/blog/visual-analytics-tableau-viz-extensions)
 - [Youtube Playlist from Information Lab](https://www.youtube.com/playlist?list=PL_t5OlLHbVGxFSiWXUsEQrDPvFd1Nhxiu)
 - [Youtube Playlist from Superdata Science](https://www.youtube.com/playlist?list=PLE50-dh6JzC450Hn6EjPM238yZUPs-RQ1)
 - [Tableau Reference Guides](http://www.tableaureferenceguide.com/)

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-04-24
+updated: 2024-05-15
 sources: Misc
 ---
 
@@ -121,3 +121,13 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Is LLMs maybe the query language for text?](https://benn.substack.com/p/avg-text)
 - [Miloš Čermák, GUG](https://www.youtube.com/watch?v=ZSl3Y698--U): "It's more like a human, than a technology" (because of being trained on our language and making mistakes)
 - [This research](https://ct24.ceskatelevize.cz/clanek/veda/umele-inteligence-maji-obri-uhlikovou-stopu-vytvoreni-jednoho-obrazku-spotrebuje-stejne-elektriny-ja-343897): It takes about the same amount of energy to charge a phone as to generate one image using AI
+- [Stanislav Fort – Nečekali jsme, že se umělá inteligence naučí rozumět emocím](https://www.respekt.cz/tydenik/2024/20/necekali-jsme-ze-se-umela-inteligence-nauci-rozumet-emocim):
+	- It makes sense to talk to ChatGPT and then let it summarise your convo and save it.
+	- We understand how AI works on the elementary level but have little knowledge of how it works as a whole. Humanity never encountered anything like that before.
+	- It is enabled by computational power of Avogadro constant – border between micro- and macroscopic world. 20 years ago, a single graphic chip used for training would be a supercomputer. Together though, it needs a small power plant to power it.
+	- Similar to brain but it can do 100x more on some fruit a day.
+	- That it's surprising to many that AI is great at implicit understanding but terrible at maths and logic.
+	- Specifically-trained AI solved one of biological mysteries of many years. The team behind it might even get a Nobel price for it.
+	- Some teams are building AI supervised by another AI, specifically trained to do that.
+	- It might be easy to hack AI by simply putting a sticker on a road sign. There are people trying to prevent it but it will always be a chase.
+	- We might be heading a future where real pictures are water-marked.

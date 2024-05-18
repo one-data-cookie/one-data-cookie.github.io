@@ -91,3 +91,8 @@ Documents
     Created: 2018-05-16T14:52:08+02:00
     Updated: 2019-07-07T18:21:30+02:00
     Source:  http://www.makeovermonday.co.uk/week-32-2018/
+
+
+---
+
+- [Tips & Tricks to Improve your Dashboard Design](https://nightingaledvs.com/tips-tricks-to-improve-dashboard-design/)

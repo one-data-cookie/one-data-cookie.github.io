@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: spring
 created: 2020-12-17
-updated: 2023-08-04
+updated: 2024-05-21
 sources: Misc
 ---
 
@@ -46,7 +46,6 @@ As data tools changed, so did the people who used them. People who weren't on da
 He wasn't interested in laying the foundation for an analytics function that scaled with more people, he wanted to build an analytics function that scaled with code.
 
 So instead of churning out monthly Excel reports, Sagar's job is now to:
-
 * Extract data from front-end tools and load it into Snowflake using an automated data pipeline tool. He chose Stitch.
 * Transform data using dbt to write SQL transformations within the data warehouse.
 * Deliver clean, tested, and ready-to-use data to Looker for analysis.
@@ -101,7 +100,6 @@ A few key trends are converging: 
 ---
 
 Their job is to:
-
 - Write production-quality ELT code with an eye towards performance and maintainability
 - Coach analysts and data scientists on software engineering best practices (e.g., building testing suites and CI pipelines)
 - Build software tools that help data scientists and analysts work more efficiently (e.g., writing an internal R or Python tooling package for analysts to use)

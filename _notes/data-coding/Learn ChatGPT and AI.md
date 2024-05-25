@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-05-15
+updated: 2024-05-25
 sources: Misc
 ---
 
@@ -78,7 +78,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): an experimental open-source attempt to make GPT-4 fully autonomous (with [Cognosys](https://app.cognosys.ai/) and [AgentGPT](https://agentgpt.reworkd.ai/) as alternatives)
 - [Sharly](https://www.sharly.ai/): chat with any documents
 - [Poe](https://poe.com/): universal AI messaging app
-- [FlowGPT](https://flowgpt.com/): universal AI messaging app, more aimed at specific chat expriences
+- [Ollama](https://ollama.com/): run large language models, locally
+- [FlowGPT](https://flowgpt.com/): universal AI messaging app, more aimed at specific chat experiences
 - [Midjourney](https://www.midjourney.com/): create pictures
 - [Claude](https://claude.ai/): yet another chat
 - [Koala](https://koala.sh/chat): and another chat but with free GPT 3.5
@@ -125,9 +126,9 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 	- It makes sense to talk to ChatGPT and then let it summarise your convo and save it.
 	- We understand how AI works on the elementary level but have little knowledge of how it works as a whole. Humanity never encountered anything like that before.
 	- It is enabled by computational power of Avogadro constant – border between micro- and macroscopic world. 20 years ago, a single graphic chip used for training would be a supercomputer. Together though, it needs a small power plant to power it.
-	- Similar to brain but it can do 100x more on some fruit a day.
+	- Similar to the brain, but it can do 100x more on some fruit a day.
 	- That it's surprising to many that AI is great at implicit understanding but terrible at maths and logic.
 	- Specifically-trained AI solved one of biological mysteries of many years. The team behind it might even get a Nobel price for it.
 	- Some teams are building AI supervised by another AI, specifically trained to do that.
 	- It might be easy to hack AI by simply putting a sticker on a road sign. There are people trying to prevent it but it will always be a chase.
-	- We might be heading a future where real pictures are water-marked.
+	- We might be heading into a future where real pictures are watermarked.

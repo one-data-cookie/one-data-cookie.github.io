@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools]
 season: summer
 created: 2021-01-03
-updated: 2023-12-27
+updated: 2024-05-26
 sources: Misc
 ---
 
@@ -25,7 +25,7 @@ sources: Misc
 	- Infogram is an intuitive visualization tool that empowers people and teams to create beautiful content.
 - [Lyra](https://idl.cs.washington.edu/projects/lyra/)
 	- Lyra is an interactive environment that enables custom visualization design without writing any code. One of the first of its kind.
-- [[../data-coding/Master tools for Python\|Python]]
+- [[../data-coding/Learn Python|Python]]
 	- Using Python to visualise data.
 - [visx](https://airbnb.io/visx/)
 	- Airbnb's project that brings together the power of D3 with the joy of React, esp. [useful for frontend developers](https://medium.com/airbnb-engineering/introducing-visx-from-airbnb-fd6155ac4658).

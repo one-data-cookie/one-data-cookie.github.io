@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-05-25
+updated: 2024-05-26
 sources: Misc
 ---
 
@@ -116,7 +116,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > 3. We will continue this iterative process with me providing additional information to you and you updating the prompt in the Revised prompt section until it's complete.
 
 ## Biases
-![](chat-gpt-biases.png)
+![](../../../assets/files/chat-gpt-biases.png)
 
 ## Thoughts
 - [Is LLMs maybe the query language for text?](https://benn.substack.com/p/avg-text)
@@ -132,3 +132,13 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 	- Some teams are building AI supervised by another AI, specifically trained to do that.
 	- It might be easy to hack AI by simply putting a sticker on a road sign. There are people trying to prevent it but it will always be a chase.
 	- We might be heading into a future where real pictures are watermarked.
+- [Mrshu](https://mareksuppa.com/) when talking about ChatGPT 4o:
+	- "autocomplete"
+	- with top `p` sampling
+	- with subword level tokenization (→ problem with a lot of things)
+	- with base model & then fine-tuning
+	- brute force – simple idea (500 lines of C), scaled insanly
+	- "take a deep breath and do this step by step" helps even AI
+	- picture to patches to sequences to LLMs → simplification to the same problem
+	- OAI CLIP just puts these together in one vector space, using alt text
+	- what's new is that they are able to generate different modalities, not just take them; but its not out yet

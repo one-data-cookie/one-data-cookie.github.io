@@ -1,12 +1,13 @@
 ---
 title: Implement the right schema
-lang: en 
+lang: en
 category: data-engineering
-tags: [idea]
+tags:
+  - idea
 season: spring
 created: 2021-10-22
-updated: 2023-04-07
-sources: https://www.activityschema.com/, https://github.com/ActivitySchema/ActivitySchema/blob/main/spec.md, https://www.fivetran.com/blog/star-schema-vs-obt
+updated: 2024-06-01
+sources: https://www.activityschema.com/, https://github.com/ActivitySchema/ActivitySchema/blob/main/spec.md, https://www.fivetran.com/blog/star-schema-vs-obt, https://docs.oracle.com/cd/A97630_01/server.920/a96520/schemas.htm
 ---
 
 ## Star Schema & One Big Table

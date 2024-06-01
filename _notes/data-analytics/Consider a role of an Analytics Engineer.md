@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: spring
 created: 2020-12-17
-updated: 2024-05-21
+updated: 2024-06-01
 sources: Misc
 ---
 
@@ -106,3 +106,17 @@ Their job is to:
 - Collaborate with data engineers on infrastructure projects (where they advocate for and emphasize the business value of applications)
 
 [The Analytics Engineer by Michael Kaminsky](https://locallyoptimistic.com/post/analytics-engineer/)
+
+---
+
+We are **pretengineers**. And we **build data assets**, not models.
+
+> But another way to think about a dbt model is that it’s a function. […] The model is a formula that contains a bunch of computational logic that describes how to do that calculation. A dbt project, then, is roughly analogous to a program.
+
+> By emphasizing models, we implicitly define dbt as a tool for creating tables. I think it’s more useful to frame dbt as program to create data assets, and dbt models as functions—and we would never count the number of functions in programs. But if we measure in tables, we think in tables.
+
+> I—like the vast majority of dbt’s other users—were never taught how to write the program. We only learned how to write functions. [… ] none of us really know what we’re doing.
+
+> It needs dbt on Rails. […] I want to be told how to organize all of it too. I want a framework for writing functions on top of my factory for manufacturing tables.
+
+[The rise of the analytics pretendgineer by Benn Stencil](https://benn.substack.com/p/the-rise-of-the-analytics-pretendgineer)

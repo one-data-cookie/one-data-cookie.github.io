@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn]
 season: spring
 created: 2023-03-17
-updated: 2023-05-06
+updated: 2024-06-01
 sources: Misc
 ---
 
@@ -13,8 +13,7 @@ sources: Misc
 > -- [John Carmack](https://twitter.com/ID_AA_Carmack/status/1637087219591659520?s=20)
 
 ## General Tools
-- [carbon](https://carbon.now.sh/)
-	- Create and share beautiful images of your source code.
+- [carbon](https://carbon.now.sh/): create and share beautiful images of your source code.
 
 ## Learn specifically
 - [[Learn markdown]]

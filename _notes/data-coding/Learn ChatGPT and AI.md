@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-05-29
+updated: 2024-06-03
 sources: Misc
 ---
 
@@ -145,3 +145,5 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 	- picture to patches to sequences to LLMs → simplification to the same problem
 	- OAI CLIP just puts these together in one vector space, using alt text
 	- what's new is that they are able to generate different modalities, not just take them; but its not out yet
+
+![](../../../assets/files/chat-gpt-laundry.png)

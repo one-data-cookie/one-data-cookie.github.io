@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 2021-01-03
-updated: 2023-09-03
+updated: 2024-06-06
 sources: Misc
 ---
 
@@ -41,6 +41,8 @@ sources: Misc
 	* All the data about the South Moravia Region, perhaps replacing [JMK Geoportal](https://mapy.jmk.cz/) and linking their [DTM](https://dtm.jmk.cz/dtm/map/public?).
 * [data.Brno](https://data.brno.cz/)
 	* All the data about the city of Brno you can think of.
+* [CoolRegion](https://coolregion.eu/)
+	* Cool data for cool environment and cool South Moravia Region.
 * [Otevřená data PID](https://pid.cz/o-systemu/opendata/)
 	* Open data of Prague Integrated Transport with a few more details in [this Github repository](https://github.com/datastory/dpp-prepravni-pruzkumy).
 * [Monitora](https://monitora.cz/)

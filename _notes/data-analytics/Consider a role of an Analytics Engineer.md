@@ -5,7 +5,7 @@ category: data-analytics
 tags: [idea]
 season: spring
 created: 2020-12-17
-updated: 2024-06-01
+updated: 2024-06-06
 sources: Misc
 ---
 
@@ -118,5 +118,7 @@ We are **pretengineers**. And we **build data assets**, not models.
 > I—like the vast majority of dbt’s other users—were never taught how to write the program. We only learned how to write functions. [… ] none of us really know what we’re doing.
 
 > It needs dbt on Rails. […] I want to be told how to organize all of it too. I want a framework for writing functions on top of my factory for manufacturing tables.
+
+> My suspicion is that dbt … needs something that aggressively imposes those opinions on its users. It needs dbt on Rails: A framework that builds a project’s scaffolding, and tells us how to expand it—and not through education, but through functional requirements. Show where to put which bits of logic. Prevent me from doing circular things. Blare warnings at me when I use macros incorrectly.
 
 [The rise of the analytics pretendgineer by Benn Stencil](https://benn.substack.com/p/the-rise-of-the-analytics-pretendgineer)

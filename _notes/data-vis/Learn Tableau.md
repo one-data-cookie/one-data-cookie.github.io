@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, tableau]
 season: spring
 created: 2018-09-23
-updated: 2024-04-27
+updated: 2024-06-25
 sources: Misc
 ---
 
@@ -98,3 +98,5 @@ sources: Misc
 - Extra spaces for lables
 	- Add [this](https://www.compart.com/en/unicode/U+2800) Unicode character
 - [Shading between two lines](http://www.datatableauandme.com/2017/08/how-to-shade-between-2-lines-in-tableau.html)
+- Tableau with ChatGPT – [video](https://www.youtube.com/watch?v=v6Jc_4-5eZw), [repo](https://github.com/wjsutton/ChatGPT_for_tableau)
+- [tData Doctor GPT](https://chatgpt.com/g/g-ca2aLVVsR-tdata-doctor-gpt-with-a-focus-on-tableau) – helpful doctor prepared to provide Tableau advice

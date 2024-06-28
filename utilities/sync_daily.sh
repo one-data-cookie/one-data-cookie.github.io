@@ -62,19 +62,19 @@ echo "Pushing changes"
 git commit -m "sync notes and files as of $(date -u "+%Y-%m-%d %T %Z")"
 git push origin main
 
-### Importing to Obsidian
 # Change file links of public folders in _notes back to vault
 # https://www.grymoire.com/Unix/Sed.html
 echo "Changing links in public folders back again"
 find _notes -type f -name "*.md" -not -path "_notes/_*" -exec sed -i '' -e "s#\.\./\.\./assets/files/#\.\./__files/#g" {} \;
 
+### Importing to Obsidian
 # Import files from phone
-echo "Importing files from phone"
-rsync --verbose --update --recursive --checksum "$google_path/phone/." _notes/_0-inbox/phone
+# echo "Importing files from phone"
+# rsync --verbose --update --recursive --checksum "$google_path/phone/." _notes/_0-inbox/phone
 
 # Import files from tablet
-echo "Importing files from tablet"
-rsync --verbose --update --recursive --checksum "$google_path/tablet/." _notes/_0-inbox/tablet
+# echo "Importing files from tablet"
+# rsync --verbose --update --recursive --checksum "$google_path/tablet/." _notes/_0-inbox/tablet
 
 # Run Python script to import items from Pocket
 echo "Importing items from Pocket"

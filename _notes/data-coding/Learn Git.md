@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: summer
 created: 2021-02-13
-updated: 2023-12-01
+updated: 2024-07-03
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -92,6 +92,15 @@ git stash push -m "message" [file] # stash file with message
 git stash list # check stashed files
 git stash apply stash@{0} # apply the changes
 git stash drop stash@{0} # delete stashes
+```
+
+- Find a `bad` commit when there is a bug, more info [here](https://preset.io/blog/using-git-bisect-to-find-and-fix-bugs/) 
+```shell
+git bisect start
+git bisect bad HEAD
+git bisect good xxxxxxx
+git bisect good|bad
+git bisect reset
 ```
 
 ## Links

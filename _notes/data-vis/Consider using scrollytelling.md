@@ -5,7 +5,7 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 2021-12-15
-updated: 2024-03-15
+updated: 2024-07-03
 sources: Misc
 ---
 
@@ -15,3 +15,5 @@ sources: Misc
 - [ABC: Wrenching open the black box](https://www.abc.net.au/news/2022-12-12/robodebt-algorithms-black-box-explainer/101215902)
 - [The Bias Variance Tradeoff](https://mlu-explain.github.io/bias-variance/)
 - [Who’s in Your Wallet?](https://pudding.cool/2022/04/banknotes/)
+- [Here's to the next 100 sudokus](https://vivrao9.github.io/nyt-sudoku/)
+- 

@@ -5,7 +5,7 @@ category: data-coding
 tags: [idea, python]
 season: spring
 created: 2021-04-04
-updated: 2023-04-07
+updated: 2024-07-06
 sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0, https://towardsdatascience.com/venvs-pyenvs-pipenvs-oh-my-2411149e2f43
 ---
 
@@ -47,18 +47,49 @@ $ deactivate
 # install pipenv
 $ pip install pipenv
 
-# create environments
-$ pipenv env
+# create a new venv and Pipfile
+$ pipenv install
 ```
 
 * Use the command `pipenv` (instead of `pip`) to install all your packages.
 * Allows you to:
 	* specify into which environment you install the package
 	* integrate directly with PyPi or a local repository
-	* create a single pipfile with separate sections for each environment (this is an alternative to the `requirements.txt` file required for each environment with `virtualenv` and `venv`)
-	*  `pipenv lock` your virtual environment; this creates a `pipfile.lock` file that resolves all dependencies required for a build
+	* create a single Pipfile with separate sections for each environment (this is an alternative to the `requirements.txt` file required for each environment with `virtualenv` and `venv`)
+	*  `pipenv lock` your virtual environment; this creates a `Pipfile.lock` file that resolves all dependencies required for a build
 *  The biggest advantage pipenv brings, in my opinion, is how it handles dependency management compared to `requirements.txt` and `pip freeze`.
+### `pipx`
+* Helps you install and run end-user Python apps.
+* Creates isolated environments for each application, ensuring no conflicts between dependencies.
+* More info [here](https://pipx.pypa.io/latest/).
 
+```shell
+# install pipx
+$ pip install pipx
+$ pipx ensurepath
+```
+
+* Allows you to:
+  * Install Python applications in isolated environments
+  * Run Python applications globally as if they were installed globally
+  * Easily upgrade or uninstall applications
+
+```shell
+# Install an application
+$ pipx install <application>
+
+# Run an application
+$ pipx run <application>
+
+# Upgrade an application
+$ pipx upgrade <application>
+
+# Uninstall an application
+$ pipx uninstall <application>
+
+# List installed applications
+$ pipx list
+```
 
 ### `direnv`
 * When you `cd` into a directory containing a `.env`, it automatically activates the environment.

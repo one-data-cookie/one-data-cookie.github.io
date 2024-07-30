@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2023-04-07
+updated: 2024-07-30
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -147,8 +147,6 @@ $ bg %1
 
 $ jobs
 [1]  - running sleep 1000
-```
-
 ```
 
 - `bc`: Calculate better:

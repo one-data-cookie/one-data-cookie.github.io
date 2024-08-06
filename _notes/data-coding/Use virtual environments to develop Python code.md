@@ -5,7 +5,7 @@ category: data-coding
 tags: [idea, python]
 season: spring
 created: 2021-04-04
-updated: 2024-07-06
+updated: 2024-08-06
 sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0, https://towardsdatascience.com/venvs-pyenvs-pipenvs-oh-my-2411149e2f43
 ---
 
@@ -58,6 +58,7 @@ $ pipenv install
 	* create a single Pipfile with separate sections for each environment (this is an alternative to the `requirements.txt` file required for each environment with `virtualenv` and `venv`)
 	*  `pipenv lock` your virtual environment; this creates a `Pipfile.lock` file that resolves all dependencies required for a build
 *  The biggest advantage pipenv brings, in my opinion, is how it handles dependency management compared to `requirements.txt` and `pip freeze`.
+
 ### `pipx`
 * Helps you install and run end-user Python apps.
 * Creates isolated environments for each application, ensuring no conflicts between dependencies.
@@ -71,7 +72,7 @@ $ pipx ensurepath
 
 * Allows you to:
   * Install Python applications in isolated environments
-  * Run Python applications globally as if they were installed globally
+  * Run Python applications locally as if they were installed globally
   * Easily upgrade or uninstall applications
 
 ```shell

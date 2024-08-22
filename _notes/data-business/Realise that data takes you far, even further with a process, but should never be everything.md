@@ -5,7 +5,7 @@ category: data-business
 tags: [idea, business]
 season: winter
 created: 2019-08-15
-updated: 2023-12-02
+updated: 2024-08-22
 sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCpihwqzaaSng
 ---
 
@@ -24,3 +24,8 @@ Especially when you consider the following from [here](https://benn.substack.com
 > We assume that there are diamonds buried in our rough data, if only we clean it properly, analyze it effectively, or stuff it through the right YC startup's new tool. 
 >
 > But what if there aren’t? Or what if they’re buried so deep that they’re impractical to extract? What if some data, no matter how clean and complete it is, just isn’t valuable to the business that owns it?
+
+In the end of the day, it might about finding a [balance between data dogmatism and data nihilism](https://roundup.getdbt.com/p/the-space-between-data-dogmatism):
+> We don’t fall prey to data dogmatism, where we believe the map always matches the territory, nor do we become data nihilists and think that none of it matters. Instead, we focusing on tuning our sense of reality, what can be measured, what can’t and everything in between.
+
+(Btw, worth noting that with what cannot be measured, we might get help from ChatGPT, [Benn suggests](https://open.substack.com/pub/benn/p/a-very-particular-set-of-skills).)

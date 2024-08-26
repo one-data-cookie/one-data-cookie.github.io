@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2024-02-02
+updated: 2024-08-26
 sources: Misc
 ---
 
@@ -105,9 +105,9 @@ sources: Misc
 * [PostgreSQL on Heroku](https://dev.to/prisma/how-to-setup-a-free-postgresql-database-on-heroku-1dc1)
 	* Only 10K rows, 1GB storage; otherwise $9/mo; see [pricing](https://elements.heroku.com/addons/heroku-postgresql)
 
-## DuckDB
+### DuckDB
 * [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html)
-
+* [`pg_duckdb`](https://github.com/duckdb/pg_duckdb): DuckDB-powered Postgres for high performance apps & analytics
 ## Dashboarding
 ### Superset
 * [Set up using Makefile](https://dev.to/lyndsiwilliams/apache-superset-installing-locally-is-easy-using-the-makefile-4ofi)

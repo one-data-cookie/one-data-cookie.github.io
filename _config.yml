@@ -96,6 +96,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-tidy
+  - jekyll-redirect-from
 
 ## Enable _notes and _projects Collection
 collections:

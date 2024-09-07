@@ -8,7 +8,7 @@ content-type: homepage
 ---
 
 # Hello there, I'm Michal!
-🧠 I like to keep myself **[organised](/notes), [simply clever](https://www.skoda-auto.com/world/simply-clever), and [open](https://dictionary.cambridge.org/dictionary/english/open-mindedness)**. And I'm keen on people, as well as [things and software](/uses) that manifest such qualities, too.
+🧠 I like to think of myself as being **[organised](/notes) and [open](/imho)**. And I'm keen on people, as well as [things and software](/uses), that manifest such qualities, too.
 
 🎓 I love **learning and expanding my horizons**, be it [coding](https://github.com/one-data-cookie) or fields like mathematics, physics, sociology, political science, history, and especially education.
 

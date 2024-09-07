@@ -4,9 +4,9 @@ permalink: /imho
 content-type: eg
 ---
 
-I follow the principle of [*"strong opinions, weakly held"*](https://static1.squarespace.com/static/660b48914fe4486aa3d2a1d7/t/66156b7fd198a83b16265af4/1712679808698/Pauleducomreviewmay98.pdf). Until someone or something convinces me otherwise, of course.
-
-Below is some of my thinking that I've landed on in the recent years and that still resonates with me today.
+Below is some of my thinking that I've landed on in the recent years and that still resonates with me today. I follow the principle of
+[**"strong opinions, weakly held"**](https://static1.squarespace.com/static/660b48914fe4486aa3d2a1d7/t/66156b7fd198a83b16265af4/1712679808698/Pauleducomreviewmay98.pdf)
+– until someone or something convinces me otherwise, of course.
 
 ## Philosophy
 Back in 2017, I got inspired and wrote down my own philosophy that feels right even after all these years.

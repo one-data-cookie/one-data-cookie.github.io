@@ -5,7 +5,7 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 2021-12-15
-updated: 2024-09-30
+updated: 2024-10-01
 sources: Misc
 ---
 
@@ -17,3 +17,4 @@ sources: Misc
 - [Who’s in Your Wallet?](https://pudding.cool/2022/04/banknotes/)
 - [Here's to the next 100 sudokus](https://vivrao9.github.io/nyt-sudoku/)
 - [A torrent of trash](https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/)
+- [Office Vacancy](https://www.moodys.com/web/en/us/about/insights/data-stories/us-commercial-real-estate-vacancies-downtown-vs-suburbs.html)

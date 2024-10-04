@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2024-07-30
+updated: 2024-10-04
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -46,7 +46,7 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 - Use [`tmux`](https://github.com/tmux/tmux), terminal multiplexer with [simple setup](https://www.ocf.berkeley.edu/~ckuehl/tmux/) that can be also used for pair-programming
 - Use [`ohmyzsh`](https://ohmyz.sh/) as framework for managing zsh configuration or in particular [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions) for autosuggestion in zsh shell
 - Later, use aliases or functions and define them in `.bashrc` or `.bash_profile`, e.g. `alias cx='chmod +x'` or `mcd() { mkdir -p $1; cd $1 }`
-- Customise prompt through [`starship`](https://starship.rs/) or like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
+- Customise prompt through [`starship`](https://starship.rs/) (works across platforms) or like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):
 
 ```shell
 export VIRTUAL_ENV_DISABLE_PROMPT=1

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, vim]
 season: spring
 created: 2022-08-14
-updated: 2024-06-06
+updated: 2024-10-04
 sources: Misc
 ---
 
@@ -35,7 +35,7 @@ In practice this means using different "modes of operation" for different kinds 
 - [Why should you learn Vim in 2020](https://pragmaticpineapple.com/why-should-you-learn-vim-in-2020/): a nice reflection on the question may of you are asking
 - [Why does Vim use hjkl](https://catonmat.net/why-vim-uses-hjkl-as-arrow-keys) a nice historical explanation of a rather strange phenomenon of hjkl.
 - [Your problem with Vim is that you don't grok vi](https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118): probably one of the most famous StackOverflow answers of all time on how Vim relates to Vi and how you can learn much from well designed technologies that haven't changed much in the past.
-- [Cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif)
+- [Cheatsheet](http://www.viemu.com/vi-vim-cheat-sheet.gif) & [Best Vim Tips](https://vim.fandom.com/wiki/Best_Vim_Tips)
 - [Vim Golf](http://www.vimgolf.com/): real Vim ninjas count every keystroke – do you?
 - Customise vim by editing `~/.vimrc`, e.g. like [this](https://missing.csail.mit.edu/2020/files/vimrc), or installing [useful plugins](https://vimawesome.com/)
 - Once you get you to it, you might want to [use it everywhere](https://reversed.top/2016-08-13/big-list-of-vim-like-software/)

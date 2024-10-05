@@ -5,7 +5,7 @@ category: data-science
 tags: [learn]
 season: spring
 created: 2021-02-21
-updated: 2024-03-23
+updated: 2024-10-05
 sources: Misc
 ---
 
@@ -30,6 +30,7 @@ sources: Misc
 
 ## AI
 - [Elements of AI](https://www.elementsofai.com/)
+- [Ethics of AI](https://ethics-of-ai.mooc.fi/)
 - [Prague AI](https://prg.ai/)
 - [Brno AI](https://www.brno.ai/)
 

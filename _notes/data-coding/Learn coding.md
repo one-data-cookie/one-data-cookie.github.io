@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn]
 season: spring
 created: 2023-03-17
-updated: 2024-10-04
+updated: 2024-10-05
 sources: Misc
 ---
 
@@ -13,6 +13,7 @@ sources: Misc
 > -- [John Carmack](https://twitter.com/ID_AA_Carmack/status/1637087219591659520?s=20)
 
 ## General Links
+- [CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)
 - [Tips & Tricks for VS Code](https://github.com/Microsoft/vscode-docs/blob/main/docs/getstarted/tips-and-tricks.md)
 - [Tips & Tricks for JetBrains](https://www.jetbrains.com/guide/python/tips/)
 - [Zed](https://zed.dev/): next-generation code editor designed for collaboration with humans and AI

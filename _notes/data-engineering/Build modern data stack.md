@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2024-08-26
+updated: 2024-10-07
 sources: Misc
 ---
 
@@ -34,6 +34,8 @@ sources: Misc
 * Recipes from Airbyte:
 	* [Set up a modern data stack with Docker](https://airbyte.io/recipes/modern-data-stack-docker)
 	* [Orchestrate ELT pipelines with Prefect, Airbyte and dbt](https://airbyte.io/recipes/elt-pipeline-prefect-airbyte-dbt)
+* [mdsinabox](https://mdsinabox.com/) – a sports monte carlo simulator
+* [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html)
 
 ## Hosting
 * [Hosting web apps for free](https://blog.patricktriest.com/host-webapps-free/)

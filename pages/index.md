@@ -14,14 +14,14 @@ content-type: homepage
 
 🌍 I'm currently based back in my home town of **[Brno, Czech Republic](https://youtu.be/fkCOXZmiKj8)** but I lived in London, UK for a few years and travelled around the globe (quite literally in 2019).
 
-## In the digital world
+## What drives me
 📊 I'm an enthusiast into **anything data analytics**, in particular topics of [modern data stack](https://www.getdbt.com/blog/future-of-the-modern-data-stack), [data visualisation](/posts), and [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy); all designed to empower individuals and organisations alike.
 
 💜 Most of my days are spent [being purple](https://www.getdbt.com/blog/we-the-purple-people) as an **[analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) lead at [Slido](https://www.slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
 
-🤗 I very much enjoy giving back to community by **sharing what I know** through [creating, organising, speaking, and especially teaching](/projects).
+🤗 I'm committed to **giving back to community** through [creating, organising, speaking, and especially teaching](/projects), along with [financially supporting local educational projects](https://nadacemk.cz/).
 
-## Away from laptop
+## How I recharge
 🌲 **Walking in nature** (alone, with my wife, or [our dog](https://www.instagram.com/falco.theminidachshund/); anywhere in the world)
 
 📚 **Reading good stories** (mostly biographies; could be [almost any book](https://www.goodreads.com/user/show/96238548-michal-kolacek) though)

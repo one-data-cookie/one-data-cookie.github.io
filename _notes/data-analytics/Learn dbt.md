@@ -5,16 +5,15 @@ category: data-analytics
 tags: [learn, dbt]
 season: autumn
 created: 2021-02-21
-updated: 2024-06-01
+updated: 2024-10-17
 sources: Misc
 ---
 
 > - *Principle*: Analytics as software, authored by anyone who knows SQL
 > - _Long-term strategy of independence_: Lock-in prevents individual technologists from making choices about what the best technology is for a given use case.
-   -
 https://blog.getdbt.com/of-the-community-by-the-community-for-the-community/
 
-* It's a [framework](https://getdbt.slack.com/archives/C0VLNUUTZ/p1635277360079300?thread_ts=1635273939.075700&cid=C0VLNUUTZ). With [an opinion](https://docs.getdbt.com/best-practices).
+* It's a [framework](https://getdbt.slack.com/archives/C0VLNUUTZ/p1635277360079300?thread_ts=1635273939.075700&cid=C0VLNUUTZ) with [an opinion](https://docs.getdbt.com/best-practices). And some more advanced ideas, like the [Analytics Development Lifecycle (ADLC)](https://www.getdbt.com/resources/guides/the-analytics-development-lifecycle)
 * https://github.com/slve/dbt-github-workflow
 * [Cheat Sheet](https://github.com/erika-e/dbt-tips)
 * [dbt libraries](https://datacoves.com/dbt-libs)

@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2024-10-07
+updated: 2024-10-18
 sources: Misc
 ---
 
@@ -54,8 +54,12 @@ sources: Misc
 	* [Apache Airflow and DBT on Docker Compose](https://analyticsmayhem.com/dbt/apache-airflow-dbt-docker-compose/)
 	* [Start using Airflow on Heroku](https://blog.devgenius.io/start-using-airflow-on-heroku-first-step-cc4d8fe3c921)
 
-### Prefect
-- [20K free runs every month](https://www.prefect.io/pricing)
+### Other paid
+- [Dagster](https://dagster.io/)
+
+### Other open-source
+- [Kestra](https://kestra.io/)
+- [Prefect](https://www.prefect.io/)
 
 ## ELT
 ### Meltano
@@ -74,6 +78,9 @@ sources: Misc
 	- *Team* might offer good value for money
 	- There is even a specific [action for dbt](https://github.com/marketplace/actions/dbt-action) and for follow-up [notification to Slack](https://github.com/marketplace/actions/slack-notify)
 
+### Python
+- [data load tool (dlt)](https://github.com/dlt-hub/dlt): open-source Python library that makes data loading easy
+
 ## Transformation
 ### dbt
 - dbt Cloud: free for one developer
@@ -81,9 +88,26 @@ sources: Misc
 	- [How to Deploy dbt to Production using GitHub Actions](https://towardsdatascience.com/how-to-deploy-dbt-to-production-using-github-action-778bf6a1dff6)
 	- hint on deploying [from dbt](https://docs.getdbt.com/docs/guides/building-packages#5-deploy-the-docs-for-your-package)
 	- to specify steps based on trigger: `if: github.event_name == 'workflow_dispatch'`
-## Docs
+### Docs
 - [How to deploy dbt docs to GitLab Pages](https://vitorbaptista.com/how-to-deploy-dbt-docs-to-gitlab-pages)
 - Make it [password protected](https://github.com/chrissy-dev/protected-github-pages)
+
+### SQLMesh
+- [official site](https://sqlmesh.com/), [github](https://github.com/TobikoData/sqlmesh), [docs](https://sqlmesh.readthedocs.io/en/stable/), [blog](https://tobikodata.com/blog.html), [paid offering](https://tobikodata.com/)
+- [comparison to dbt](https://sqlmesh.readthedocs.io/en/stable/comparisons/)
+- my thoughts after testing it a bit:
+> SQLMesh is heavily built around the “incremental idea” — it saves database snapshots and compares them over time, adjusting or supplementing as needed. This approach allows for the “terraform plan & apply” model they use and optimises for cost by default, recognising that storage is cheap but compute is expensive. This is quite a paradigm shift, especially compared to dbt, which primarily relies on the “full refresh” concept.
+> 
+> Because of this incremental approach, scheduling is tightly integrated. SQLMesh needs to “understand the state” of the data. It’s built to work well with Airflow, but also supports DLT and Kestra — all open-source tools, which is evident in the project’s open nature. There’s no paid offering either.
+> 
+> One key feature is its primary focus on SQL, while understanding the code itself. It knows when you’re only making formatting changes, can translate between SQL flavours, and automatically handles column lineage. Importantly, there’s no YAML or other configuration languages — just SQL and occasionally Python. They don’t even use Jinja for templating; macros are built directly into SQL, and you can write Python macros using any Python package. This is possible thanks to their sqlglot library, which directly manipulates SQL semantics rather than just doing text substitution.
+> 
+> The whole platform feels very geared toward the engineering experience. The Browser UI and Observer, for example, are clearly designed for developers, not end users. This focus is visible across the product: everything is written in SQL, it has the “terraform” style plan, a built-in CI/CD bot, unit tests, audits (like dbt tests), and so on.
+> 
+> They do, however, acknowledge some of the things dbt does well, such as SQL-based transformations, the CLI experience, managing environments (dev vs. prod), and project structures. They ensure backward compatibility with dbt through a “dbt package,” which allows the use of dbt projects and packages.
+> 
+> However, some aspects of SQLMesh feel more complicated. It took me longer to get the basics compared to dbt, possibly due to its more complex underlying concept. There are more commands to learn, the documentation is somewhat weaker, and overall it doesn’t feel as straightforward or streamlined. It gives the impression of senior engineers piecing together a complex solution, while dbt started as a simpler idea that gradually matured and expanded with additional tools and packages.
+
 
 ## Storage
 ### BigQuery
@@ -108,8 +132,11 @@ sources: Misc
 	* Only 10K rows, 1GB storage; otherwise $9/mo; see [pricing](https://elements.heroku.com/addons/heroku-postgresql)
 
 ### DuckDB
+* [Official site](https://duckdb.org/)
 * [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html)
 * [`pg_duckdb`](https://github.com/duckdb/pg_duckdb): DuckDB-powered Postgres for high performance apps & analytics
+* And they have [friendly SQL](https://duckdb.org/docs/sql/dialect/friendly_sql)
+
 ## Dashboarding
 ### Superset
 * [Set up using Makefile](https://dev.to/lyndsiwilliams/apache-superset-installing-locally-is-easy-using-the-makefile-4ofi)

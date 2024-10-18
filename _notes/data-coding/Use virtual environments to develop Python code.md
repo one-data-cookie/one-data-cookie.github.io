@@ -5,7 +5,7 @@ category: data-coding
 tags: [idea, python]
 season: spring
 created: 2021-04-04
-updated: 2024-08-06
+updated: 2024-10-18
 sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0, https://towardsdatascience.com/venvs-pyenvs-pipenvs-oh-my-2411149e2f43
 ---
 
@@ -49,6 +49,18 @@ $ pip install pipenv
 
 # create a new venv and Pipfile
 $ pipenv install
+
+# install a new package
+$ pipenv install [package_name]
+
+# start working in virtual environment
+$ pipenv shell
+
+# stop working in virtual environment
+$ exit
+
+# run something in virtual environment without entering the shell
+$ pipenv run [command]
 ```
 
 * Use the command `pipenv` (instead of `pip`) to install all your packages.

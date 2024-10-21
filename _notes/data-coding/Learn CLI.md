@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2024-10-04
+updated: 2024-10-21
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -266,7 +266,6 @@ esac
 ```
 
 - While loop:
-
 ```shell
 #!/bin/bash
 while ps -ef | grep -v grep | grep firefox; do
@@ -276,7 +275,6 @@ done
 ```
 
 - For loop:
-
 ```shell
 #!/bin/bash
 for i in $(seq 1 5); do
@@ -285,7 +283,6 @@ done
 ```
 
 - Inplace files:
-
 ```shell
 sh << EOF
 echo "Hello World"
@@ -293,7 +290,6 @@ END<enter>
 ```
 
 - Fallback for no args
-
 ```shell
 if [ $# -eq 0 ]; then
     #no args

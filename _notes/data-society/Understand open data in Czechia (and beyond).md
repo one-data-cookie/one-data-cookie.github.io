@@ -5,11 +5,11 @@ category: data-society
 tags: [idea, open-data]
 season: spring
 created: 2021-03-05
-updated: 2023-05-06
+updated: 2024-10-21
 sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otevrenem-sdileni-dat-stat-nahrazuje-obcanska-spolecnost
 ---
 
-## Open data v ČR
+## Open data
 - Do Národního katalogu otevřených dat publikuje data pouze 42 z 18 tisíc českých institucí.
 - Česko si pohoršilo i v žebříčku [Open Data Maturity Report 2020](https://www.europeandataportal.eu/sites/default/files/edp_landscaping_insight_report_n6_2020.pdf), který hodnotí míru otevřenosti dat jednotlivých zemí.
 - Problémem zůstává i to, že data jsou minimálně využívaná pro řízení veřejného sektoru.
@@ -18,7 +18,13 @@ sources: https://domaci.ihned.cz/c1-66891880-cesko-selhava-v-digitalizaci-a-otev
 - "Lidi je potřeba za jejich expertizu adekvátně odměnit. Práce pro stát má být důstojná, poté si jí budeme i více vážit," dodává Šmída.
 - To vše se ukázalo i během Covidu, kdy [[Realise that open data on Covid in Czechia either don't exist or they won't go public\|nebylo dobře]].
 
-## Organizace v ČR
+## Portály
+- [Cool Region](https://data.coolregion.eu/)
+- [Data o zdraví](https://www.dataozdravi.cz/)
+- [Fakta o klimatu](https://faktaoklimatu.cz/)
+- [PAQ Research](https://www.paqresearch.cz/)
+
+## Organizace
 **[Nadace OSF: Náš stát, naše data](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/)**
   - [Společně otevíráme data](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/soutez-spolecne-otevirame-data/)
   - [Na stojáka: Neziskovky v digi světě](https://osf.cz/programy/ziva-demokracie/nas-stat-nase-data/na-stojaka-neziskovky-v-digi-svete/)

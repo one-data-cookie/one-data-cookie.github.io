@@ -53,5 +53,5 @@ So, they are either extremely clear to my unconscious mind, or I'm way off with 
 - *Authenticity*: being true to myself, speaking my mind, following my dreams
 - *Reflection*: writing down my thoughts, understanding self & society, taking lessons from the past
 - *Learning*: exploring new concepts, teaching others, honouring education & curiosity
-- *Community*: valuing family & friendships, building strong bonds, giving back to others
+- *Community*: valuing family & friendships, building strong bonds, supporting others
 - *Nature*: spending time outside, admiring the views, appreciating the world

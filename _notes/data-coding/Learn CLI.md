@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2024-10-21
+updated: 2024-10-28
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -66,7 +66,6 @@ setopt PROMPT_SUBST ; PS1='%F{green}@%*%f %F{cyan}[%n]%f%F{yellow}$(virtualenv_i
 
 ## Commands
 - Anatomy of a typical command:
-
 ```shell
 # cmd1 -options arg1 (pipe) cmd2 arg2
 ls -lh /etc | grep 'conf'
@@ -82,13 +81,11 @@ ls -lh /etc | grep 'conf'
 - Almost all of these are [core utilities commands](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands)
 
 - `less`: Read your long files (pagination, scrolling, etc.):
-
 ```shell
 cat long_text.txt | less
 ```
 
 - `read`: Read a value from input:
-
 ```shell
 echo "What's your name?"
 read Name # not declaring a new variable
@@ -96,32 +93,27 @@ echo Hello, $Name!
 ```
 
 - `ls` (or [`lsd`](https://github.com/Peltoche/lsd) or [`exa`](https://the.exa.website/) as modern alternatives): List your files properly but make sure to [read the info right](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/perms1.png) if needed.:
-
 ```shell
 ls -lh
 ```
 
 - `chmod`: Change permissions to make a file executable (or you can use [octal representation](https://talks.mareksuppa.com/teaching/2022/unix-summer-of-cli/07-attrs-find-xargs/images/permissions.png).)
-
 ```shell
 # chmod {u,g,o,a}{+,-,=}{r,w,x} file
 chmod u+x samlapi.py # add execute rights for user
 ```
 
 - `sudo`: Do as superuser to check your `PATH`:
-
 ```shell
 sudo nano /etc/paths
 ```
 
 - `ps` (or [`procs`](https://github.com/dalance/procs) as modern alternative): List all process statuses:
-
 ```shell
 ps -e
 ```
 
 - `kill`: Kill a process or just stop a process and start again, right where you left off, based on [this](https://major.io/2009/06/15/two-great-signals-sigstop-and-sigcont/):
-
 ```shell
 # kill
 ps -e | grep -i "[process name]"
@@ -133,7 +125,6 @@ kill -SIGCONT [pid] # or -18
 ```
 
 `jobs`: List your running process and use`<Ctrl-Z>` with `bg`, `fg` to send them to background/foreground:
-
 ```shell
 $ sleep 1000
 ^Z
@@ -150,31 +141,26 @@ $ jobs
 ```
 
 - `bc`: Calculate better:
-
 ```shell
 echo "9.45 / 2.327" | bc -l # => 4.06102277610657498925
 ```
 
 - `cut`, `paste`: Take `n`th column from CSV and sum it:
-
 ```shell
 cat file.csv | cut -d, -f[n] | paste -sd+ | bc
 ```
 
 - `iconv`: Convert text form one character encoding to another:
-
 ```shell
 iconv -f [encoding] -t [encoding] -o [outputfile] [inputfile]
 ```
 
 -  `find` (or [`fd`](https://github.com/sharkdp/fd) as modern alternative or [`fzf`](https://github.com/junegunn/fzf) for fuzzy finding), `xargs`: "Parametrise" standard input line by line and "apply" a command on each line, esp. useful with preceding pipe, e.g. for removing empty files; more info [here](http://offbytwo.com/2011/06/26/things-you-didnt-know-about-xargs.html):
-
 ```shell
 find . -type f -empty | xargs rm # or xargs -I{} rm {}
 ```
 
 - `ssh` (or [`mosh`](https://mosh.org/) as a modern alternative): Access remote servers through a "Secure SHell" whilst generating keys via `ssh-keygen` (stored in `~/.ssh/id_ed25519`) and even using `ssh-agent` for not needing to type the passphrase every time or `~/.ssh/config` to create aliases for hosts, e.g. as [on GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh):
-
 ```shell
 ssh foobar@192.168.1.42 ls -l
 ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519
@@ -191,13 +177,11 @@ ssh -L 9999:localhost:8888 foobar@remote_server # link local 9999 to remote 8888
 ```
 
 - `curl`: Outputs the file it reads from the network to `stdout`; handy to use [`pup`](https://github.com/EricChiang/pup) if working with HTML and [`jq`](https://stedolan.github.io/jq/) if with JSON:
-
 ```shell
 curl uniba.sk > index.html
 ```
 
 - `sed` (or [`sd`](https://github.com/chmln/sd) as modern alternative): Take in a stream of text line by line and transform it in one, esp. for substitution (`s`) but also deletion (`d`) or printing (`p`).
-
 ```shell
 # cat [filename] | sed [addr]X[options] # addr=lines, x=cmd
 cat text.txt | sed -E 's/Unix/UNIX/g' # s/[regex]/[replacement]/[flags]
@@ -206,7 +190,6 @@ cat text.txt | sed -E 's/[0-9]+/[&]/g' # & to reference the whole match
 ```
 
 - `awk`:  Scan file for lines that match any of a set of patterns and make an action. It basically translates the below into simple `pattern { action1[; action2] }` (yet [quite powerful](https://iridakos.com/programming/2019/05/16/remove-duplicate-lines-preserving-order-linux)).
-
 ```python
 for line in file.readlines():
 	for pattern, actions in patterns_actions:
@@ -220,6 +203,11 @@ cat text.txt | awk -F, '{ print $n }' # print n-th column for each row where , i
 cat text.txt | awk '$4 == "F" { print $1 }' # 1st col for rows with "F" in col4
 ls *.txt -l | awk '$5 >= 100 { sum += $5 } END { print sum }' # sum sizes of txt files over 100 B
 cat people.txt | awk '{ p[$4]++ } END { for(i in p) print i, ":", p[i] }' # agg
+```
+
+- `/dev/null`: A special file in Unix-like systems that acts as a “black hole” for data, so when output is redirected there, it simply disappears without being stored or displayed.
+```shell
+command > /dev/null
 ```
 
 ## Scripting

@@ -1,22 +1,23 @@
 ---
-title: Realise that data takes you far, even further with a process, but should never be everything
-lang: cs
-category: data-business
-tags: [idea, business]
-season: winter
+title: Embrace positive data nihilism
+lang: en
+category: data-society
+tags:
+  - idea
+  - philosophy
+season: spring
 created: 2019-08-15
-updated: 2024-08-22
-sources: https://open.spotify.com/episode/2FS6gytqem2u0iyqEvTSa2?si=xvv9pvTRRXCpihwqzaaSng
+updated: 2024-10-29
+sources: Misc
 ---
 
-- Data davaji druhy pohled. Kvantitativni ke kvalitativni. Spolu funguji nejlip.
-- Keboola + GoodData/Tableau -- jakakoliv firma, kde je vic zdroju, nebo jeden potreba transformovat
-- Data je dobry mit, ale nesmi to byt modla. Neda se tam dat zkusenost, long-term goal. Muze se stat, ze se udela kratkodobe optimalni reseni, ale ne dlouhodobe.
-- Slovne predavat data nefunguje. Kazdej sam svoje ukoly ze svyho zivota.
-- Nedelat dashboarding jako celek, ale salamova metoda. Nejdriv nejdulezitejsi a pak kolem toho nastavit proces.
-- Skill vs vule. Prvni jde zmenit, druhy ne.
-- GoodData/Superset vs Tableau: jednoduchy veci vsem vs analyticky veci pro jednoho a staticky
-- Jeho stack s business vzdelanim je totoznej mymu, skoro: Excel, SQL, Python, Keboola, GoodData, Tableau
+> It means accepting that data is inherently limited, flawed, and biased but using this to fuel our freedom to focus on meaningful and practical insights, not obsessing with exhaustive accuracy of “perfect data”
+
+General or related thoughts on the subject:
+- [[(2024-10-25) Data Modelling Meetup]]
+- [[(2023-08-01) Summer Data Fest in Bratislava]]
+- [[Data Talk – Dataismus]]
+- [[DataCast – Lukáš Uhl]]
 
 Especially when you consider the following from [here](https://benn.substack.com/p/day-of-reckoning):
 > The data of a mid-sized B2B SaaS product simply doesn’t have the potential energy of Google’s search histories, or of an Amazon’s browsing logs. If the latter examples are the new oil, the former is a new peat bog. No matter how good the tools are that clean and analyze it, how skilled the engineers are who are working on it, or how mature the culture is around it, it’ll never burn as hot or as bright… 

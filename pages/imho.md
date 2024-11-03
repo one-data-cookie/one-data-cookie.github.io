@@ -10,23 +10,23 @@ Below is some of my thinking that I've landed on in the recent years and that st
 
 ## Philosophy
 Back in 2017, I got inspired and wrote down my own philosophy that feels right even after all these years.
-Its central idea is distinguishing concepts that are *transient* (like a human life), that are *eternal* (like the universe),
-and that are *somewhere in between* – since those are the most intriguing, let's focus on them more.
+Its central idea is distinguishing concepts that are from our perspective *transient* (like a human life),
+that are *eternal* (like the universe), and that are *somewhere in between* – since those are the most intriguing, let's focus on them more.
 
 In essence, it refers to the experience and knowledge shared within society, passed from one person or generation to another.
 Some of these things are closer to transient, like how to raise children or sharpen a knife. Some are closer to eternal, like science or religion.
 Some are very much "in between" and closely linked to human spirit, like democracy, culture, or love.
 
-Consequently, one can face their own mortality by investing in activities that extend beyond and outlive them.
-In other words: *"Embrace your temporary nature while striving for meaningful, lasting contributions."*
-Or in short: *"immortality through legacy"*.
+Consequently, we can face our own mortality by investing in activities that extend beyond us and potentially even outlive us.
+In other words: *"Embrace your temporary, limited, and imperfect nature while striving to make meaningful, lasting contributions."*
+Or in short: *"from finitude through legacy towards transcendence"*.
 
-And I believe that should be everyone's purpose in life. Or definitely is in mine, at least.
+And I believe that could (or even should?) be everyone's purpose in life. It surely is in mine.
 
 P.S. Even though I only learned about them in detail afterwards, you might notice a hint of
 [existentialism](https://en.wikipedia.org/wiki/Existentialism), [stoicism](https://en.wikipedia.org/wiki/Stoicism), or
-[Arendt's vita activa](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)).
-If you made the connection to these philosophies, well done!
+[Arendt's vita activa](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)). And, from the popular modern authors,
+perhaps also [Burkman's imperfectionism](https://www.oliverburkeman.com/). If you made the connection to these concepts, well done!
 
 ## Goal & Framework
 Later in 2019, I took [CliftonStrengths from Gallup](https://www.gallup.com/cliftonstrengths/en/home.aspx) and it was very much spot on!

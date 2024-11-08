@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-11-03
+updated: 2024-11-08
 sources: Misc
 ---
 
@@ -125,6 +125,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [GitHub Copilot](https://github.com/features/copilot): perhaps the world’s most widely adopted AI developer tool
 - [Continue](https://www.continue.dev/): open-source version, [works on Ollama](https://ollama.com/blog/continue-code-assistant)
 - [Cursor](https://www.cursor.com/): AI code editor, i.e. built with AI mind from the beginning; great repo context, multiple cursors, browsing the web, chat, images
+- [Bolt](https://bolt.new/): dev sandbox with AI, browser-based
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, markdown]
 season: winter
 created: 2021-11-23
-updated: 2024-03-23
+updated: 2024-11-08
 sources: Misc
 ---
 
@@ -27,6 +27,7 @@ Diff folder: Read more [here](../another_folder/another_file.xlsx)
 
 ### Presentations
 - [List of markdown presentation tools](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8)
+- [Slidev](https://sli.dev/)
 - [Marp](https://github.com/marp-team/marp-cli)
 	- [Docs](https://marpit.marp.app/)
 - [Markdown to GSlides](https://github.com/googleworkspace/md2googleslides)

@@ -13,6 +13,7 @@ html, html[data-theme="light"] {
     --text-sub: #5D5D67;
     --link: #18181C;
     --border: #E5E5E5;
+    --button-hover-bg: #808080;
 }
 
 html[data-theme="dark"] {
@@ -23,6 +24,7 @@ html[data-theme="dark"] {
     --text-sub: #FFFFFF;
     --link: #FAFAFC;
     --border: #353535;
+    --button-hover-bg: #B0B0B0;
 }
 
 
@@ -69,6 +71,31 @@ body {
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.copy-button {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.copy-button:hover {
+    background-color: var(--button-hover-bg);
+}
+
+.copy-button:hover {
+    background-color: var(--button-hover-bg, #45a049);
 }
 
 .box {

@@ -37,4 +37,4 @@ Each technology individually goes through its own "S" curve, from development to
 
 ### Cambrian explosion II, from 2021 - 2025
 
-![](../../assets/files/data-stack.png)
+![](../__files/data-stack.png)

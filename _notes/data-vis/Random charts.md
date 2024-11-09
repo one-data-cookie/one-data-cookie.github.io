@@ -1,1 +1,1 @@
-![](../../assets/files/chart-random-01.png)
+![](../__files/chart-random-01.png)

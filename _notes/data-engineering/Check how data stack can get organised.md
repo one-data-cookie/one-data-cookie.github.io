@@ -9,4 +9,4 @@ updated: 2023-08-04
 sources: https://blockblogfr.blogspot.com/2020/10/emerging-architectures-for-modern-data.html
 ---
 
-![](../../assets/files/modern-data-infrastructure.png)
+![](../__files/modern-data-infrastructure.png)

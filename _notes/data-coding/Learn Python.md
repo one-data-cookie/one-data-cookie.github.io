@@ -12,10 +12,10 @@ sources: Misc
 ## Links
 - [Quora Discussion](https://www.quora.com/How-should-I-start-learning-Python-1)
 - [Automate the Boring Stuff with Python](https://www.udemy.com/course/automate/) or [book](https://automatetheboringstuff.com/2e/) – a practical programming course for office workers, academics, and administrators who want to improve their productivity
-- [Learn Python The Hard Way, 3rd Edition.pdf](../../assets/files/Learn-Python-The-Hard-Way.pdf)
+- [Learn Python The Hard Way, 3rd Edition.pdf](../__files/Learn-Python-The-Hard-Way.pdf)
 - [81 Python Code Snippets for Everyday Problems](https://therenegadecoder.com/code/python-code-snippets-for-everyday-problems/)
 - [Jupyter Samples](https://github.com/ibm-et/jupyter-samples)
-- Should you choose [Python over R](../../assets/files/r-vs-python.png)?
+- Should you choose [Python over R](../__files/r-vs-python.png)?
 
 ## Specific topics
 - [How to Use Generators and `yield` in Python](https://realpython.com/introduction-to-python-generators/), together with [`yield from`](https://python.astrotech.io/advanced/generator/yield-from.html)
@@ -63,57 +63,57 @@ sources: Misc
 ## Snippets
 - Find out available versions for `pip` package:
 ```bash
-pip install package==
+  pip install package==
 ```
 
 - Check the list of packages installed, incl. their versions:
 ```bash
-pip freeze
+  pip freeze
 ```
 
 - Remove all packages that include a certain word:
 ```bash
-pip list | grep "word" | cut -d ' ' -f1 | xargs sudo -H pip uninstall -y
+  pip list | grep "word" | cut -d ' ' -f1 | xargs sudo -H pip uninstall -y
 ```
 
 - Pretty JSON in JupyterLab:
 ```python
-import json
-from IPython.display import JSON
-
-JSON(json.loads('{"map": 1}'))
+  import json
+  from IPython.display import JSON
+  
+  JSON(json.loads('{"map": 1}'))
 ```
 
 - Remove accents:
 ```python
-from unidecode import unidecode
-
-def remove_accents(str):
-   return unidecode(str)
+  from unidecode import unidecode
+  
+  def remove_accents(str):
+     return unidecode(str)
 ```
 
 - [Generate passwords](https://stackoverflow.com/a/61471228)
 ```python
-import random
-import secrets
-import string
-
-def generate_password_simple(nbytes):
-	# the password will be long 1.3x the size
-	pw = secrets.token_urlsafe(nbytes)
-	return pw
-
-def generate_password_custom(length, added):
-	chars = string.ascii_letters + string.digits
-	specs = ".+-*/="
-
-	main = [secrets.choice(chars) for i in range(length - added)]
-	extra = [secrets.choice(specs) for i in range(added)]
-	final = main + extra
-	random.shuffle(final)
-
-	pw = ''.join(final)
-	return pw
+  import random
+  import secrets
+  import string
+  
+  def generate_password_simple(nbytes):
+  	# the password will be long 1.3x the size
+  	pw = secrets.token_urlsafe(nbytes)
+  	return pw
+  
+  def generate_password_custom(length, added):
+  	chars = string.ascii_letters + string.digits
+  	specs = ".+-*/="
+  
+  	main = [secrets.choice(chars) for i in range(length - added)]
+  	extra = [secrets.choice(specs) for i in range(added)]
+  	final = main + extra
+  	random.shuffle(final)
+  
+  	pw = ''.join(final)
+  	return pw
 ```
 
 ## Debugging

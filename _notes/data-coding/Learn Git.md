@@ -35,72 +35,70 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 - When anything goes wrong, [these code snippets](https://ohshitgit.com/) come particularly handy; alternatively [these from CIA](https://wikileaks.org/ciav7p1/cms/page_1179773.html).
 
 - Make `.gitignore` ignore the files that were committed before added into the file:
-
 ```shell
-$ git rm -r --cached .
-$ git add .
-$ git commit -m ".gitignore is now working"
+  $ git rm -r --cached .
+  $ git add .
+  $ git commit -m ".gitignore is now working"
 ```
 
 - Create repo from scratch through this `init.sh` script, based on [this](https://stackoverflow.com/questions/2423777/is-it-possible-to-create-a-remote-repo-on-github-from-the-cli-without-opening-br), which can be run through `sh init.sh repo-name` from directory (or better still `./init.sh repo-name` if you run `chmod u+x init.sh` first):
-
 ```shell
-#!/bin/zsh
+  #!/bin/zsh
 
-mkdir $1
-cd $1
+  mkdir $1
+  cd $1
 
-if [ "$2" = "--p" ] ; then
-    python3 -m venv .venv
-	source .venv/bin/activate
-fi
+  if [ "$2" = "--p" ] ; then
+      python3 -m venv .venv
+    source .venv/bin/activate
+  fi
 
-git init
-gh repo create $1
-git pull origin main --rebase
-touch README.md
-atom ./
+  git init
+  gh repo create $1
+  git pull origin main --rebase
+  touch README.md
+  atom ./
 ```
 
 - See your log of changes in a nice format:
 ```shell
-git log --pretty=oneline
-# or
-git log --oneline --decorate --graph --all
+  git log --pretty=oneline
+  # or
+  git log --oneline --decorate --graph --all
 ```
 
 - Copy-paste commits from one branch to another:
 ```shell
-git cherry-pick
+  git cherry-pick
 ```
 
 - Print some nice stats about your changes
 ```shell
-git diff main...origin/your-branch | diffstat -Cm
-git diff master 00aa0157f23f50151f74e4ba203deb8f11621946 . | diffstat -Cm
+  git diff main...origin/your-branch | diffstat -Cm
+  git diff master 00aa0157f23f50151f74e4ba203deb8f11621946 . | diffstat -Cm
 ```
 
 - Get stats for commits per person per month
 ```shell
-git log --pretty=format:"%h,%aN,%ad" --date=format:'%Y/%m' | awk -F, '{print $2","$3}' | sort | uniq -c | awk '{print $3","$2","$1}' > output.csv
+  git log --pretty=format:"%h,%aN,%ad" --date=format:'%Y/%m' | awk -F, '{print $2","$3}' | sort | uniq -c | awk '{print $3","$2","$1}' > output.csv
 ```
 
 - Save your work for later
 ```shell
-git stash # stash all files
-git stash push -m "message" [file] # stash file with message
-git stash list # check stashed files
-git stash apply stash@{0} # apply the changes
-git stash drop stash@{0} # delete stashes
+  git stash # stash all files
+  git stash push -m "message" [file] # stash file with message
+  git stash list # check stashed files
+  git stash apply stash@{0} # apply the changes
+  git stash drop stash@{0} # delete stashes
 ```
 
 - Find a `bad` commit when there is a bug, more info [here](https://preset.io/blog/using-git-bisect-to-find-and-fix-bugs/) 
 ```shell
-git bisect start
-git bisect bad HEAD
-git bisect good xxxxxxx
-git bisect good|bad
-git bisect reset
+  git bisect start
+  git bisect bad HEAD
+  git bisect good xxxxxxx
+  git bisect good|bad
+  git bisect reset
 ```
 
 ## Links

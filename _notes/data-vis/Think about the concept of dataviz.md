@@ -5,7 +5,7 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 2021-02-24
-updated: 2023-08-04
+updated: 2024-11-09
 sources: Misc
 ---
 
@@ -16,7 +16,7 @@ Andy Kirk defines *four stages of data visualisation*:
 4. Developing your design solution
 
 But you you can think about visualisation as balancing several axes:
-![Kristína Zákopčanová, meetup_1.csv](../__files/axes-of-dataviz.png)
+![Kristína Zákopčanová, meetup_1.csv](../../assets/files/axes-of-dataviz.png)
 
 However, it doesn't always work as hoped:
-![](../__files/data-storytelling-real.jpg)
+![](../../assets/files/data-storytelling-real.jpg)

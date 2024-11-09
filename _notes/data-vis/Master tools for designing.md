@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 2021-01-03
-updated: 2024-02-22
+updated: 2024-11-09
 sources: Misc
 ---
 
@@ -26,7 +26,7 @@ sources: Misc
 	- Wondering which type of graph is the best fit for your data? Explore our interactive chart chooser using the filters.
 - [The Tableau Chart Catalog](https://www.flerlagetwins.com/2019/08/the-tableau-chart-catalog_97.html)
 	- Examples created by Tableau by the Tableau community.
-- [Chart Suggestions](../__files/How-to-Choose-Chart-Types.png)
+- [Chart Suggestions](../../assets/files/How-to-Choose-Chart-Types.png)
 	- A though-starter for choosing the right chart.
 - [From Data to Vis](https://www.data-to-viz.com/)
 	- It leads you to the most appropriate graph for your data. It links to the code to build it and lists common caveats you should avoid.

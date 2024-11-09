@@ -93,7 +93,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  jekyll (~> 4.0.0)
+  jekyll
   jekyll-feed (~> 0.12)
   jekyll-redirect-from (~> 0.16.0)
   jekyll-sitemap

@@ -48,7 +48,6 @@ html[data-theme="dark"] {
   }
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -73,6 +72,7 @@ body {
     margin-left: auto;
 }
 
+/* Copy button */
 .copy-button {
     background-color: var(--bg-main);
     color: var(--text-main);
@@ -96,6 +96,44 @@ body {
 
 .copy-button:hover {
     background-color: var(--button-hover-bg, #45a049);
+}
+
+/* Header links with anchor icon */
+.content h1 a,
+.content h2 a,
+.content h3 a,
+.content h4 a,
+.content h5 a,
+.content h6 a {
+  /* Inherit color & decoration from headers */
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.content .anchor-icon {
+  display: none; /* Hide by default */
+  margin-left: 5px; /* Adjust the spacing */
+}
+
+.content h1:hover .anchor-icon,
+.content h1:focus .anchor-icon,
+.content h1:active .anchor-icon,
+.content h2:hover .anchor-icon,
+.content h2:focus .anchor-icon,
+.content h2:active .anchor-icon,
+.content h3:hover .anchor-icon,
+.content h3:focus .anchor-icon,
+.content h3:active .anchor-icon,
+.content h4:hover .anchor-icon,
+.content h4:focus .anchor-icon,
+.content h4:active .anchor-icon,
+.content h5:hover .anchor-icon,
+.content h5:focus .anchor-icon,
+.content h5:active .anchor-icon,
+.content h6:hover .anchor-icon,
+.content h6:focus .anchor-icon,
+.content h6:active .anchor-icon {
+  display: inline-block; /* Show the icon on hover, focus, or active within headers */
 }
 
 .box {

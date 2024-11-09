@@ -12,4 +12,4 @@ sources: Misc
 - [[Check these to understand the data]]
 - [[Check these before publishing]]
 - [Checklist by Ann K. Emery](https://depictdatastudio.com/data-visualization-design-process-step-by-step-guide-for-beginners/)
-- [Checklist by Stephanie Evergreen](../__files/Checklist.pdf)
+- [Checklist by Stephanie Evergreen](../../assets/files/Checklist.pdf)

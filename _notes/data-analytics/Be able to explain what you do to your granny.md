@@ -32,4 +32,4 @@ This is the one I like the most:
 - The parts we assemble should empower the builders to focus on creating a world more efficiently and without worrying as much about structural integrity.
 - A fun part of my job is deciding what those parts will be, which involves creativity and subjectivity. We have to think about things like: what might the builders build in the future? How can we build parts that efficiently serve multiple purposes today? All of this involves cooperation and collaboration with both the gatherers and the builders.
 
-![](../__files/maths-evolution.jpeg)
+![](../../assets/files/maths-evolution.jpeg)

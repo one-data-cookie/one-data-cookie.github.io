@@ -15,7 +15,7 @@ content-type: homepage
 🌍 I'm currently based back in my home town of **[Brno, Czech Republic](https://youtu.be/fkCOXZmiKj8)** but I lived in London, UK for a few years and travelled around the globe (quite literally in 2019).
 
 ## What drives me
-📊 I'm an enthusiast into **anything data analytics**, in particular topics of [modern data stack](https://www.getdbt.com/blog/future-of-the-modern-data-stack), [data visualisation](/posts), and [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy); all designed to empower individuals and organisations alike.
+📊 I'm an enthusiast into **anything data analytics**, in particular topics of [modern data stack](https://www.getdbt.com/blog/future-of-the-modern-data-stack), [data visualisation](/datavis), and [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy); all designed to empower individuals and organisations alike.
 
 💜 Most of my days are spent [being purple](https://www.getdbt.com/blog/we-the-purple-people) as an **[analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) lead at [Slido](https://www.slido.com/)**, making sure our colleagues have access to clean data and feel confident using it to make decisions.
 

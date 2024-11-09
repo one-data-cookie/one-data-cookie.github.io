@@ -132,7 +132,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /posts/:title
+      permalink: /datavis/:title
       content-type: post
   - scope:
       path: ""

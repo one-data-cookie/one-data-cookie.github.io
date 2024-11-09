@@ -59,7 +59,7 @@ done
 
 # Commit and push to Github
 echo "Pushing changes"
-git commit -m "sync notes and files as of $(date -u "+%Y-%m-%d %T %Z")"
+git commit -m "Sync notes and files as of $(date -u "+%Y-%m-%d %T %Z")"
 git push origin main
 
 # Change file links of public folders in _notes back to vault

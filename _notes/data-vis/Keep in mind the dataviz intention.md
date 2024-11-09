@@ -9,4 +9,4 @@ updated: 2024-11-09
 sources: NA
 ---
 
-![](../../assets/files/Data-Viz-Intention.png)
+![](../__files/Data-Viz-Intention.png)

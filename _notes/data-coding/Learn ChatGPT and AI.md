@@ -61,7 +61,7 @@ The *Transformer* architecture used by GPT models is better than the architectur
 This makes it more powerful and flexible, and allows it to achieve better performance on a wide range of natural language processing tasks.
 
 ## GPT and beyond
-![](../../../assets/files/gpt-history.png)
+![](../../__files/gpt-history.png)
 
 # Tools
 ## General
@@ -149,10 +149,10 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > 3. We will continue this iterative process with me providing additional information to you and you updating the prompt in the Revised prompt section until it's complete.
 
 ## Training
-![](../../../assets/files/chat-gpt-train.jpg)
+![](../../__files/chat-gpt-train.jpg)
 
 ## Biases
-![](../../../assets/files/chat-gpt-biases.png)
+![](../../__files/chat-gpt-biases.png)
 
 # Thoughts
 - [Is LLMs maybe the query language for text?](https://benn.substack.com/p/avg-text)
@@ -179,7 +179,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 	- OAI CLIP just puts these together in one vector space, using alt text
 	- what's new is that they are able to generate different modalities, not just take them; but its not out yet
 
-![](../../../assets/files/chat-gpt-laundry.png)
+![](../../__files/chat-gpt-laundry.png)
 
 - [Bas Dijkstra – I am tired of AI](https://www.ontestautomation.com/i-am-tired-of-ai/
 	- He is frustrated with the overuse and marketing hype around AI, particularly in software testing, conferences, and creative fields, arguing that AI-generated outputs are often uninspiring, lack human emotion, and can’t replace skilled, thoughtful work, despite some genuine beneficial applications like in medical diagnostics.

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2024-10-28
+updated: 2024-11-09
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -261,7 +261,6 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 - While loop:
 ```shell
   #!/bin/bash
-
   while ps -ef | grep -v grep | grep firefox; do
     echo "Firefox not running, will check in 10 seconds"
     sleep 10
@@ -279,7 +278,6 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 - Inplace files:
 ```shell
   sh << EOF
-  
   echo "Hello World"
   END<enter>
 ```

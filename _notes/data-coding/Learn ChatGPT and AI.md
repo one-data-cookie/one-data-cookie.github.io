@@ -68,6 +68,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [OpenAI Platform](https://platform.openai.com/): everything about OpenAI's models
 - [Google AI Studio](https://aistudio.google.com/): playing around with Google's models
 - [Ollama](https://ollama.com/): run large language models, locally
+- [OpenRouter](https://openrouter.ai/): unified interface for LLMs
 - [Sanctum](https://sanctum.ai/): run & interact with open-source LLMs locally
 - [awesome-gpt3](https://github.com/elyase/awesome-gpt3)
 - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
@@ -125,6 +126,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [GitHub Copilot](https://github.com/features/copilot): perhaps the world’s most widely adopted AI developer tool
 - [Continue](https://www.continue.dev/): open-source version, [works on Ollama](https://ollama.com/blog/continue-code-assistant)
 - [Cursor](https://www.cursor.com/): AI code editor, i.e. built with AI mind from the beginning; great repo context, multiple cursors, browsing the web, chat, images
+- [Cline](https://github.com/cline/cline): autonomous coding agent right in your IDE
 - [Bolt](https://bolt.new/): dev sandbox with AI, browser-based
 
 ## Translation

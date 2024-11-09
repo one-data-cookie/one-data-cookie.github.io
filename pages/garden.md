@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: /notes
+permalink: /garden
 ---
 
 This is my **digital garden** – place for putting links, drafts, ideas; in particular anything related to *data*.

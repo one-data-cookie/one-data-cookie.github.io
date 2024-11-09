@@ -103,7 +103,7 @@ plugins:
 collections:
     notes:
       output: true
-      permalink: /notes/:title
+      permalink: /garden/:title
     projects:
       output: true
       permalink: /projects/:title

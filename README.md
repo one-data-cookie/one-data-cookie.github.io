@@ -1,3 +1,6 @@
-My personal site, feauturing – amongst other things – [datavis portfolio](https://one-data-cookie.github.io/posts) and [digital garden](https://one-data-cookie.github.io/notes) (powered by [Obsidian](https://obsidian.md/) and enhanced by a few shell and Python [automations scripts](/utilities) of mine).
+My personal site, featuring stuff about myself, esp. [projects](https://michalkolacek.xyz/projects),
+[datavis portfolio](https://michalkolacek.xyz/datavis), and [digital garden](https://michalkolacek.xyz/garden)
+– powered by [Obsidian](https://obsidian.md/) & enhanced by a few shell and Python 
+[automations scripts](/utilities) of mine.
 
 ![](/assets/img/screenshot.png)

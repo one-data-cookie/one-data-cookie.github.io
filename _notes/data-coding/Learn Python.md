@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, python]
 season: summer
 created: 2021-02-21
-updated: 2024-11-09
+updated: 2024-11-16
 sources: Misc
 ---
 
@@ -51,7 +51,7 @@ sources: Misc
 	-  Tableau-style UI for visual data exploration
 - [Jupyter Notebooks in Excel](https://towardsdatascience.com/python-jupyter-notebooks-in-excel-5ab34fc6439)
 	- Embed Jupyter into Microsoft Excel and write Python instead of VBA
-- [Neptyne](https://www.neptyne.com/)
+- [Neptyne](https://github.com/neptyneco/neptyne-spreadsheet/)
 	- Build powerful Spreadsheet apps in Python or [bring Python to Google Sheets](https://www.neptyne.com/google-sheets)
 - [Python Graph Gallery](https://python-graph-gallery.com/)
 	- This website displays hundreds of charts, always providing the reproducible code! It aims to showcase the awesome dataviz possibilities of Python.

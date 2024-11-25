@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2024-11-09
+updated: 2024-11-25
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -219,6 +219,7 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 
 ## Scripting
 - Some notes on it below but if you want to go deeper, [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/) would be where to go
+- There are some interesting small scripts in [Dear Console](https://codepo8.github.io/dearconsole/)
 - Especially when starting, it might be a good idea to use [`spellcheck`](https://github.com/koalaman/shellcheck)
 - `#!/bin/bash`: Use a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) as a header to define the absolute path to the file's interpreter directly in the script (and not later on the command line), i.e. `./script.sh` instead of `bash script.sh`
 - `printenv`: See all pre-set variables

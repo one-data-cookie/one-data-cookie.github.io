@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-11-09
+updated: 2024-11-29
 sources: Misc
 ---
 
@@ -70,6 +70,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Ollama](https://ollama.com/): run large language models, locally
 - [OpenRouter](https://openrouter.ai/): unified interface for LLMs
 - [Sanctum](https://sanctum.ai/): run & interact with open-source LLMs locally
+- [open-webui](https://github.com/open-webui/open-webui) or [lobe-chat](https://github.com/lobehub/lobe-chat?tab=readme-ov-file): run & interact with any LLMs in a browser
 - [awesome-gpt3](https://github.com/elyase/awesome-gpt3)
 - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 - [How to use ChatGPT correctly](https://www.youtube.com/watch?v=cWil0mqdXRY)

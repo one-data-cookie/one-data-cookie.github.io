@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-11-29
+updated: 2024-12-02
 sources: Misc
 ---
 
@@ -184,3 +184,5 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 - [Bas Dijkstra – I am tired of AI](https://www.ontestautomation.com/i-am-tired-of-ai/
 	- He is frustrated with the overuse and marketing hype around AI, particularly in software testing, conferences, and creative fields, arguing that AI-generated outputs are often uninspiring, lack human emotion, and can’t replace skilled, thoughtful work, despite some genuine beneficial applications like in medical diagnostics.
+- [Ben Stencil – Searching for insight](https://benn.substack.com/p/searching-for-insight)
+    - "In other words, if AI replaces all our jobs, it might not because because what we do is easy, or because AI is so good that it can do as well as we do. It may be because it never mattered if we were particularly good at it in the first place."

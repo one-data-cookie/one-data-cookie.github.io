@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-12-02
+updated: 2024-12-05
 sources: Misc
 ---
 
@@ -129,6 +129,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Cursor](https://www.cursor.com/): AI code editor, i.e. built with AI mind from the beginning; great repo context, multiple cursors, browsing the web, chat, images
 - [Cline](https://github.com/cline/cline): autonomous coding agent right in your IDE
 - [Bolt](https://bolt.new/): dev sandbox with AI, browser-based
+- [Waii](https://www.waii.ai/): SQL API built with generative AI
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

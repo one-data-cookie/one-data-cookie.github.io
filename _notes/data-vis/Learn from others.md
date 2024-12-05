@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 2021-02-13
-updated: 2024-10-05
+updated: 2024-12-05
 sources: Misc
 ---
 
@@ -87,6 +87,7 @@ sources: Misc
 	- [Michal Škop](https://github.com/michalskop)
 	- [Lucia Kocincova](http://lucyia.com/)
 	- [Zuzana Vejrazkova](https://www.linkedin.com/in/zuzanavejrazkova)
+	- [Understand Labs](https://www.understandlabs.com/)
 - [Financial Times: John Burn-Murdoch](https://www.ft.com/john-burn-murdoch)
 
 ## Challenges

@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 2021-01-03
-updated: 2024-06-06
+updated: 2024-12-08
 sources: Misc
 ---
 
@@ -28,6 +28,7 @@ sources: Misc
 	* Open Data Portal and National Catalog of Open Data of the Czech Republic.
 * [Český statistický úřad](https://www.czso.cz/)
 	* The CZSO acquires and compiles statistical information on the social, economic, demographic, and environmental development in Czechia and provides and publishes data thereto.
+	* For instance, [Statistical Lexicon of Municipalities 2024](https://csu.gov.cz/produkty/statisticky-lexikon-obci-2024?)
 * [Český sociálněvědní datový archiv](https://archiv.soc.cas.cz/cz/)
 	* We acquire, store and make available social science research data for a long time. 
 	* We provide knowledge on how to **search** for data and how to work with them, as well as support the reuse of data in research and teaching.

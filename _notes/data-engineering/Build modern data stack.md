@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2024-10-30
+updated: 2024-12-11
 sources: Misc
 ---
 
@@ -92,6 +92,9 @@ sources: Misc
 ### Docs
 - [How to deploy dbt docs to GitLab Pages](https://vitorbaptista.com/how-to-deploy-dbt-docs-to-gitlab-pages)
 - Make it [password protected](https://github.com/chrissy-dev/protected-github-pages)
+
+### SDF
+- [a new dbt engine](https://www.sdf.com/use-cases/dbt-accelerator)
 
 ### SQLMesh
 - [official site](https://sqlmesh.com/), [github](https://github.com/TobikoData/sqlmesh), [docs](https://sqlmesh.readthedocs.io/en/stable/), [blog](https://tobikodata.com/blog.html), [paid offering](https://tobikodata.com/)

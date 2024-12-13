@@ -5,7 +5,7 @@ category: data-coding
 tags: [idea, python]
 season: spring
 created: 2021-04-04
-updated: 2024-10-18
+updated: 2024-12-13
 sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment-for-every-python-project-c17dab3b0fd0, https://towardsdatascience.com/venvs-pyenvs-pipenvs-oh-my-2411149e2f43
 ---
 
@@ -20,10 +20,10 @@ sources: https://towardsdatascience.com/why-you-should-use-a-virtual-environment
 * Your main Python package directory does not get flooded with unnecessary Python packages
 
 ## How
-### `virtualenv`
-*  Avoid the use of after Python 3.3+.
 
 ### `venv`
+- Standard Python way of creating a virtual enviornment
+
 ```shell
 # create a python3 environment within ".venv" folder
 $ python3 -m venv .venv
@@ -37,8 +37,45 @@ $ deactivate
 
 - Make sure it correctly points to the distribution in your virtual environment, and not your global distribution, via `which python` and `which pip`. If it doesn't work well, you can always make sure you use the right one by specifying the path to `pip` and/or `python` when calling them, e.g. `./.venv/bin/pip3 list`.
 
+### `uv`
+- An extremely fast Python package and project manager, written in Rust.
+- A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`, and more.
+- More info [here](https://docs.astral.sh/uv/).
+
+```shell
+# Install
+brew install uv
+
+# Upgrade
+uv self update
+
+# Install Python versions
+uv python install <version>
+
+# Create a new Python project with a specific version, if needed
+uv init --python <version>
+
+# Add a dependency to the project
+uv add <package>
+
+# Run a script
+uv run <command>
+```
+
 ### `pyenv`
 * Used to isolate Python versions within your machine.
+* Great for managing global Python installations but it also has tools to enable project-based needs.
+
+```shell
+# Install global version
+pyenv global <version>
+
+# Enable project based (through .python-version)
+pyenv local <version>
+
+# Or even override temporarily
+pyenv shell <version>
+```
 
 ### `pipenv`
 * It is a `venv` on steroids: it strives to combine `pipfile`, `pip` and `venv` into a single command.
@@ -51,7 +88,7 @@ $ pip install pipenv
 $ pipenv install
 
 # install a new package
-$ pipenv install [package_name]
+$ pipenv install <package_name>
 
 # start working in virtual environment
 $ pipenv shell
@@ -60,7 +97,7 @@ $ pipenv shell
 $ exit
 
 # run something in virtual environment without entering the shell
-$ pipenv run [command]
+$ pipenv run <command>
 ```
 
 * Use the command `pipenv` (instead of `pip`) to install all your packages.
@@ -107,5 +144,8 @@ $ pipx list
 ### `direnv`
 * When you `cd` into a directory containing a `.env`, it automatically activates the environment.
 
+### `virtualenv`
+*  Avoid the use of after Python 3.3+.
+
 ## Summary
-Depending on the scope of your project, I ultimately suggest two options: `venv` and `pipenv`. If you do not need all the bells and whistles that `pipenv` brings, I suggest that you give `venv` a look. On the other hand, if that `pipenv` list struck out to you, go ahead and use that!
+The modern go-to tool these days is definitely `uv` (with `pyenv` for global setup, if needed). Alternatively, a more traditional combination of `pyenv` & `pipenv` is also very powerful. For simple use cases `venv` can be more than enough.

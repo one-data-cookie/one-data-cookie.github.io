@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 2021-02-21
-updated: 2024-11-07
+updated: 2024-12-21
 sources: Misc
 ---
 
@@ -13,6 +13,7 @@ sources: Misc
 - [SQL Climber](https://www.sqlclimber.com/assignments/beginner)
 - [SQL Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 - [DataCamp](https://campus.datacamp.com/courses/introduction-to-sql/)
+- [Summer of SQL](https://github.com/wjsutton/the_summer_of_sql)
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/)
 - Window Functions – [intro](https://www.freecodecamp.org/news/window-functions-in-sql/), [questions](http://www.windowfunctions.com/)
 

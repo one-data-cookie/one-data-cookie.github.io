@@ -5,13 +5,14 @@ category: data-coding
 tags: [learn, markdown]
 season: winter
 created: 2021-11-23
-updated: 2024-12-16
+updated: 2024-12-21
 sources: Misc
 ---
 
 ## General
 - [CommonMark](https://commonmark.org/)
 - [GitHub Markdown](https://github.github.com/gfm/), incl. things like [alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
+- [MDX](https://mdxjs.com/): markdown for the component era; blend of MD and JSX
 
 ## Code
 - [`microsoft/markitdown`](https://github.com/microsoft/markitdown): Python tool for converting files and office documents to Markdown

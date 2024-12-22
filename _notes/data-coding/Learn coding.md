@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn]
 season: spring
 created: 2023-03-17
-updated: 2024-10-28
+updated: 2024-12-22
 sources: Misc
 ---
 
@@ -18,14 +18,22 @@ sources: Misc
 - [Tips & Tricks for JetBrains](https://www.jetbrains.com/guide/python/tips/)
 - [20 Things I’ve Learned in my 20 Years as a Software Engineer](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/)
 - [Zed](https://zed.dev/): next-generation code editor designed for collaboration with humans and AI
-- [carbon](https://carbon.now.sh/): create and share beautiful images of your source code.
+- [carbon](https://carbon.now.sh/): create and share beautiful images of your source code
+- [Martin Fowler](https://martinfowler.com/):  famous blog about software engineering
 
 ## Learn specifically
-- [[Learn markdown]]
-- [[Learn Git]]
+- [[Learn ChatGPT and AI]]
 - [[Learn CLI]]
-- [[Learn SQL]]
+- [[Learn CSS]]
+- [[Learn Docker]]
+- [[Learn Git]]
+- [[Learn Jekyll]]
+- [[Learn MacOS and iOS]]
+- [[Learn markdown]]
+- [[Learn Node]]
 - [[Learn Python]]
 - [[Learn R]]
-- [[Learn Docker]]
+- [[Learn regular expressions]]
+- [[Learn SQL]]
 - [[Learn Vim]]
+- [[Learn YAML]]

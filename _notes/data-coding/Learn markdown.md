@@ -5,16 +5,17 @@ category: data-coding
 tags: [learn, markdown]
 season: winter
 created: 2021-11-23
-updated: 2024-12-21
+updated: 2024-12-29
 sources: Misc
 ---
 
-## General
-- [CommonMark](https://commonmark.org/)
+# General
+- [Markdown Guide](https://www.markdownguide.org/): free and open-source reference guide for Markdown
+- [CommonMark](https://commonmark.org/): standardised, open-source specification for Markdown
 - [GitHub Markdown](https://github.github.com/gfm/), incl. things like [alerts](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts)
 - [MDX](https://mdxjs.com/): markdown for the component era; blend of MD and JSX
 
-## Code
+# Code
 - [`microsoft/markitdown`](https://github.com/microsoft/markitdown): Python tool for converting files and office documents to Markdown
 - How to reference local files
 	- Obsidian opens the file if it can, otherwise it opens in default app
@@ -25,11 +26,14 @@ Same folder: Read more [here](./another_file.xlsx)
 Diff folder: Read more [here](../another_folder/another_file.xlsx)
 ```
 
-## Enhancements
+# Enhancements
 
-### Presentations
+## Presentations
 - [List of markdown presentation tools](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8)
 - [Slidev](https://sli.dev/)
 - [Marp](https://github.com/marp-team/marp-cli)
 	- [Docs](https://marpit.marp.app/)
 - [Markdown to GSlides](https://github.com/googleworkspace/md2googleslides)
+
+## Others
+- [LaTeX](https://www.latex-project.org/)

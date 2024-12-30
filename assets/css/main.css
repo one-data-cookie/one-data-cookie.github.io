@@ -288,7 +288,7 @@ code {
   padding: 0.25em 0.5em 0.25em; }
 
 hr {
-  background-color: var(--bg-sub);
+  background-color: var(--button-hover-bg);
   border: none;
   display: block;
   height: 2px;

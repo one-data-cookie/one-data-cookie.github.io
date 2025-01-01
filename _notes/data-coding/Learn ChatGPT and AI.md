@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2024-12-16
+updated: 2025-01-01
 sources: Misc
 ---
 
@@ -97,6 +97,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Microsoft Copilot](https://copilot.microsoft.com/): searching with Bing & ChatGPT
 - [Perplexity.ai](https://www.perplexity.ai/): searching with AI
 - [You.com](https://you.com/): searching with AI
+- [Consensus](https://consensus.app/): AI-powered academic search engine
 
 ## Images
 - [Midjourney](https://www.midjourney.com/): create pictures

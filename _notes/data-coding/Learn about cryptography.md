@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn]
 season: summer
 created: 2022-08-22
-updated: 2024-02-05
+updated: 2025-01-03
 sources: https://missing.csail.mit.edu/2020/security/
 ---
 
@@ -23,6 +23,7 @@ sources: https://missing.csail.mit.edu/2020/security/
 	- *Non-invertible*: it is hard to find an input `m` such that `hash(m) = h` for some desired output `h`.
 	- *Target collision resistant*: given an input `m_1`, it’s hard to find a different input `m_2` such that `hash(m_1) = hash(m_2)`.
 	- *Collision resistant*: it’s hard to find two inputs `m_1` and `m_2` such that `hash(m_1) = hash(m_2)` (note that this is a strictly stronger property than target collision resistance).
+- There is also [[Use MD5 function to create unique IDs|MD5]]
 
 ## Key derivation functions (KDFs)
 - [Key derivation functions](https://en.wikipedia.org/wiki/Key_derivation_function) are used for a number of applications, including producing fixed-length output for use as keys in other cryptographic algorithms. Usually, KDFs are deliberately slow, in order to slow down offline brute-force attacks.

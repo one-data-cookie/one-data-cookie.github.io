@@ -5,7 +5,7 @@ category: data-coding
 tags: [tutorial]
 season: spring
 created: 2021-09-29
-updated: 2024-02-15
+updated: 2025-01-03
 sources: Misc
 ---
 
@@ -14,9 +14,9 @@ sources: Misc
 - [How to Package Your Python Code](https://towardsdatascience.com/how-to-package-your-python-code-df5a7739ab2e)
 - [Creating a pip installable package](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/)
 - [[Understand semantic versioning]]
-- [Choose the right open-source licence](https://choosealicense.com/)
+- [[Understand licensing]]
 
-## Github
+## GitHub
 - [Create your custom Python package that you can pip-install from your git repository](https://towardsdatascience.com/create-your-custom-python-package-that-you-can-pip-install-from-your-git-repository-f90465867893)
 
 ## Poetry

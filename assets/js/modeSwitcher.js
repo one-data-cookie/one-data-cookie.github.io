@@ -1,5 +1,5 @@
 /* 
-Copied from https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/mode-switcher.js
+Copied from https://github.com/derekkedziora/jekyll-demo/blob/master/scripts/modeSwitcher.js
 https://github.com/derekkedziora/jekyll-demo
 Creative Commons Attribution 4.0 International License
 */

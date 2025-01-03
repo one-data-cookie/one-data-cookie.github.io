@@ -22,7 +22,7 @@
  * SOFTWARE.
  * 
  * 
- * File: context-menu.js
+ * File: contextMenu.js
  * Author@Raghuveer S
  *
  * This allows us to override the default contextmenu provided by the browser and replace

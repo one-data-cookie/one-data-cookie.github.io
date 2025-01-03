@@ -294,6 +294,26 @@ hr {
   height: 2px;
   margin: 0.5rem 0; }
 
+.hash-art {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-left: 2rem;
+  display: none;
+
+  @media (min-width: 769px) {
+    display: block;
+  }
+}
+
+.hash-art svg rect[fill="hsl(0deg 0% 0%)"] {
+  fill: var(--text-main);
+}
+
+.hash-art svg rect[fill="hsl(0deg 0% 100%)"] {
+  fill: var(--bg-main);
+}
+
 img {
   height: auto;
   max-width: 100%; }

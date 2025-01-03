@@ -1,13 +1,16 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: post
 permalink: /
 content-type: homepage
 ---
 
+<div class="hash-art"></div>
+
 # Hello there, I'm Michal!
+### *I'm empowering people with data & technology*
+
+<br><br>
+
 🧠 I like to think of myself as being **[organised](/garden) and [open](/imho)**. And I'm keen on people, as well as [things and software](/uses), that manifest such qualities, too.
 
 🎓 I love **learning and expanding my horizons**, be it [coding](https://github.com/one-data-cookie) or fields like mathematics, physics, sociology, political science, history, and especially education.

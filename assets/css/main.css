@@ -295,14 +295,16 @@ hr {
   margin: 0.5rem 0; }
 
 .hash-art {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   float: right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-left: 2rem;
-  display: none;
+  display: block;
 
-  @media (min-width: 769px) {
-    display: block;
+  @media screen and (max-width: 950px) {
+    display: none;
   }
 }
 

@@ -3,10 +3,16 @@ layout: post
 permalink: /projects
 ---
 
-This autumn 🍂, I'm thrilled to be:
-- Teaching IT to children aged 13–15 at [Tyršovka](https://www.tyrsovkakurim.cz/), a public primary school in Kuřim near Brno
-- Teaching an extensive, semester-long data course at [Masaryk University](https://www.muni.cz/en)
-- Organising and participating in (mostly) local data meetups
-- Mentoring a few other data folks – both juniors & seniors
+The full breadth of my interests, activities, and versions of self is quite extensively
+written up on the [landing page](/). More details and occasional updates about my (professional)
+life can be also found on my [LinkedIn profile](https://www.linkedin.com/in/kolacekm/).
 
-Check out some of my previous engagements and projects below!
+To keep with the tradition of [now pages](https://nownownow.com/) though,
+here is what I'm up to this winter ❄️:
+- Co-leading an analytics engineering team at [Slido](https://www.slido.com/)
+- Teaching IT to children aged 13–15 at [Tyršovka](https://www.tyrsovkakurim.cz/)
+- Organising and participating in (mostly) local data meetups
+- Mentoring a few data folks – both juniors & seniors
+
+If you also wish to explore some of my previous engagements and projects,
+just suit yourself and browse through them below. 👇

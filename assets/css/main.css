@@ -382,6 +382,31 @@ table th {
   padding-right: 10px;
 }
 
+.emoji-list {
+  list-style: none;
+  padding-left: 1.5em;
+  padding-bottom: 0.2em;
+}
+
+.emoji-list li {
+  position: relative;
+  padding-left: 0.2em;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.emoji-list.heavy li {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.emoji-list li::before {
+  position: absolute;
+  left: -1.2em;
+  top: 0.1em;
+  content: attr(data-emoji);
+}
+
 .is-clearfix::after {
   clear: both;
   content: " ";

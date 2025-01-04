@@ -57,7 +57,7 @@
     // Update the URL without causing a page reload
     var newURL = window.location.origin + window.location.pathname;
     if (selectedCategory != 'all') {
-      newURL += '?topic=' + encodeURIComponent(selectedCategory);
+      newURL += '?category=' + encodeURIComponent(selectedCategory);
     }
     window.history.pushState({ path: newURL }, '', newURL);
   }
@@ -68,13 +68,14 @@
   }
 
   // Check for category URL parameter and filter notes accordingly
-  document.addEventListener("DOMContentLoaded", function() {
-    var selectedCategory = getURLParameter('category') || 'all';
-    filterUsingCategory(selectedCategory);
+  document.addEventListener("DOMContentLoaded", function () {
+    var selectedCategory = getURLParameter('category');
+    if (!selectedCategory) {
+      filterUsingCategory('all');
+    } else {
+      filterUsingCategory(selectedCategory);
+    }
   });
-
-  // Set the "all" button as active by default
-  filterUsingCategory('all');
 </script>
 
 {%- if site.preferences.search.enabled -%}

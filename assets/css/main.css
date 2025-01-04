@@ -294,28 +294,6 @@ hr {
   height: 2px;
   margin: 0.5rem 0; }
 
-.hash-art {
-  width: 100px;
-  height: 100px;
-  float: right;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-left: 2rem;
-  display: block;
-
-  @media screen and (max-width: 950px) {
-    display: none;
-  }
-}
-
-.hash-art svg rect[fill="hsl(0deg 0% 0%)"] {
-  fill: var(--text-main);
-}
-
-.hash-art svg rect[fill="hsl(0deg 0% 100%)"] {
-  fill: var(--bg-main);
-}
-
 img {
   height: auto;
   max-width: 100%; }
@@ -362,6 +340,47 @@ table th {
 
 table th {
   color: var(--border); }
+
+.hash-art {
+  width: 100px;
+  height: 100px;
+  float: right;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+  display: block;
+
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
+}
+
+.hash-art svg rect[fill="hsl(0deg 0% 0%)"] {
+  fill: var(--text-main);
+}
+
+.hash-art svg rect[fill="hsl(0deg 0% 100%)"] {
+  fill: var(--bg-main);
+}
+
+.footnote-tooltip {
+  position: absolute;
+  background-color: var(--bg-main);
+  border: 1px solid var(--bg-sub);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  z-index: 1000;
+  max-width: 50vw;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.footnotes ol {
+  padding-left: 30px;
+  padding-right: 10px;
+}
 
 .is-clearfix::after {
   clear: both;

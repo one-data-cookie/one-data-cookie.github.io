@@ -391,13 +391,13 @@ table th {
 .emoji-list li {
   position: relative;
   padding-left: 0.2em;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1;
 }
 
 .emoji-list.heavy li {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 .emoji-list li::before {

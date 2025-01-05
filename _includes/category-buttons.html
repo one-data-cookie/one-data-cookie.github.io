@@ -1,0 +1,8 @@
+{% assign categories = include.source | map: 'category' | join: ' ' | split: ' ' | uniq | sort %}
+<div>
+  <button id="all" onclick="filterUsingCategory('all')"><b>all</b></button>
+  {% for cat in categories %}
+  <button id="{{ cat }}" onclick="filterUsingCategory('{{ cat }}')">{{ cat }}</button>
+  {% endfor %}
+  <div style="margin: 1rem 0"></div>
+</div>

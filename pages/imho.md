@@ -23,9 +23,9 @@ Or in short: *"from finitude through legacy towards transcendence"*.
 
 And I believe that could (or even should?) be everyone's purpose in life. It surely is in mine.
 
-P.S. Even though I only learned about them in detail afterwards, you might notice a hint of
-[existentialism](https://en.wikipedia.org/wiki/Existentialism), [stoicism](https://en.wikipedia.org/wiki/Stoicism), or
-[Arendt's vita activa](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)). And, from the popular modern authors,
+P.S. Even though I only learned about them in detail afterwards, you might notice a hint of [existentialism](https://en.wikipedia.org/wiki/Existentialism), 
+[stoicism](https://en.wikipedia.org/wiki/Stoicism), [Nietzsche's 'become who you are'](https://psyche.co/ideas/when-nietzsche-said-become-who-you-are-this-is-what-he-meant),
+or [Arendt's vita activa](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)). And, from the popular modern authors,
 perhaps also [Burkman's imperfectionism](https://www.oliverburkeman.com/). If you made the connection to these concepts, well done!
 
 ## Goal & Framework

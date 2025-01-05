@@ -4,4 +4,4 @@ permalink: /random
 content-type: eg
 ---
 
-{%- include random_note.html -%}
+{%- include random-note.html -%}

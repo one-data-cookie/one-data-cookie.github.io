@@ -9,8 +9,8 @@ I've continuously shared about technology and data – be it [notes](/garden),
 around this digital home of mine. When I [speak](/projects/?category=speaking) or
 [organise](/projects/?category=organising), it's usually on these topics too.
 
-Yet, I’m also **a teacher by profession**. And it only feels fair to expand the scope and
-start publishing more about education as well. As such, I've already
+Yet, I’m also [**a teacher by profession**](/projects/?category=teaching). And it only feels fair
+to expand the scope and start publishing more about education as well. As such, I've already
 [shared my story](https://docs.google.com/presentation/d/102q9YcA9-NbcMFPAymZiqbcYfqKHz8n_ivueR3iW-DA/edit)
 with colleagues and friends at Slido, and later even with the general public in an
 [interview for Hospodářské noviny](https://archiv.hn.cz/c7-67526750-qsjc5-ee646ccf58303c7).

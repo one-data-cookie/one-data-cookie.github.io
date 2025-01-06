@@ -76,7 +76,7 @@ content-type: homepage
 [^1]:   Most of my days are spent [being purple](https://www.getdbt.com/blog/we-the-purple-people)
         as an [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) lead
         at [Slido](https://www.slido.com/) (acquired by [Cisco](https://www.cisco.com/) in 2020).
-        Basically, I making sure my colleagues have access to clean data
+        Basically, I make sure my colleagues have access to clean data
         and feel confident using it to make decisions. It's also closely tied to my interest in
         the concepts of [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy)
         and the [modern data stack](https://www.getdbt.com/blog/future-of-the-modern-data-stack).
@@ -178,8 +178,7 @@ content-type: homepage
         [Masaryk](https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Masaryk)
         or [Havel](https://en.wikipedia.org/wiki/V%C3%A1clav_Havel).
         Still, people mostly know us for things like [ice hockey](https://www.youtube.com/watch?v=xa0gvq9d054),
-        [beer](https://www.pilsnerurquell.com/), [cars](https://www.skoda-auto.com/), and
-        [pornstars](https://www.statista.com/statistics/1177741/cee-pornstars-per-million-inhabitants/).
+        [beer](https://www.pilsnerurquell.com/), and [cars](https://www.skoda-auto.com/).
 
 <!-- Europe -->
 [^21]:  I certainly do [feel European](https://www.youtube.com/watch?v=Jo_-KoBiBG0). I even spent my student and uni years

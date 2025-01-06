@@ -78,7 +78,9 @@ find _notes -type f -name "*.md" -not -path "_notes/_*" -exec sed -i '' -e "s#\.
 
 # Run Python script to import items from Pocket
 echo "Importing items from Pocket"
+source .venv/bin/activate
 python3 ./utilities/import_pocket.py
+deactivate
 
 # # Run Python Script to create daily note
 # echo "Creating daily note"

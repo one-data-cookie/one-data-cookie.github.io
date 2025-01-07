@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 2021-02-21
-updated: 2024-12-21
+updated: 2025-01-07
 sources: Misc
 ---
 
@@ -28,6 +28,7 @@ sources: Misc
 - [[Use linter, even for SQL]]
 - [[Beware using NULL in WHERE NOT IN]]
 - [[Create fizzbuzz for SQL to test analyst candidates]]
+- [Collection of insane and fun facts about SQLite](https://avi.im/blag/2024/sqlite-facts/)
 
 ## Tools
 - [Trino](https://trino.io/) – SQL query engine that runs at ludicrous speed. Used to be PrestoSQL.

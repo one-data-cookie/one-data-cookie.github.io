@@ -375,8 +375,15 @@ table th {
   max-width: 40vw;
   word-wrap: break-word;
   overflow: hidden;
-  transform: translate(10px, -100%); /* Move up by 100% of height and right by 10px */
-  margin-top: -10px; /* Add some spacing between tooltip and text */
+  /* Move up 100% of height plus margin and center horizontally */
+  transform: translate(-50%, calc(-100% - 20px));
+}
+
+/* Hide on mobile */
+@media screen and (max-width: 768px) {
+  .footnote-tooltip {
+    display: none !important;
+  }
 }
 
 .footnotes ol {

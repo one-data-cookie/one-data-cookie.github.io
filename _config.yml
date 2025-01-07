@@ -122,7 +122,7 @@ kramdown:
   math_engine: katex
   smart_quotes: ["apos", "apos", "quot", "quot"]
   syntax_highlighter: rouge
-  footnote_backlink: "&#x21A9;"
+  footnote_backlink: "^"
 
 sass:
   style: compressed

@@ -75,7 +75,7 @@ content-type: homepage
 <!-- Analytics Engineer -->
 [^1]:   Most of my days are spent [being purple](https://www.getdbt.com/blog/we-the-purple-people)
         as an [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) lead
-        at [Slido](https://www.slido.com/) (acquired by [Cisco](https://www.cisco.com/) in 2020).
+        at [Slido](https://www.slido.com/) (acquired by [Cisco](https://www.cisco.com/) in 2021).
         Basically, I make sure my colleagues have access to clean data
         and feel confident using it to make decisions. It's also closely tied to my interest in
         the concepts of [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy)

@@ -5,7 +5,7 @@ category: data-coding
 tags: [idea, sql]
 season: winter
 created: 2019-10-09
-updated: 2024-02-05
+updated: 2025-01-08
 sources: https://jvns.ca/blog/2019/10/03/sql-queries-don-t-start-with-select/
 ---
 
@@ -22,3 +22,5 @@ SELECT -- including window functions
 ORDER BY
 LIMIT
 ```
+
+![](../../assets/files/sql-query-order.png)

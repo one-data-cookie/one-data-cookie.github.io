@@ -1,10 +1,10 @@
 // Get theme synchronously before page render
-const savedTheme = localStorage.getItem('theme');
+const savedTheme = sessionStorage.getItem("theme");
 if (savedTheme) {
+  // Apply the user's saved preference for this session
   document.documentElement.setAttribute("data-theme", savedTheme);
 } else {
-  const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  const theme = prefersDarkScheme ? "dark" : "light";
-  document.documentElement.setAttribute("data-theme", theme);
-  localStorage.setItem('theme', theme);
+  // No saved preference: default to dark
+  document.documentElement.setAttribute("data-theme", "dark");
+  sessionStorage.setItem("theme", "dark");
 }

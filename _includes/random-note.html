@@ -1,14 +1,3 @@
-<script>
-// this stops a white flash from happening while the random post script is running
-let theme = sessionStorage.getItem('theme');
-if (theme === "dark") {
-  document.documentElement.setAttribute('data-theme', 'dark');
-} else if (theme === "light") {
-  document.documentElement.setAttribute('data-theme', 'light');
-}
-
-</script>
-
 {% comment %}
 Use liquid to get an the number of notes in the site
 {% endcomment %}

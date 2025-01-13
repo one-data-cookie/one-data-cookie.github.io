@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2024-12-11
+updated: 2025-01-13
 sources: Misc
 ---
 
@@ -303,7 +303,13 @@ $ superset db upgrade
 $ superset fab create-admin
 $ superset init
 $ superset run -p 8088 --with-threads --reload --debugger # why just one?
+
 # postgresql+psycopg2://ds4fnp:ds4fnp@127.0.0.1:5432/ds4fnp
+# or for docker:
+# docker network ls
+# docker network connect postgres_default superset_app
+# postgresql://ds4fnp:ds4fnp@postgres:5432/ds4fnp
+#
 # $ pip install pybigquery
 # bigquery://{project_id}
 

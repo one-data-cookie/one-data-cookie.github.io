@@ -13,7 +13,7 @@ Yet, I’m also [**a teacher by profession**](/projects/?category=teaching). And
 to expand the scope and start publishing more about education as well. As such, I've already
 [shared my story](https://docs.google.com/presentation/d/102q9YcA9-NbcMFPAymZiqbcYfqKHz8n_ivueR3iW-DA/edit)
 with colleagues and friends at Slido, and later even with the general public in an
-[interview for Hospodářské noviny](https://archiv.hn.cz/c7-67526750-qsjc5-ee646ccf58303c7).
+[interview for Hospodářské noviny](https://drive.google.com/file/d/1WGt20WOwUNY2tz5wxXOkEO6FvQLEoNfl/view?usp=sharing).
 
 I've also [open-sourced](https://gist.github.com/one-data-cookie/cf3ad5b633f838f519455327af16468d)
 my [GPT for creating lesson plans](https://chatgpt.com/g/g-LVHsur4qW-teacheur) and I publicly collect

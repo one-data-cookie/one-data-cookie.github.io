@@ -98,7 +98,7 @@ content-type: homepage
 [^4]:   Ever since I discovered a ["learner"](https://www.gallup.com/cliftonstrengths/en/252293/learner-theme.aspx) within me,
         I wanted to turn it into a "teacher". After a few years of [trying things out](/projects?category=teaching),
         I'm now teaching IT to children aged 13–15 at [Tyršovka](https://www.tyrsovkakurim.cz/), a public primary school in Kuřim near Brno.
-        By sheer luck, anyone could also read about [my story in a newspaper](https://archiv.hn.cz/c7-67526750-qsjc5-ee646ccf58303c7).
+        By sheer luck, anyone could also read about [my story in a newspaper](https://drive.google.com/file/d/1WGt20WOwUNY2tz5wxXOkEO6FvQLEoNfl/view?usp=sharing).
         And, since you visited this page, you can also check out [what else I have to share](/teach) on the subject.
 
 <!-- Lecturer -->
@@ -108,7 +108,7 @@ content-type: homepage
 
 <!-- Speaker -->
 [^6]:   In recent years, I've actually [spoken quite a bit](/projects?category=speaking)! It's mostly meetup or conference talks,
-        but you can also spot an [interview for Hospodářské noviny](https://archiv.hn.cz/c7-67526750-qsjc5-ee646ccf58303c7)
+        but you can also spot an [interview for Hospodářské noviny](https://drive.google.com/file/d/1WGt20WOwUNY2tz5wxXOkEO6FvQLEoNfl/view?usp=sharing)
         about teaching IT or a [podcast episode](https://datatalk.buzzsprout.com/2034779/12010833-data-talk-21-michal-kolacek-slido)
         about building data teams.
 

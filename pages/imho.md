@@ -23,10 +23,13 @@ Or in short: *"from finitude through legacy towards transcendence"*.
 
 And I believe that could (or even should?) be everyone's purpose in life. It surely is in mine.
 
-P.S. Even though I only learned about them in detail afterwards, you might notice a hint of [existentialism](https://en.wikipedia.org/wiki/Existentialism), 
-[stoicism](https://en.wikipedia.org/wiki/Stoicism), [Nietzsche's 'become who you are'](https://psyche.co/ideas/when-nietzsche-said-become-who-you-are-this-is-what-he-meant),
-or [Arendt's vita activa](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)). And, from the popular modern authors,
-perhaps also [Burkman's imperfectionism](https://www.oliverburkeman.com/). If you made the connection to these concepts, well done!
+P.S. Even though I only explored these in detail afterwards, you might notice strong alignments with the core ideas of
+[existentialism](https://en.wikipedia.org/wiki/Existentialism) and elements of [stoicism](https://en.wikipedia.org/wiki/Stoicism).
+In particular, [Frankl's 'self-transcendence'](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=4e860812b971281fd3d34e8456751190f8e03773),
+[Nietzsche's 'become who you are'](https://psyche.co/ideas/when-nietzsche-said-become-who-you-are-this-is-what-he-meant),
+[Arendt's 'vita activa'](https://en.wikipedia.org/wiki/The_Human_Condition_(Arendt_book)), and – from the popular modern authors –
+perhaps also [Burkman's 'imperfectionism'](https://www.oliverburkeman.com/meditationsformortals).
+If you made the connection to these concepts, well done!
 
 ## Goal & Framework
 Later in 2019, I took [CliftonStrengths from Gallup](https://www.gallup.com/cliftonstrengths/en/home.aspx) and it was very much spot on!

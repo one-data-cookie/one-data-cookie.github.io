@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-01-01
+updated: 2025-01-24
 sources: Misc
 ---
 
@@ -132,6 +132,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Bolt](https://bolt.new/): dev sandbox with AI, browser-based
 - [Waii](https://www.waii.ai/): SQL API built with generative AI
 - [aider](https://aider.chat/): AI pair programming in your terminal
+- [Postgres Sandbox](https://database.build/): build database right in your browser with AI
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

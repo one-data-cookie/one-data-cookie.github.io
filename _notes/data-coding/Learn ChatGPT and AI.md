@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-01-24
+updated: 2025-01-28
 sources: Misc
 ---
 
@@ -70,6 +70,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Ollama](https://ollama.com/): run large language models, locally
 - [OpenRouter](https://openrouter.ai/): unified interface for LLMs
 - [Sanctum](https://sanctum.ai/): run & interact with open-source LLMs locally
+- [open-r1](https://github.com/huggingface/open-r1): fully open reproduction of [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
 - [open-webui](https://github.com/open-webui/open-webui) or [lobe-chat](https://github.com/lobehub/lobe-chat?tab=readme-ov-file): run & interact with any LLMs in a browser
 - [awesome-gpt3](https://github.com/elyase/awesome-gpt3)
 - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
@@ -137,6 +138,9 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 ## Translation
 - [DeepML](https://www.deepl.com/)
 - [LINDAT Translation](https://lindat.mff.cuni.cz/services/translation/)
+
+## Other
+- [Shapen](https://shapen.com/): create 3D models from images
 
 # Details
 ## Prompt Engineering

@@ -7,7 +7,7 @@ tags:
   - d3
 season: winter
 created: 2021-02-13
-updated: 2024-03-16
+updated: 2025-02-03
 sources: Misc
 ---
 
@@ -24,6 +24,7 @@ sources: Misc
 - [Observable: Library](https://observablehq.com/explore)
 - [The Pudding](https://pudding.cool/): a digital publication that brings you longform data journalism
 - [Thinking with Joins](https://bost.ocks.org/mike/join/)
+- [Recreating with D3](https://juanchiparra.github.io/recreating-with-d3/): weekly personal challenge with D3.js
 
 ## Links and others
 - [awesome-dataviz-education](https://github.com/datavis-tech/awesome-dataviz-education/blob/master/README.md): a curated collection of open educational content for Data Visualization and Web Technologies

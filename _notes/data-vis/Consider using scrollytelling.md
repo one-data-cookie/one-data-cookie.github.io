@@ -5,7 +5,7 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 2021-12-15
-updated: 2024-10-01
+updated: 2025-02-03
 sources: Misc
 ---
 
@@ -18,3 +18,4 @@ sources: Misc
 - [Here's to the next 100 sudokus](https://vivrao9.github.io/nyt-sudoku/)
 - [A torrent of trash](https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/)
 - [Office Vacancy](https://www.moodys.com/web/en/us/about/insights/data-stories/us-commercial-real-estate-vacancies-downtown-vs-suburbs.html)
+- [How food diary videos on social media can impact your body image](https://www.straitstimes.com/multimedia/graphics/2024/12/social-media-body-image/index.html)

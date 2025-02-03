@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-01-28
+updated: 2025-02-03
 sources: Misc
 ---
 
@@ -167,30 +167,42 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Is LLMs maybe the query language for text?](https://benn.substack.com/p/avg-text)
 - [Miloš Čermák, GUG](https://www.youtube.com/watch?v=ZSl3Y698--U): "It's more like a human, than a technology" (because of being trained on our language and making mistakes)
 - [This research](https://ct24.ceskatelevize.cz/clanek/veda/umele-inteligence-maji-obri-uhlikovou-stopu-vytvoreni-jednoho-obrazku-spotrebuje-stejne-elektriny-ja-343897): It takes about the same amount of energy to charge a phone as to generate one image using AI
-- [Stanislav Fort – Nečekali jsme, že se umělá inteligence naučí rozumět emocím](https://www.respekt.cz/tydenik/2024/20/necekali-jsme-ze-se-umela-inteligence-nauci-rozumet-emocim):
-	- It makes sense to talk to ChatGPT and then let it summarise your convo and save it.
-	- We understand how AI works on the elementary level but have little knowledge of how it works as a whole. Humanity never encountered anything like that before.
-	- It is enabled by computational power of Avogadro constant – border between micro- and macroscopic world. 20 years ago, a single graphic chip used for training would be a supercomputer. Together though, it needs a small power plant to power it.
-	- Similar to the brain, but it can do 100x more on some fruit a day.
-	- That it's surprising to many that AI is great at implicit understanding but terrible at maths and logic.
-	- Specifically-trained AI solved one of biological mysteries of many years. The team behind it might even get a Nobel price for it.
-	- Some teams are building AI supervised by another AI, specifically trained to do that.
-	- It might be easy to hack AI by simply putting a sticker on a road sign. There are people trying to prevent it but it will always be a chase.
-	- We might be heading into a future where real pictures are watermarked.
-- [Mrshu](https://mareksuppa.com/) when talking about ChatGPT 4o:
-	- "autocomplete"
-	- with top `p` sampling
-	- with subword level tokenization (→ problem with a lot of things)
-	- with base model & then fine-tuning
-	- brute force – simple idea (500 lines of C), scaled insanly
-	- "take a deep breath and do this step by step" helps even AI
-	- picture to patches to sequences to LLMs → simplification to the same problem
-	- OAI CLIP just puts these together in one vector space, using alt text
-	- what's new is that they are able to generate different modalities, not just take them; but its not out yet
+
+[Stanislav Fort – Nečekali jsme, že se umělá inteligence naučí rozumět emocím](https://www.respekt.cz/tydenik/2024/20/necekali-jsme-ze-se-umela-inteligence-nauci-rozumet-emocim)
+- It makes sense to talk to ChatGPT and then let it summarise your convo and save it.
+- We understand how AI works on the elementary level but have little knowledge of how it works as a whole. Humanity never encountered anything like that before.
+- It is enabled by computational power of Avogadro constant – border between micro- and macroscopic world. 20 years ago, a single graphic chip used for training would be a supercomputer. Together though, it needs a small power plant to power it.
+- Similar to the brain, but it can do 100x more on some fruit a day.
+- That it's surprising to many that AI is great at implicit understanding but terrible at maths and logic.
+- Specifically-trained AI solved one of biological mysteries of many years. The team behind it might even get a Nobel price for it.
+- Some teams are building AI supervised by another AI, specifically trained to do that.
+- It might be easy to hack AI by simply putting a sticker on a road sign. There are people trying to prevent it but it will always be a chase.
+- We might be heading into a future where real pictures are watermarked.
+
+[Mrshu](https://mareksuppa.com/), when talking about ChatGPT 4o
+- "autocomplete"
+- with top `p` sampling
+- with subword level tokenization (→ problem with a lot of things)
+- with base model & then fine-tuning
+- brute force – simple idea (500 lines of C), scaled insanly
+- "take a deep breath and do this step by step" helps even AI
+- picture to patches to sequences to LLMs → simplification to the same problem
+- OAI CLIP just puts these together in one vector space, using alt text
+- what's new is that they are able to generate different modalities, not just take them; but its not out yet
 
 ![](../../../assets/files/chat-gpt-laundry.png)
 
-- [Bas Dijkstra – I am tired of AI](https://www.ontestautomation.com/i-am-tired-of-ai/
-	- He is frustrated with the overuse and marketing hype around AI, particularly in software testing, conferences, and creative fields, arguing that AI-generated outputs are often uninspiring, lack human emotion, and can’t replace skilled, thoughtful work, despite some genuine beneficial applications like in medical diagnostics.
-- [Ben Stencil – Searching for insight](https://benn.substack.com/p/searching-for-insight)
-    - "In other words, if AI replaces all our jobs, it might not because because what we do is easy, or because AI is so good that it can do as well as we do. It may be because it never mattered if we were particularly good at it in the first place."
+[Bas Dijkstra – I am tired of AI](https://www.ontestautomation.com/i-am-tired-of-ai/)
+- He is frustrated with the overuse and marketing hype around AI, particularly in software testing, conferences, and creative fields, arguing that AI-generated outputs are often uninspiring, lack human emotion, and can’t replace skilled, thoughtful work, despite some genuine beneficial applications like in medical diagnostics.
+
+[Ben Stencil – Searching for insight](https://benn.substack.com/p/searching-for-insight)
+> In other words, if AI replaces all our jobs, it might not because because what we do is easy, or because AI is so good that it can do as well as we do. It may be because it never mattered if we were particularly good at it in the first place.
+
+[Ben Stencil – Another one](https://benn.substack.com/p/another-one)
+> This is not a new world; it is a streamlined one. It’s our same lives, algorithmically polished down to their most productive bearings. We will buy plane tickets, with fewer clicks. We will generate enterprise sales outreach campaigns, with less manual research. We will post clickbait on LinkedIn, without having to write it ourselves. It’s Jevons paradox of rote drudgery—by making our fake email jobs more efficient, we increase the demand for useless emails.⁸
+>
+> The real future is surely destined to be much weirder. If agents take over our web browsers, who will click on the ads that pay for the internet?⁹ If bots read our emails, what’s the point of spamming people with sales pitches and marketing emails? If work is increasingly done by more computers and fewer people, how will entire economies that are built on variants of per-seat pricing—from commercial real estate to SaaS software—make money?
+>
+> And now, we’re on the cusp of creating thousands more models, each with their own specializations, personalities, and emergent abilities. That’s what DeepSeek represents: Not one new weird model, but thousands. We won’t know what they can do, or who has which ones. A hedge fund could accidentally make a peculiar screenwriter. A petroleum company could discover new pharmaceuticals. A law student trying to shortcut their reading assignments could upend the entire legal industry.
+>
+> Social media rewrote the world’s physics by breaking one long-standing societal law—that communication was bound by time and distance—and by making it possible for anyone to talk to everyone, all at once. AI cracks several more—that expertise takes time to accumulate; that reasoning has some foundational legitimacy; that creativity does not scale—and now, anyone can do anything, almost immediately. What happens next is anyone’s guess, but I suspect it will have echoes far beyond better book recommendations and an emotional Fitbit.

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-02-03
+updated: 2025-02-10
 sources: Misc
 ---
 
@@ -206,3 +206,6 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > And now, we’re on the cusp of creating thousands more models, each with their own specializations, personalities, and emergent abilities. That’s what DeepSeek represents: Not one new weird model, but thousands. We won’t know what they can do, or who has which ones. A hedge fund could accidentally make a peculiar screenwriter. A petroleum company could discover new pharmaceuticals. A law student trying to shortcut their reading assignments could upend the entire legal industry.
 >
 > Social media rewrote the world’s physics by breaking one long-standing societal law—that communication was bound by time and distance—and by making it possible for anyone to talk to everyone, all at once. AI cracks several more—that expertise takes time to accumulate; that reasoning has some foundational legitimacy; that creativity does not scale—and now, anyone can do anything, almost immediately. What happens next is anyone’s guess, but I suspect it will have echoes far beyond better book recommendations and an emotional Fitbit.
+
+["Bullshit guys" – Modern day oracles or bullshit machines?](https://thebullshitmachines.com)
+> You will learn when these systems can save you a lot of time and effort. You will learn when they are likely to steer you wrong. And you will discover how to see through the hype to tell the difference.

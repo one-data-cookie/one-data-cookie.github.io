@@ -5,7 +5,7 @@ category: data-science
 tags: [learn]
 season: spring
 created: 2021-02-21
-updated: 2024-11-09
+updated: 2025-02-13
 sources: Misc
 ---
 
@@ -14,7 +14,6 @@ sources: Misc
 
 ## Statistics
 - [Seeing Theory – Statistics through Visuals](http://seeingtheory.io) – a visual introduction to probability and statistics.
-- [Fundamentals Of Statistics For Data Scientists and Analysts](https://towardsdatascience.com/fundamentals-of-statistics-for-data-scientists-and-data-analysts-69d93a05aae7) – an article covering most of the basics.
 - Forget not that correlation does not equal causation:
 
 ![](__files/correlation-causation.png)

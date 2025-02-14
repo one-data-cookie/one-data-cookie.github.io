@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 2021-01-03
-updated: 2024-12-08
+updated: 2025-02-14
 sources: Misc
 ---
 
@@ -22,6 +22,8 @@ sources: Misc
 	* The first AI-enhanced ETL tool; find and merge data from multiple sources, and prepare your data set in few clicks.
 * [Index of Open Data](https://docs.google.com/spreadsheets/d/1KzZ1h9q3pdjUUyO12N6zUgOazMJXtx4Gye8JsEkah2I/edit#gid=787854630)
 	* Spreadsheet with various links to open data, curated by Data4Change.
+* [Trade Map](https://www.trademap.org/Index.aspx#)
+    * Trade statistics for international business development
 
 ## Czechia
 * [Portál otevřených dat České republiky](https://data.gov.cz/)

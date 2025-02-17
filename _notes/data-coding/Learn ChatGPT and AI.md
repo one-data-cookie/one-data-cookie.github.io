@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-02-10
+updated: 2025-02-17
 sources: Misc
 ---
 
@@ -107,6 +107,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Image Mixer](https://huggingface.co/spaces/lambdalabs/image-mixer-demo): mix images together through Stable Diffusion
 - [Hotshot](https://hotshot.co/): create GIFs using AI
 - [Krea](https://www.krea.ai/): image generation and enhancement
+- [Pixelcut](https://www.pixelcut.ai/): resize images for free
 
 ## Videos
 - [Creative Reality](https://studio.d-id.com/): image-to-video generation

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 2021-02-21
-updated: 2025-01-07
+updated: 2025-02-18
 sources: Misc
 ---
 
@@ -16,6 +16,7 @@ sources: Misc
 - [Summer of SQL](https://github.com/wjsutton/the_summer_of_sql)
 - [Lost at SQL](https://lost-at-sql.therobinlord.com/)
 - Window Functions – [intro](https://www.freecodecamp.org/news/window-functions-in-sql/), [questions](http://www.windowfunctions.com/)
+- [SQL Noir](https://www.sqlnoir.com/): solve mysteries through SQL
 
 ## Reading
 - Keep in mind that relational database is just one of [several database paradigms](https://www.youtube.com/watch?v=W2Z7fbCLSTw), even though one of the most commonly used.

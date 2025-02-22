@@ -34,11 +34,11 @@ sources: Misc
 ## Tools
 - [Trino](https://trino.io/) – SQL query engine that runs at ludicrous speed. Used to be PrestoSQL.
 - [SQLite](https://sqliteonline.com/)
-- [Sribe](https://scribedata.app/) – API that provides line by line descriptions of your queries.
 - [Malloy](https://www.malloydata.dev/) – ["React of SQL"](https://roundup.getdbt.com/p/lots-going-on-metrics-malloy-sanity)
 - [Splink](https://github.com/moj-analytical-services/splink) – fast, accurate and scalable probabilistic data linkage
 - [Ibis](https://github.com/ibis-project/ibis) – translate Python to SQL
 - [SQLGlot](https://github.com/tobymao/sqlglot) – translate between SQL flavours
+- [SQLable](https://sqlable.com/) – format and validate SQL, test SQL regex, generate data, and explore SQL playgrounds
 
 ## Snippets
 - [Snippets](https://sql-snippets.count.co/)

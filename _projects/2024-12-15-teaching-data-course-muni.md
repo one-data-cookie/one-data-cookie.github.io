@@ -2,7 +2,7 @@
 layout: post
 title: Teaching a data course at Masaryk University
 category: teaching
-dates: [2023-12-13, 2025-01-22]
+dates: [2023-12-15, 2024-12-15]
 content-type: eg
 ---
 

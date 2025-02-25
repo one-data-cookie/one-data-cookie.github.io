@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-02-17
+updated: 2025-02-25
 sources: Misc
 ---
 
@@ -82,6 +82,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Future Tools](https://www.futuretools.io/): find the exact AI tool for your need
 - [ej:aj](https://ejaj.cz/): Czech database of AI tools
 - [BenCzechMark - Can your LLM Understand Czech?](https://huggingface.co/blog/benczechmark)
+- [Advent of No-Code](https://www.adventofnocode.io/): advent calendar of AI no-code tools
 
 ## Text
 - [ChatGPT](https://chatgpt.com/): needs no introduction
@@ -97,6 +98,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [ChatGPT Search](https://chromewebstore.google.com/detail/chatgpt-search/ejcfepkfckglbgocfkanmcdngdijcgld): searching within ChatGPT
 - [Microsoft Copilot](https://copilot.microsoft.com/): searching with Bing & ChatGPT
 - [Perplexity.ai](https://www.perplexity.ai/): searching with AI
+- [Jina](https://search.jina.ai/): free alternative to Perplexity
 - [You.com](https://you.com/): searching with AI
 - [Consensus](https://consensus.app/): AI-powered academic search engine
 
@@ -110,8 +112,10 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Pixelcut](https://www.pixelcut.ai/): resize images for free
 
 ## Videos
+- [Lexica](https://lexica.art/): image prompt inspiration
 - [Creative Reality](https://studio.d-id.com/): image-to-video generation
 - [Sora](https://openai.com/sora): text-to-video AI generation
+- [Luma](https://lumalabs.ai/dream-machine): video generation
 - [Pika](https://pika.art/): video generation
 - [Runway](https://runwayml.com/): text and image processing and generation
 
@@ -123,6 +127,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 ## Agents
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): an experimental open-source attempt to make GPT-4 fully autonomous (with [Cognosys](https://app.cognosys.ai/) and [AgentGPT](https://agentgpt.reworkd.ai/) as alternatives)
 - [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps
+- [Gumloop](https://www.gumloop.com/): automate any workflow with AI 
 - [GPT for Work](https://gptforwork.com/): GPT for Excel and Word, GPT for Google Sheets and Docs
 - [smol-ai/developer](https://github.com/smol-ai/developer/): embed a developer agent in your own app
 
@@ -132,8 +137,9 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Cursor](https://www.cursor.com/): AI code editor, i.e. built with AI mind from the beginning; great repo context, multiple cursors, browsing the web, chat, images
 - [Cline](https://github.com/cline/cline): autonomous coding agent right in your IDE
 - [Bolt](https://bolt.new/): dev sandbox with AI, browser-based
+- [Loveable](https://lovable.dev/): similar to Bolt 
 - [Waii](https://www.waii.ai/): SQL API built with generative AI
-- [aider](https://aider.chat/): AI pair programming in your terminal
+- [Aider](https://aider.chat/): AI pair programming in your terminal
 - [Postgres Sandbox](https://database.build/): build database right in your browser with AI
 
 ## Translation

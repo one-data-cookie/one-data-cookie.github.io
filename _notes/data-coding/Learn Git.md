@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: summer
 created: 2021-02-13
-updated: 2024-12-29
+updated: 2025-02-26
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -30,6 +30,7 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 - If there is still anything unclear, [Git docs/book](https://git-scm.com/book/en/v2) will almost certainly have an answer.
 - In case you wish to discover more commands that you might encounter and you are a visual learner [this Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html) might be of interest to you.
 - Still confused about some terms and hungry for some more (sometimes a bit technical) explanation, try [How to explain git in simple words?](https://xosh.org/explain-git-in-simple-words/).
+- If you'd like to set things up the way pros do it, you should do it [how core Git developers do it](https://blog.gitbutler.com/how-git-core-devs-configure-git/).
 
 ## Snippets
 - When anything goes wrong, [these code snippets](https://ohshitgit.com/) come particularly handy; alternatively [these from CIA](https://wikileaks.org/ciav7p1/cms/page_1179773.html).

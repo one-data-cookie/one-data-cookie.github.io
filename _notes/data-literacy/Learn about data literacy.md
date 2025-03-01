@@ -5,7 +5,7 @@ category: data-literacy
 tags: [idea]
 season: summer
 created: 2021-03-07
-updated: 2024-11-09
+updated: 2025-03-01
 sources: Misc
 ---
 
@@ -66,7 +66,7 @@ sources: Misc
 - [Minervo](https://www.minervo.cz/)
 - [Gapminder](https://www.gapminder.org/)
 - [Empower Your People With Data](https://www.gobeyondthedata.com/)
-- [Our World in Data](https://ourworldindata.org/)
+- [Our World in Data](https://ourworldindata.org/): publishing the research and data to make progress against the world’s largest problems
 - [Seeing Data](http://seeingdata.org/)
 - [European Data Science Academy](http://edsa-project.eu/news/)
 - [European Association for Digital Humanities](https://eadh.org/projects)

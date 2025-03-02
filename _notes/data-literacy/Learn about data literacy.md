@@ -5,7 +5,7 @@ category: data-literacy
 tags: [idea]
 season: summer
 created: 2021-03-07
-updated: 2025-03-01
+updated: 2025-03-02
 sources: Misc
 ---
 
@@ -39,6 +39,7 @@ sources: Misc
 - [17 Key Traits of Data Literacy](../../assets/files/key-traits-data-literacy.pdf)
 - [A Data and Analytics Leader's Guide to Data Literacy - Smarter With Gartner](https://www.gartner.com/smarterwithgartner/a-data-and-analytics-leaders-guide-to-data-literacy/)
 - [Digital Competences Framework from European Commission](../../assets/files/digital-competence-framework.pdf)
+    - [Digital Education Action Plan (2021-2027)](https://education.ec.europa.eu/focus-topics/digital-education/action-plan)
 - [School of Data's Data Literacy Research Findings](https://schoolofdata.org/2016/01/08/our-data-literacy-research-findings/)
 - [UN Data Revolution 2014](../../assets/files/a-world-that-counts.pdf)
 - [Materials from Virtual Conference on Data Literacy](http://datalit.sites.uofmhosting.net/conference/schedule/)

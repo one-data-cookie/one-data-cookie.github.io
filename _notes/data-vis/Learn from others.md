@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 2021-02-13
-updated: 2025-02-14
+updated: 2025-03-02
 sources: Misc
 ---
 
@@ -66,6 +66,10 @@ sources: Misc
 	- Can we come up with 100 visualizations from one simple dataset?
 - [Voronoi by Visual Capitalist](https://www.voronoiapp.com/)
     - Data-driven visual stories from Top Creators
+
+## Storytelling
+- [Hans Rosling](https://www.ted.com/playlists/474/the_best_hans_rosling_talks_yo)
+- [Ed Conway](https://www.linkedin.com/posts/ed-conway-466b172a_a-longer-than-usual-data-dive-this-time-activity-7300469656371318786-duxw)
 
 ## Pieces
 - [A Matter of Air](https://storymaps.arcgis.com/stories/8723e46dc6c54716808be04457723bc4): visualizing air pollution in New York City

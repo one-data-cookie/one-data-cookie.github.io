@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, tableau]
 season: spring
 created: 2018-09-23
-updated: 2024-11-09
+updated: 2025-03-04
 sources: Misc
 ---
 
@@ -80,6 +80,7 @@ sources: Misc
 	- [Curvy alternative](https://www.flerlagetwins.com/2019/03/curvy-bump-chart-slope-chart-template_27.html)
 - [Jitter Plot](https://www.thedataschool.co.uk/michael-mcfadden/tableau-tutorials-build-jitter-plot)
 - [Pudding Chart](https://vizzendata.com/2019/05/15/guest-post-how-to-create-a-plum-pudding-chart-circular-waffle-chart/)
+- [Comparison Columns](https://brittanyrosenau.medium.com/comparison-columns-in-tableau-shift-and-overlap-bars-with-one-easy-calc-aaf4e2d565ed)
 - [Design tips from Zak Geis](https://public.tableau.com/app/profile/zakgeis)
 
 

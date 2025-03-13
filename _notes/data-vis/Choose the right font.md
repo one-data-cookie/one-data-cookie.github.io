@@ -5,7 +5,7 @@ category: data-vis
 tags: [tutorial, font]
 season: autumn
 created: 2021-01-08
-updated: 2023-04-07
+updated: 2025-03-13
 sources: https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/
 ---
 
@@ -17,7 +17,6 @@ Before you choose a cool font, keep [this](https://www.flerlagetwins.com/2020/08
 - [Inter](https://fonts.google.com/specimen/Inter)
 - [Work Sans](https://fonts.google.com/specimen/Work+Sans)
 
----
 # For numbers
 ### Serif Fonts
 - [Droid Serif](https://fonts.google.com/specimen/Droid+Serif)
@@ -48,8 +47,6 @@ Before you choose a cool font, keep [this](https://www.flerlagetwins.com/2020/08
 - [Fjalla One](https://fonts.google.com/specimen/Fjalla+One)
 
 *Source:* https://blog.graphiq.com/finding-the-best-free-fonts-for-numbers-25c54002a895
- 
----
 
 # For small text
 - labels, sources, callouts
@@ -238,3 +235,6 @@ As you build your own skills in selecting typefaces, you’ll **develop your own
 It’s up to you to determine how you want the viewer to feel when they look at your designs. 
 
 This is how typography invisibly enhances your design—the choices you make can reduce friction and even bring delight to your designs. 
+
+## Special fonts
+- [Dysfont](https://dysfont.com/): makes it easier for people who suffer from dyslexia and/or visual stress to work with text on a daily basis.

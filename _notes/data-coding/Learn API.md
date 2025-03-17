@@ -1,12 +1,12 @@
 ---
-title: Learn about API
+title: Learn API
 lang: en
 category: data-coding
 tags:
   - learn
 season: autumn
 created: 2024-03-18
-updated: 2024-12-22
+updated: 2025-03-17
 sources: Misc
 ---
 

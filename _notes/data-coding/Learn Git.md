@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: summer
 created: 2021-02-13
-updated: 2025-02-26
+updated: 2025-03-17
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -109,7 +109,7 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 - Version-control large datasets, esp. in ML projects, using [DVC](https://dvc.org/)
 - [Merging vs Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 - [Git's data model](https://missing.csail.mit.edu/2020/version-control/)
-- Git uses hashing via [SHA-1](https://en.wikipedia.org/wiki/SHA-1) – maps arbitrary-sized inputs to 160-bit outputs (which can be represented as 40 hexadecimal characters, e.g. commit hashes) but [no longer unbroken](https://shattered.io/); more info in [[Learn about cryptography]]
+- Git uses hashing via [SHA-1](https://en.wikipedia.org/wiki/SHA-1) – maps arbitrary-sized inputs to 160-bit outputs (which can be represented as 40 hexadecimal characters, e.g. commit hashes) but [no longer unbroken](https://shattered.io/); more info in [[Learn cryptography]]
 - There are [many](https://nvie.com/posts/a-successful-git-branching-model/) [different](https://www.endoflineblog.com/gitflow-considered-harmful) [workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), i.e. practices to follow when working on big projects.
 - [Analyse how a Git repo grows over time](https://github.com/erikbern/git-of-theseus)
 - You can also [store your private data](https://github.com/sobolevn/git-secret) inside a git repo

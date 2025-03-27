@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-02-25
+updated: 2025-03-27
 sources: Misc
 ---
 
@@ -118,6 +118,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Luma](https://lumalabs.ai/dream-machine): video generation
 - [Pika](https://pika.art/): video generation
 - [Runway](https://runwayml.com/): text and image processing and generation
+- [Kling](https://klingai.com/): image-to-video and more
 
 ## Sounds
 - [ElevenLabs](https://elevenlabs.io/): text-to-speech generation

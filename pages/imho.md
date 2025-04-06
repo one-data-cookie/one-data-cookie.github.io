@@ -32,15 +32,15 @@ If you made the connection to these concepts before me – well done!
 
 Through reading and exploration, I've further had three important realisations that have expanded upon my earlier thoughts:
 1. I used to believe I'd formulated something that could (or even should?) be everyone's foundational idea, simply because it felt so right.
-I've come to see, though, that it's each person's freedom and responsibility to shape their own gestalt – their own way of making sense of the world and their place in it.
-No one can choose for me, and I can't choose for them.
+I've come to see, though, that it's each person's freedom and responsibility to shape their own gestalt – 
+their own way of making sense of the world and their place in it. No one can choose for me, and I can't choose for them.
 1. I'm now aware that what I put together represents my search for terrestrial meaning in the absence of cosmic meaning –
-an attempt to grasp a purpose, a sense of direction in a universe that is silent and indifferent. 
+an absurd attempt to grasp a purpose, a sense of direction in a universe that is silent and indifferent. 
 Meaning only begins when humans arrive: to feel it, question and interpret it, care about it.
 So, in the face of the abyss, we create significance as artists of our own existence.
 1. While I'm drawn to introspection and "lasting contributions", I recognise the limits of past- and future-oriented ways of living.
-As such, I place great importance on staying grounded in the present moment – finding joy and connection in the simple, everyday here-and-now.
-Appreciating that life is, not why and how it is. Viewing it as a mystery to engage in, not a problem to be solved.
+As such, I place great importance on staying grounded in the moment – finding joy and connection in the simple, everyday here-and-now.
+Appreciating that life is, not why and how it is. Viewing it as a presence to engage in, not a problem to be solved.
 
 ## Goal & Framework
 In 2019, I also took [CliftonStrengths from Gallup](https://www.gallup.com/cliftonstrengths/en/home.aspx) and it was very much spot on!

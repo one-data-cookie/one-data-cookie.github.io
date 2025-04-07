@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 2021-01-03
-updated: 2025-02-14
+updated: 2025-04-07
 sources: Misc
 ---
 
@@ -23,7 +23,9 @@ sources: Misc
 * [Index of Open Data](https://docs.google.com/spreadsheets/d/1KzZ1h9q3pdjUUyO12N6zUgOazMJXtx4Gye8JsEkah2I/edit#gid=787854630)
 	* Spreadsheet with various links to open data, curated by Data4Change.
 * [Trade Map](https://www.trademap.org/Index.aspx#)
-    * Trade statistics for international business development
+    * Trade statistics for international business development.
+* [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
+    * Primary federal entity for collecting and analysing data related to US education.
 
 ## Czechia
 * [Portál otevřených dat České republiky](https://data.gov.cz/)

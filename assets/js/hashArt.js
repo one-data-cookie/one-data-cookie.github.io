@@ -42,7 +42,7 @@ function gridToSvg(grid) {
       if (grid[y][x]) {
         
         const fillValue = grid[y][x] ? 'hsl(0deg 0% 0%)' : 'hsl(0deg 0% 100%)';
-        svg += `<rect x="${x}" y="${y}" width="1.02" height="1.02" fill="${fillValue}"></rect>`;
+        svg += `<rect x="${x}" y="${y}" width="1.1" height="1.1" fill="${fillValue}"></rect>`;
       }
     }
   }

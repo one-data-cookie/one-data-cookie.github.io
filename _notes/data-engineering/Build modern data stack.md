@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2025-01-13
+updated: 2025-05-12
 sources: Misc
 ---
 
@@ -138,8 +138,10 @@ sources: Misc
 ### DuckDB
 * [Official site](https://duckdb.org/)
 * [Modern Data Stack in a Box with DuckDB](https://duckdb.org/2022/10/12/modern-data-stack-in-a-box.html)
+* [Fully Local Data Transformation with dbt and DuckDB](https://duckdb.org/2025/04/04/dbt-duckdb)
 * [`pg_duckdb`](https://github.com/duckdb/pg_duckdb): DuckDB-powered Postgres for high performance apps & analytics
 * And they have [friendly SQL](https://duckdb.org/docs/sql/dialect/friendly_sql)
+* And not they also [have UI](https://duckdb.org/2025/03/12/duckdb-ui)
 
 ## Dashboarding
 ### Superset

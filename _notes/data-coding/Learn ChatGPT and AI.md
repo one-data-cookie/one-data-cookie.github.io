@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-04-28
+updated: 2025-05-12
 sources: Misc
 ---
 
@@ -136,6 +136,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [GitHub Copilot](https://github.com/features/copilot): perhaps the world’s most widely adopted AI developer tool
 - [Continue](https://www.continue.dev/): open-source version, [works on Ollama](https://ollama.com/blog/continue-code-assistant)
 - [Cursor](https://www.cursor.com/): AI code editor, i.e. built with AI mind from the beginning; great repo context, multiple cursors, browsing the web, chat, images
+- [Windsurf](https://windsurf.com/): yet another, agentic, AI-native IDE
 - [Cline](https://github.com/cline/cline): autonomous coding agent right in your IDE
 - [Bolt](https://bolt.new/): dev sandbox with AI, browser-based
 - [Loveable](https://lovable.dev/): similar to Bolt
@@ -150,6 +151,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 ## Other
 - [Shapen](https://shapen.com/): create 3D models from images
+- [LegoGPT](https://avalovelace1.github.io/LegoGPT/): generate physically stable and buildable LEGO® designs from text
 
 # Details
 ## Prompt Engineering

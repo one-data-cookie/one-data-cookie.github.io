@@ -5,7 +5,7 @@ category: data-vis
 tags: [history]
 season: winter
 created: 2021-10-25
-updated: 2025-02-05
+updated: 2025-05-17
 sources: Misc
 ---
 
@@ -21,3 +21,4 @@ sources: Misc
 ![E. J. Marey – Train Schedule](https://badriadhikari.github.io/data-viz-workshop-2021/minards/marey-train-schedule.png)
 
 ![Ch. J. Minard – Napoleon's Retreat from Moscow](https://upload.wikimedia.org/wikipedia/commons/2/29/Minard.png)
+(and some [additional info](https://nightingaledvs.com/napoleon-trump-best-statistical-graphic/) about it)

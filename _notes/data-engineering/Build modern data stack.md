@@ -5,7 +5,7 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2025-05-12
+updated: 2025-05-19
 sources: Misc
 ---
 
@@ -142,6 +142,10 @@ sources: Misc
 * [`pg_duckdb`](https://github.com/duckdb/pg_duckdb): DuckDB-powered Postgres for high performance apps & analytics
 * And they have [friendly SQL](https://duckdb.org/docs/sql/dialect/friendly_sql)
 * And not they also [have UI](https://duckdb.org/2025/03/12/duckdb-ui)
+
+### Apache Doris
+- [website](https://doris.apache.org/), [use case in Cisco](https://www.velodb.io/blog/1401)
+- for real-time analytics
 
 ## Dashboarding
 ### Superset

@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 2021-02-13
-updated: 2025-03-02
+updated: 2025-05-24
 sources: Misc
 ---
 
@@ -14,6 +14,10 @@ sources: Misc
 
 > "Viz what you love"
 > -- [Zach Bowders](https://nightingaledvs.com/viz-what-you-love/)
+
+## Academies
+- [Open Visualization Academy](https://openvisualizationacademy.org/)
+    - A public online repository of knowledge about data visualization and information design.
 
 ## Blogs
 - [The Information Lab](https://www.theinformationlab.co.uk/)

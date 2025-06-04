@@ -8,8 +8,8 @@ written up on the [landing page](/). More details and occasional updates about m
 life can be also found on my [LinkedIn profile](https://www.linkedin.com/in/kolacekm/).
 
 To keep with the tradition of [now pages](https://nownownow.com/) though,
-**here is what I'm up to** this winter ❄️:
-- Co-leading an analytics engineering team at [Slido](https://www.slido.com/)
+**here is what I'm up to** these days:
+- Leading the data team at [Slido](https://www.slido.com/)
 - Teaching IT to children aged 13–15 at [Tyršovka](https://www.tyrsovkakurim.cz/)
 - Organising and participating in (mostly) local data meetups
 - Mentoring a few data folks – both juniors & seniors

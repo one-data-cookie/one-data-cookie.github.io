@@ -18,7 +18,7 @@ content-type: homepage
 
 <ul class="emoji-list heavy">
   <li data-emoji="💻"><div markdown="1">
-  I am analytics engineer[^2], datavis artist[^3], coder[^4].
+  I am data geek[^2], datavis artist[^3], coder[^4].
   </div></li>
   <li data-emoji="🎓"><div markdown="1">
   I am teacher[^5], lecturer[^6], speaker[^7].
@@ -77,13 +77,13 @@ content-type: homepage
         this echoes my [personal philosophy](/ihmo) and the existentialist idea that
         authenticity is not a fixed state to be found, but rather an ongoing process to be lived.
 
-<!-- Analytics Engineer -->
-[^2]:   Most of my days are spent [being purple](https://www.getdbt.com/blog/we-the-purple-people)
-        as an [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) lead
+<!-- Data -->
+[^2]:   I love good data! That's why I spend most of my days [being purple](https://www.getdbt.com/blog/we-the-purple-people)
+        as a data lead (and previously [analytics engineering](https://www.getdbt.com/what-is-analytics-engineering/) lead)
         at [Slido](https://www.slido.com/) (acquired by [Cisco](https://www.cisco.com/) in 2021).
-        Basically, I make sure my colleagues have access to clean data
-        and feel confident using it to make decisions. It's also closely tied to my interest in
-        the concepts of [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy)
+        Basically, we're building a platform with clean, accessible data –
+        enabling confident decisions for our colleagues and building standout product features for our end users.
+        It's also closely tied to my interest in the concepts of [data literacy](https://thedataliteracyproject.org/posts/how-do-you-define-data-literacy)
         and the [modern data stack](https://www.getdbt.com/blog/future-of-the-modern-data-stack).
 
 <!-- Datavis -->

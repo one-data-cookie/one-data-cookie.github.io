@@ -5,14 +5,14 @@ category: data-coding
 tags: [learn]
 season: spring
 created: 2023-03-17
-updated: 2024-12-22
+updated: 2025-06-10
 sources: Misc
 ---
 
 > Software is a tool to help accomplish something for people – many programmers never understood that. Keep your eyes on the delivered value, and don't over-focus on the specifics of the tools.
 > -- [John Carmack](https://twitter.com/ID_AA_Carmack/status/1637087219591659520?s=20)
 
-## General Links
+## General links
 - [CS50: Introduction to Computer Science](https://pll.harvard.edu/course/cs50-introduction-computer-science)
 - [Tips & Tricks for VS Code](https://github.com/Microsoft/vscode-docs/blob/main/docs/getstarted/tips-and-tricks.md)
 - [Tips & Tricks for JetBrains](https://www.jetbrains.com/guide/python/tips/)
@@ -37,3 +37,6 @@ sources: Misc
 - [[Learn SQL]]
 - [[Learn Vim]]
 - [[Learn YAML]]
+
+## Other links
+- [UTM](https://mac.getutm.app/): securely run operating systems on your Mac

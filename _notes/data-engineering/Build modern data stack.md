@@ -5,12 +5,12 @@ category: data-engineering
 tags: [learn]
 season: summer
 created: 2021-04-04
-updated: 2025-05-27
+updated: 2025-06-13
 sources: Misc
 ---
 
 > A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.
-> -- Antoine de Saint-Exupéry 
+> -- Antoine de Saint-Exupéry
 
 # Links
 

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-05-12
+updated: 2025-06-30
 sources: Misc
 ---
 
@@ -144,6 +144,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Aider](https://aider.chat/): AI pair programming in your terminal
 - [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code): terminal-based CLI, tied to OpenAI/Anthropic
 - [Postgres Sandbox](https://database.build/): build database right in your browser with AI
+- [Gitingest](https://gitingest.com/): create a prompt-friendly codebase
+- [DeepWiki](https://deepwiki.com/): create deep LLM wiki from any repo
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

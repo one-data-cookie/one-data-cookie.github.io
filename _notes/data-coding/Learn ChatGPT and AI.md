@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-06-30
+updated: 2025-07-01
 sources: Misc
 ---
 
@@ -142,7 +142,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Loveable](https://lovable.dev/): similar to Bolt
 - [Waii](https://www.waii.ai/): SQL API built with generative AI
 - [Aider](https://aider.chat/): AI pair programming in your terminal
-- [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code): terminal-based CLI, tied to OpenAI/Anthropic
+- [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code) or [Gemini CLI](https://github.com/google-gemini/gemini-cli): terminal-based AI agents, tied to OpenAI/Anthropic/Gemini
 - [Postgres Sandbox](https://database.build/): build database right in your browser with AI
 - [Gitingest](https://gitingest.com/): create a prompt-friendly codebase
 - [DeepWiki](https://deepwiki.com/): create deep LLM wiki from any repo

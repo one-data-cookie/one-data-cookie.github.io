@@ -1,1 +1,0 @@
-![](../../assets/files/chart-random-01.png)

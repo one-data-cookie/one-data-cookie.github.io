@@ -271,7 +271,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
           id: 'hashart',
-          title: 'Understand hash art',
+          title: 'Understand my hashart',
           section: 'Actions',
           handler: () => window.location.href = '/hashart'
         },

@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 // Command Palette Configuration
 // Enhanced setup with all pages and theme switching
 
@@ -70,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('Synced ninja-keys theme to:', currentTheme);
     }
 
-    // Fix ninja-keys blur, scrollbar, and align colors with site theme
+    // Fix ninja-keys blur, scrollbar, and hide "move to parent" footer element
     function fixBlurIssue() {
         // Wait for ninja-keys to be fully loaded
         setTimeout(() => {
@@ -117,6 +121,11 @@ document.addEventListener('DOMContentLoaded', function() {
                         display: none !important;
                         width: 0 !important;
                         height: 0 !important;
+                    }
+                    
+                    /* Hide the last footer element (move to parent) */
+                    .modal-footer .help:last-child {
+                        display: none !important;
                     }
                 `;
                 style.appendChild(document.createTextNode(css));
@@ -243,10 +252,34 @@ document.addEventListener('DOMContentLoaded', function() {
           handler: () => window.location.href = '/uses'
         },
         {
-          id: 'inventarium',
-          title: 'Inventarium',
+          id: 'nmk',
+          title: 'Nmk',
           section: 'Links',
-          handler: () => window.location.href = '/inventarium'
+          handler: () => window.open('{{ site.social.nmk }}', '_blank')
+        },
+        {
+          id: 'github',
+          title: 'GitHub',
+          section: 'Links',
+          handler: () => window.open('{{ site.social.github }}', '_blank')
+        },
+        {
+          id: 'linkedin',
+          title: 'LinkedIn',
+          section: 'Links',
+          handler: () => window.open('{{ site.social.linkedin }}', '_blank')
+        },
+        {
+          id: 'email',
+          title: 'Email',
+          section: 'Links',
+          handler: () => window.location.href = 'mailto:{{ site.social.email }}'
+        },
+        {
+          id: 'hashart',
+          title: 'Understand hash art',
+          section: 'Actions',
+          handler: () => window.location.href = '/hashart'
         },
         {
           id: 'random',
@@ -320,7 +353,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const easterEggActions = [
         {
             id: 'celebrate',
-            title: 'Celebrate! 🎉',
+            title: 'Celebrate a bit!',
             section: 'Actions',
             handler: () => {
                 // Trigger confetti
@@ -349,7 +382,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     syncTheme();
                 }, 100);
             }
-        }];
+        }, ...easterEggActions];
         
         ninjaKeys.data = updatedActions;
     }
@@ -361,9 +394,8 @@ document.addEventListener('DOMContentLoaded', function() {
     ninjaKeys.data = allActions;
     
     // Configure ninja-keys behavior
-    ninjaKeys.placeholder = 'Do anything...';
+    ninjaKeys.placeholder = 'Go and explore...';
     ninjaKeys.hideBreadcrumbs = true;
-    ninjaKeys.goBackHotkey = false;
     
     // Apply blur fix
     fixBlurIssue();

@@ -34,13 +34,23 @@
       <a class="navbar-item" href="{{ site.url }}">
         <h4>{{ site.heading }}</h4>
       </a>
-      <div class="navbar-item navbar-dark-mode__mobile is-hidden-tablet" onclick="modeSwitcher()">
-        <div class="buttons">
-          <a class="button is-text">
-            <span class="icon is-small">
-              <img src="../assets/img/moon.svg" id="theme-toggle-img--mobile">
-            </span>
-          </a>
+      <!-- Mobile Buttons Group -->
+      <div class="mobile-buttons-group is-hidden-tablet">
+        <div class="navbar-item" onclick="openSearchModal()">
+          <div class="buttons">
+            <a class="button is-text">
+              <span class="cmd-palette-btn-mobile">⌘K</span>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item navbar-dark-mode__mobile" onclick="modeSwitcher()">
+          <div class="buttons">
+            <a class="button is-text">
+              <span class="icon is-small">
+                <img src="../assets/img/moon.svg" id="theme-toggle-img--mobile">
+              </span>
+            </a>
+          </div>
         </div>
       </div>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -82,10 +92,15 @@
         <a href="mailto:{{ site.social.email }}" class="navbar-item" data-umami-event="social-email">          Email
         </a>
       </div>
-      <div class="navbar-end is-hidden-mobile" onclick="modeSwitcher()" >
+      <div class="navbar-end is-hidden-mobile">
         <div class="navbar-item">
           <div class="buttons">
-            <a class="button is-text">
+            <!-- Command Palette Button -->
+            <a class="button is-text" onclick="openSearchModal()">
+              <span class="cmd-palette-btn">⌘K</span>
+            </a>
+            <!-- Theme Switcher Button -->
+            <a class="button is-text" onclick="modeSwitcher()">
               <span class="icon is-small">
                 <img src="../assets/img/moon.svg" id="theme-toggle-img">
               </span>

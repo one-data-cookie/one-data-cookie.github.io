@@ -1,6 +1,40 @@
 // Command Palette Configuration
 // Enhanced setup with all pages and theme switching
 
+// Global function to toggle command palette from header button
+// Based on implementation in https://github.com/alshedivat/al-folio
+const openSearchModal = () => {
+    const ninjaKeys = document.querySelector('ninja-keys');
+    if (!ninjaKeys) {
+        console.warn('ninja-keys element not found');
+        return;
+    }
+    
+    // Check if ninja-keys modal is currently open
+    let isOpen = false;
+    
+    // Check for 'open' attribute (primary method)
+    if (ninjaKeys.hasAttribute('open')) {
+        isOpen = true;
+    }
+    
+    // Fallback: Check shadow DOM for visible modal
+    if (!isOpen && ninjaKeys.shadowRoot) {
+        const modal = ninjaKeys.shadowRoot.querySelector('[class*="modal"], [class*="ninja"], [role="dialog"]');
+        if (modal) {
+            const modalStyle = window.getComputedStyle(modal);
+            isOpen = modalStyle.display !== 'none' && modalStyle.visibility !== 'hidden';
+        }
+    }
+    
+    // Toggle: open if closed, close if open
+    if (isOpen) {
+        ninjaKeys.close();
+    } else {
+        ninjaKeys.open();
+    }
+};
+
 document.addEventListener('DOMContentLoaded', function() {
     const ninjaKeys = document.querySelector('ninja-keys');
     
@@ -289,21 +323,11 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Celebrate! 🎉',
             section: 'Actions',
             handler: () => {
-                // Trigger confetti without interfering with ninja-keys
+                // Trigger confetti
                 triggerConfetti();
-                // Use a gentle close method that preserves event listeners
+                // Close command palette using ninja-keys API
                 setTimeout(() => {
-                    if (ninjaKeys && ninjaKeys.shadowRoot) {
-                        // Find and click the backdrop or use ESC key simulation
-                        const event = new KeyboardEvent('keydown', {
-                            key: 'Escape',
-                            code: 'Escape',
-                            keyCode: 27,
-                            which: 27,
-                            bubbles: true
-                        });
-                        document.dispatchEvent(event);
-                    }
+                    ninjaKeys.close();
                 }, 100);
             }
         }

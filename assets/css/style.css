@@ -1599,3 +1599,58 @@ label.margin-toggle:not(.sidenote-number) {
   grid-template-columns: repeat(1, 1fr);
 }
 }
+
+/* Command Palette Button Styles */
+.cmd-palette-btn {
+    font-weight: 1000;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.cmd-palette-btn-mobile {
+    font-weight: 1000;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Remove underline from command palette button links */
+a:has(.cmd-palette-btn),
+a:has(.cmd-palette-btn-mobile) {
+    text-decoration: none !important;
+}
+
+a:has(.cmd-palette-btn):hover,
+a:has(.cmd-palette-btn-mobile):hover {
+    text-decoration: none !important;
+}
+
+/* Mobile navbar positioning - keep command palette next to theme switcher */
+@media screen and (max-width: 1023px) {
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .navbar-brand .navbar-item:first-child {
+        flex-grow: 1;
+    }
+    
+    .mobile-buttons-group {
+        display: flex;
+        gap: 0;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 0.5rem;
+    }
+    
+    .mobile-buttons-group .navbar-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .navbar-burger {
+        margin-left: 0;
+    }
+}

@@ -70,8 +70,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Add the current theme class
         ninjaKeys.classList.add(currentTheme);
-        
-        console.log('Synced ninja-keys theme to:', currentTheme);
     }
 
     // Fix ninja-keys blur, scrollbar, and hide "move to parent" footer element
@@ -130,7 +128,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 style.appendChild(document.createTextNode(css));
                 ninjaKeys.shadowRoot.appendChild(style);
-                console.log('Applied ninja-keys blur fix and scrollbar removal');
             } else {
                 console.warn('ninja-keys shadowRoot not available');
             }
@@ -200,9 +197,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 `;
                 colorStyle.appendChild(document.createTextNode(colorCSS));
                 ninjaKeys.shadowRoot.appendChild(colorStyle);
-                console.log('Applied dynamic color scheme to ninja-keys using CSS variables:', {
-                    bgMain, textMain, textSub, bgSub, border
-                });
             }
         }, 150);
     }
@@ -408,7 +402,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Listen for theme changes to keep popup in sync
     const observer = new MutationObserver(() => {
-        console.log('Theme change detected, updating popup...');
         // Update theme class
         syncTheme();
         // Re-apply colors with new theme values
@@ -419,6 +412,4 @@ document.addEventListener('DOMContentLoaded', function() {
         attributes: true,
         attributeFilter: ['data-theme']
     });
-    
-    console.log('Command palette initialized with', allActions.length, 'actions');
 });

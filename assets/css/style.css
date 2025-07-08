@@ -1599,3 +1599,70 @@ label.margin-toggle:not(.sidenote-number) {
   grid-template-columns: repeat(1, 1fr);
 }
 }
+
+/* Command Palette Button Styles */
+.cmd-palette-btn {
+    font-weight: 1000;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+/* Override Bulma button styles with high specificity */
+.navbar-item .button.is-text:hover,
+.navbar-item .button.is-text:focus,
+.navbar-item .button.is-text:active,
+.button.is-text:hover,
+.button.is-text:focus,
+.button.is-text:active,
+.button:hover,
+.button:focus,
+.button:active,
+.cmd-palette-btn:hover,
+.cmd-palette-btn:focus,
+.cmd-palette-btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    background: none !important;
+    color: inherit !important;
+}
+
+/* Remove underline from command palette button links */
+a:has(.cmd-palette-btn) {
+    text-decoration: none !important;
+}
+
+a:has(.cmd-palette-btn):hover {
+    text-decoration: none !important;
+}
+
+/* Mobile navbar positioning - keep command palette next to theme switcher */
+@media screen and (max-width: 1023px) {
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .navbar-brand .navbar-item:first-child {
+        flex-grow: 1;
+    }
+    
+    .mobile-buttons-group {
+        display: flex;
+        gap: 0;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 0.5rem;
+    }
+    
+    .mobile-buttons-group .navbar-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .navbar-burger {
+        margin-left: 0;
+    }
+}

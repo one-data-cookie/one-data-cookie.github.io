@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-07-01
+updated: 2025-07-08
 sources: Misc
 ---
 
@@ -123,6 +123,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 ## Sounds
 - [ElevenLabs](https://elevenlabs.io/): text-to-speech generation
 - [Suno](https://www.suno.ai/): generating music
+- [NaturalReaders](https://www.naturalreaders.com/): not a bad, free text-to-speech
 - [NotebookLM’s automatically generated podcasts are surprisingly effective](https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/)
 
 ## Agents

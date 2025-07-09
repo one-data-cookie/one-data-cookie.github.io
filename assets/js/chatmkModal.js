@@ -221,24 +221,10 @@ async function sendChatMKMessage() {
       }
     }
     
-    // Fallback to search results if AI is not ready or failed
+    // Fallback: only show message if no search results were found at all
     if (results.length === 0) {
       addChatMKMessage('assistant', "I couldn't find any relevant information about that topic. Try asking about data analytics, teaching, or other topics from Michal's knowledge base.");
-      return;
     }
-    
-    // Show search results as fallback
-    let response = window.chatMKAI && window.chatMKAI.isLoading 
-      ? `AI is still loading, here are search results for now:\n\n`
-      : `I found ${results.length} relevant items:\n\n`;
-    
-    results.forEach((result, index) => {
-      response += `**${index + 1}. ${result.title}**\n`;
-      response += `${result.excerpt}\n`;
-      response += `[Read more](${result.url})\n\n`;
-    });
-    
-    addChatMKMessage('assistant', response);
     
   } catch (error) {
     console.error('ChatMK error:', error);

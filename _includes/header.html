@@ -36,6 +36,13 @@
       </a>
       <!-- Mobile Buttons Group -->
       <div class="mobile-buttons-group is-hidden-tablet">
+        <div class="navbar-item" onclick="openChatMKModal()">
+          <div class="buttons">
+            <a class="button is-text">
+              <span class="chatmk-btn">@></span>
+            </a>
+          </div>
+        </div>
         <div class="navbar-item" onclick="openSearchModal()">
           <div class="buttons">
             <a class="button is-text">
@@ -96,6 +103,10 @@
       <div class="navbar-end is-hidden-mobile">
         <div class="navbar-item">
           <div class="buttons">
+            <!-- ChatMK Button -->
+            <a class="button is-text" onclick="openChatMKModal()">
+              <span class="chatmk-btn">@></span>
+            </a>
             <!-- Command Palette Button -->
             <a class="button is-text" onclick="openSearchModal()">
               <span class="cmd-palette-btn">⌘K</span>

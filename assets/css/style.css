@@ -3,6 +3,7 @@ layout: stylesheet
 ---
 
 @import "/assets/css/highlight.css";
+@import "/assets/css/chatmk.css";
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 html, html[data-theme="light"] {
@@ -1607,6 +1608,13 @@ label.margin-toggle:not(.sidenote-number) {
     text-decoration: none;
 }
 
+/* ChatMK Button Styles */
+.chatmk-btn {
+    font-weight: 1000;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 /* Override Bulma button styles with high specificity */
 .navbar-item .button.is-text:hover,
 .navbar-item .button.is-text:focus,
@@ -1619,7 +1627,10 @@ label.margin-toggle:not(.sidenote-number) {
 .button:active,
 .cmd-palette-btn:hover,
 .cmd-palette-btn:focus,
-.cmd-palette-btn:active {
+.cmd-palette-btn:active,
+.chatmk-btn:hover,
+.chatmk-btn:focus,
+.chatmk-btn:active {
     outline: none !important;
     box-shadow: none !important;
     background-color: transparent !important;
@@ -1633,6 +1644,15 @@ a:has(.cmd-palette-btn) {
 }
 
 a:has(.cmd-palette-btn):hover {
+    text-decoration: none !important;
+}
+
+/* Remove underline from ChatMK button links */
+a:has(.chatmk-btn) {
+    text-decoration: none !important;
+}
+
+a:has(.chatmk-btn):hover {
     text-decoration: none !important;
 }
 

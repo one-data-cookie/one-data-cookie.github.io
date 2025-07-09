@@ -179,20 +179,34 @@ async function sendChatMKMessage() {
     // Search for relevant content
     let results;
     try {
-      results = await window.chatMKSearch.search(query, 5);
+      results = await window.chatMKSearch.search(query, 3);
     } catch (embeddingError) {
       console.warn('Semantic search failed, falling back to keyword search:', embeddingError);
-      results = window.chatMKSearch.keywordSearch(query, 5);
+      results = window.chatMKSearch.keywordSearch(query, 3);
     }
     
+    // Try to get AI response if available
+    if (window.chatMKAI && window.chatMKAI.isReady()) {
+      try {
+        console.log('ChatMK: Generating AI response...');
+        const aiResponse = await window.chatMKAI.generateResponse(query, results);
+        addChatMKMessage('assistant', aiResponse);
+        return;
+      } catch (aiError) {
+        console.warn('ChatMK: AI response failed, falling back to search results:', aiError);
+      }
+    }
+    
+    // Fallback to search results if AI is not ready or failed
     if (results.length === 0) {
       addChatMKMessage('assistant', "I couldn't find any relevant information about that topic. Try asking about data analytics, teaching, or other topics from Michal's knowledge base.");
       return;
     }
     
-    // For now, show search results as the response
-    // Later this will be replaced with AI-generated responses
-    let response = `I found ${results.length} relevant items:\n\n`;
+    // Show search results as fallback
+    let response = window.chatMKAI && window.chatMKAI.isLoading 
+      ? `AI is still loading, here are search results for now:\n\n`
+      : `I found ${results.length} relevant items:\n\n`;
     
     results.forEach((result, index) => {
       response += `**${index + 1}. ${result.title}**\n`;
@@ -203,8 +217,8 @@ async function sendChatMKMessage() {
     addChatMKMessage('assistant', response);
     
   } catch (error) {
-    console.error('ChatMK search error:', error);
-    addChatMKMessage('assistant', "Sorry, I encountered an error while searching. Please try again.");
+    console.error('ChatMK error:', error);
+    addChatMKMessage('assistant', "Sorry, I encountered an error while processing your request. Please try again.");
   }
 }
 

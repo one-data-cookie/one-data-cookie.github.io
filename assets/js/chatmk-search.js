@@ -7,6 +7,7 @@ class ChatMKSearch {
   constructor() {
     this.brainData = null;
     this.isLoaded = false;
+    this.model = null;
   }
 
   /**
@@ -42,6 +43,14 @@ class ChatMKSearch {
       // Initialize the model (same as used for content embeddings)
       if (!this.model) {
         console.log('Loading embedding model...');
+        
+        // Configure transformers.js to use Hugging Face CDN
+        if (window.transformers.env) {
+          window.transformers.env.remoteURL = 'https://huggingface.co/';
+          window.transformers.env.allowRemoteModels = true;
+          window.transformers.env.localURL = null;
+        }
+        
         this.model = await window.transformers.pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
         console.log('Model loaded successfully');
       }

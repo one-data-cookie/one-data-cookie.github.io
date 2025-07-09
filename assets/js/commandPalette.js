@@ -160,6 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         --ninja-border: ${border} !important;
                         --ninja-secondary-background-color: ${bgSub} !important;
                         --ninja-secondary-text-color: ${colorBis} !important;
+                        --ninja-accent-color: ${textMain} !important;
                     }
                     
                     /* Ensure proper contrast for all elements */
@@ -205,86 +206,74 @@ document.addEventListener('DOMContentLoaded', function() {
     const pageActions = [
         {
           id: 'home',
-          title: 'Home',
-          section: 'Pages',
+          title: 'Go to Home',
+          section: 'Pages navigation',
           handler: () => window.location.href = '/'
         },
         {
           id: 'projects',
-          title: 'Projects',
-          section: 'Pages',
+          title: 'Go to Projects',
+          section: 'Pages navigation',
           handler: () => window.location.href = '/projects'
         },
         {
           id: 'garden',
-          title: 'Garden',
-          section: 'Pages',
+          title: 'Go to Garden',
+          section: 'Pages navigation',
           handler: () => window.location.href = '/garden'
         },
         {
           id: 'datavis',
-          title: 'Datavis',
-          section: 'Pages',
+          title: 'Go to Datavis',
+          section: 'Pages navigation',
           handler: () => window.location.href = '/datavis'
         },
         {
           id: 'teach',
-          title: 'Teach',
-          section: 'Pages',
+          title: 'Go to Teach',
+          section: 'Pages navigation',
           handler: () => window.location.href = '/teach'
         },
         {
           id: 'imho',
-          title: 'Imho',
-          section: 'Pages',
+          title: 'Go to Imho',
+          section: 'Pages navigation',
           handler: () => window.location.href = '/imho'
         },
         {
           id: 'uses',
-          title: 'Uses',
-          section: 'Pages',
+          title: 'Go to Uses',
+          section: 'Pages navigation',
           handler: () => window.location.href = '/uses'
         },
         {
           id: 'nmk',
-          title: 'Nmk',
-          section: 'Links',
+          title: 'Open Nmk',
+          section: 'External links',
           handler: () => window.open('{{ site.social.nmk }}', '_blank')
         },
         {
           id: 'github',
-          title: 'GitHub',
-          section: 'Links',
+          title: 'Open GitHub',
+          section: 'External links',
           handler: () => window.open('{{ site.social.github }}', '_blank')
         },
         {
           id: 'linkedin',
-          title: 'LinkedIn',
-          section: 'Links',
+          title: 'Open LinkedIn',
+          section: 'External links',
           handler: () => window.open('{{ site.social.linkedin }}', '_blank')
         },
         {
           id: 'email',
-          title: 'Email',
-          section: 'Links',
+          title: 'Open Email',
+          section: 'External links',
           handler: () => window.location.href = 'mailto:{{ site.social.email }}'
         },
         {
-          id: 'hashart',
-          title: 'Understand my hashart',
-          section: 'Actions',
-          handler: () => window.location.href = '/hashart'
-        },
-        {
-          id: 'random',
-          title: 'Open random note',
-          section: 'Actions',
-          handler: () => window.location.href = '/random'
-        },
-        {
           id: 'chatmk',
-          title: 'ChatMK - Ask my brain',
-          section: 'Actions',
+          title: 'Talk to me via ChatMK',
+          section: 'Custom actions',
           handler: () => {
             if (typeof openChatMKModal === 'function') {
               openChatMKModal();
@@ -296,6 +285,18 @@ document.addEventListener('DOMContentLoaded', function() {
               console.warn('ChatMK modal not available');
             }
           }
+        },
+        {
+          id: 'hashart',
+          title: 'Understand my hashart',
+          section: 'Custom actions',
+          handler: () => window.location.href = '/hashart'
+        },
+        {
+          id: 'random',
+          title: 'Open random note',
+          section: 'Custom actions',
+          handler: () => window.location.href = '/random'
         },
     ];
 
@@ -347,7 +348,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 'toggle-theme',
             title: `Switch to ${getCurrentTheme() === 'dark' ? 'light' : 'dark'} theme`,
-            section: 'Actions',
+            section: 'Custom actions',
             handler: () => {
                 toggleTheme();
                 // Update the action title after theme change
@@ -364,7 +365,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 'celebrate',
             title: 'Celebrate a bit!',
-            section: 'Actions',
+            section: 'Custom actions',
             handler: () => {
                 // Trigger confetti
                 triggerConfetti();
@@ -384,7 +385,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const updatedActions = [...pageActions, {
             id: 'toggle-theme',
             title: newTitle,
-            section: 'Actions',
+            section: 'Custom actions',
             handler: () => {
                 toggleTheme();
                 setTimeout(() => {

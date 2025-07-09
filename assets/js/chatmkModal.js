@@ -57,10 +57,32 @@ function openChatMKModal() {
     window.chatMKSearch = new ChatMKSearch();
   }
   
-  // Initialize AI model when modal is first opened
-  if (window.chatMKAI && !window.chatMKAI.isLoading && !window.chatMKAI.isLoaded) {
-    console.log('ChatMK: Starting AI model initialization...');
-    window.chatMKAI.initialize();
+  // Load models in the right order: embedding first, then AI
+  initializeChatMKModels();
+}
+
+/**
+ * Initialize ChatMK models in the correct order
+ */
+async function initializeChatMKModels() {
+  console.log('ChatMK: Starting model initialization...');
+  
+  try {
+    // 1. Load embedding model first (smaller, faster, core functionality)
+    if (window.chatMKSearch && !window.chatMKSearch.model) {
+      console.log('ChatMK: Loading embedding model first...');
+      // Pre-load the embedding model
+      await window.chatMKSearch.preloadEmbeddingModel();
+    }
+    
+    // 2. Then start AI model loading (larger, enhancement)
+    if (window.chatMKAI && !window.chatMKAI.isLoading && !window.chatMKAI.isLoaded) {
+      console.log('ChatMK: Starting AI model initialization...');
+      window.chatMKAI.initialize();
+    }
+    
+  } catch (error) {
+    console.error('ChatMK: Error during model initialization:', error);
   }
 }
 
@@ -175,7 +197,6 @@ async function sendChatMKMessage() {
   // Add user message
   addChatMKMessage('user', query);
   
-  
   try {
     // Initialize ChatMK search if not already done
     if (!window.chatMKSearch) {
@@ -198,6 +219,8 @@ async function sendChatMKMessage() {
         searchResponse += `${index + 1}. **[${result.title}](${result.url})**\n`;
       });
       addChatMKMessage('assistant', searchResponse);
+    } else {
+      addChatMKMessage('assistant', "I couldn't find any relevant information about that topic. Try asking about data analytics, teaching, or other topics from Michal's knowledge base.");
     }
 
     // Try to get AI response if available
@@ -205,7 +228,7 @@ async function sendChatMKMessage() {
       try {
         console.log('ChatMK: Generating AI response...');
         
-        // Add loading indicator
+        // Add loading indicator for AI response
         addChatMKMessage('assistant', '<div class="typing-indicator"><span></span><span></span><span></span></div>');
         const loadingMessage = document.querySelector('.chatmk-messages .chatmk-message:last-child');
         
@@ -216,20 +239,18 @@ async function sendChatMKMessage() {
           loadingMessage.remove();
         }
         addChatMKMessage('assistant', aiResponse);
-        return;
+        
       } catch (aiError) {
-        console.warn('ChatMK: AI response failed, falling back to search results:', aiError);
+        console.warn('ChatMK: AI response failed:', aiError);
         // Remove loading indicator if there was an error
         const loadingMessage = document.querySelector('.chatmk-messages .chatmk-message:last-child');
         if (loadingMessage && loadingMessage.innerHTML.includes('typing-indicator')) {
           loadingMessage.remove();
         }
       }
-    }
-    
-    // Fallback: only show message if no search results were found at all
-    if (results.length === 0) {
-      addChatMKMessage('assistant', "I couldn't find any relevant information about that topic. Try asking about data analytics, teaching, or other topics from Michal's knowledge base.");
+    } else {
+      // AI model not ready yet - this is fine, user already has search results
+      console.log('ChatMK: AI model not ready yet, showing search results only');
     }
     
   } catch (error) {

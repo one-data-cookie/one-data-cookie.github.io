@@ -8,6 +8,48 @@ class ChatMKSearch {
     this.brainData = null;
     this.isLoaded = false;
     this.model = null;
+    this.transformersLoaded = false;
+  }
+
+  /**
+   * Dynamically load transformers.js library
+   */
+  async loadTransformersJS() {
+    if (this.transformersLoaded && window.transformers) {
+      return;
+    }
+
+    console.log('ChatMK: Loading transformers.js library...');
+    
+    try {
+      // Dynamically import transformers.js
+      const { pipeline, env } = await import('https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2');
+      
+      // Configure transformers.js to use Hugging Face CDN for model files and prevent local path attempts
+      env.remoteURL = 'https://huggingface.co/';
+      env.allowRemoteModels = true;
+      env.localURL = null;
+      env.allowLocalModels = false;
+      
+      // Force disable local model loading by configuring backends
+      env.backends = {
+        onnx: {
+          wasm: {
+            wasmPaths: 'https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2/dist/',
+          }
+        }
+      };
+      
+      // Make available globally
+      window.transformers = { pipeline, env };
+      this.transformersLoaded = true;
+      
+      console.log('ChatMK: Transformers.js loaded and configured');
+      
+    } catch (error) {
+      console.error('ChatMK: Failed to load transformers.js:', error);
+      throw error;
+    }
   }
 
   /**
@@ -28,31 +70,120 @@ class ChatMKSearch {
   }
 
   /**
+   * Show embedding model loading progress
+   */
+  showEmbeddingProgress(percent, mbLoaded, mbTotal) {
+    const messagesContainer = document.getElementById('chatmk-messages');
+    if (messagesContainer) {
+      // Check if there's already a progress message and update it
+      const existingProgress = messagesContainer.querySelector('.embedding-loading');
+      
+      if (existingProgress) {
+        // Update existing progress message
+        const content = existingProgress.querySelector('.message-content');
+        if (content) {
+          content.innerHTML = `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal}MB)</p>`;
+        }
+      } else {
+        // Create new progress message
+        const messageDiv = document.createElement('div');
+        messageDiv.className = 'chatmk-message system embedding-loading';
+        messageDiv.innerHTML = `
+          <div class="message-content">
+            <p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal}MB)</p>
+          </div>
+        `;
+        
+        messagesContainer.appendChild(messageDiv);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+      }
+    }
+  }
+
+  /**
+   * Simulate embedding model loading progress
+   */
+  async simulateEmbeddingProgress() {
+    const totalMB = 25; // Embedding model is ~25MB
+    
+    // Simulate progress from 0% to 100%
+    for (let percent = 0; percent <= 100; percent += 20) {
+      const mbLoaded = Math.round((percent / 100) * totalMB);
+      this.showEmbeddingProgress(percent, mbLoaded, totalMB);
+      
+      if (percent < 100) {
+        await new Promise(resolve => setTimeout(resolve, 200));
+      }
+    }
+  }
+
+  /**
+   * Pre-load the embedding model when modal opens
+   */
+  async preloadEmbeddingModel() {
+    if (this.model) {
+      console.log('ChatMK: Embedding model already loaded');
+      return;
+    }
+    
+    console.log('ChatMK: Pre-loading embedding model...');
+    
+    try {
+      // Start progress simulation
+      const progressPromise = this.simulateEmbeddingProgress();
+      
+      // Load transformers.js library and model
+      await this.loadTransformersJS();
+      
+      // Check if transformers.js is available
+      if (!window.transformers) {
+        console.warn('Transformers.js not available');
+        throw new Error('Transformers not available');
+      }
+      
+      // Load the embedding model
+      this.model = await window.transformers.pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
+      
+      // Wait for progress to complete
+      await progressPromise;
+      
+      console.log('ChatMK: Embedding model pre-loaded successfully');
+      
+      // Keep showing 100% when done (like AI model)
+      this.showEmbeddingProgress(100, 25, 25);
+      
+    } catch (error) {
+      console.error('ChatMK: Failed to pre-load embedding model:', error);
+      this.hideModelLoadingMessage();
+      // Don't throw - allow fallback to keyword search
+    }
+  }
+
+  /**
    * Generate embedding for a query text using transformers.js
    */
   async generateQueryEmbedding(text) {
     console.log('Generating embedding for query:', text);
     
     try {
+      // First, load transformers.js library dynamically if not already loaded
+      await this.loadTransformersJS();
+      
       // Check if transformers.js is available
       if (!window.transformers) {
         console.warn('Transformers.js not available, falling back to keyword search');
         throw new Error('Transformers not available');
       }
       
-      // Initialize the model (same as used for content embeddings)
+      // If model not loaded, try to load it (fallback)
       if (!this.model) {
         console.log('Loading embedding model...');
-        
-        // Configure transformers.js to use Hugging Face CDN
-        if (window.transformers.env) {
-          window.transformers.env.remoteURL = 'https://huggingface.co/';
-          window.transformers.env.allowRemoteModels = true;
-          window.transformers.env.localURL = null;
-        }
-        
-        this.model = await window.transformers.pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-        console.log('Model loaded successfully');
+        await this.preloadEmbeddingModel();
+      }
+      
+      // If still no model, fall back to keyword search
+      if (!this.model) {
+        throw new Error('Embedding model not available');
       }
       
       // Generate embedding
@@ -66,6 +197,19 @@ class ChatMKSearch {
       console.error('Failed to generate query embedding:', error);
       // Return zeros as fallback - will result in low similarity scores
       return new Array(384).fill(0);
+    }
+  }
+
+  /**
+   * Hide loading message for model initialization
+   */
+  hideModelLoadingMessage() {
+    const messagesContainer = document.getElementById('chatmk-messages');
+    if (messagesContainer) {
+      const loadingMessage = messagesContainer.querySelector('.embedding-loading');
+      if (loadingMessage) {
+        loadingMessage.remove();
+      }
     }
   }
 

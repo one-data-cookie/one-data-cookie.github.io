@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-07-08
+updated: 2025-07-09
 sources: Misc
 ---
 
@@ -140,7 +140,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Windsurf](https://windsurf.com/): yet another, agentic, AI-native IDE
 - [Cline](https://github.com/cline/cline): autonomous coding agent right in your IDE
 - [Bolt](https://bolt.new/): dev sandbox with AI, browser-based
-- [Loveable](https://lovable.dev/): similar to Bolt
+- [Lovable](https://lovable.dev/): similar to Bolt
+- [Macaly](https://www.macaly.com/): similar to Lovable from Czechia
 - [Waii](https://www.waii.ai/): SQL API built with generative AI
 - [Aider](https://aider.chat/): AI pair programming in your terminal
 - [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code) or [Gemini CLI](https://github.com/google-gemini/gemini-cli): terminal-based AI agents, tied to OpenAI/Anthropic/Gemini

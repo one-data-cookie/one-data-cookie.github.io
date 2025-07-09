@@ -8,7 +8,7 @@ class ChatMKAI {
     this.wllama = null;
     this.isLoading = false;
     this.isLoaded = false;
-    this.modelPath = 'https://huggingface.co/QuantFactory/SmolLM-135M-Instruct-GGUF/resolve/main/SmolLM-135M-Instruct.Q4_K_M.gguf';
+    this.modelPath = 'https://huggingface.co/QuantFactory/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct.Q8_0.gguf';
   }
 
   /**
@@ -36,6 +36,7 @@ class ChatMKAI {
       this.wllama = new Wllama(CONFIG_PATHS, {
         // Use single-threaded mode for better browser compatibility
         n_threads: 1,
+        n_ctx: 2048, // Increase context window size
         logger: {
           debug: (...args) => console.debug('ChatMK AI:', ...args),
           log: (...args) => console.log('ChatMK AI:', ...args),
@@ -82,7 +83,7 @@ class ChatMKAI {
   }
 
   /**
-   * Generate AI response based on context and query
+   * Generate AI response (without search results - those are shown separately)
    */
   async generateResponse(query, searchResults = []) {
     if (!this.isLoaded || !this.wllama) {
@@ -90,14 +91,24 @@ class ChatMKAI {
     }
 
     try {
-      // Build context from search results
+      // Build context from search results - LIMITED to prevent context overflow
       let context = '';
       if (searchResults.length > 0) {
         context = 'Based on the following information from Michal\'s knowledge base:\n\n';
-        searchResults.forEach((result, index) => {
-          context += `${index + 1}. ${result.title}\n${result.excerpt}\n\n`;
+        
+        // First result: limited content (max 800 chars)
+        if (searchResults[0]) {
+          const limitedContent = searchResults[0].content.substring(0, 800).trim() + '...';
+          context += `1. ${searchResults[0].title}\n${limitedContent}\n\n`;
+        }
+        
+        // Results 2 & 3: excerpts only (max 200 chars each)
+        searchResults.slice(1, 3).forEach((result, index) => {
+          const limitedExcerpt = result.excerpt.substring(0, 200).trim() + '...';
+          context += `${index + 2}. ${result.title}\n${limitedExcerpt}\n\n`;
         });
-        context += 'Please answer the following question:\n\n';
+        
+        context += 'Question: ';
       }
 
       // Create the prompt
@@ -106,10 +117,7 @@ class ChatMKAI {
       console.log('ChatMK AI: Generating response for:', query);
       console.log('ChatMK AI: Prompt length:', prompt.length);
       
-      // Debug: Check available methods
-      console.log('ChatMK AI: Available wllama methods:', Object.getOwnPropertyNames(Object.getPrototypeOf(this.wllama)));
-      
-      // Generate response using wllama with timeout
+      // Generate response using wllama
       const responsePromise = this.wllama.createCompletion(prompt, {
         nPredict: 50,
         temperature: 0.7,
@@ -144,21 +152,7 @@ class ChatMKAI {
    */
   buildPrompt(userMessage) {
     return `<|system|>
-You are Michal - a data analytics expert, teacher, and digital thinker. Respond as if you're actually Michal speaking directly.
-
-Your communication style:
-- Conversational and approachable, like talking to a colleague
-- Direct and practical - no fluff or corporate speak
-- Use "I" when sharing experiences ("I've found that...", "In my work...")
-- Mix technical insights with human perspective
-- Occasionally reference your teaching or analytics background
-- Keep responses SHORT (2-3 sentences max) to stay focused
-
-Rules:
-- ONLY answer based on the provided context - don't make up information
-- If you don't know something from the context, say "I haven't written about that" or "That's not in my notes"
-- Be authentic to Michal's voice - thoughtful but not overly formal
-- End responses naturally, don't always offer to help more
+You are Michal, a data analytics expert and teacher. Answer as Michal would, using "I" when sharing experiences. Be conversational and practical. Answer in EXACTLY ONE SENTENCE. Only use the provided context - don't make up information.
 
 <|user|>
 ${userMessage}
@@ -228,7 +222,7 @@ ${userMessage}
       messageDiv.className = 'chatmk-message system ai-progress';
       messageDiv.innerHTML = `
         <div class="message-content">
-          ${message}
+          <p>${message}</p>
         </div>
       `;
       

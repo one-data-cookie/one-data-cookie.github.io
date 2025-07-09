@@ -185,15 +185,39 @@ async function sendChatMKMessage() {
       results = window.chatMKSearch.keywordSearch(query, 3);
     }
     
+    // Show search results immediately
+    if (results.length > 0) {
+      let searchResponse = `**📚 Related notes:**\n`;
+      results.slice(0, 3).forEach((result, index) => {
+        searchResponse += `${index + 1}. **[${result.title}](${result.url})**\n`;
+      });
+      addChatMKMessage('assistant', searchResponse);
+    }
+
     // Try to get AI response if available
     if (window.chatMKAI && window.chatMKAI.isReady()) {
       try {
         console.log('ChatMK: Generating AI response...');
+        
+        // Add loading indicator
+        addChatMKMessage('assistant', '<div class="typing-indicator"><span></span><span></span><span></span></div>');
+        const loadingMessage = document.querySelector('.chatmk-messages .chatmk-message:last-child');
+        
         const aiResponse = await window.chatMKAI.generateResponse(query, results);
+        
+        // Remove loading indicator and add actual response
+        if (loadingMessage) {
+          loadingMessage.remove();
+        }
         addChatMKMessage('assistant', aiResponse);
         return;
       } catch (aiError) {
         console.warn('ChatMK: AI response failed, falling back to search results:', aiError);
+        // Remove loading indicator if there was an error
+        const loadingMessage = document.querySelector('.chatmk-messages .chatmk-message:last-child');
+        if (loadingMessage && loadingMessage.innerHTML.includes('typing-indicator')) {
+          loadingMessage.remove();
+        }
       }
     }
     

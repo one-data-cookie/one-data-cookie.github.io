@@ -5,10 +5,11 @@
 
 class ChatMKAI {
   constructor() {
-    this.model = null;
+    this.wllama = null;
     this.isLoading = false;
     this.isLoaded = false;
-    this.modelPath = '/assets/models/tinyllama-1.1b-chat-v1.0.Q5_K_M.gguf';
+    this.modelPath =
+      "https://huggingface.co/QuantFactory/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct.Q8_0.gguf";
   }
 
   /**
@@ -20,86 +21,143 @@ class ChatMKAI {
     }
 
     this.isLoading = true;
-    console.log('ChatMK AI: Starting model initialization...');
-    
+    console.log("ChatMK AI: Starting model initialization...");
+
     try {
-      // Import wllama
-      const { getLLama } = await import('https://cdn.jsdelivr.net/npm/@wllama/wllama@1.4.0/dist/esm/index.js');
-      
+      // Import wllama from the correct ESM path
+      const { Wllama } = await import(
+        "https://cdn.jsdelivr.net/npm/@wllama/wllama@2.3.2/esm/index.js"
+      );
+
+      // Configure wllama with correct CDN paths for WASM files
+      const CONFIG_PATHS = {
+        "single-thread/wllama.wasm":
+          "https://cdn.jsdelivr.net/npm/@wllama/wllama@2.3.2/esm/single-thread/wllama.wasm",
+        "multi-thread/wllama.wasm":
+          "https://cdn.jsdelivr.net/npm/@wllama/wllama@2.3.2/esm/multi-thread/wllama.wasm",
+      };
+
       // Initialize wllama
-      const llama = await getLLama({
+      this.wllama = new Wllama(CONFIG_PATHS, {
         // Use single-threaded mode for better browser compatibility
-        single: true,
-        logger: console.log
+        n_threads: 1,
+        n_ctx: 2048, // Increase context window size
+        logger: {
+          debug: (...args) => console.debug("ChatMK AI:", ...args),
+          log: (...args) => console.log("ChatMK AI:", ...args),
+          warn: (...args) => console.warn("ChatMK AI:", ...args),
+          error: (...args) => console.error("ChatMK AI:", ...args),
+        },
       });
-      
-      console.log('ChatMK AI: Loading model from', this.modelPath);
-      
-      // Load the model
-      this.model = await llama.loadModel({
-        url: this.modelPath,
-        // Progress callback
-        progressCallback: (progress) => {
-          const percent = Math.round(progress.loaded / progress.total * 100);
-          console.log(`ChatMK AI: Model loading ${percent}%`);
-          this.updateLoadingStatus(`Loading AI model... ${percent}%`);
-        }
+
+      console.log("ChatMK AI: Loading model from", this.modelPath);
+
+      // Load the model with user-visible progress
+      this.updateLoadingStatus("Downloading AI model from Hugging Face...");
+
+      await this.wllama.loadModelFromUrl(this.modelPath, {
+        progressCallback: ({ loaded, total }) => {
+          const percent = Math.round((loaded / total) * 100);
+          const mbLoaded = Math.round(loaded / 1024 / 1024);
+          const mbTotal = Math.round(total / 1024 / 1024);
+
+          console.log(
+            `ChatMK AI: Model loading ${percent}% (${mbLoaded}/${mbTotal}MB)`
+          );
+          this.updateLoadingStatus(
+            `Loading AI model... ${percent}% (${mbLoaded}/${mbTotal}MB)`
+          );
+
+          // Show progress in modal if open
+          this.showProgressInModal(percent, mbLoaded, mbTotal);
+        },
       });
-      
+
       this.isLoaded = true;
       this.isLoading = false;
-      console.log('ChatMK AI: Model loaded successfully!');
-      
+      console.log("ChatMK AI: Model loaded successfully!");
+
       // Update UI to show AI is ready
-      this.updateLoadingStatus('AI ready!');
-      
+      this.updateLoadingStatus("AI ready!");
+
       return true;
     } catch (error) {
-      console.error('ChatMK AI: Failed to initialize model:', error);
+      console.error("ChatMK AI: Failed to initialize model:", error);
       this.isLoading = false;
-      this.updateLoadingStatus('AI initialization failed');
+
+      // For now, disable AI if it fails to load
+      this.updateLoadingStatus("AI unavailable - using search only");
       return false;
     }
   }
 
   /**
-   * Generate AI response based on context and query
+   * Generate AI response (without search results - those are shown separately)
    */
   async generateResponse(query, searchResults = []) {
-    if (!this.isLoaded) {
-      throw new Error('AI model not loaded. Please wait for initialization.');
+    if (!this.isLoaded || !this.wllama) {
+      throw new Error("AI model not loaded. Please wait for initialization.");
     }
 
     try {
-      // Build context from search results
-      let context = '';
+      // Build context from search results - LIMITED to prevent context overflow
+      let context = "";
       if (searchResults.length > 0) {
-        context = 'Based on the following information from Michal\'s knowledge base:\n\n';
-        searchResults.forEach((result, index) => {
-          context += `${index + 1}. ${result.title}\n${result.excerpt}\n\n`;
+        context =
+          "Based on the following information from Michal's knowledge base:\n\n";
+
+        // First result: limited content (max 800 chars)
+        if (searchResults[0]) {
+          const limitedContent =
+            searchResults[0].content.substring(0, 800).trim() + "...";
+          context += `1. ${searchResults[0].title}\n${limitedContent}\n\n`;
+        }
+
+        // Results 2 & 3: excerpts only (max 200 chars each)
+        searchResults.slice(1, 3).forEach((result, index) => {
+          const limitedExcerpt =
+            result.excerpt.substring(0, 200).trim() + "...";
+          context += `${index + 2}. ${result.title}\n${limitedExcerpt}\n\n`;
         });
-        context += 'Please answer the following question:\n\n';
+
+        context += "Question: ";
       }
 
       // Create the prompt
       const prompt = this.buildPrompt(context + query);
-      
-      console.log('ChatMK AI: Generating response for:', query);
-      
-      // Generate response
-      const response = await this.model.createCompletion(prompt, {
-        nPredict: 256,
-        temp: 0.7,
-        topK: 40,
-        topP: 0.9,
-        repeatPenalty: 1.1,
-        seed: -1
+
+      console.log("ChatMK AI: Generating response for:", query);
+      console.log("ChatMK AI: Prompt length:", prompt.length);
+
+      // Generate response using wllama
+      const responsePromise = this.wllama.createCompletion(prompt, {
+        nPredict: 50,
+        temperature: 0.7,
+        stream: false,
       });
-      
-      return this.cleanResponse(response);
-      
+
+      console.log("ChatMK AI: Waiting for response...");
+
+      const response = await responsePromise;
+
+      console.log("ChatMK AI: Raw response:", response);
+
+      const cleanedResponse = this.cleanResponse(response);
+      console.log("ChatMK AI: Cleaned response:", cleanedResponse);
+
+      return cleanedResponse || "I generated a response but it was empty.";
     } catch (error) {
-      console.error('ChatMK AI: Failed to generate response:', error);
+      console.error("ChatMK AI: Failed to generate response:", error);
+
+      // Provide a fallback response based on search results
+      if (searchResults.length > 0) {
+        throw new Error(
+          `AI generation failed, but here are relevant results: ${searchResults
+            .map((r) => r.title)
+            .join(", ")}`
+        );
+      }
+
       throw error;
     }
   }
@@ -109,21 +167,7 @@ class ChatMKAI {
    */
   buildPrompt(userMessage) {
     return `<|system|>
-You are Michal - a data analytics expert, teacher, and digital thinker. Respond as if you're actually Michal speaking directly.
-
-Your communication style:
-- Conversational and approachable, like talking to a colleague
-- Direct and practical - no fluff or corporate speak
-- Use "I" when sharing experiences ("I've found that...", "In my work...")
-- Mix technical insights with human perspective
-- Occasionally reference your teaching or analytics background
-- Keep responses SHORT (2-3 sentences max) to stay focused
-
-Rules:
-- ONLY answer based on the provided context - don't make up information
-- If you don't know something from the context, say "I haven't written about that" or "That's not in my notes"
-- Be authentic to Michal's voice - thoughtful but not overly formal
-- End responses naturally, don't always offer to help more
+You are Michal, a data analytics expert and teacher. Answer as Michal would, using "I" when sharing experiences. Be conversational and practical. Answer in EXACTLY ONE SENTENCE. Only use the provided context - don't make up information.
 
 <|user|>
 ${userMessage}
@@ -138,11 +182,11 @@ ${userMessage}
   cleanResponse(response) {
     // Remove any prompt artifacts or repetition
     let cleaned = response.trim();
-    
+
     // Remove common artifacts
-    cleaned = cleaned.replace(/^<\|assistant\|>/, '');
-    cleaned = cleaned.replace(/<\|.*?\|>/g, '');
-    
+    cleaned = cleaned.replace(/^<\|assistant\|>/, "");
+    cleaned = cleaned.replace(/<\|.*?\|>/g, "");
+
     return cleaned.trim();
   }
 
@@ -151,8 +195,54 @@ ${userMessage}
    */
   updateLoadingStatus(message) {
     // This will be called from the modal to update status
-    if (typeof window.updateAIStatus === 'function') {
+    if (typeof window.updateAIStatus === "function") {
       window.updateAIStatus(message);
+    }
+  }
+
+  /**
+   * Show progress in ChatMK modal if it's open
+   */
+  showProgressInModal(percent, mbLoaded, mbTotal) {
+    const modal = document.getElementById("chatmk-modal");
+    if (modal && modal.classList.contains("is-active")) {
+      // Add a system message about AI loading progress
+      const progressMsg = `AI model loading: ${percent}% (${mbLoaded}/${mbTotal}MB)`;
+
+      // Check if there's already a progress message and update it
+      const messages = document.getElementById("chatmk-messages");
+      const lastMessage = messages?.lastElementChild;
+
+      if (lastMessage && lastMessage.classList.contains("ai-progress")) {
+        // Update existing progress message
+        const content = lastMessage.querySelector(".message-content");
+        if (content) {
+          content.textContent = progressMsg;
+        }
+      } else {
+        // Add new progress message
+        this.addProgressMessage(progressMsg);
+      }
+    }
+  }
+
+  /**
+   * Add AI loading progress message to chat
+   */
+  addProgressMessage(message) {
+    if (typeof addChatMKMessage === "function") {
+      const messagesContainer = document.getElementById("chatmk-messages");
+
+      const messageDiv = document.createElement("div");
+      messageDiv.className = "chatmk-message system ai-progress";
+      messageDiv.innerHTML = `
+        <div class="message-content">
+          <p>${message}</p>
+        </div>
+      `;
+
+      messagesContainer.appendChild(messageDiv);
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
     }
   }
 
@@ -160,7 +250,7 @@ ${userMessage}
    * Check if AI is ready
    */
   isReady() {
-    return this.isLoaded && this.model !== null;
+    return this.isLoaded && this.wllama !== null;
   }
 }
 
@@ -168,7 +258,7 @@ ${userMessage}
 window.chatMKAI = new ChatMKAI();
 
 // Auto-initialize when loaded
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   // Start loading the AI model in the background
   setTimeout(() => {
     window.chatMKAI.initialize();

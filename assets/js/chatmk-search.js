@@ -64,8 +64,15 @@ class ChatMKSearch {
    * Calculate cosine similarity between two vectors
    */
   cosineSimilarity(vec1, vec2) {
+    // Check if vectors are valid
+    if (!vec1 || !vec2 || !Array.isArray(vec1) || !Array.isArray(vec2)) {
+      console.warn('Invalid vectors provided to cosineSimilarity:', vec1, vec2);
+      return 0;
+    }
+    
     if (vec1.length !== vec2.length) {
-      throw new Error('Vectors must have the same length');
+      console.warn('Vectors have different lengths:', vec1.length, vec2.length);
+      return 0;
     }
 
     let dotProduct = 0;
@@ -104,6 +111,12 @@ class ChatMKSearch {
     
     // Search pages
     for (const page of this.brainData.pages) {
+      // Skip items without embeddings
+      if (!page.embedding || !Array.isArray(page.embedding)) {
+        console.warn('Page missing embedding:', page.title);
+        continue;
+      }
+      
       const similarity = this.cosineSimilarity(queryEmbedding, page.embedding);
       results.push({
         type: 'page',
@@ -117,6 +130,12 @@ class ChatMKSearch {
     
     // Search notes
     for (const note of this.brainData.notes) {
+      // Skip items without embeddings
+      if (!note.embedding || !Array.isArray(note.embedding)) {
+        console.warn('Note missing embedding:', note.title);
+        continue;
+      }
+      
       const similarity = this.cosineSimilarity(queryEmbedding, note.embedding);
       results.push({
         type: 'note',

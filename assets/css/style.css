@@ -3,6 +3,7 @@ layout: stylesheet
 ---
 
 @import "/assets/css/highlight.css";
+@import "/assets/css/chatmk.css";
 /* Containers: Body, Container, Box, Main, Header, Content */
 
 html, html[data-theme="light"] {

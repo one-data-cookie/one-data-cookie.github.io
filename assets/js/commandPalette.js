@@ -281,6 +281,18 @@ document.addEventListener('DOMContentLoaded', function() {
           section: 'Actions',
           handler: () => window.location.href = '/random'
         },
+        {
+          id: 'chatmk',
+          title: 'ChatMK - Ask my brain',
+          section: 'Actions',
+          handler: () => {
+            if (typeof openChatMKModal === 'function') {
+              openChatMKModal();
+            } else {
+              console.warn('ChatMK modal not available');
+            }
+          }
+        },
     ];
 
     // Confetti easter egg function

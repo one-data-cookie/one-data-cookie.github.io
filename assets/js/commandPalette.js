@@ -288,6 +288,10 @@ document.addEventListener('DOMContentLoaded', function() {
           handler: () => {
             if (typeof openChatMKModal === 'function') {
               openChatMKModal();
+              // Close command palette after opening ChatMK
+              setTimeout(() => {
+                ninjaKeys.close();
+              }, 100);
             } else {
               console.warn('ChatMK modal not available');
             }

@@ -9,6 +9,32 @@
 function openChatMKModal() {
   console.log('Opening ChatMK modal...');
   
+  // Close command palette if it's open
+  const ninjaKeys = document.querySelector('ninja-keys');
+  if (ninjaKeys) {
+    // Check if ninja-keys modal is currently open
+    let isOpen = false;
+    
+    // Check for 'open' attribute (primary method)
+    if (ninjaKeys.hasAttribute('open')) {
+      isOpen = true;
+    }
+    
+    // Fallback: Check shadow DOM for visible modal
+    if (!isOpen && ninjaKeys.shadowRoot) {
+      const modal = ninjaKeys.shadowRoot.querySelector('[class*="modal"], [class*="ninja"], [role="dialog"]');
+      if (modal) {
+        const modalStyle = window.getComputedStyle(modal);
+        isOpen = modalStyle.display !== 'none' && modalStyle.visibility !== 'hidden';
+      }
+    }
+    
+    // Close if open
+    if (isOpen) {
+      ninjaKeys.close();
+    }
+  }
+  
   // Create modal if it doesn't exist
   let modal = document.getElementById('chatmk-modal');
   if (!modal) {

@@ -56,6 +56,12 @@ function openChatMKModal() {
   if (!window.chatMKSearch) {
     window.chatMKSearch = new ChatMKSearch();
   }
+  
+  // Initialize AI model when modal is first opened
+  if (window.chatMKAI && !window.chatMKAI.isLoading && !window.chatMKAI.isLoaded) {
+    console.log('ChatMK: Starting AI model initialization...');
+    window.chatMKAI.initialize();
+  }
 }
 
 /**

@@ -41,7 +41,9 @@ class ChatMKAI {
       this.wllama = new Wllama(CONFIG_PATHS, {
         // Use single-threaded mode for better browser compatibility
         n_threads: 1,
-        n_ctx: 2048, // Increase context window size
+        n_ctx: 2048, // Balanced context size for good performance
+        n_ctx_per_seq: 2048, // Match per-sequence context
+        n_batch: 256, // Smaller batch for better browser performance
         logger: {
           debug: (...args) => console.debug("ChatMK AI:", ...args),
           log: (...args) => console.log("ChatMK AI:", ...args),
@@ -56,6 +58,8 @@ class ChatMKAI {
       this.updateLoadingStatus("Downloading AI model from Hugging Face...");
 
       await this.wllama.loadModelFromUrl(this.modelPath, {
+        n_ctx: 2048, // Set context size during model loading
+        n_ctx_per_seq: 2048, // Set per-sequence context during model loading
         progressCallback: ({ loaded, total }) => {
           const percent = Math.round((loaded / total) * 100);
           const mbLoaded = Math.round(loaded / 1024 / 1024);
@@ -257,10 +261,5 @@ ${userMessage}
 // Global instance
 window.chatMKAI = new ChatMKAI();
 
-// Auto-initialize when loaded
-document.addEventListener("DOMContentLoaded", () => {
-  // Start loading the AI model in the background
-  setTimeout(() => {
-    window.chatMKAI.initialize();
-  }, 2000); // Wait 2 seconds to not interfere with page load
-});
+// Initialize AI model only when ChatMK modal is opened
+// The modal will call window.chatMKAI.initialize() when first opened

@@ -30,12 +30,12 @@
 
 .modal-content {
   position: relative;
-  margin: 2rem auto;
-  max-width: 700px;
-  width: 90%;
-  max-height: 80vh;
+  margin: 6rem auto;
+  max-width: 640px;
+  width: 640px;
+  max-height: 75vh;
   background-color: var(--bg-main);
-  border-radius: 12px;
+  border-radius: 8px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   overflow: hidden;
 }
@@ -44,21 +44,28 @@
 .chatmk-container {
   display: flex;
   flex-direction: column;
-  height: 70vh;
-  max-height: 600px;
+  height: 75vh;
+  max-height: 1000px;
 }
 
 /* Header */
 .chatmk-header {
   position: relative;
-  padding: 1.5rem;
-  background-color: var(--bg-sub);
+  padding: 1rem 1.5rem;
+  background-color: var(--bg-main);
   border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.chatmk-header-info {
+  flex: 1;
 }
 
 .chatmk-header h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.4rem;
+  margin: 0 0 0.25rem 0;
+  font-size: 1.2rem;
   font-weight: 600;
   color: var(--text-main);
 }
@@ -66,34 +73,38 @@
 .chatmk-header p {
   margin: 0;
   color: var(--text-sub);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
-.chatmk-header .delete {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+.chatmk-header-buttons {
+  display: flex;
+  gap: 0.1rem;
+  margin-left: 1rem;
+}
+
+.chatmk-header-btn {
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   cursor: pointer;
   color: var(--text-sub);
-  width: 24px;
-  height: 24px;
+  width: 28px;
+  height: 28px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 4px;
   transition: all 0.2s ease;
+  font-weight: 500;
 }
 
-.chatmk-header .delete:hover {
-  background-color: var(--border);
+.chatmk-header-btn:hover {
+  background-color: var(--bg-sub);
   color: var(--text-main);
 }
 
-.chatmk-header .delete::before {
-  content: '×';
+.chatmk-header-btn:active {
+  transform: scale(0.95);
 }
 
 /* Messages container */
@@ -133,9 +144,10 @@
 }
 
 .chatmk-message.user .message-content {
-  background-color: #007bff;
-  color: white;
+  background-color: var(--text-sub);
+  color: var(--bg-sub);
   border-bottom-right-radius: 4px;
+  border: 1px solid var(--text-sub);
 }
 
 .chatmk-message.assistant .message-content {
@@ -176,47 +188,48 @@
   background-color: var(--bg-main);
   border-top: 1px solid var(--border);
   gap: 0.5rem;
+  align-items: center;
 }
 
 #chatmk-input {
   flex: 1;
   padding: 0.75rem 1rem;
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 6px;
   background-color: var(--bg-main);
   color: var(--text-main);
   font-size: 0.9rem;
+  font-family: inherit;
+  height: 40px;
   outline: none;
   transition: border-color 0.2s ease;
-}
-
-#chatmk-input:focus {
-  border-color: #007bff;
+  box-sizing: border-box;
 }
 
 #chatmk-input::placeholder {
   color: var(--text-sub);
+  font-size: inherit;
+  opacity: 0.8;
 }
 
 .chatmk-send-btn {
-  padding: 0.75rem 1.5rem;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 8px;
+  padding: 0 1.5rem;
+  background-color: var(--bg-sub);
+  color: var(--text-main);
+  border: 1px solid var(--border);
+  border-radius: 6px;
   cursor: pointer;
   font-size: 0.9rem;
+  font-family: inherit;
   font-weight: 500;
+  height: 40px;
+  box-sizing: border-box;
   transition: all 0.2s ease;
 }
 
-.chatmk-send-btn:hover {
-  background-color: #0056b3;
-  transform: translateY(-1px);
-}
-
 .chatmk-send-btn:active {
-  transform: translateY(0);
+  background-color: var(--text-sub);
+  color: var(--bg-sub);
 }
 
 /* Status bar */
@@ -227,18 +240,6 @@
   font-size: 0.8rem;
   color: var(--text-sub);
   text-align: center;
-}
-
-/* Button styles */
-.chatmk-btn {
-  font-size: 1.1rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  transition: all 0.2s ease;
-}
-
-.button:hover .chatmk-btn {
-  background-color: var(--button-hover-bg);
 }
 
 /* Animations */
@@ -285,10 +286,17 @@
   
   .chatmk-header {
     padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .chatmk-header-buttons {
+    margin-left: 0;
+    margin-top: 0.5rem;
   }
   
   .chatmk-header h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   .message-content {

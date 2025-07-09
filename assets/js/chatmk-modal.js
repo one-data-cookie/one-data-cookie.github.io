@@ -58,33 +58,63 @@ function createChatMKModal() {
     <div class="modal-content">
       <div class="chatmk-container">
         <div class="chatmk-header">
-          <h3>🤖 ChatMK</h3>
-          <p>Ask questions about my knowledge and experience</p>
-          <button class="delete" onclick="closeChatMKModal()"></button>
+          <div class="chatmk-header-info">
+            <h3>ChatMK</h3>
+            <p>Talk to my virtual self!</p>
+          </div>
+          <div class="chatmk-header-buttons">
+            <button class="chatmk-header-btn" onclick="newChatMKConversation()" title="New conversation">↻</button>
+            <button class="chatmk-header-btn" onclick="closeChatMKModal()" title="Close">X</button>
+          </div>
         </div>
         
         <div class="chatmk-messages" id="chatmk-messages">
           <div class="chatmk-message system">
             <div class="message-content">
-              <p>👋 Hi! I'm ChatMK, your AI assistant trained on Michal's knowledge base. Ask me anything about his notes, projects, or expertise!</p>
+              <p>Hello, I'm ChatMK – AI chatbot on top of Michal's knowledge base.</p>
+              <p>Ask me anything about his notes and pages!</p>
             </div>
           </div>
         </div>
         
         <div class="chatmk-input-container">
-          <input type="text" id="chatmk-input" placeholder="Ask me anything..." 
+          <input type="text" id="chatmk-input" placeholder="Ask me something..." 
                  onkeypress="handleChatMKKeypress(event)">
           <button onclick="sendChatMKMessage()" class="chatmk-send-btn">Send</button>
         </div>
         
         <div class="chatmk-status" id="chatmk-status">
-          <span class="status-text">Ready to help</span>
+          <span class="status-text">This is just a simple POC, so don't trust it much.</span>
         </div>
       </div>
     </div>
   `;
   
   return modal;
+}
+
+/**
+ * Start a new conversation (clear messages)
+ */
+function newChatMKConversation() {
+  const messagesContainer = document.getElementById('chatmk-messages');
+  if (messagesContainer) {
+    messagesContainer.innerHTML = `
+      <div class="chatmk-message system">
+        <div class="message-content">
+          <p>Hello! I'm ChatMK, your AI assistant trained on Michal's knowledge base.</p>
+          <p>Ask me anything about his notes and pages!</p>
+        </div>
+      </div>
+    `;
+  }
+  
+  // Clear input and focus
+  const input = document.getElementById('chatmk-input');
+  if (input) {
+    input.value = '';
+    input.focus();
+  }
 }
 
 /**
@@ -113,8 +143,6 @@ async function sendChatMKMessage() {
   // Add user message
   addChatMKMessage('user', query);
   
-  // Update status
-  updateChatMKStatus('Searching knowledge base...');
   
   try {
     // Initialize ChatMK search if not already done
@@ -128,13 +156,11 @@ async function sendChatMKMessage() {
       results = await window.chatMKSearch.search(query, 5);
     } catch (embeddingError) {
       console.warn('Semantic search failed, falling back to keyword search:', embeddingError);
-      updateChatMKStatus('Using keyword search...');
       results = window.chatMKSearch.keywordSearch(query, 5);
     }
     
     if (results.length === 0) {
       addChatMKMessage('assistant', "I couldn't find any relevant information about that topic. Try asking about data analytics, teaching, or other topics from Michal's knowledge base.");
-      updateChatMKStatus('Ready to help');
       return;
     }
     
@@ -149,12 +175,10 @@ async function sendChatMKMessage() {
     });
     
     addChatMKMessage('assistant', response);
-    updateChatMKStatus('Ready to help');
     
   } catch (error) {
     console.error('ChatMK search error:', error);
     addChatMKMessage('assistant', "Sorry, I encountered an error while searching. Please try again.");
-    updateChatMKStatus('Error occurred');
   }
 }
 
@@ -183,20 +207,7 @@ function addChatMKMessage(sender, content) {
   
   // Scroll to bottom
   messagesContainer.scrollTop = messagesContainer.scrollHeight;
-}
-
-/**
- * Update the status message
- */
-function updateChatMKStatus(text) {
-  const statusContainer = document.getElementById('chatmk-status');
-  if (statusContainer) {
-    const statusText = statusContainer.querySelector('.status-text');
-    if (statusText) {
-      statusText.textContent = text;
-    }
-  }
-}
+}  
 
 // Handle ESC key to close modal
 document.addEventListener('keydown', function(event) {

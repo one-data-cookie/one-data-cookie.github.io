@@ -118,7 +118,7 @@ function createChatMKModal() {
           </div>
           <div class="chatmk-header-buttons">
             <button class="chatmk-header-btn" onclick="newChatMKConversation()" title="New conversation">↻</button>
-            <button class="chatmk-header-btn" onclick="closeChatMKModal()" title="Close">X</button>
+            <button class="chatmk-header-btn" onclick="closeChatMKModal()" title="Close">✕</button>
           </div>
         </div>
         

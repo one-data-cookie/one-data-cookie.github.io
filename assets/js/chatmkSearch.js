@@ -82,15 +82,23 @@ class ChatMKSearch {
         // Update existing progress message
         const content = existingProgress.querySelector('.message-content');
         if (content) {
-          content.innerHTML = `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal}MB)</p>`;
+          if (percent === 100) {
+            content.innerHTML = `<p>Embedding model loaded: MiniLM-L6-v2</p>`;
+          } else {
+            content.innerHTML = `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB)</p>`;
+          }
         }
       } else {
         // Create new progress message
         const messageDiv = document.createElement('div');
         messageDiv.className = 'chatmk-message system embedding-loading';
+        const messageContent = percent === 100 
+          ? `<p>Embedding model loaded: MiniLM-L6-v2</p>`
+          : `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB)</p>`;
+        
         messageDiv.innerHTML = `
           <div class="message-content">
-            <p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal}MB)</p>
+            ${messageContent}
           </div>
         `;
         

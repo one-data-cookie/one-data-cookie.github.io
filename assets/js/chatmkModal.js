@@ -138,7 +138,7 @@ function createChatMKModal() {
         </div>
         
         <div class="chatmk-status" id="chatmk-status">
-          <span class="status-text">This is just a simple POC, so don't trust it much.</span>
+          <span class="status-text">This is just a (mostly useless) experiment.</span>
         </div>
       </div>
     </div>

@@ -55,7 +55,7 @@ class ChatMKAI {
       console.log("ChatMK AI: Loading model from", this.modelPath);
 
       // Load the model with user-visible progress
-      this.updateLoadingStatus("Downloading AI model from Hugging Face...");
+      this.updateLoadingStatus("Downloading language model from Hugging Face...");
 
       await this.wllama.loadModelFromUrl(this.modelPath, {
         n_ctx: 2048, // Set context size during model loading
@@ -69,7 +69,7 @@ class ChatMKAI {
             `ChatMK AI: Model loading ${percent}% (${mbLoaded}/${mbTotal}MB)`
           );
           this.updateLoadingStatus(
-            `Loading AI model... ${percent}% (${mbLoaded}/${mbTotal}MB)`
+            `Loading language model... ${percent}% (${mbLoaded}/${mbTotal}MB)`
           );
 
           // Show progress in modal if open
@@ -82,7 +82,7 @@ class ChatMKAI {
       console.log("ChatMK AI: Model loaded successfully!");
 
       // Update UI to show AI is ready
-      this.updateLoadingStatus("AI ready!");
+      this.updateLoadingStatus("Language model ready!");
 
       return true;
     } catch (error) {
@@ -90,7 +90,7 @@ class ChatMKAI {
       this.isLoading = false;
 
       // For now, disable AI if it fails to load
-      this.updateLoadingStatus("AI unavailable - using search only");
+      this.updateLoadingStatus("Language model unavailable - using search only");
       return false;
     }
   }
@@ -100,7 +100,7 @@ class ChatMKAI {
    */
   async generateResponse(query, searchResults = []) {
     if (!this.isLoaded || !this.wllama) {
-      throw new Error("AI model not loaded. Please wait for initialization.");
+      throw new Error("Language model not loaded. Please wait for initialization.");
     }
 
     try {
@@ -156,7 +156,7 @@ class ChatMKAI {
       // Provide a fallback response based on search results
       if (searchResults.length > 0) {
         throw new Error(
-          `AI generation failed, but here are relevant results: ${searchResults
+          `Language model generation failed, but here are relevant results: ${searchResults
             .map((r) => r.title)
             .join(", ")}`
         );
@@ -211,7 +211,9 @@ ${userMessage}
     const modal = document.getElementById("chatmk-modal");
     if (modal && modal.classList.contains("is-active")) {
       // Add a system message about AI loading progress
-      const progressMsg = `AI model loading: ${percent}% (${mbLoaded}/${mbTotal}MB)`;
+      const progressMsg = percent === 100 
+        ? `Language model loaded: SmolLM2-360M-Q8`
+        : `Language model loading: ${percent}% (${mbLoaded}/${mbTotal} MB)`;
 
       // Check if there's already a progress message and update it
       const messages = document.getElementById("chatmk-messages");

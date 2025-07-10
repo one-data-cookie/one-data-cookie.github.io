@@ -1603,15 +1603,22 @@ label.margin-toggle:not(.sidenote-number) {
 
 /* Command Palette Button Styles */
 .cmd-palette-btn {
-    font-weight: 1000;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 1.25rem;
     text-decoration: none;
 }
 
 /* ChatMK Button Styles */
 .chatmk-btn {
-    font-weight: 1000;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+/* Theme Toggle Button Styles */
+.theme-toggle-btn {
+    font-weight: 600;
+    font-size: 1.25rem;
     text-decoration: none;
 }
 
@@ -1630,7 +1637,10 @@ label.margin-toggle:not(.sidenote-number) {
 .cmd-palette-btn:active,
 .chatmk-btn:hover,
 .chatmk-btn:focus,
-.chatmk-btn:active {
+.chatmk-btn:active,
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus,
+.theme-toggle-btn:active {
     outline: none !important;
     box-shadow: none !important;
     background-color: transparent !important;
@@ -1656,6 +1666,25 @@ a:has(.chatmk-btn):hover {
     text-decoration: none !important;
 }
 
+/* Remove underline from theme toggle button links */
+a:has(.theme-toggle-btn) {
+    text-decoration: none !important;
+}
+
+a:has(.theme-toggle-btn):hover {
+    text-decoration: none !important;
+}
+
+/* Smaller buttons on mobile screens */
+@media screen and (max-width: 768px) {
+    .chatmk-btn,
+    .cmd-palette-btn,
+    .theme-toggle-btn {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
 /* Mobile navbar positioning - keep command palette next to theme switcher */
 @media screen and (max-width: 1023px) {
     .navbar-brand {
@@ -1671,7 +1700,7 @@ a:has(.chatmk-btn):hover {
     
     .mobile-buttons-group {
         display: flex;
-        gap: 0;
+        gap: 0.5rem;
         align-items: center;
         margin-left: auto;
         margin-right: 0.5rem;

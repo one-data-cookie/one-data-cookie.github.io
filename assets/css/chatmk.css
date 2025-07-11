@@ -107,6 +107,14 @@
   transform: scale(0.95);
 }
 
+/* Disable hover effects on touch devices */
+@media (hover: none) {
+  .chatmk-header-btn:hover {
+    background-color: transparent;
+    color: var(--text-sub);
+  }
+}
+
 /* Messages container */
 .chatmk-messages {
   flex: 1;

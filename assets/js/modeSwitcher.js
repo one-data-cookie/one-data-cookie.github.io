@@ -19,11 +19,11 @@ let theme = sessionStorage.getItem('theme');
 // Apply theme based on stored value or default to dark
 if (theme === "light") {
   document.documentElement.setAttribute('data-theme', 'light');
-  changeIconSymbol("☾");
+  changeIconSymbol("●");
 } else {
   // Default to dark if no preference or saved theme is dark
   document.documentElement.setAttribute('data-theme', 'dark');
-  changeIconSymbol("☀");
+  changeIconSymbol("●");
   sessionStorage.setItem('theme', 'dark');
 }
 
@@ -35,10 +35,10 @@ function modeSwitcher() {
 
   if (currentTheme === 'dark') {
     newTheme = 'light';
-    iconSymbol = "☾";
+    iconSymbol = "●";
   } else {
     newTheme = 'dark';
-    iconSymbol = "☀";
+    iconSymbol = "●";
   }
 
   // Apply the new theme and update symbol

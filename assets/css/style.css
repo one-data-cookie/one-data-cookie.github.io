@@ -1620,9 +1620,17 @@ label.margin-toggle:not(.sidenote-number) {
     font-weight: 600;
     font-size: 1.25rem;
     text-decoration: none;
-    /* Force text rendering instead of emoji */
-    font-variant-emoji: text;
-    font-feature-settings: "liga" off;
+    /* Force text rendering instead of emoji - multiple approaches */
+    font-variant-emoji: text !important;
+    font-feature-settings: "liga" off !important;
+    -webkit-font-feature-settings: "liga" off !important;
+    -moz-font-feature-settings: "liga" off !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif !important;
+    text-rendering: geometricPrecision !important;
+    -webkit-text-rendering: geometricPrecision !important;
+    -moz-text-rendering: geometricPrecision !important;
+    -webkit-font-variant-ligatures: none !important;
+    font-variant-ligatures: none !important;
 }
 
 /* Override Bulma button styles with high specificity */

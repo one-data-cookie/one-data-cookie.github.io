@@ -242,12 +242,12 @@
 }
 
 /* Ensure consistent loading message styling */
-.chatmk-message.ai-progress .message-content p,
-.chatmk-message.embedding-loading .message-content p {
-  font-size: 0.9rem;
-  font-weight: normal;
-  line-height: 1.5;
-  margin: 0;
+.chatmk-messages .chatmk-message.system.ai-progress .message-content p,
+.chatmk-messages .chatmk-message.system.embedding-loading .message-content p {
+  font-size: 0.9rem !important;
+  font-weight: normal !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
 }
 
 /* Animations */
@@ -329,13 +329,13 @@
   
   .chatmk-header {
     padding: 1rem;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
   }
   
   .chatmk-header-buttons {
-    margin-left: 0;
-    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 0;
   }
   
   .chatmk-header h3 {
@@ -360,11 +360,11 @@
   }
   
   /* Ensure consistent loading message styling on mobile */
-  .chatmk-message.ai-progress .message-content p,
-  .chatmk-message.embedding-loading .message-content p {
-    font-size: 0.9rem;
-    font-weight: normal;
-    line-height: 1.5;
-    margin: 0;
+  .chatmk-messages .chatmk-message.system.ai-progress .message-content p,
+  .chatmk-messages .chatmk-message.system.embedding-loading .message-content p {
+    font-size: 0.9rem !important;
+    font-weight: normal !important;
+    line-height: 1.5 !important;
+    margin: 0 !important;
   }
 }

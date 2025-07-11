@@ -223,7 +223,7 @@ ${userMessage}
         // Update existing progress message
         const content = lastMessage.querySelector(".message-content");
         if (content) {
-          content.textContent = progressMsg;
+          content.innerHTML = `<p>${progressMsg}</p>`;
         }
       } else {
         // Add new progress message

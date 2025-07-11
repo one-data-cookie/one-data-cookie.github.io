@@ -8,6 +8,7 @@ class ChatMKAI {
     this.wllama = null;
     this.isLoading = false;
     this.isLoaded = false;
+    this.downloadController = null; // For cancelling downloads
     this.modelPath =
       "https://huggingface.co/QuantFactory/SmolLM2-360M-Instruct-GGUF/resolve/main/SmolLM2-360M-Instruct.Q8_0.gguf";
   }
@@ -21,6 +22,7 @@ class ChatMKAI {
     }
 
     this.isLoading = true;
+    this.downloadController = new AbortController(); // Create abort controller
     console.log("ChatMK AI: Starting model initialization...");
 
     try {
@@ -61,6 +63,11 @@ class ChatMKAI {
         n_ctx: 2048, // Set context size during model loading
         n_ctx_per_seq: 2048, // Set per-sequence context during model loading
         progressCallback: ({ loaded, total }) => {
+          // Check if cancelled
+          if (this.downloadController?.signal.aborted) {
+            throw new Error('Download cancelled by user');
+          }
+
           const percent = Math.round((loaded / total) * 100);
           const mbLoaded = Math.round(loaded / 1024 / 1024);
           const mbTotal = Math.round(total / 1024 / 1024);
@@ -79,19 +86,33 @@ class ChatMKAI {
 
       this.isLoaded = true;
       this.isLoading = false;
+      this.downloadController = null;
       console.log("ChatMK AI: Model loaded successfully!");
-
-      // Update UI to show AI is ready
-      this.updateLoadingStatus("Language model ready!");
 
       return true;
     } catch (error) {
-      console.error("ChatMK AI: Failed to initialize model:", error);
       this.isLoading = false;
+      this.downloadController = null;
 
-      // For now, disable AI if it fails to load
-      this.updateLoadingStatus("Language model unavailable - using search only");
+      if (error.message.includes('cancelled')) {
+        console.log("ChatMK AI: Download cancelled by user");
+        this.showProgressInModal(0, 0, 150, 'Language model skipped → using search only');
+        return false;
+      }
+
+      console.error("ChatMK AI: Failed to initialize model:", error);
+      this.showProgressInModal(0, 0, 150, 'Language model failed → using search only');
       return false;
+    }
+  }
+
+  /**
+   * Cancel the download
+   */
+  cancelDownload() {
+    if (this.downloadController) {
+      this.downloadController.abort();
+      console.log("ChatMK AI: Download cancelled");
     }
   }
 
@@ -194,26 +215,20 @@ ${userMessage}
     return cleaned.trim();
   }
 
-  /**
-   * Update loading status in the UI
-   */
-  updateLoadingStatus(message) {
-    // This will be called from the modal to update status
-    if (typeof window.updateAIStatus === "function") {
-      window.updateAIStatus(message);
-    }
-  }
+
 
   /**
    * Show progress in ChatMK modal if it's open
    */
-  showProgressInModal(percent, mbLoaded, mbTotal) {
+  showProgressInModal(percent, mbLoaded, mbTotal, customMessage = null) {
     const modal = document.getElementById("chatmk-modal");
     if (modal && modal.classList.contains("is-active")) {
       // Add a system message about AI loading progress
-      const progressMsg = percent === 100 
+      const progressMsg = customMessage 
+        ? customMessage
+        : percent === 100 
         ? `Language model loaded: SmolLM2-360M-Q8`
-        : `Language model loading: ${percent}% (${mbLoaded}/${mbTotal} MB)`;
+        : `Language model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKAI.cancelDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline;">skip magic</span>`;
 
       // Check if there's already a progress message and update it
       const messages = document.getElementById("chatmk-messages");
@@ -249,6 +264,19 @@ ${userMessage}
 
       messagesContainer.appendChild(messageDiv);
       messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+  }
+
+  /**
+   * Hide AI progress message
+   */
+  hideProgressMessage() {
+    const messagesContainer = document.getElementById("chatmk-messages");
+    if (messagesContainer) {
+      const progressMessage = messagesContainer.querySelector(".ai-progress");
+      if (progressMessage) {
+        progressMessage.remove();
+      }
     }
   }
 

@@ -9,6 +9,7 @@ class ChatMKSearch {
     this.isLoaded = false;
     this.model = null;
     this.transformersLoaded = false;
+    this.embeddingController = null; // For cancelling embedding downloads
   }
 
   /**
@@ -72,7 +73,7 @@ class ChatMKSearch {
   /**
    * Show embedding model loading progress
    */
-  showEmbeddingProgress(percent, mbLoaded, mbTotal) {
+  showEmbeddingProgress(percent, mbLoaded, mbTotal, customMessage = null) {
     const messagesContainer = document.getElementById('chatmk-messages');
     if (messagesContainer) {
       // Check if there's already a progress message and update it
@@ -82,19 +83,23 @@ class ChatMKSearch {
         // Update existing progress message
         const content = existingProgress.querySelector('.message-content');
         if (content) {
-          if (percent === 100) {
+          if (customMessage) {
+            content.innerHTML = `<p>${customMessage}</p>`;
+          } else if (percent === 100) {
             content.innerHTML = `<p>Embedding model loaded: MiniLM-L6-v2</p>`;
           } else {
-            content.innerHTML = `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB)</p>`;
+            content.innerHTML = `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKSearch.cancelEmbeddingDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline;">skip magic</span></p>`;
           }
         }
       } else {
         // Create new progress message
         const messageDiv = document.createElement('div');
         messageDiv.className = 'chatmk-message system embedding-loading';
-        const messageContent = percent === 100 
+        const messageContent = customMessage 
+          ? `<p>${customMessage}</p>`
+          : percent === 100 
           ? `<p>Embedding model loaded: MiniLM-L6-v2</p>`
-          : `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB)</p>`;
+          : `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKSearch.cancelEmbeddingDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline;">skip magic</span></p>`;
         
         messageDiv.innerHTML = `
           <div class="message-content">
@@ -109,6 +114,16 @@ class ChatMKSearch {
   }
 
   /**
+   * Cancel the embedding download
+   */
+  cancelEmbeddingDownload() {
+    if (this.embeddingController) {
+      this.embeddingController.abort();
+      console.log("Embedding download cancelled");
+    }
+  }
+
+  /**
    * Simulate embedding model loading progress
    */
   async simulateEmbeddingProgress() {
@@ -116,6 +131,11 @@ class ChatMKSearch {
     
     // Simulate progress from 0% to 100%
     for (let percent = 0; percent <= 100; percent += 20) {
+      // Check if cancelled
+      if (this.embeddingController?.signal.aborted) {
+        throw new Error('Embedding download cancelled by user');
+      }
+      
       const mbLoaded = Math.round((percent / 100) * totalMB);
       this.showEmbeddingProgress(percent, mbLoaded, totalMB);
       
@@ -134,6 +154,7 @@ class ChatMKSearch {
       return;
     }
     
+    this.embeddingController = new AbortController(); // Create abort controller
     console.log('ChatMK: Pre-loading embedding model...');
     
     try {
@@ -160,9 +181,19 @@ class ChatMKSearch {
       // Keep showing 100% when done (like AI model)
       this.showEmbeddingProgress(100, 25, 25);
       
+      this.embeddingController = null;
+      
     } catch (error) {
+      this.embeddingController = null;
+      
+      if (error.message.includes('cancelled')) {
+        console.log('ChatMK: Embedding download cancelled by user');
+        this.showEmbeddingProgress(0, 0, 25, 'Embedding model skipped → this won\'t work');
+        return false;
+      }
+      
       console.error('ChatMK: Failed to pre-load embedding model:', error);
-      this.hideModelLoadingMessage();
+      this.showEmbeddingProgress(0, 0, 25, 'Embedding model failed → this won\'t work');
       // Don't throw - allow fallback to keyword search
     }
   }
@@ -378,3 +409,6 @@ class ChatMKSearch {
 
 // Export for use in other modules
 window.ChatMKSearch = ChatMKSearch;
+
+// Global instance
+window.chatMKSearch = new ChatMKSearch();

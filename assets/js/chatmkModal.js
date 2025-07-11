@@ -158,14 +158,22 @@ function createChatMKModal() {
 function newChatMKConversation() {
   const messagesContainer = document.getElementById('chatmk-messages');
   if (messagesContainer) {
-    messagesContainer.innerHTML = `
-      <div class="chatmk-message system">
-        <div class="message-content">
-          <p>Hello! I'm ChatMK, your AI assistant trained on Michal's knowledge base.</p>
-          <p>Ask me anything about his notes and pages!</p>
-        </div>
+    // Remove only user and assistant messages, keep system messages that are status-related
+    const messagesToRemove = messagesContainer.querySelectorAll('.chatmk-message.user, .chatmk-message.assistant, .chatmk-message.system:not(.ai-progress):not(.embedding-loading)');
+    messagesToRemove.forEach(msg => msg.remove());
+    
+    // Add fresh welcome message
+    const welcomeMessage = document.createElement('div');
+    welcomeMessage.className = 'chatmk-message system';
+    welcomeMessage.innerHTML = `
+      <div class="message-content">
+        <p>Hello! I'm ChatMK, your AI assistant trained on Michal's knowledge base.</p>
+        <p>Ask me anything about his notes and pages!</p>
       </div>
     `;
+    
+    // Add the welcome message at the beginning (before any status messages)
+    messagesContainer.insertBefore(welcomeMessage, messagesContainer.firstChild);
   }
   
   // Clear input and focus

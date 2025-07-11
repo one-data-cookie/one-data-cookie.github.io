@@ -56,9 +56,6 @@ class ChatMKAI {
 
       console.log("ChatMK AI: Loading model from", this.modelPath);
 
-      // Load the model with user-visible progress
-      this.updateLoadingStatus("Downloading language model from Hugging Face...");
-
       await this.wllama.loadModelFromUrl(this.modelPath, {
         n_ctx: 2048, // Set context size during model loading
         n_ctx_per_seq: 2048, // Set per-sequence context during model loading
@@ -74,9 +71,6 @@ class ChatMKAI {
 
           console.log(
             `ChatMK AI: Model loading ${percent}% (${mbLoaded}/${mbTotal}MB)`
-          );
-          this.updateLoadingStatus(
-            `Loading language model... ${percent}% (${mbLoaded}/${mbTotal}MB)`
           );
 
           // Show progress in modal if open

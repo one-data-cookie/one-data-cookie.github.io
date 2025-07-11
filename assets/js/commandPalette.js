@@ -36,6 +36,10 @@ const openSearchModal = () => {
         ninjaKeys.close();
     } else {
         ninjaKeys.open();
+        // Track modal opening event
+        if (typeof umami !== 'undefined') {
+            umami.track('modal-cmdk-open');
+        }
     }
 };
 

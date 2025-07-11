@@ -9,6 +9,11 @@
 function openChatMKModal() {
   console.log('Opening ChatMK modal...');
   
+  // Track modal opening event
+  if (typeof umami !== 'undefined') {
+    umami.track('modal-chatmk-open');
+  }
+  
   // Close command palette if it's open
   const ninjaKeys = document.querySelector('ninja-keys');
   if (ninjaKeys) {

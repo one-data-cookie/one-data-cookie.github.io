@@ -60,9 +60,9 @@ class ChatMKAI {
         n_ctx: 2048, // Set context size during model loading
         n_ctx_per_seq: 2048, // Set per-sequence context during model loading
         progressCallback: ({ loaded, total }) => {
-          // Check if cancelled
+          // Check if cancelled - stop immediately
           if (this.downloadController?.signal.aborted) {
-            throw new Error('Download cancelled by user');
+            return; // Stop progress updates
           }
 
           const percent = Math.round((loaded / total) * 100);
@@ -107,6 +107,8 @@ class ChatMKAI {
     if (this.downloadController) {
       this.downloadController.abort();
       console.log("ChatMK AI: Download cancelled");
+      // Show cancellation message immediately
+      this.showProgressInModal(0, 0, 150, 'Language model skipped → using search only');
     }
   }
 
@@ -222,7 +224,7 @@ ${userMessage}
         ? customMessage
         : percent === 100 
         ? `Language model loaded: SmolLM2-360M-Q8`
-        : `Language model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKAI.cancelDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline;">skip magic</span>`;
+        : `Language model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKAI.cancelDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline; white-space: nowrap;">skip magic</span>`;
 
       // Check if there's already a progress message and update it
       const messages = document.getElementById("chatmk-messages");

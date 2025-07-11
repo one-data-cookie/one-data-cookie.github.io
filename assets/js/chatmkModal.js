@@ -4,6 +4,14 @@
  */
 
 /**
+ * Check if user is on a mobile device
+ */
+function isMobileDevice() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
+         (window.innerWidth <= 768);
+}
+
+/**
  * Open the ChatMK modal
  */
 function openChatMKModal() {
@@ -51,9 +59,9 @@ function openChatMKModal() {
   modal.style.display = 'block';
   modal.classList.add('is-active');
   
-  // Focus on the input field
+  // Focus on the input field only on desktop
   const input = modal.querySelector('#chatmk-input');
-  if (input) {
+  if (input && !isMobileDevice()) {
     setTimeout(() => input.focus(), 100);
   }
   
@@ -176,11 +184,13 @@ function newChatMKConversation() {
     messagesContainer.insertBefore(welcomeMessage, messagesContainer.firstChild);
   }
   
-  // Clear input and focus
+  // Clear input and focus only on desktop
   const input = document.getElementById('chatmk-input');
   if (input) {
     input.value = '';
-    input.focus();
+    if (!isMobileDevice()) {
+      input.focus();
+    }
   }
 }
 

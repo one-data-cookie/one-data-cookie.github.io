@@ -88,7 +88,7 @@ class ChatMKSearch {
           } else if (percent === 100) {
             content.innerHTML = `<p>Embedding model loaded: MiniLM-L6-v2</p>`;
           } else {
-            content.innerHTML = `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKSearch.cancelEmbeddingDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline;">skip magic</span></p>`;
+            content.innerHTML = `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKSearch.cancelEmbeddingDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline; white-space: nowrap;">skip magic</span></p>`;
           }
         }
       } else {
@@ -99,7 +99,7 @@ class ChatMKSearch {
           ? `<p>${customMessage}</p>`
           : percent === 100 
           ? `<p>Embedding model loaded: MiniLM-L6-v2</p>`
-          : `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKSearch.cancelEmbeddingDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline;">skip magic</span></p>`;
+          : `<p>Embedding model loading: ${percent}% (${mbLoaded}/${mbTotal} MB) <span onclick="window.chatMKSearch.cancelEmbeddingDownload()" style="margin-left: 10px; font-size: 11px; color: var(--text-sub); cursor: pointer; text-decoration: underline; white-space: nowrap;">skip magic</span></p>`;
         
         messageDiv.innerHTML = `
           <div class="message-content">
@@ -120,6 +120,8 @@ class ChatMKSearch {
     if (this.embeddingController) {
       this.embeddingController.abort();
       console.log("Embedding download cancelled");
+      // Show cancellation message immediately
+      this.showEmbeddingProgress(0, 0, 25, 'Embedding model skipped → this won\'t work');
     }
   }
 
@@ -131,9 +133,9 @@ class ChatMKSearch {
     
     // Simulate progress from 0% to 100%
     for (let percent = 0; percent <= 100; percent += 20) {
-      // Check if cancelled
+      // Check if cancelled - stop immediately
       if (this.embeddingController?.signal.aborted) {
-        throw new Error('Embedding download cancelled by user');
+        return; // Stop progress updates
       }
       
       const mbLoaded = Math.round((percent / 100) * totalMB);

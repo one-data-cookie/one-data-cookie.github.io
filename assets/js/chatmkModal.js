@@ -4,11 +4,10 @@
  */
 
 /**
- * Check if user is on a mobile device
+ * Check if device supports hover (desktop) - if not, it's likely a touch device
  */
-function isMobileDevice() {
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || 
-         (window.innerWidth <= 768);
+function supportsHover() {
+  return window.matchMedia('(hover: hover)').matches;
 }
 
 /**
@@ -59,9 +58,9 @@ function openChatMKModal() {
   modal.style.display = 'block';
   modal.classList.add('is-active');
   
-  // Focus on the input field only on desktop
+  // Focus on the input field only on devices that support hover (desktop)
   const input = modal.querySelector('#chatmk-input');
-  if (input && !isMobileDevice()) {
+  if (input && supportsHover()) {
     setTimeout(() => input.focus(), 100);
   }
   
@@ -184,11 +183,11 @@ function newChatMKConversation() {
     messagesContainer.insertBefore(welcomeMessage, messagesContainer.firstChild);
   }
   
-  // Clear input and focus only on desktop
+  // Clear input and focus only on devices that support hover (desktop)
   const input = document.getElementById('chatmk-input');
   if (input) {
     input.value = '';
-    if (!isMobileDevice()) {
+    if (supportsHover()) {
       input.focus();
     }
   }

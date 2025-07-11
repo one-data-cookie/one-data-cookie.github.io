@@ -1620,6 +1620,9 @@ label.margin-toggle:not(.sidenote-number) {
     font-weight: 600;
     font-size: 1.25rem;
     text-decoration: none;
+    /* Force text rendering instead of emoji */
+    font-variant-emoji: text;
+    font-feature-settings: "liga" off;
 }
 
 /* Override Bulma button styles with high specificity */

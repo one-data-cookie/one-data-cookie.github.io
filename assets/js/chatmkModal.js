@@ -143,7 +143,7 @@ function createChatMKModal() {
         </div>
         
         <div class="chatmk-status" id="chatmk-status">
-          <span class="status-text">This is just a (mostly useless) experiment.</span>
+          <span class="status-text">This is just a (mostly useless) experiment. More info <a href="/chatmk" target="_blank">here</a>.</span>
         </div>
       </div>
     </div>

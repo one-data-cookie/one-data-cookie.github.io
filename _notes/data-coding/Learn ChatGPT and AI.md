@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-07-09
+updated: 2025-07-12
 sources: Misc
 ---
 
@@ -224,3 +224,13 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 ["Bullshit guys" – Modern day oracles or bullshit machines?](https://thebullshitmachines.com)
 > You will learn when these systems can save you a lot of time and effort. You will learn when they are likely to steer you wrong. And you will discover how to see through the hype to tell the difference.
+
+<u>2025-07 My Vibecoding Notes</u>
+- surprisingly, it worked quite well and I was moving fwd fast
+- one needs to step in mainly when:
+    - deciding on the overall approach – it often goes in an arbitrary direction
+    - the agent fails for a few times – it’s better to help in the traditional way
+- what surprised me:
+    - it was able to test things on its own
+    - it even handed things over for browser debugging when it got stuck
+    - a lot of time was “dead” because I was waiting for results

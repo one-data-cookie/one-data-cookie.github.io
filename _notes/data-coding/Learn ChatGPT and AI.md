@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-07-12
+updated: 2025-07-23
 sources: Misc
 ---
 
@@ -68,6 +68,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [OpenAI Platform](https://platform.openai.com/): everything about OpenAI's models
 - [Google AI Studio](https://aistudio.google.com/): playing around with Google's models
 - [Ollama](https://ollama.com/): run large language models, locally
+- [LMArena](https://lmarena.ai/leaderboard): compare the AI models
 - [OpenRouter](https://openrouter.ai/): unified interface for LLMs
 - [Sanctum](https://sanctum.ai/): run & interact with open-source LLMs locally
 - [open-r1](https://github.com/huggingface/open-r1): fully open reproduction of [DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1)
@@ -234,3 +235,6 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
     - it was able to test things on its own
     - it even handed things over for browser debugging when it got stuck
     - a lot of time was “dead” because I was waiting for results
+
+[A cold play](https://benn.substack.com/p/a-cold-play)
+> That is, after what chatgpt.com really is—an addictive wrapper around OpenAI’s LLMs. And today, is that wrapper, and all of the habits and bookmarks that come with it, not just as valuable to OpenAI as their models?

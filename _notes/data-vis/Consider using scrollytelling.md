@@ -5,7 +5,7 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 2021-12-15
-updated: 2025-05-17
+updated: 2025-08-22
 sources: Misc
 ---
 
@@ -19,3 +19,4 @@ sources: Misc
 - [A torrent of trash](https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/)
 - [Office Vacancy](https://www.moodys.com/web/en/us/about/insights/data-stories/us-commercial-real-estate-vacancies-downtown-vs-suburbs.html)
 - [How food diary videos on social media can impact your body image](https://www.straitstimes.com/multimedia/graphics/2024/12/social-media-body-image/index.html)
+- [Mole or cancer?](https://civio.es/sanidad/2025/07/03/mole-or-cancer-the-algorithm-that-gets-one-in-three-melanomas-wrong-and-erases-patients-with-dark-skin/)

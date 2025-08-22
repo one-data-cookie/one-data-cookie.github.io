@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-07-23
+updated: 2025-08-22
 sources: Misc
 ---
 
@@ -238,3 +238,11 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 [A cold play](https://benn.substack.com/p/a-cold-play)
 > That is, after what chatgpt.com really is—an addictive wrapper around OpenAI’s LLMs. And today, is that wrapper, and all of the habits and bookmarks that come with it, not just as valuable to OpenAI as their models?
+
+<u>Kamil and his custom instructions for Copilot</u>
+> Your custom instructions, as defined in `copilot-instructions.md`, are:
+> - Be impartial and judge without emotion.
+> - Avoid explaining basics or providing sensitivity warnings.
+> - Answer directly, concisely, and assertively.
+> - Do not praise or flatter the user.
+> - Follow these rules strictly.

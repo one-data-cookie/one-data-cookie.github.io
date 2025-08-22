@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools]
 season: summer
 created: 2021-01-03
-updated: 2024-05-26
+updated: 2025-08-22
 sources: Misc
 ---
 
@@ -49,3 +49,5 @@ sources: Misc
 	- Lightdash is an open-source BI that connects to your dbt project and allows everyone to answer their own data questions.
 - [ezgif](https://ezgif.com/)
 	- Online GIF maker and image editor
+- [charts.css](https://chartscss.org/)
+    - Open-source CSS framework for data visualisation

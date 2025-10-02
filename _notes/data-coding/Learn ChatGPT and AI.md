@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-09-29
+updated: 2025-10-02
 sources: Misc
 ---
 
@@ -246,3 +246,10 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > - Answer directly, concisely, and assertively.
 > - Do not praise or flatter the user.
 > - Follow these rules strictly.
+
+[Richard Sutton – The Fundamental Problem With LLMs](https://www.youtube.com/watch?v=GvibIstOn_E)
+> Richard Sutton, a RL pioneer and a Turing Award winner, debates the limitations of LLMs. He argues that LLMs are a "dead end" because they, unlike goal-driven, experiential RL systems, are fundamentally limited by relying on imitation learning and next-token prediction, which he asserts will eventually be surpassed by truly scalable systems that learn purely from experience and computation.
+- RL is about understanding the world and about figuring out what to do vs LLMs are about mimicking people and do what people say you should do
+- LLMs don't build a model of the world as they only emulate things that have a model of the world – people
+- LLMs have no concept of actual knowledge or ground truth
+- Btw, he's also an author of the [Bitter lesson](https://en.wikipedia.org/wiki/Bitter_lesson)

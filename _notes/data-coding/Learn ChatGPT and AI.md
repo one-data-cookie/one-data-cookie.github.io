@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-10-02
+updated: 2025-10-24
 sources: Misc
 ---
 
@@ -145,7 +145,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Macaly](https://www.macaly.com/): similar to Lovable from Czechia
 - [Waii](https://www.waii.ai/): SQL API built with generative AI
 - [Aider](https://aider.chat/): AI pair programming in your terminal
-- [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code) or [Gemini CLI](https://github.com/google-gemini/gemini-cli) or [Cursor CLI](https://cursor.com/cli): terminal-based AI agents, tied to OpenAI/Anthropic/Gemini/Cursor
+- [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code) or [Gemini CLI](https://github.com/google-gemini/gemini-cli) or [Cursor CLI](https://cursor.com/cli) or [Copilot CLI](https://github.com/features/copilot/cli/): terminal-based AI agents, tied to OpenAI/Anthropic/Gemini/Cursor/GitHub
 - [Postgres Sandbox](https://database.build/): build database right in your browser with AI
 - [Gitingest](https://gitingest.com/): create a prompt-friendly codebase
 - [DeepWiki](https://deepwiki.com/): create deep LLM wiki from any repo

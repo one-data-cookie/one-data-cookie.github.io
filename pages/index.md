@@ -146,7 +146,7 @@ content-type: homepage
 [^14]:  I mentor and support a few other data folks – both juniors and seniors.
 
 <!-- Community -->
-[^15]:  When I [create](/projects?category=creating) stuff, I publish it [as open-source](https://github.com/one-data-cookie).
+[^15]:  When I [build](/projects?category=building) stuff, I publish it [as open-source](https://github.com/one-data-cookie).
         When I [organise](/projects?category=organising) or [speak](/projects?category=speaking) at events,
         I mostly contribute to local data community initiatives and meetups.
         But I've now also started thinking more and more about how to share more openly about

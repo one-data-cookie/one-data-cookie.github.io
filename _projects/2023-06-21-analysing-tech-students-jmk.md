@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysing trends in technical education in South Moravia Region
-category: creating
+category: building
 dates: [2023-06-21]
 content-type: eg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Winning the datavis challenge from Seznam
-category: creating
+category: building
 dates: [2022-12-15, 2021-12-15]
 content-type: eg
 ---

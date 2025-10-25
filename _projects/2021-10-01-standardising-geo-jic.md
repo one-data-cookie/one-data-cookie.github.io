@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Standardising geo data at JIC
-category: creating
+category: building
 dates: [2021-10-01]
 content-type: eg
 ---

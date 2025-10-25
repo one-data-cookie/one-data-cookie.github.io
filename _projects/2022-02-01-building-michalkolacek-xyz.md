@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building michalkolacek.xyz
-category: creating
+category: building
 dates: [2022-02-01]
 content-type: eg
 ---

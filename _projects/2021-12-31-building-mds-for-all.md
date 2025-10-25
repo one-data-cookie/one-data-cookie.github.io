@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building modern data stack for all
-category: creating
+category: building
 dates: [2021-12-31]
 content-type: eg
 ---

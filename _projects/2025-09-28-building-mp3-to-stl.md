@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building mp3-to-stl
-category: creating
+category: building
 dates: [2025-09-28]
 content-type: eg
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Supporting digital transformation at JINAG
-category: creating
+category: building
 dates: [2023-09-22]
 content-type: eg
 ---

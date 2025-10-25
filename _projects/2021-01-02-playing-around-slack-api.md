@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Playing around with Slack API
-category: creating
+category: building
 dates: [2021-01-02]
 content-type: eg
 ---

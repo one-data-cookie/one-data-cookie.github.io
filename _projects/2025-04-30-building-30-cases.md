@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building 30 Cases
-category: creating
+category: building
 dates: [2025-04-30]
 content-type: eg
 ---

@@ -53,7 +53,7 @@ I keep a **list of things I use**. And it seems I'm [not the only one](https://u
 - [Raycast](https://www.raycast.com/), launcher on steroids
 - [Stretchly](https://hovancik.net/stretchly/), break reminder
 
-### Creating
+### Building
 - [Adobe Illustrator](https://www.adobe.com/products/illustrator.html), vector graphics
 - [iTerm2](https://iterm2.com/), terminal on steroids
 - [`pyenv`](https://github.com/pyenv/pyenv) & [`uv`](https://github.com/astral-sh/uv) & [`marimo`](https://github.com/marimo-team/marimo), Python essentials 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reviewing an O'Reilly book on analytics engineering
-category: creating
+category: building
 dates: [2023-09-11]
 content-type: eg
 ---

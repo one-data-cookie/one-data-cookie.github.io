@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Developing TeachEUR GPT for educators 
-category: creating
+category: building
 dates: [2023-11-21]
 content-type: eg
 ---

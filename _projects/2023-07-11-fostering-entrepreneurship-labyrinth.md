@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fostering entrepreneurship at ZŠ Labyrinth
-category: creating
+category: building
 dates: [2023-07-11]
 content-type: eg
 ---

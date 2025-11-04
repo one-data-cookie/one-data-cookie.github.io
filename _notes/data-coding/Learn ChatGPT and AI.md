@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-10-24
+updated: 2025-11-04
 sources: Misc
 ---
 
@@ -253,3 +253,6 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - LLMs don't build a model of the world as they only emulate things that have a model of the world – people
 - LLMs have no concept of actual knowledge or ground truth
 - Btw, he's also an author of the [Bitter lesson](https://en.wikipedia.org/wiki/Bitter_lesson)
+
+[AI in BI: the Path to Full Self-Driving Analytics](https://preset.io/blog/ai-in-bi-the-path-to-full-self-driving-analytics/)
+> The real milestone isn’t when AI can answer any question — it’s when people can _trust_ the system enough to keep asking.

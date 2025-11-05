@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-11-04
+updated: 2025-11-05
 sources: Misc
 ---
 
@@ -104,6 +104,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Consensus](https://consensus.app/): AI-powered academic search engine
 
 ## Images
+- [GenAI Image Editing Showdown](https://genai-showdown.specr.net/image-editing)
 - [Midjourney](https://www.midjourney.com/): create pictures
 - [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model
 - [Illusion Diffusion](https://huggingface.co/spaces/AP123/IllusionDiffusion): generate illusion art with Stable Diffusion

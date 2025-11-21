@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-11-05
+updated: 2025-11-21
 sources: Misc
 ---
 
@@ -129,6 +129,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [NotebookLM’s automatically generated podcasts are surprisingly effective](https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/)
 
 ## Agents
+- [AGENTS.md](https://agents.md/): a simple, open format for guiding coding agents
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): an experimental open-source attempt to make GPT-4 fully autonomous (with [Cognosys](https://app.cognosys.ai/) and [AgentGPT](https://agentgpt.reworkd.ai/) as alternatives)
 - [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps
 - [Gumloop](https://www.gumloop.com/): automate any workflow with AI 
@@ -147,9 +148,19 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Waii](https://www.waii.ai/): SQL API built with generative AI
 - [Aider](https://aider.chat/): AI pair programming in your terminal
 - [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code) or [Gemini CLI](https://github.com/google-gemini/gemini-cli) or [Cursor CLI](https://cursor.com/cli) or [Copilot CLI](https://github.com/features/copilot/cli/): terminal-based AI agents, tied to OpenAI/Anthropic/Gemini/Cursor/GitHub
+- [Vibe Kanban](https://www.vibekanban.com/): human-agent collaboration tool
 - [Postgres Sandbox](https://database.build/): build database right in your browser with AI
 - [Gitingest](https://gitingest.com/): create a prompt-friendly codebase
+- [Code Wiki](https://codewiki.google/): Gemini-generated documentation, always up-to-date
 - [DeepWiki](https://deepwiki.com/): create deep LLM wiki from any repo
+- [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
+
+### Claude Code
+- Skills: [this](https://github.com/obra/superpowers/tree/main) or [this](https://github.com/ComposioHQ/awesome-claude-skills) one
+- `npx ccusage@latest`
+- `npx ccstatusline@latest`
+- `npx cchistory@latest`
+- `claude --dangerously-skip-permissions` (with [this article](https://simonwillison.net/2025/Oct/22/living-dangerously-with-claude/))
 
 ## Translation
 - [DeepML](https://www.deepl.com/)
@@ -237,7 +248,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
     - it even handed things over for browser debugging when it got stuck
     - a lot of time was “dead” because I was waiting for results
 
-[A cold play](https://benn.substack.com/p/a-cold-play)
+[Benn Stencil – A cold play](https://benn.substack.com/p/a-cold-play)
 > That is, after what chatgpt.com really is—an addictive wrapper around OpenAI’s LLMs. And today, is that wrapper, and all of the habits and bookmarks that come with it, not just as valuable to OpenAI as their models?
 
 <u>Kamil and his custom instructions for Copilot</u>
@@ -257,3 +268,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 [AI in BI: the Path to Full Self-Driving Analytics](https://preset.io/blog/ai-in-bi-the-path-to-full-self-driving-analytics/)
 > The real milestone isn’t when AI can answer any question — it’s when people can _trust_ the system enough to keep asking.
+
+[Ben Stencil – All you can do is play the game](https://benn.substack.com/p/all-you-can-do-is-play-the-game)
+> An odd fact about the internet is that we’re all a few clicks or keystrokes from incomprehensible power and wealth. Right now, if you log into Robinhood and click on a few buttons in the right order, you could retire next week. Type a few thousand of the right characters into a code editor, and you’ll end up pulling the technical strings that control the world. Sure, the odds of that happening are small, but it is still strange—we are all one fifteen minute fugue state from owning an island.
+> 
+> What are those characters though? Obviously, nobody knows. But now, more than ever, it seems like the only way to find them—no matter who you are, whether that’s a grizzled veteran or at college student—it is to start typing.

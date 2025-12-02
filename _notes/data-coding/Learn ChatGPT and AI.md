@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-11-21
+updated: 2025-12-02
 sources: Misc
 ---
 
@@ -114,13 +114,13 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Pixelcut](https://www.pixelcut.ai/): resize images for free
 
 ## Videos
-- [Lexica](https://lexica.art/): image prompt inspiration
-- [Creative Reality](https://studio.d-id.com/): image-to-video generation
 - [Sora](https://openai.com/sora): text-to-video AI generation
-- [Luma](https://lumalabs.ai/dream-machine): video generation
-- [Pika](https://pika.art/): video generation
-- [Runway](https://runwayml.com/): text and image processing and generation
-- [Kling](https://klingai.com/): image-to-video and more
+- [Luma](https://lumalabs.ai/dream-machine): video generation; board, Sora-like
+- [Pika](https://pika.art/): video generation; short clips, Sora-like
+- [Runway](https://runwayml.com/): text and image processing and generation; based on given pics
+- [Kling](https://klingai.com/): image-to-video and more; Chinese
+- [Creative Reality](https://studio.d-id.com/): image-to-video generation; simple, avatars
+- [Lexica](https://lexica.art/): image prompt inspiration
 
 ## Sounds
 - [ElevenLabs](https://elevenlabs.io/): text-to-speech generation

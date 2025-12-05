@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-12-02
+updated: 2025-12-05
 sources: Misc
 ---
 
@@ -153,6 +153,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Gitingest](https://gitingest.com/): create a prompt-friendly codebase
 - [Code Wiki](https://codewiki.google/): Gemini-generated documentation, always up-to-date
 - [DeepWiki](https://deepwiki.com/): create deep LLM wiki from any repo
+- [spec-kit](https://github.com/github/spec-kit): toolkit to help you get started with Spec-Driven Development
 - [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
 
 ### Claude Code

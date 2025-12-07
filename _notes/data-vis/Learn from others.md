@@ -5,7 +5,7 @@ category: data-vis
 tags: [learn, people]
 season: summer
 created: 2021-02-13
-updated: 2025-08-22
+updated: 2025-12-07
 sources: Misc
 ---
 
@@ -84,6 +84,7 @@ sources: Misc
 - [Plastic Portrait](https://nightingaledvs.com/plastic-portrait-cable-ties): visualising technical skills through cable ties
 - [Data Portraits at TED](https://giorgialupi.com/data-portraits-at-ted2017/): personal data to create a connection between people
 - [Storing PNG image data in a bird’s song](https://flowingdata.com/2025/07/30/storing-png-image-data-in-a-birds-song/): converting PNG image into a spectogram
+- [Envidata](https://www.envidata.cz/): analyses of publicly available data about environment in Czechia
 
 ## Pieces but random
 ![](../__desktop/chart-random-01.png)

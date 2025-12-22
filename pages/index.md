@@ -74,7 +74,7 @@ content-type: homepage
 
 <!-- Intro -->
 [^1]:   Inspired by [Nietzsche's 'become who you are'](https://psyche.co/ideas/when-nietzsche-said-become-who-you-are-this-is-what-he-meant),
-        this echoes my [personal philosophy](/ihmo) and the existentialist idea that
+        this echoes my [personal philosophy](/imho) and the existentialist idea that
         authenticity is not a fixed state to be found, but rather an ongoing process to be lived.
 
 <!-- Data -->
@@ -122,7 +122,7 @@ content-type: homepage
 
 <!-- Friend -->
 [^9]:   I cherish my [adult friendships](https://freakonomics.com/podcast/is-it-harder-to-make-friends-as-an-adult/)
-        and [I think](/ihmo) such strong bonds are one of the keys to leading a happy, meaningful life.
+        and [I think](/imho) such strong bonds are one of the keys to leading a happy, meaningful life.
 
 <!-- Dog pal -->
 [^10]:  I try to be a good human to our long-haired, miniature, dapple dachshund [Falco](https://www.instagram.com/falco.theminidachshund/).

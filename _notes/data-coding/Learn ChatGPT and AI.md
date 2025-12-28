@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-12-05
+updated: 2025-12-28
 sources: Misc
 ---
 
@@ -168,7 +168,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [LINDAT Translation](https://lindat.mff.cuni.cz/services/translation/)
 
 ## Other
-- [Shapen](https://shapen.com/): create 3D models from images
+- [Shapen](https://shapen.com/): create 3D models from images, even though better might be [Krea](https://www.krea.ai/) with integrated [TRELLIS.2](https://huggingface.co/spaces/microsoft/TRELLIS.2) or [Rodin](https://hyper3d.ai/)
 - [LegoGPT](https://avalovelace1.github.io/LegoGPT/): generate physically stable and buildable LEGO® designs from text
 
 # Details

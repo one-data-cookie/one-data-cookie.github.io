@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-12-28
+updated: 2025-12-29
 sources: Misc
 ---
 
@@ -167,8 +167,18 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [DeepML](https://www.deepl.com/)
 - [LINDAT Translation](https://lindat.mff.cuni.cz/services/translation/)
 
-## Other
-- [Shapen](https://shapen.com/): create 3D models from images, even though better might be [Krea](https://www.krea.ai/) with integrated [TRELLIS.2](https://huggingface.co/spaces/microsoft/TRELLIS.2) or [Rodin](https://hyper3d.ai/)
+## Digital Craft
+- multiple, see below: create 3D models from images 
+
+| name                                        | ai_model                                                       | has_prompt | free_multi-img | free_dwnld | ui      | quality | notes                                                                                |
+| ------------------------------------------- | -------------------------------------------------------------- | ---------- | -------------- | ---------- | ------- | ------- | ------------------------------------------------------------------------------------ |
+| [Tripo](https://studio.tripo3d.ai/)         | Tripo                                                          | 1          | 0              | 1          | complex | 9       | depends on prompt                                                                    |
+| [3D AI Studio](https://www.3daistudio.com/) | Hunyuan 3.0 + more                                             | 1          | 0              | 0          | complex | 8       | community, [guide](https://docs.3daistudio.com/integrations#3d-printing-integration) |
+| [Meshy](https://www.meshy.ai/)              | Meshy                                                          | 0          | 0              | 0          | complex | 7       | well-known                                                                           |
+| [Rodin](https://hyper3d.ai/)                | Rodin                                                          | 1          | 0              | 1          | complex | 7       |                                                                                      |
+| [Krea](https://www.krea.ai/3d)              | [TRELLIS.2](https://huggingface.co/spaces/microsoft/TRELLIS.2) | 0          | 0              | 1          | simple  | 6       |                                                                                      |
+| [Shapen](https://shapen.com/)               | TRELLIS                                                        | 0          | 1              | 1          | simple  | 4       |                                                                                      |
+
 - [LegoGPT](https://avalovelace1.github.io/LegoGPT/): generate physically stable and buildable LEGO® designs from text
 
 # Details

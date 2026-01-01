@@ -11,7 +11,6 @@ To keep with the tradition of [now pages](https://nownownow.com/) though,
 **here is what I'm up to** these days:
 - Leading the data team at [Slido](https://www.slido.com/)
 - Teaching IT to children aged 13–15 at [Tyršovka](https://www.tyrsovkakurim.cz/)
-- Teaching a [data course](https://kisk.phil.muni.cz/kisked/kisked03) at Masaryk University
 - Organising and participating in local (mostly data) meetups
 - Mentoring a few data folks – both juniors & seniors
 

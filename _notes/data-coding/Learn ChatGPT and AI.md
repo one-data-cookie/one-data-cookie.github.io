@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2025-12-29
+updated: 2026-01-19
 sources: Misc
 ---
 
@@ -84,6 +84,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [ej:aj](https://ejaj.cz/): Czech database of AI tools
 - [BenCzechMark - Can your LLM Understand Czech?](https://huggingface.co/blog/benczechmark)
 - [Advent of No-Code](https://www.adventofnocode.io/): advent calendar of AI no-code tools
+- [poslední ping](https://blog.timutti.cz/): an experiment daily blog written by AI (in CS)
 
 ## Text
 - [ChatGPT](https://chatgpt.com/): needs no introduction
@@ -179,6 +180,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 | [Krea](https://www.krea.ai/3d)              | [TRELLIS.2](https://huggingface.co/spaces/microsoft/TRELLIS.2) | 0          | 0              | 1          | simple  | 6       |                                                                                      |
 | [Shapen](https://shapen.com/)               | TRELLIS                                                        | 0          | 1              | 1          | simple  | 4       |                                                                                      |
 
+- [Zoo Design Studio](https://zoo.dev/): text-to-CAD for generating models for CAD
 - [LegoGPT](https://avalovelace1.github.io/LegoGPT/): generate physically stable and buildable LEGO® designs from text
 
 # Details

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, sql]
 season: summer
 created: 2021-02-21
-updated: 2025-02-18
+updated: 2026-01-19
 sources: Misc
 ---
 
@@ -32,13 +32,14 @@ sources: Misc
 - [Collection of insane and fun facts about SQLite](https://avi.im/blag/2024/sqlite-facts/)
 
 ## Tools
-- [Trino](https://trino.io/) – SQL query engine that runs at ludicrous speed. Used to be PrestoSQL.
+- [Trino](https://trino.io/): SQL query engine that runs at ludicrous speed. Used to be PrestoSQL.
 - [SQLite](https://sqliteonline.com/)
-- [Malloy](https://www.malloydata.dev/) – ["React of SQL"](https://roundup.getdbt.com/p/lots-going-on-metrics-malloy-sanity)
-- [Splink](https://github.com/moj-analytical-services/splink) – fast, accurate and scalable probabilistic data linkage
-- [Ibis](https://github.com/ibis-project/ibis) – translate Python to SQL
-- [SQLGlot](https://github.com/tobymao/sqlglot) – translate between SQL flavours
-- [SQLable](https://sqlable.com/) – format and validate SQL, test SQL regex, generate data, and explore SQL playgrounds
+- [Malloy](https://www.malloydata.dev/): ["React of SQL"](https://roundup.getdbt.com/p/lots-going-on-metrics-malloy-sanity)
+- [Splink](https://github.com/moj-analytical-services/splink): fast, accurate and scalable probabilistic data linkage
+- [Ibis](https://github.com/ibis-project/ibis): translate Python to SQL
+- [SQLGlot](https://github.com/tobymao/sqlglot): translate between SQL flavours
+- [SQLable](https://sqlable.com/): format & validate SQL, test SQL regex, generate data, SQL playgrounds
+- [TailwindSQL](https://github.com/mmarinovic/tailwindsql): write SQL as CSS, hah
 
 ## Snippets
 - [Snippets](https://sql-snippets.count.co/)

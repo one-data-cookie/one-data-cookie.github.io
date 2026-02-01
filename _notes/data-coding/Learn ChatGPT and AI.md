@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-01-19
+updated: 2026-02-01
 sources: Misc
 ---
 
@@ -104,7 +104,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [You.com](https://you.com/): searching with AI
 - [Consensus](https://consensus.app/): AI-powered academic search engine
 
-## Images
+## Image
 - [GenAI Image Editing Showdown](https://genai-showdown.specr.net/image-editing)
 - [Midjourney](https://www.midjourney.com/): create pictures
 - [Stable Diffusion](https://stablediffusionweb.com/): text-to-image model
@@ -114,7 +114,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Krea](https://www.krea.ai/): image generation and enhancement
 - [Pixelcut](https://www.pixelcut.ai/): resize images for free
 
-## Videos
+## Video
 - [Sora](https://openai.com/sora): text-to-video AI generation
 - [Luma](https://lumalabs.ai/dream-machine): video generation; board, Sora-like
 - [Pika](https://pika.art/): video generation; short clips, Sora-like
@@ -122,10 +122,12 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Kling](https://klingai.com/): image-to-video and more; Chinese
 - [Creative Reality](https://studio.d-id.com/): image-to-video generation; simple, avatars
 - [Lexica](https://lexica.art/): image prompt inspiration
+- [Descript](https://www.descript.com/): AI-editing for every kind of video
 
-## Sounds
+## Audio
 - [ElevenLabs](https://elevenlabs.io/): text-to-speech generation
 - [Suno](https://www.suno.ai/): generating music
+- [Wispr Flow](https://wisprflow.ai/): effortless voice dictation, cloud-based
 - [NaturalReaders](https://www.naturalreaders.com/): not a bad, free text-to-speech
 - [NotebookLM’s automatically generated podcasts are surprisingly effective](https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/)
 

@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-02-01
+updated: 2026-02-02
 sources: Misc
 ---
 
@@ -138,6 +138,10 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Gumloop](https://www.gumloop.com/): automate any workflow with AI 
 - [GPT for Work](https://gptforwork.com/): GPT for Excel and Word, GPT for Google Sheets and Docs
 - [smol-ai/developer](https://github.com/smol-ai/developer/): embed a developer agent in your own app
+- [Openclaw](https://openclaw.im/): open-source framework that lets developers build AI-powered automations, esp. through messengers
+    - Using tons of skills from [ClawHub](https://www.clawhub.ai/)
+    - Generating even [gurus](https://moltbot.guru/)
+    - Funnily, agents talk to each other on [moltbook](https://www.moltbook.com/) that is [the most interesting place on the internet right now](https://simonwillison.net/2026/Jan/30/moltbook/)
 
 ## Coding
 - [GitHub Copilot](https://github.com/features/copilot): perhaps the world’s most widely adopted AI developer tool

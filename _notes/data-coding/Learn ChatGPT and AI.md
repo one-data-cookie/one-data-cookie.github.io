@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-02-02
+updated: 2026-02-06
 sources: Misc
 ---
 
@@ -142,6 +142,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
     - Using tons of skills from [ClawHub](https://www.clawhub.ai/)
     - Generating even [gurus](https://moltbot.guru/)
     - Funnily, agents talk to each other on [moltbook](https://www.moltbook.com/) that is [the most interesting place on the internet right now](https://simonwillison.net/2026/Jan/30/moltbook/)
+- [rentahuman.ai](https://rentahuman.ai/): AI agents rent humans for tasks they cannot do themselves
 
 ## Coding
 - [GitHub Copilot](https://github.com/features/copilot): perhaps the world’s most widely adopted AI developer tool

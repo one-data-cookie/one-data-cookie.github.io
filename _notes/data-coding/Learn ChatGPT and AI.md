@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-02-06
+updated: 2026-02-12
 sources: Misc
 ---
 
@@ -133,16 +133,21 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 ## Agents
 - [AGENTS.md](https://agents.md/): a simple, open format for guiding coding agents
+- [superpowers](https://github.com/obra/superpowers): agentic skills framework & software development methodology
+- [agent-os](https://buildermethods.com/agent-os) agents that build the way you would
+- [design-os](https://buildermethods.com/design-os): your coding agent needs a designer
 - [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT): an experimental open-source attempt to make GPT-4 fully autonomous (with [Cognosys](https://app.cognosys.ai/) and [AgentGPT](https://agentgpt.reworkd.ai/) as alternatives)
 - [Zapier AI Actions](https://nla.zapier.com/docs/platform/gpt): equip GPTs to take action in 3rd party apps
 - [Gumloop](https://www.gumloop.com/): automate any workflow with AI 
 - [GPT for Work](https://gptforwork.com/): GPT for Excel and Word, GPT for Google Sheets and Docs
 - [smol-ai/developer](https://github.com/smol-ai/developer/): embed a developer agent in your own app
-- [Openclaw](https://openclaw.im/): open-source framework that lets developers build AI-powered automations, esp. through messengers
+- [Openclaw](https://openclaw.im/) or [Clawdbot](https://clawd.bot/) previously: open-source framework that lets developers build AI-powered automations, esp. through messengers
     - Using tons of skills from [ClawHub](https://www.clawhub.ai/)
     - Generating even [gurus](https://moltbot.guru/)
     - Funnily, agents talk to each other on [moltbook](https://www.moltbook.com/) that is [the most interesting place on the internet right now](https://simonwillison.net/2026/Jan/30/moltbook/)
+    - Much better might be using the more secure and light-weight [NanoClaw](https://github.com/qwibitai/nanoclaw)
 - [rentahuman.ai](https://rentahuman.ai/): AI agents rent humans for tasks they cannot do themselves
+- [agent-browser](https://github.com/vercel-labs/agent-browser): more capable alternative to browser mcp 
 
 ## Coding
 - [GitHub Copilot](https://github.com/features/copilot): perhaps the world’s most widely adopted AI developer tool
@@ -155,7 +160,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Macaly](https://www.macaly.com/): similar to Lovable from Czechia
 - [Waii](https://www.waii.ai/): SQL API built with generative AI
 - [Aider](https://aider.chat/): AI pair programming in your terminal
-- [OpenAI Codex](https://github.com/openai/codex) or [Claude Code](https://github.com/anthropics/claude-code) or [Gemini CLI](https://github.com/google-gemini/gemini-cli) or [Cursor CLI](https://cursor.com/cli) or [Copilot CLI](https://github.com/features/copilot/cli/): terminal-based AI agents, tied to OpenAI/Anthropic/Gemini/Cursor/GitHub
+- [OpenAI Codex](https://github.com/openai/codex) (and its [app](https://developers.openai.com/codex/app)) or [Claude Code](https://github.com/anthropics/claude-code) or [Gemini CLI](https://github.com/google-gemini/gemini-cli) or [Cursor CLI](https://cursor.com/cli) or [Copilot CLI](https://github.com/features/copilot/cli/): terminal-based AI agents, tied to OpenAI/Anthropic/Gemini/Cursor/GitHub
 - [Vibe Kanban](https://www.vibekanban.com/): human-agent collaboration tool
 - [Postgres Sandbox](https://database.build/): build database right in your browser with AI
 - [Gitingest](https://gitingest.com/): create a prompt-friendly codebase
@@ -170,6 +175,10 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - `npx ccstatusline@latest`
 - `npx cchistory@latest`
 - `claude --dangerously-skip-permissions` (with [this article](https://simonwillison.net/2025/Oct/22/living-dangerously-with-claude/))
+- [custom spinner words](https://aiengineerguide.com/blog/custom-spinner-words-claude-code/)
+- [ralph wiggum plugin](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum)
+- [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): multi-agent orchestration for Claude Code
+- [get-shit-done](https://github.com/gsd-build/get-shit-done): meta-prompting, context engineering and spec-driven development
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

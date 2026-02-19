@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-02-12
+updated: 2026-02-19
 sources: Misc
 ---
 
@@ -179,6 +179,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [ralph wiggum plugin](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum)
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): multi-agent orchestration for Claude Code
 - [get-shit-done](https://github.com/gsd-build/get-shit-done): meta-prompting, context engineering and spec-driven development
+- [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills): CLAUDE.md file to improve Claude Code behavior
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

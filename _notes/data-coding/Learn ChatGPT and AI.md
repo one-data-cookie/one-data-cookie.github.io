@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-02-19
+updated: 2026-02-20
 sources: Misc
 ---
 
@@ -150,6 +150,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [agent-browser](https://github.com/vercel-labs/agent-browser): more capable alternative to browser mcp 
 
 ## Coding
+- [OpenCode](https://opencode.ai/): model-agnostic, open-source coding agent CLI
+- [Pi.dev](https://pi.dev/): minimal, hackable, plugin-driven, multi-LLM agent
 - [GitHub Copilot](https://github.com/features/copilot): perhaps the world’s most widely adopted AI developer tool
 - [Continue](https://www.continue.dev/): open-source version, [works on Ollama](https://ollama.com/blog/continue-code-assistant)
 - [Cursor](https://www.cursor.com/): AI code editor, i.e. built with AI mind from the beginning; great repo context, multiple cursors, browsing the web, chat, images
@@ -169,8 +171,13 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [spec-kit](https://github.com/github/spec-kit): toolkit to help you get started with Spec-Driven Development
 - [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
 
+
+## Codex
+- `codex exec`: headless, non-interactive, for automations
+
 ### Claude Code
-- Skills: [this](https://github.com/obra/superpowers/tree/main) or [this](https://github.com/ComposioHQ/awesome-claude-skills) one
+- Workflows: [obra/superpowers](https://github.com/obra/superpowers/tree/main)
+- Skills: [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills), [vercel-labs/skills](https://github.com/vercel-labs/skills) + https://skills.sh/
 - `npx ccusage@latest`
 - `npx ccstatusline@latest`
 - `npx cchistory@latest`
@@ -180,6 +187,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): multi-agent orchestration for Claude Code
 - [get-shit-done](https://github.com/gsd-build/get-shit-done): meta-prompting, context engineering and spec-driven development
 - [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills): CLAUDE.md file to improve Claude Code behavior
+- [Claude Swarm](https://code.claude.com/docs/en/agent-teams): orchestrate teams of agents
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

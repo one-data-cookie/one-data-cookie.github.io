@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn]
 season: spring
 created: 2023-03-17
-updated: 2026-02-12
+updated: 2026-02-22
 sources: Misc
 ---
 
@@ -20,7 +20,6 @@ sources: Misc
 - [Zed](https://zed.dev/): next-generation code editor designed for collaboration with humans and AI
 - [carbon](https://carbon.now.sh/): create and share beautiful images of your source code
 - [Martin Fowler](https://martinfowler.com/):  famous blog about software engineering
-- [annoying technology](https://annoying.technology/): just annoying technology 
 
 ## Learn specifically
 - [[Learn ChatGPT and AI]]
@@ -41,3 +40,5 @@ sources: Misc
 
 ## Other links
 - [UTM](https://mac.getutm.app/): securely run operating systems on your Mac
+- [annoying technology](https://annoying.technology/): just annoying technology
+- [Top 100-starred repos on GitHub](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Top-100-stars.md): pretty clear from the name, hah

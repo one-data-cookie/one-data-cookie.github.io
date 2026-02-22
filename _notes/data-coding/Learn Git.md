@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, git]
 season: summer
 created: 2021-02-13
-updated: 2025-03-17
+updated: 2026-02-22
 sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-folders-marked-in-gitignore
 ---
 
@@ -113,3 +113,4 @@ sources: https://stackoverflow.com/questions/18418718/git-still-adds-and-tracks-
 - There are [many](https://nvie.com/posts/a-successful-git-branching-model/) [different](https://www.endoflineblog.com/gitflow-considered-harmful) [workflows](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), i.e. practices to follow when working on big projects.
 - [Analyse how a Git repo grows over time](https://github.com/erikbern/git-of-theseus)
 - You can also [store your private data](https://github.com/sobolevn/git-secret) inside a git repo
+- [Top 100-starred repos on GitHub](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Top-100-stars.md)

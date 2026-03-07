@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, vim]
 season: spring
 created: 2022-08-14
-updated: 2024-10-04
+updated: 2026-03-07
 sources: Misc
 ---
 
@@ -76,10 +76,12 @@ In practice this means using different "modes of operation" for different kinds 
 - `:sp`, `:svp`: split windows
 
 ## Alternatives
-• `nano`: best for beginners and quick edits
-• `emacs`: highly extensible and powerful, for advanced users
-• `vim`: efficient for those familiar with its modal editing
-• `ed`: minimal and historical, not practical for most users
-• `cat`: utility for viewing files, not editing
+- `nano`: best for beginners and quick edits
+- `emacs`: highly extensible and powerful, for advanced users
+- `vim`: efficient for those familiar with its modal editing
+- `ed`: minimal and historical, not practical for most users
+- `cat`: utility for viewing files, not editing
+- -.-
+- [Helix](https://helix-editor.com/): a post-modern modal text editor
 
 ![](https://imgs.xkcd.com/comics/real_programmers.png)

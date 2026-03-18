@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-02-20
+updated: 2026-03-18
 sources: Misc
 ---
 
@@ -182,6 +182,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - `npx ccstatusline@latest`
 - `npx cchistory@latest`
 - `claude --dangerously-skip-permissions` (with [this article](https://simonwillison.net/2025/Oct/22/living-dangerously-with-claude/))
+- `/btw`
 - [custom spinner words](https://aiengineerguide.com/blog/custom-spinner-words-claude-code/)
 - [ralph wiggum plugin](https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum)
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): multi-agent orchestration for Claude Code

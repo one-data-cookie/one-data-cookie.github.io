@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-03-18
+updated: 2026-03-24
 sources: Misc
 ---
 
@@ -312,3 +312,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > An odd fact about the internet is that we’re all a few clicks or keystrokes from incomprehensible power and wealth. Right now, if you log into Robinhood and click on a few buttons in the right order, you could retire next week. Type a few thousand of the right characters into a code editor, and you’ll end up pulling the technical strings that control the world. Sure, the odds of that happening are small, but it is still strange—we are all one fifteen minute fugue state from owning an island.
 > 
 > What are those characters though? Obviously, nobody knows. But now, more than ever, it seems like the only way to find them—no matter who you are, whether that’s a grizzled veteran or at college student—it is to start typing.
+
+[Ezra Klein – The Case Against Writing with AI](https://www.youtube.com/watch?v=smb7hy6KufQ&t=2761s)
+> Part of what is happening when you spend seven hours reading a book is you spend seven hours with your mind on this topic. The idea that LLMs can summarize it for you…you didn’t have the engagement. It doesn’t impress itself upon you. It doesn’t change _you_. What knowledge is supposed to do is change _you_, and it changes you because you make connections to it. …
+> 
+> Not very much that AI has given me has really changed me very much.

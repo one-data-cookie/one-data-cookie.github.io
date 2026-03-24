@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, python]
 season: summer
 created: 2021-02-21
-updated: 2024-11-16
+updated: 2026-03-24
 sources: Misc
 ---
 
@@ -37,14 +37,13 @@ sources: Misc
 	- See [my updated implementation](https://github.com/one-data-cookie/brno-part-budget/blob/main/.github/workflows/cronjob.yaml)
 
 ## General tools
-- [shillelagh](https://github.com/betodealmeida/shillelagh/)
-	- Making it easy to query APIs via SQL
-- [pythonji](https://github.com/gahjelle/pythonji)
-	- Write Python with emojis
-- [Pyscript](https://www.anaconda.com/blog/pyscript-python-in-the-browser)
-	- Python in the browser – running directly on browser client through virtual machine
+- [shillelagh](https://github.com/betodealmeida/shillelagh/): making it easy to query APIs via SQL
+- [pythonji](https://github.com/gahjelle/pythonji): write Python with emojis
+- [Pyscript](https://www.anaconda.com/blog/pyscript-python-in-the-browser): Python in the browser
+	- Running directly on browser client through virtual machine
 	- Has some limitations over standard Python
 	- Slow but it's expected it will speed up
+- [ruff](https://github.com/astral-sh/ruff): extremely fast Python linter and code formatter, written in Rust
 
 ## Data tools
 - [PyGWalker](https://github.com/Kanaries/pygwalker)

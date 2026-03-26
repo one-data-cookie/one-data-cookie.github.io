@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-03-24
+updated: 2026-03-26
 sources: Misc
 ---
 
@@ -169,6 +169,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [Code Wiki](https://codewiki.google/): Gemini-generated documentation, always up-to-date
 - [DeepWiki](https://deepwiki.com/): create deep LLM wiki from any repo
 - [spec-kit](https://github.com/github/spec-kit): toolkit to help you get started with Spec-Driven Development
+- [litellm](https://github.com/BerriAI/litellm): single, unified interface to call 100+ LLMs
 - [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
 
 

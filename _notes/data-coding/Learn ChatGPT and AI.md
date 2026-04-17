@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-03-26
+updated: 2026-04-17
 sources: Misc
 ---
 
@@ -173,7 +173,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
 
 
-## Codex
+### Codex
 - `codex exec`: headless, non-interactive, for automations
 
 ### Claude Code
@@ -189,7 +189,10 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): multi-agent orchestration for Claude Code
 - [get-shit-done](https://github.com/gsd-build/get-shit-done): meta-prompting, context engineering and spec-driven development
 - [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills): CLAUDE.md file to improve Claude Code behavior
+- 
 - [Claude Swarm](https://code.claude.com/docs/en/agent-teams): orchestrate teams of agents
+- [Claude Code Unpacked](https://ccunpacked.dev/). how it works under the hood
+- 
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

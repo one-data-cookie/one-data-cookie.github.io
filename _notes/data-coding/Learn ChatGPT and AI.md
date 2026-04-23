@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-04-17
+updated: 2026-04-23
 sources: Misc
 ---
 
@@ -178,7 +178,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 ### Claude Code
 - Workflows: [obra/superpowers](https://github.com/obra/superpowers/tree/main)
-- Skills: [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills), [vercel-labs/skills](https://github.com/vercel-labs/skills) + https://skills.sh/
+- Skills: [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills), [vercel-labs/skills](https://github.com/vercel-labs/skills) + https://skills.sh/ + `npx skills`
 - `npx ccusage@latest`
 - `npx ccstatusline@latest`
 - `npx cchistory@latest`
@@ -321,3 +321,6 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 > Part of what is happening when you spend seven hours reading a book is you spend seven hours with your mind on this topic. The idea that LLMs can summarize it for you…you didn’t have the engagement. It doesn’t impress itself upon you. It doesn’t change _you_. What knowledge is supposed to do is change _you_, and it changes you because you make connections to it. …
 > 
 > Not very much that AI has given me has really changed me very much.
+
+[Nicholas Carlini - Black-hat LLMs](https://www.youtube.com/watch?v=1sd26pWhfmg)
+> LLMs can *autonomously* and without fancy *scaffolding*, find and *exploit* 0days in *critical software*. 

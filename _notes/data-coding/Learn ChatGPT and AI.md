@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-04-23
+updated: 2026-04-28
 sources: Misc
 ---
 
@@ -128,6 +128,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [ElevenLabs](https://elevenlabs.io/): text-to-speech generation
 - [Suno](https://www.suno.ai/): generating music
 - [Wispr Flow](https://wisprflow.ai/): effortless voice dictation, cloud-based
+- [Handy](https://handy.computer/): open-source alternative to Whispr
 - [NaturalReaders](https://www.naturalreaders.com/): not a bad, free text-to-speech
 - [NotebookLM’s automatically generated podcasts are surprisingly effective](https://simonwillison.net/2024/Sep/29/notebooklm-audio-overview/)
 

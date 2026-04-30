@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-04-28
+updated: 2026-04-30
 sources: Misc
 ---
 
@@ -325,3 +325,6 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 [Nicholas Carlini - Black-hat LLMs](https://www.youtube.com/watch?v=1sd26pWhfmg)
 > LLMs can *autonomously* and without fancy *scaffolding*, find and *exploit* 0days in *critical software*. 
+
+[OpenAI Codex base_instructions](https://simonwillison.net/2026/Apr/28/openai-codex/)
+> Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.

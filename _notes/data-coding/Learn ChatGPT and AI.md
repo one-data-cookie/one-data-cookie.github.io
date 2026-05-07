@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-04-30
+updated: 2026-05-07
 sources: Misc
 ---
 
@@ -149,6 +149,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
     - Much better might be using the more secure and light-weight [NanoClaw](https://github.com/qwibitai/nanoclaw)
 - [rentahuman.ai](https://rentahuman.ai/): AI agents rent humans for tasks they cannot do themselves
 - [agent-browser](https://github.com/vercel-labs/agent-browser): more capable alternative to browser mcp 
+- [Workflow for AI Coding — Matt Pocock](https://www.youtube.com/watch?v=-QFHIoCo-Ko)
 
 ## Coding
 - [OpenCode](https://opencode.ai/): model-agnostic, open-source coding agent CLI
@@ -171,8 +172,8 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [DeepWiki](https://deepwiki.com/): create deep LLM wiki from any repo
 - [spec-kit](https://github.com/github/spec-kit): toolkit to help you get started with Spec-Driven Development
 - [litellm](https://github.com/BerriAI/litellm): single, unified interface to call 100+ LLMs
+- [dotevnx](https://github.com/dotenvx/dotenvx): secrets CLI for agents – and developers
 - [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
-
 
 ### Codex
 - `codex exec`: headless, non-interactive, for automations
@@ -190,10 +191,11 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode): multi-agent orchestration for Claude Code
 - [get-shit-done](https://github.com/gsd-build/get-shit-done): meta-prompting, context engineering and spec-driven development
 - [andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills): CLAUDE.md file to improve Claude Code behavior
-- 
 - [Claude Swarm](https://code.claude.com/docs/en/agent-teams): orchestrate teams of agents
 - [Claude Code Unpacked](https://ccunpacked.dev/). how it works under the hood
-- 
+- [mattpocock/skills](https://github.com/mattpocock/skills/tree/main):
+    - [grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md): just a simple skill to interview you hard on your problem
+    - [caveman](https://github.com/juliusbrussee/caveman): cut tokens by making CC talk like a caveman
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

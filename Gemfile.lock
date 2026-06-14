@@ -83,6 +83,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  universal-darwin-25
   x64-mingw32
   x86_64-darwin-19
   x86_64-darwin-20

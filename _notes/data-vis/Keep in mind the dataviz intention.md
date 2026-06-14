@@ -5,8 +5,8 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 2018-09-24
-updated: 2024-11-09
+updated: 2026-06-14
 sources: NA
 ---
 
-![](../__files/Data-Viz-Intention.png)
+![](../../assets/files/Data-Viz-Intention.png)

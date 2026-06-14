@@ -11,8 +11,7 @@ To keep with the tradition of [now pages](https://nownownow.com/) though,
 **here is what I'm up to** these days:
 - Leading the data team at [Slido](https://www.slido.com/)
 - Teaching IT to children aged 13–15 at [Tyršovka](https://www.tyrsovkakurim.cz/)
-- Organising and participating in local (mostly data) meetups
-- Mentoring a few data folks – both juniors & seniors
+- Building a smart home with [Home Assistant](https://www.home-assistant.io/) on [RPi](https://www.raspberrypi.com/)
 
 If you also wish to explore some of my **previous engagements and projects**,
 just suit yourself and browse through them below. 👇

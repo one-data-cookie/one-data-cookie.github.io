@@ -13,7 +13,7 @@ The full context of analytics engineering is to be found in [The Analytics Engin
 
 ---
 
-![](../../assets/files/three-data-roles.png)
+![](../__files/three-data-roles.png)
 
 ---
 

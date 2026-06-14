@@ -23,4 +23,4 @@ ORDER BY
 LIMIT
 ```
 
-![](../../assets/files/sql-query-order.png)
+![](../__files/sql-query-order.png)

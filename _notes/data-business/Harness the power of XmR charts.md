@@ -43,7 +43,7 @@ sources: https://commoncog.com/becoming-data-driven-first-principles
 	- moderate (or "short run"): 3 out of 4 consecutive points nearer to limit than centre line
 	- subtle (or "long run"): 8 consecutive points on one side of the centre line
 
-![](../../assets/files/xmr-charts.png)
+![](../__files/xmr-charts.png)
 
 - calculating control limits, based on [ChatGPT convo](https://chat.openai.com/c/e2d235af-dfcb-4a1c-b286-f949249590da):
 	- **X Chart**:

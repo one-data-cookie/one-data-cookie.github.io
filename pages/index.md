@@ -44,7 +44,7 @@ content-type: homepage
 
 <ul class="emoji-list">
   <li data-emoji="🏠"><div markdown="1">
-  I live in Brno[^20], Czech Republic[^21], Europe[^22].
+  I live in Kuřim[^20], Czech Republic[^21], Europe[^22].
   </div></li>
   <li data-emoji="🌳"><div markdown="1">
   I walk in nature[^23], locally[^24], far away[^25].
@@ -170,13 +170,15 @@ content-type: homepage
 <!-- 3D Prints -->
 [^19]:  Whenever there is a need and/or inspiration, I [make 3D prints](https://www.printables.com/@kolacekm_1624408/makes) at home.
 
-<!-- Brno -->
-[^20]:  It's a city where I was born, raised, and educated. I left for a while and lived in London for a few years,
-        but eventually, I came back. It's a [beautiful city](https://youtu.be/fkCOXZmiKj8) with its architectural
-        and historical blend of Czech and Austro-German influences. It's also said to be the
+<!-- Kuřim -->
+[^20]:  Kuřim is a town [right next to Brno](https://www.openstreetmap.org/relation/442051), where I now live and [teach](/teach)
+        to be a little closer to nature and community. Building a [passive house](https://passivehouse.com/en/home/building-certification/) here
+        also unexpectedly pulled me into [hands-on building work](https://www.bauhaus.cz/), [home automation](https://www.home-assistant.io/),
+        and [interior design](https://www.houseandgarden.co.uk/). At the same time, I remain closely connected
+        to Brno, my hometown. It's where I was born, raised, and educated. I left for a while and lived in London
+        for a few years, but eventually, I came back. It's a [beautiful city](https://youtu.be/fkCOXZmiKj8) with
+        its architectural and historical blend of Czech and Austro-German influences. It's also said to be the
         [only joke you can live in](https://www.expats.cz/czech-news/article/brnos-notorious-phallus-shaped-landmark-is-due-to-get-its-balls-back-next-week).
-        Soon though, I'll move to Kuřim, a town [right next to Brno](https://www.openstreetmap.org/relation/442051),
-        to slow down and be closer to nature.
 
 <!-- Czech Republic -->
 [^21]:  I'm very proud of our rich heritage and important figures like

@@ -74,3 +74,13 @@ I keep a **list of things I use**. And it seems I'm [not the only one](https://u
 - [VLC](https://www.videolan.org/vlc/), media player
 - [WhatsApp](https://www.whatsapp.com/), talking to family & friends
 - [Zoom](https://zoom.us/), online meetings
+
+## House
+- [Aqara](https://www.aqara.com/en/), leak detection and water shut-off automation
+- [Hikvision](https://www.hikvision.com/), camera system made into local-only
+- [Home Assistant](https://www.home-assistant.io/), the central software to run it all
+- [Lenovo Tab M10](https://www.lenovo.com/), old tablet for HA dashboard on the wall
+- [Raspberry Pi](https://www.raspberrypi.com/), running small server for HA
+- [Shelly](https://www.shelly.com/), relays, sensors, plugs, and smoke alarms
+- [Sonoff ZBDongle Plus-E](https://sonoff.tech/product/gateway-and-sensors/sonoff-zigbee-3-0-usb-dongle-plus-e/), Zigbee coordinator
+- [UniFi](https://ui.com/wifi), Wi-Fi access points

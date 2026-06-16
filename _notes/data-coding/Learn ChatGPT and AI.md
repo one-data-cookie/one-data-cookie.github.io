@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-06-14
+updated: 2026-06-16
 sources: Misc
 ---
 
@@ -85,6 +85,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [BenCzechMark - Can your LLM Understand Czech?](https://huggingface.co/blog/benczechmark)
 - [Advent of No-Code](https://www.adventofnocode.io/): advent calendar of AI no-code tools
 - [poslední ping](https://blog.timutti.cz/): an experiment daily blog written by AI (in CS)
+- [CrankGPT](https://crankgpt.com/): local human-powered AI, lol
 
 ## Text
 - [ChatGPT](https://chatgpt.com/): needs no introduction

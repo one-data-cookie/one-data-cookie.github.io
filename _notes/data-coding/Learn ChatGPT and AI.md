@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-06-16
+updated: 2026-06-30
 sources: Misc
 ---
 
@@ -174,6 +174,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [spec-kit](https://github.com/github/spec-kit): toolkit to help you get started with Spec-Driven Development
 - [litellm](https://github.com/BerriAI/litellm): single, unified interface to call 100+ LLMs
 - [dotevnx](https://github.com/dotenvx/dotenvx): secrets CLI for agents – and developers
+- [mrshu/agent-skills](https://github.com/mrshu/agent-skills): Mrshu's skills, I especially like `/review-anvil`
 - [What if you don't need MCP at all?](https://mariozechner.at/posts/2025-11-02-what-if-you-dont-need-mcp/)
 
 ### Codex

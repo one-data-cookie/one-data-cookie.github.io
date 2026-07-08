@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-06-30
+updated: 2026-07-08
 sources: Misc
 ---
 
@@ -332,3 +332,23 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 
 [OpenAI Codex base_instructions](https://simonwillison.net/2026/Apr/28/openai-codex/)
 > Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.
+
+
+[David Brooks: Kdo uspěje v éře umělé inteligence • RESPEKT](https://www.respekt.cz/technologie/david-brooks-kdo-uspeje-v-ere-umele-inteligence)
+> Umělá inteligence „nabízí kompetenci bez učení, plynulost bez porozumění“, uzavírá. „Student, který si tento vzorec osvojí, se nestane línějším; stane se méně zformovaným, méně přítomným, méně schopným snášet těžkosti, aniž by sáhl po nápovědě a promptu.“
+
+> Již nyní známe techniky, které v tom lidem pomáhají:
+> - Žádejte o nápovědu, ne o odpovědi
+> - Začněte s prázdnou stránkou
+> - Střídejte úkoly
+> - Přenastavte chatboty
+> - Důrazně rozlišujte mezi mechanickou a tvůrčí prací
+> - Žádejte myslitele, ne myšlení
+
+> To, na čem tedy opravdu záleží, není schopnost myšlení a inteligence, ale ochota běhat mentální maratony, které přinášejí špičkové výsledky.
+
+> Jak můžeme naučit lidi vnímat vlastní život jako hrdinskou výpravu, na níž se pouštějí do náročných úkolů, v nichž mohou selhat a které s sebou jistě přinesou bolest a utrpení? Jak můžeme formovat lidi tak, aby měli srdce objevitele, vůli vytrvat a schopnost bojovat dál, i když jim tělo i mysl radí se vzdát – a aby díky tomu dosahovali nových cílů a přicházeli věcem na kloub?
+
+> Co si skutečně v hloubi svého srdce přeješ nejvíc? Co tam venku ve světě opravdu stojí za to chtít? Jak můžeme rozvíjet tvé nejhlubší a největší touhy?“ V naší současné kultuře vám všichni říkají, abyste si našli svou vášeň, ale nikdo vám neporadí, jak na to. Školy a organizace se to budou muset naučit.
+
+> Život je pouť, cesta – znamená někam směřovat, růst a zrát na základě zkušeností, rozvíjet vlastní osobnost a usilovat o možnosti, na které jsme zatím nedosáhli

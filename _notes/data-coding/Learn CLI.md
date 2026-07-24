@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2026-03-06
+updated: 2026-07-24
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -42,8 +42,9 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
 - [The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage](https://www.amazon.com/Cuckoos-Egg-Tracking-Computer-Espionage/dp/1416507787/) by Cliff Stoll: A true story of a physicist who tracked one of the first documented "hackers" who he found snooping around his systems. The best part is that it's all real, down to the (obviously UNIX) commands that were used.
 
 ## Make yourself at home
-- Use [iTerm2](https://iterm2.com/), the terminal for MacOS, or the up-and-coming [Ghostty](https://ghostty.org/)
-- Use [`tmux`](https://github.com/tmux/tmux), terminal multiplexer with [simple setup](https://www.ocf.berkeley.edu/~ckuehl/tmux/) that can be also used for pair-programming
+- Use [iTerm2](https://iterm2.com/), the terminal for macOS, or the up-and-coming [Ghostty](https://ghostty.org/)
+- Use [`tmux`](https://github.com/tmux/tmux), the terminal multiplexer, with [simple setup](https://www.ocf.berkeley.edu/~ckuehl/tmux/) that can be also used for pair-programming
+- Use [`cmux`](https://cmux.com/), the terminal workspace, built on Ghostty and with some `tmux` inspiration, which adds a lot of AI-friendly features, and works even from your phone
 - Use [`ohmyzsh`](https://ohmyz.sh/) as framework for managing zsh configuration or in particular [`zsh-autosuggestions`](https://github.com/zsh-users/zsh-autosuggestions) for autosuggestion in zsh shell
 - Later, use aliases or functions and define them in `.bashrc` or `.bash_profile`, e.g. `alias cx='chmod +x'` or `mcd() { mkdir -p $1; cd $1 }`
 - Customise prompt through [`starship`](https://starship.rs/) (works across platforms) or like [here](https://dev.to/cassidoo/customizing-my-zsh-prompt-3417):

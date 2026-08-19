@@ -5,7 +5,7 @@ category: data-vis
 tags: [tutorial, font]
 season: autumn
 created: 2021-01-08
-updated: 2025-03-13
+updated: 2026-08-19
 sources: https://trydesignlab.com/blog/how-to-choose-the-right-font-for-your-design/
 ---
 
@@ -238,3 +238,7 @@ This is how typography invisibly enhances your design—the choices you make can
 
 ## Special fonts
 - [Dysfont](https://dysfont.com/): makes it easier for people who suffer from dyslexia and/or visual stress to work with text on a daily basis.
+- traditional British fonts:
+    - [Johnston](https://en.wikipedia.org/wiki/Johnston_(typeface)): 1916 Underground typeface, still used by TfL in updated forms
+    - [Gill Sans](https://en.wikipedia.org/wiki/Gill_Sans): Eric Gill, 1928; Johnston-influenced, iconic interwar British typeface
+    - [Gillius](https://www.1001fonts.com/gillius-adf-font.html): free/open Gill Sans-inspired alternative

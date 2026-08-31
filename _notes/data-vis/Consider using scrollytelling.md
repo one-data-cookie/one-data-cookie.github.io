@@ -5,7 +5,7 @@ category: data-vis
 tags: [idea]
 season: autumn
 created: 2021-12-15
-updated: 2025-08-22
+updated: 2026-08-31
 sources: Misc
 ---
 
@@ -14,7 +14,7 @@ sources: Misc
 - [CNN: Britain’s shadowy border](https://edition.cnn.com/interactive/2023/07/uk/migrant-crossings-ai-small-boats/)
 - [ABC: Wrenching open the black box](https://www.abc.net.au/news/2022-12-12/robodebt-algorithms-black-box-explainer/101215902)
 - [The Bias Variance Tradeoff](https://mlu-explain.github.io/bias-variance/)
-- [Who’s in Your Wallet?](https://pudding.cool/2022/04/banknotes/), [How do animals sound across languages?](https://pudding.cool/2025/03/language/), or other from the [Pudding](https://pudding.cool/)
+- [Who’s in Your Wallet?](https://pudding.cool/2022/04/banknotes/), [How do animals sound across languages?](https://pudding.cool/2025/03/language/), [A love story](https://pudding.cool/2026/06/love-story/), or other from the [Pudding](https://pudding.cool/)
 - [Here's to the next 100 sudokus](https://vivrao9.github.io/nyt-sudoku/)
 - [A torrent of trash](https://www.reuters.com/graphics/NORTHKOREA-SOUTHKOREA/TRASH/klvynygmjpg/)
 - [Office Vacancy](https://www.moodys.com/web/en/us/about/insights/data-stories/us-commercial-real-estate-vacancies-downtown-vs-suburbs.html)

@@ -5,7 +5,7 @@ category: data-society
 tags: [tutorial, dataset]
 season: summer
 created: 2021-01-03
-updated: 2025-04-07
+updated: 2026-08-31
 sources: Misc
 ---
 
@@ -26,6 +26,8 @@ sources: Misc
     * Trade statistics for international business development.
 * [National Center for Education Statistics (NCES)](https://nces.ed.gov/)
     * Primary federal entity for collecting and analysing data related to US education.
+* [Map of Life Platform](https://mol.org/platform)
+    * Comprehensive data on species and habitats worldwide.
 
 ## Czechia
 * [Portál otevřených dat České republiky](https://data.gov.cz/)

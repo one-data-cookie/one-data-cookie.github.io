@@ -9,7 +9,7 @@ life can be also found on my [LinkedIn profile](https://www.linkedin.com/in/kola
 
 To keep with the tradition of [now pages](https://nownownow.com/) though,
 **here is what I'm up to** these days:
-- Leading the data team at [Slido](https://www.slido.com/)
+- Leading the data team at [Slido](https://www.slido.com/) (now part of [Cisco](https://www.cisco.com/))
 - Teaching IT to children aged 13–15 at [Tyršovka](https://www.tyrsovkakurim.cz/)
 - Building a smart home with [Home Assistant](https://www.home-assistant.io/) on [RPi](https://www.raspberrypi.com/)
 

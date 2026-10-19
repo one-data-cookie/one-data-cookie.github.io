@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, cli]
 season: summer
 created: 2021-08-19
-updated: 2026-07-24
+updated: 2026-10-19
 sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-data-science/2021/
 ---
 
@@ -213,7 +213,7 @@ sources: Misc but mostly Mrshu from https://mareksuppa.com/teaching/linux-cli-da
   cat people.txt | awk '{ p[$4]++ } END { for(i in p) print i, ":", p[i] }' 
 ```
 
-- `/dev/null`: A special file in Unix-like systems that acts as a “black hole” for data, so when output is redirected there, it simply disappears without being stored or displayed.
+- `/dev/null`: A special file in Unix-like systems that acts as a “black hole” for data, so when output is redirected there, it simply disappears without being stored or displayed. So well known, we even got a [social network for devs](https://dev-null.sh/) named after it.
 ```shell
   command > /dev/null
 ```

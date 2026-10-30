@@ -5,7 +5,7 @@ category: data-coding
 tags: [learn, chatgpt]
 season: summer
 created: 2023-03-10
-updated: 2026-07-24
+updated: 2026-10-30
 sources: Misc
 ---
 
@@ -204,6 +204,7 @@ This makes it more powerful and flexible, and allows it to achieve better perfor
 - [mattpocock/skills](https://github.com/mattpocock/skills/tree/main):
     - [grill-me](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md): just a simple skill to interview you hard on your problem
     - [caveman](https://github.com/juliusbrussee/caveman): cut tokens by making CC talk like a caveman
+- [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy): skill for creating isometric illustrations
 
 ## Translation
 - [DeepML](https://www.deepl.com/)

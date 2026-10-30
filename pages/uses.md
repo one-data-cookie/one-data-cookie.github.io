@@ -26,15 +26,14 @@ I keep a **list of things I use**. And it seems I'm [not the only one](https://u
 - [Aj Modulus](https://www.ajproducts.co.uk/office-conference/tables-desks/sit-stand-desks/straight-desks/standing-desk-165535-165567), standing desk
 - [AlzaErgo Standing Mat 120](https://www.alza.cz/alzaergo-standing-mat-120-cerna-d6938435.htm), standing mat
 - [Gravity HP HTC 01 B](https://www.gravitystands.com/en/products/accessories/11732/hp-htc-01-b), desk-mount headphones hanger
-- [Ikea Alex](https://www.ikea.com/us/en/p/alex-drawer-unit-white-00473546/), drawer unit
 - [Rapture RESPAWN XL](https://www.alza.cz/EN/rapture-respawn-xl-black-d6900120.htm?o=1), desk pad
 - [Roost V2](https://www.therooststand.com/collections/roost-laptop-stand/products/roost-laptop-stand), laptop stand
 
 ### Hobby
 - [Amazon Kindle Paperwhite (7th gen)](https://www.amazon.com/dp/B07978J597/), ebook reader
 - [Apple Watch (Series 3)](https://www.apple.com/watch/), smart watches for exercise
+- [Bambu Lab A1 mini](https://eu.store.bambulab.com/products/a1-mini), beginner-friendly 3D printer
 - [Bellroy Hide & Seek](https://bellroy.com/products/hide-and-seek-wallet/leather_rfid_hi/black), minimalistic wallet
-- [Creality Ender-3 V2 Neo](https://www.creality.com/products/ender-3-v2-neo-3d-printer), beginner-friendly 3D printer
 
 ## Virtual
 
@@ -45,21 +44,19 @@ I keep a **list of things I use**. And it seems I'm [not the only one](https://u
 - [Obsidian](https://obsidian.md/), second brain
 
 ### Productivity
-- [Awesome Habits](https://www.awesome-habits.com/), habits tracker
 - [Apple Shortcuts](https://support.apple.com/en-gb/guide/shortcuts/welcome/ios), task automatons
+- [FluidVoice](https://fluidvoice.com/), on-device text-to-speech
 - [Lunar](https://lunar.fyi/), monitors controller
-- [PhraseExpress](https://www.phraseexpress.com/), text expander
 - [Raycast](https://www.raycast.com/), launcher on steroids
-- [Stretchly](https://hovancik.net/stretchly/), break reminder
 
 ### Building
-- [Adobe Illustrator](https://www.adobe.com/products/illustrator.html), vector graphics
-- [Claude Code](https://claude.com/product/claude-code), coding buddy
+- [Claude](https://claude.com/product/claude-code), coding buddy
+- [Codex](https://openai.com/codex/), coding buddy too
 - [iTerm2](https://iterm2.com/), terminal on steroids
+- [OrcaSlicer](https://www.orcaslicer.com/), slicer for 3D printing
 - [`pyenv`](https://github.com/pyenv/pyenv) & [`uv`](https://github.com/astral-sh/uv) & [`marimo`](https://github.com/marimo-team/marimo), Python essentials 
 - [Tableau Public](https://public.tableau.com/en-us/s/download), charts and infographics
 - [Tinkercad](https://www.tinkercad.com/dashboard), basic 3D modelling
-- [UltiMaker Cura](https://ultimaker.com/software/ultimaker-cura/), slicer for 3D printing
 - [VS Code](https://code.visualstudio.com/), code editor
 
 ### Office
@@ -68,6 +65,7 @@ I keep a **list of things I use**. And it seems I'm [not the only one](https://u
 - [Avast Security](https://www.avast.com/cs-cz/index#mac), Czech antivirus
 - [Google Workspace](https://workspace.google.com/), office suite
 - [Messenger](https://www.messenger.com/), talking to friends
+- [Signal](https://signal.org/), talking to privacy-aware friends
 - [Slack](https://slack.com/), talking to communities
 - [Spotify](https://open.spotify.com/), music player
 - [Tasksboard](https://tasksboard.com/), tasks manager

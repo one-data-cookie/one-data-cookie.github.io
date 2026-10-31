@@ -5,7 +5,7 @@ category: data-vis
 tags: [tools, design]
 season: summer
 created: 2021-01-03
-updated: 2026-06-14
+updated: 2026-10-31
 sources: Misc
 ---
 
@@ -41,7 +41,7 @@ sources: Misc
 ## Text
 - [Google Fonts](https://fonts.google.com/)
 	 - Making the web more beautiful, fast, and open through great font.
-- [Sans Forgetica](https://sansforgetica.rmit.edu.au/)
+- [Sans Forgetica](https://www.letterbox.net.au/fonts/sans-forgetica/)
 	- Sans Forgetica is a font designed using the principles of cognitive psychology to help you to better remember your study notes.
 - [FontPair](https://fontpair.co/)
 	 - Typography site dedicated to helping creators use beautiful typography for their creative projects.
@@ -89,14 +89,12 @@ sources: Misc
 	- Want a color scheme that perfectly matches your favorite images? With Canva’s color palette generator, you can create color combinations in seconds.
 - [Datafam Colors by the Flerlage Twins](https://www.flerlagetwins.com/2021/06/datafam-colors-color-palette.html)
 	- A Tableau Color Palette Crowdsourcing Project
-- [Color Hunter](http://colorhunter.com/browse.php?h=y&p=enter+tag%2C+hex+code%2C+or+image+URL)
-	- Create and find color palettes made from images.
+- [Palette Vault](https://palettevault.github.io/)
+    - Open-source tool to extract and browse colour palettes from images.
 - [Colors from Image](https://html-color-codes.info/colors-from-image/)
 	- Upload file from your computer or insert link to online image to access its color codes.
 - [Colors for gender data](https://blog.datawrapper.de/gendercolor/)
 	- Alternatives to pink & blue.
-- [Branition Colors](https://branition.com/colors)
-	- Hand-curated collection of color palettes best fitted for branding.
 
 ## Icons
 - [unDraw](https://undraw.co/illustrations)
